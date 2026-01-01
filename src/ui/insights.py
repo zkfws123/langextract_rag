@@ -23,36 +23,47 @@ def _safe_int(value: Any) -> Optional[int]:
 
 
 def build_highlight_spans(markdown_text: str, extractions: Iterable[Any]) -> List[HighlightSpan]:
-    spans: List[HighlightSpan] = []
+  spans: List[HighlightSpan] = []
+  max_spans = 500
 
-    for idx, ext in enumerate(extractions):
-        extraction_class = getattr(ext, "extraction_class", "") or ""
-        if extraction_class not in {"实体", "数据指标"}:
-            continue
+  for idx, ext in enumerate(extractions):
+    extraction_class = getattr(ext, "extraction_class", "") or ""
+    label = getattr(ext, "extraction_text", "") or ""
+    if not label:
+      continue
 
-        interval = getattr(ext, "char_interval", None) or {}
-        start = _safe_int(interval.get("start_pos"))
-        end = _safe_int(interval.get("end_pos"))
-        if start is None or end is None:
-            continue
-        if start < 0 or end <= start or end > len(markdown_text):
-            continue
+    interval = getattr(ext, "char_interval", None) or {}
+    start = _safe_int(interval.get("start_pos"))
+    end = _safe_int(interval.get("end_pos"))
 
-        label = getattr(ext, "extraction_text", "") or ""
-        entity_id = f"e{idx}"
-        spans.append(
-            HighlightSpan(
-                entity_id=entity_id,
-                start=start,
-                end=end,
-                label=label,
-                extraction_class=extraction_class,
-            )
-        )
+    # Prefer provided char_interval; otherwise try substring search (best-effort)
+    if start is None or end is None or start < 0 or end <= start or end > len(markdown_text):
+      found = markdown_text.find(label)
+      if found < 0:
+        continue
+      start = found
+      end = found + len(label)
 
-    # Important: insert tags from right to left
-    spans.sort(key=lambda s: (s.start, s.end), reverse=True)
-    return spans
+    if start < 0 or end <= start or end > len(markdown_text):
+      continue
+
+    entity_id = f"e{idx}"
+    spans.append(
+      HighlightSpan(
+        entity_id=entity_id,
+        start=start,
+        end=end,
+        label=label,
+        extraction_class=extraction_class,
+      )
+    )
+
+    if len(spans) >= max_spans:
+      break
+
+  # Important: insert tags from right to left
+  spans.sort(key=lambda s: (s.start, s.end), reverse=True)
+  return spans
 
 
 def _apply_spans(markdown_text: str, spans: List[HighlightSpan]) -> str:
@@ -60,7 +71,7 @@ def _apply_spans(markdown_text: str, spans: List[HighlightSpan]) -> str:
     for span in spans:
         raw = text[span.start : span.end]
         escaped = html.escape(raw)
-        badge = "entity" if span.extraction_class == "实体" else "metric"
+        badge = "metric" if span.extraction_class == "数据指标" else "entity"
         wrapped = (
             f"<span class=\"hl {badge}\" data-eid=\"{span.entity_id}\" "
             f"title=\"{html.escape(span.label)}\">{escaped}</span>"
@@ -107,7 +118,7 @@ def build_insights_html(markdown_text: str, extractions: Iterable[Any], max_char
         pieces.append(html.escape(source[last : s.start]))
         raw = source[s.start : s.end]
         escaped_raw = html.escape(raw)
-        badge = "entity" if s.extraction_class == "实体" else "metric"
+        badge = "metric" if s.extraction_class == "数据指标" else "entity"
         pieces.append(
             f"<span class=\"hl {badge}\" data-eid=\"{s.entity_id}\" title=\"{html.escape(s.label)}\">{escaped_raw}</span>"
         )
@@ -254,9 +265,9 @@ def build_insights_html(markdown_text: str, extractions: Iterable[Any], max_char
     div.className = 'card';
     div.id = `card-${{item.id}}`;
 
-    const clsTag = item.class === '实体' ? '实体' : '数据指标';
+    const clsTag = item.class || '';
     div.innerHTML = `
-      <div class="card-title">${{escapeHtml(item.label)}}<span class="tag">${{clsTag}}</span></div>
+      <div class="card-title">${{escapeHtml(item.label)}}<span class="tag">${{escapeHtml(clsTag)}}</span></div>
       <div class="card-meta">字符区间: ${{item.start}} - ${{item.end}}</div>
     `;
 

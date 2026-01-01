@@ -21,11 +21,23 @@ COLLECTION_NAME = os.getenv("COLLECTION_NAME", "pdf_knowledge_graph")
 
 
 class ChromaVectorStore:
-    def __init__(self,
-                 persist_dir: Optional[str] = None,
-                 collection_name: Optional[str] = None):
+    """ChromaDB vector store with optional per-doc collections.
+
+    Args:
+        persist_dir: Directory for ChromaDB persistence.
+        collection_name: Name of the collection.
+        reset_on_init: If True (default False), delete existing collection on __init__.
+    """
+
+    def __init__(
+        self,
+        persist_dir: Optional[str] = None,
+        collection_name: Optional[str] = None,
+        reset_on_init: bool = False,
+    ):
         self.persist_dir = Path(persist_dir or CHROMA_PERSIST_DIR)
         self.collection_name = collection_name or COLLECTION_NAME
+        self._reset_on_init = reset_on_init
         self.embeddings = OpenAIEmbeddings(
             model=EMBEDDING_MODEL,
             api_key=DASHSCOPE_API_KEY,
@@ -34,9 +46,22 @@ class ChromaVectorStore:
             chunk_size=10,
         )
         self.client = chromadb.PersistentClient(path=str(self.persist_dir))
-        self._reset_collection()
+        self._init_collection()
 
-    def _reset_collection(self) -> None:
+    def _init_collection(self) -> None:
+        if self._reset_on_init:
+            try:
+                self.client.delete_collection(name=self.collection_name)
+            except Exception:
+                pass
+        self.vectorstore = Chroma(
+            collection_name=self.collection_name,
+            embedding_function=self.embeddings,
+            client=self.client,
+        )
+
+    def reset_collection(self) -> None:
+        """Explicitly delete and re-create collection (use for 'clear' action)."""
         try:
             self.client.delete_collection(name=self.collection_name)
         except Exception:

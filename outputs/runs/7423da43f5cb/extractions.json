@@ -1,0 +1,588 @@
+[
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "用神是紫微斗数金字塔最顶端的密码，神准和准之间，就差一个用神；所谓用神，其实好像星星拟人的手法，就好像语文课上，将星星比喻成某个人，再根据命盘结构，构建出这个人的运势起伏成败；用神用神，以用为神，四化是一个参考，是基础象；",
+    "char_interval": {
+      "start_pos": 7,
+      "end_pos": 37
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "用神是通过将星曜拟人化，结合命盘结构，用来判断运势起伏成败的关键核心，四化只是辅助参考的基础象",
+      "层级": "紫微斗数判断体系最高层"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "首先田宅宫生年巨门权，巨门星有生年四化，那么这个巨门星就被打上了身份烙印",
+    "char_interval": {
+      "start_pos": 218,
+      "end_pos": 254
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "术语": "身份烙印",
+      "定义": "星曜带有生年四化时，代表该星对应的具体人物或角色在现实中必然存在"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "首先田宅宫生年巨门权，巨门星有生年四化，那么这个巨门星就被打上了身份烙印，说明家里必定存在这么一个女人；首先这个女人必定不是妈妈，因为父母宫太阴C，太阴有身份烙印，太阴C代表妈妈，待在父母宫内；同理，夫妻宫内的破军A，代表妻子，待在夫妻宫内；那么这个巨门B，家里的女人，既不是妈妈也不是老婆，大概率就是姐妹；",
+    "char_interval": {
+      "start_pos": 218,
+      "end_pos": 316
+    },
+    "attributes": {
+      "命盘配置": [
+        "田宅宫生年巨门权",
+        "父母宫太阴C",
+        "夫妻宫破军A"
+      ],
+      "分析过程": "通过生年四化确认身份烙印，再利用宫位所属排除母亲与妻子身份",
+      "判断结论": "家中存在一位姐妹"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "同时向心权入兄弟宫，所以命主必定有姐妹，在家里强势，有话语权，而且从事与口才相关的工作，可能是老师或者销售；",
+    "char_interval": {
+      "start_pos": 395,
+      "end_pos": 449
+    },
+    "attributes": {
+      "前提": "向心权飞入兄弟宫",
+      "推理步骤": "兄弟宫对应手足，权代表主导与话语权",
+      "结论": "命主有强势、口才型的姐妹"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "首先田宅的天机星是命主，贪狼忌也是命主；因为天机星在田宅宫，就是家里的男人，天机自化禄法象妻子的用神，那么天机星和破军星就是一对；那么天机星就是自己的用神；",
+    "char_interval": {
+      "start_pos": 549,
+      "end_pos": 629
+    },
+    "attributes": {
+      "命盘配置": [
+        "田宅宫天机星",
+        "贪狼忌",
+        "天机自化禄",
+        "夫妻宫破军"
+      ],
+      "分析过程": "以家中男人定位命主，再以自化禄法象妻子用神进行配对",
+      "判断结论": "天机星为命主用神"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "贪狼是时空中的父亲，太阳是物象上的父亲；比如我们要论时空的时候，太阳是静止的，没有办法论，这个时候就把贪狼当成父亲来论；但是我们在论现象的时候，太阳是爸爸",
+    "char_interval": {
+      "start_pos": 701,
+      "end_pos": 780
+    },
+    "attributes": {
+      "类型": "星曜体系",
+      "术语": "物象父亲 / 时空父亲",
+      "定义": "太阳代表现实物象中的父亲，贪狼代表时空和事件中的父亲"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "首先太阳在父母宫，和太阴配对，那么这个太阳必定是父亲；贪狼是时空中的父亲，太阳是物象上的父亲；",
+    "char_interval": {
+      "start_pos": 672,
+      "end_pos": 721
+    },
+    "attributes": {
+      "命盘配置": [
+        "父母宫太阳",
+        "父母宫太阴"
+      ],
+      "分析过程": "通过日月配对确定父母身份分工",
+      "判断结论": "太阳代表父亲，太阴代表母亲"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "比如太阴自化忌，法象福德，一个是妈妈和外公无缘，外公容易走得早；第二个，福德代表压力和思想，说明妈妈平时压力比较大，比较习惯管束我的兴趣爱好；",
+    "char_interval": {
+      "start_pos": 807,
+      "end_pos": 880
+    },
+    "attributes": {
+      "命盘配置": [
+        "太阴自化忌",
+        "福德宫法象"
+      ],
+      "分析过程": "结合自化忌与福德宫的人事象进行延伸判断",
+      "判断结论": [
+        "母亲与外公缘薄",
+        "母亲压力较大、管束子女"
+      ]
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "（1）生年忌在福德宫，生年忌是体，太阴自化忌是用；",
+    "char_interval": {
+      "start_pos": 964,
+      "end_pos": 989
+    },
+    "attributes": {
+      "前提条件": [
+        "生年忌所在宫位为福德宫",
+        "存在太阴自化忌"
+      ],
+      "规则核心": "生年为体，自化为用",
+      "结论指向": "以太阴自化忌作为具体事件判断的用神"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年四化",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "代表命主出生当年的本质属性，同时引申出四种不同性质的影响",
+      "组成": "禄、权、科、忌"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "生年四化除了代表生年质的含义意外，还代表着四种不同性质的影响。",
+    "char_interval": null,
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "禄——缘起，人缘佳；异性缘厚；桃花。",
+    "char_interval": null,
+    "attributes": {
+      "四化类型": "禄",
+      "基本含义": "缘起",
+      "人": "人缘佳、异性缘厚",
+      "事": "事情容易发生、容易启动",
+      "物": "资源、机会、桃花"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "禄——缘起，人缘佳；异性缘厚；桃花。",
+    "char_interval": null,
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "权——缘变，重血缘、关爱家人胜过外人；人际竞争、冲突、变化。",
+    "char_interval": null,
+    "attributes": {
+      "四化类型": "权",
+      "基本含义": "缘变",
+      "人": "重血缘、关爱家人",
+      "事": "竞争、冲突、变化",
+      "物": "权力、掌控"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "权——缘变，重血缘、关爱家人胜过外人；人际竞争、冲突、变化。",
+    "char_interval": null,
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "一六共宗，二七同道。三八为朋，四九为友。",
+    "char_interval": null,
+    "attributes": {
+      "类型": "河图口诀",
+      "用途": "宫位分组与借用四化的判断依据"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "一六共宗，二七同道。三八为朋，四九为友。",
+    "char_interval": null,
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "命宫——疾厄宫——福德宫（一六共宗原则）",
+    "char_interval": null,
+    "attributes": {
+      "关系类型": "河图关系",
+      "原则": "一六共宗",
+      "宫位组": [
+        "命宫",
+        "疾厄宫",
+        "福德宫"
+      ],
+      "含义": "同宗同源，气数相通，可以相互借用与转化四化力量"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "命宫——疾厄宫——福德宫（一六共宗原则）",
+    "char_interval": null,
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "夫妻宫有生年忌，虽然主感情不顺，但是也寓意命主必定是有婚姻之人。",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "夫妻宫有生年忌",
+      "分析过程": "生年忌落夫妻宫，表示感情过程多阻碍",
+      "判断结论": "必定有婚姻，但过程不顺",
+      "论断主题": "婚姻"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "夫妻宫有生年忌，虽然主感情不顺，但是也寓意命主必定是有婚姻之人。",
+    "char_interval": null,
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "来因宫在子女宫，也就是以子女为媒介促成这段婚姻，因此，可能会有未婚先孕而奉子成婚的现象。",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "来因宫在子女宫",
+      "中介法则": "子女作为媒介触发事件",
+      "结论": "可能未婚先孕，奉子成婚"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "来因宫在子女宫，也就是以子女为媒介促成这段婚姻，因此，可能会有未婚先孕而奉子成婚的现象。",
+    "char_interval": null,
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "福德生年忌，代表祖父母辈缘薄；父母宫太阴自化忌为用，表示祖父母辈缘分薄体现在妈妈身上。",
+    "char_interval": {
+      "start_pos": 991,
+      "end_pos": 1036
+    },
+    "attributes": {
+      "命盘配置": "福德宫生年忌；父母宫太阴自化忌",
+      "分析过程": "福德论祖辈，忌为缘薄；自化忌为用，落父母宫太阴",
+      "判断结论": "祖父母缘薄的现象由母亲体现"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "福德生年忌，代表祖父母辈缘薄；父母宫太阴自化忌为用，表示祖父母辈缘分薄体现在妈妈身上；",
+    "char_interval": {
+      "start_pos": 991,
+      "end_pos": 1036
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "父母宫太阴科，代表妈妈是贵人，可以给我带来帮助，而自化科在子女宫，表示妈妈的帮助体现在我的子女上，妈妈帮忙带孩子；同时也代表妈妈有知识，知识用在子女宫，所以妈妈可能是教师；",
+    "char_interval": {
+      "start_pos": 1038,
+      "end_pos": 1126
+    },
+    "attributes": {
+      "命盘配置": "父母宫太阴化科，自化科在子女宫",
+      "分析过程": "科为贵人与知识，自化流向子女宫",
+      "判断结论": "母亲帮助带孩子，可能从事教师职业"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "父母宫太阴科，代表妈妈是贵人，可以给我带来帮助，而自化科在子女宫，表示妈妈的帮助体现在我的子女上，妈妈帮忙带孩子；同时也代表妈妈有知识，知识用在子女宫，所以妈妈可能是教师；",
+    "char_interval": {
+      "start_pos": 1038,
+      "end_pos": 1126
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "已知A是妻子的用神，向心A入田宅巨门禄，巨门权为口舌，夫妻宫飞了一个禄进来，那么妻子就在用这个巨门权的星。",
+    "char_interval": {
+      "start_pos": 1130,
+      "end_pos": 1183
+    },
+    "attributes": {
+      "前提": "A为妻子用神",
+      "命盘配置": "向心A入田宅宫，巨门禄权",
+      "分析过程": "巨门取口舌象",
+      "判断结论": "妻子话多唠叨，但影响不大"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "已知A是妻子的用神，向心A入田宅巨门禄，巨门权为口舌，夫妻宫飞了一个禄进来，那么妻子就在用这个巨门权的星，妻子就是巨门禄权；说明妻子在家话很多，非常唠叨，然后天机自化禄，左耳进右耳出；",
+    "char_interval": {
+      "start_pos": 1131,
+      "end_pos": 1223
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "向心A入财帛，就是讲的妻子和钱的事情，向心A导致廉贞星化禄，说明妻子依靠廉贞星化禄赚钱。",
+    "char_interval": {
+      "start_pos": 1230,
+      "end_pos": 1276
+    },
+    "attributes": {
+      "命盘配置": "向心A入财帛宫，廉贞化禄",
+      "分析过程": "廉贞取互联网等象",
+      "判断结论": "妻子通过互联网或相关行业赚钱"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "A代表妻子，那么向心A入财帛，就是讲的妻子和钱的事情，向心A导致廉贞星化禄，说明妻子依靠廉贞星化禄赚钱，廉贞星的取象可以是互联网，计算机，网络媒体，电气设备等；",
+    "char_interval": {
+      "start_pos": 1225,
+      "end_pos": 1305
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "串联",
+    "char_interval": null,
+    "attributes": {
+      "技法名称": "串联",
+      "使用方法": "将不同宫位与事件连续解读",
+      "应用结论": "妻子通过开店方式赚钱"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "串联起来，田宅和财帛串联，讲的是妻子的事情，说的是妻子开店赚钱；",
+    "char_interval": {
+      "start_pos": 1307,
+      "end_pos": 1339
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "再看夫妻宫的用神是通过子女宫作为中介进入了田宅宫，子女是合伙位，那么妻子是通过合伙开店的；并且是通过文曲星这个女人合伙开店；",
+    "char_interval": {
+      "start_pos": 1344,
+      "end_pos": 1406
+    },
+    "attributes": {
+      "命盘配置": "夫妻宫用神经子女宫入田宅宫",
+      "中介含义": "子女宫为合伙位",
+      "判断结论": "妻子与女性合伙人共同开店"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "再看夫妻宫的用神是通过子女宫作为中介进入了田宅宫，子女是合伙位，那么妻子是通过合伙开店的；并且是通过文曲星这个女人合伙开店；",
+    "char_interval": {
+      "start_pos": 1344,
+      "end_pos": 1406
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "文曲星自化科，法象父母宫太阴科，也就是说这个合伙人可能是体制内的人或者领导；",
+    "char_interval": {
+      "start_pos": 1510,
+      "end_pos": 1548
+    },
+    "attributes": {
+      "命盘配置": "文曲自化科，对应太阴科",
+      "分析过程": "法象父母宫",
+      "判断结论": "合伙人可能为体制内人士或领导"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "文曲星自化科，法象父母宫太阴科，也就是说这个合伙人可能是体制内的人或者领导；",
+    "char_interval": {
+      "start_pos": 1510,
+      "end_pos": 1548
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "用神",
+    "char_interval": null,
+    "attributes": {
+      "技法名称": "用神",
+      "用途": "持续追踪六亲状态与事件变化",
+      "比喻说明": "如同在六亲身上安装监控"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "用神就是干这个的，就好像在六亲的身上安装了一个监控；",
+    "char_interval": {
+      "start_pos": 1839,
+      "end_pos": 1865
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "已知A是妻子用神，那么大运向心A进入夫妻宫，意味着这个大运之内就和妻子结婚了；",
+    "char_interval": {
+      "start_pos": 1745,
+      "end_pos": 1784
+    },
+    "attributes": {
+      "前提条件": "A为妻子用神",
+      "判断条件": "大运向心A进入夫妻宫",
+      "结论": "该大运内完成结婚"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "已知A是妻子用神，那么大运向心A进入夫妻宫，意味着这个大运之内就和妻子结婚了；",
+    "char_interval": {
+      "start_pos": 1745,
+      "end_pos": 1784
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "向心发射宫是短暂得到，最终落点是接收宫；",
+    "char_interval": {
+      "start_pos": 1881,
+      "end_pos": 1901
+    },
+    "attributes": {
+      "规则类型": "向心法则",
+      "前提": "存在向心发射",
+      "结论": "事件结果以接收宫为最终归属"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "向心发射宫是短暂得到，最终落点是接收宫；",
+    "char_interval": {
+      "start_pos": 1881,
+      "end_pos": 1901
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "所以第二大运，大夫发射向心A到大官，只能说二运谈过恋爱。",
+    "char_interval": {
+      "start_pos": 1900,
+      "end_pos": 1930
+    },
+    "attributes": {
+      "命盘配置": "向心A经夫妻宫落官禄宫",
+      "分析过程": "夫妻宫为中转驿站",
+      "判断结论": "第二大运恋爱但未结婚，最终分手"
+    }
+  },
+  {
+    "doc_id": "7423da43f5cb",
+    "doc_title": "白派用神案例.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "所以第二大运，大夫发射向心A到大官，只能说二运谈过恋爱，A的最终落点是大运官禄宫，而大运夫妻宫只是过一下，相当于终点前的驿站，短暂歇脚后就会离开；",
+    "char_interval": {
+      "start_pos": 1903,
+      "end_pos": 1976
+    },
+    "attributes": null
+  }
+]

@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """Quick smoke test for knowledge extraction pipeline."""
 
+import argparse
+import importlib
+import traceback
 from pathlib import Path
-from src.parsers.knowledge_extractor import KnowledgeExtractor, ingest_text_file, search_knowledge
-from src.retrieval.vector.chroma_store import ChromaVectorStore
-from src.graph.in_memory_store import InMemoryGraphStore
 
 # Test text
 test_text = """
@@ -15,10 +15,75 @@ test_text = """
 研究显示模型准确率提升了25%。
 """
 
+
+def ui_import_smoke_test() -> None:
+    """Fast import-only smoke test for refactored UI modules.
+
+    Purpose: catch ImportError / obvious runtime-at-import issues without
+    needing to repeatedly run Streamlit.
+    """
+
+    modules = [
+        # knowledge base
+        "src.knowledge_base",
+        "src.knowledge_base.models",
+        "src.knowledge_base.kb_service",
+        # ui core
+        "src.ui.session",
+        "src.ui.components",
+        "src.ui.kb_sidebar",
+        "src.ui.settings_sidebar",
+        "src.ui.doc_workflow",
+        # ui tabs
+        "src.ui.tabs",
+        "src.ui.tabs.chat_tab",
+        "src.ui.tabs.ocr_tab",
+        "src.ui.tabs.preview_tab",
+        "src.ui.tabs.graph_tab",
+        "src.ui.tabs.extractions_tab",
+        "src.ui.tabs.insights_tab",
+    ]
+
+    failures: list[tuple[str, BaseException]] = []
+    for m in modules:
+        try:
+            importlib.import_module(m)
+            print(f"  ✓ import {m}")
+        except Exception as e:
+            failures.append((m, e))
+            print(f"  ✗ import {m}: {e}")
+
+    if failures:
+        print("\n--- Import failures (detail) ---")
+        for m, e in failures:
+            print(f"\n[{m}]")
+            print("".join(traceback.format_exception(type(e), e, e.__traceback__)))
+        raise SystemExit(2)
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--ui-only",
+        action="store_true",
+        help="Only run UI import smoke checks (no LLM calls).",
+    )
+    args = parser.parse_args()
+
     print("=" * 80)
     print("🚀 Knowledge Extraction Pipeline Smoke Test")
     print("=" * 80)
+
+    print("\n[0/4] UI import smoke test...")
+    ui_import_smoke_test()
+    print("  ✓ UI imports OK")
+
+    if args.ui_only:
+        print("\n✅ UI-only smoke test completed successfully!")
+        return
+
+    from src.parsers.knowledge_extractor import KnowledgeExtractor, search_knowledge
+    from src.retrieval.vector.chroma_store import ChromaVectorStore
+    from src.graph.in_memory_store import InMemoryGraphStore
     
     # Step 1: Initialize stores
     print("\n[1/4] Initializing stores...")
