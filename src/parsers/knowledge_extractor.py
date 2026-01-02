@@ -2,6 +2,7 @@ import os
 import re
 import textwrap
 import time
+import logging
 from pathlib import Path
 from typing import List, Optional, Any, Dict
 
@@ -15,6 +16,18 @@ from src.graph.in_memory_store import InMemoryGraphStore
 from src.retrieval.vector.chroma_store import ChromaVectorStore
 
 load_dotenv(override=True)
+
+# 配置日志
+logger = logging.getLogger(__name__)
+if not logger.handlers:
+    handler = logging.StreamHandler()
+    formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+    logger.setLevel(logging.INFO)
 
 
 def _strip_markdown_fence(text: str) -> str:
@@ -39,6 +52,62 @@ def _strip_markdown_fence(text: str) -> str:
         return match.group(1).strip()
     
     return text
+
+
+def _coerce_langextract_payload(content: str) -> str:
+    """Best-effort normalize model output to langextract's expected JSON shape.
+
+    langextract expects a JSON object with a top-level `extractions` key.
+    Some models/gateways may return:
+    - a JSON list (treat as extractions)
+    - a JSON object with a different key (entities/items/data)
+    - a JSON extraction object instead of a list
+
+    This function does not guarantee correctness, but it prevents hard parser failures
+    like: `ResolverParsingError: Content must contain an 'extractions' key.`
+    """
+    if not content:
+        return content
+
+    import json
+
+    stripped = _strip_markdown_fence(content)
+    try:
+        parsed = json.loads(stripped)
+    except Exception:
+        # Not JSON; let langextract handle/raise.
+        return stripped
+
+    def _as_list(value: Any) -> list:
+        if value is None:
+            return []
+        if isinstance(value, list):
+            return value
+        return [value]
+
+    if isinstance(parsed, list):
+        parsed = {"extractions": parsed}
+    elif isinstance(parsed, dict):
+        if "extractions" not in parsed:
+            # Common alternative keys from various prompts
+            for k in ["entities", "items", "data", "results", "output", "extraction"]:
+                if k in parsed:
+                    parsed = {"extractions": _as_list(parsed.get(k))}
+                    break
+            else:
+                # If it looks like a single extraction object, wrap it.
+                if {"extraction_class", "extraction_text"}.issubset(set(parsed.keys())):
+                    parsed = {"extractions": [parsed]}
+                else:
+                    # Unknown object shape: still satisfy contract with empty list.
+                    parsed = {"extractions": []}
+    else:
+        parsed = {"extractions": []}
+
+    try:
+        return json.dumps(parsed, ensure_ascii=False)
+    except Exception:
+        return stripped
 
 
 def _resolve_llm_config() -> tuple[str, str, str]:
@@ -103,11 +172,13 @@ def _patch_langextract_json_parser():
         original_parse_output = format_handler.FormatHandler.parse_output
         
         def _fix_extraction_text(data):
-            """Recursively fix extraction_text fields that are dicts instead of strings."""
+            """Recursively fix extraction_text fields that are dicts/lists instead of strings."""
             if isinstance(data, dict):
                 # Check if this is an extraction object with extraction_text
                 if "extraction_text" in data:
                     ext_text = data["extraction_text"]
+
+                    # Handle dict type
                     if isinstance(ext_text, dict):
                         # Convert dict to string representation
                         # Try to use a meaningful key like 'text', 'value', 'content', or fallback to json
@@ -118,24 +189,49 @@ def _patch_langextract_json_parser():
                         else:
                             # Fallback: convert entire dict to json string
                             data["extraction_text"] = json.dumps(ext_text, ensure_ascii=False)
+
+                    # Handle list type
+                    elif isinstance(ext_text, list):
+                        # If list is not empty, try to extract meaningful content
+                        if ext_text:
+                            # If first item is a string, use it
+                            if isinstance(ext_text[0], str):
+                                data["extraction_text"] = ext_text[0]
+                            # If first item is a dict, try to extract text from it
+                            elif isinstance(ext_text[0], dict):
+                                for key in ["text", "value", "content", "name"]:
+                                    if key in ext_text[0]:
+                                        data["extraction_text"] = str(ext_text[0][key])
+                                        break
+                                else:
+                                    # Fallback: join all items
+                                    data["extraction_text"] = ", ".join(str(item) for item in ext_text)
+                            else:
+                                # Fallback: join all items
+                                data["extraction_text"] = ", ".join(str(item) for item in ext_text)
+                        else:
+                            # Empty list
+                            data["extraction_text"] = ""
+
+                    # Handle other non-standard types
                     elif not isinstance(ext_text, (str, int, float)):
                         # Convert any other type to string
                         data["extraction_text"] = str(ext_text)
-                
+
                 # Recursively process nested dicts
                 for key, value in data.items():
                     if isinstance(value, (dict, list)):
                         _fix_extraction_text(value)
-            
+
             elif isinstance(data, list):
                 for item in data:
                     _fix_extraction_text(item)
-            
+
             return data
         
         def patched_parse_output(self, content: str, *args, **kwargs):
-            # Strip markdown fence before parsing
-            content = _strip_markdown_fence(content)
+            # Normalize to langextract's expected payload shape.
+            content = _coerce_langextract_payload(content)
             
             # Try to pre-process JSON to fix extraction_text types
             try:
@@ -179,7 +275,13 @@ class KnowledgeExtractor:
         
         # Use custom prompt or default
         if custom_prompt:
-            self.prompt = custom_prompt
+            # Keep UI/user custom prompt, but enforce a stable output contract.
+            self.prompt = textwrap.dedent(custom_prompt).strip() + "\n\n" + textwrap.dedent("""\
+                输出格式(非常重要):
+                - 只输出 JSON，不要输出任何解释文字/markdown/代码块
+                - 顶层必须是一个对象，且必须包含键: \"extractions\"
+                - \"extractions\" 的值必须是数组；如果没有可提取内容，返回 {\"extractions\": []}
+                """).strip()
         else:
             self.prompt = textwrap.dedent("""\
                 从文档中提取以下结构化知识:
@@ -194,6 +296,11 @@ class KnowledgeExtractor:
                 2. 为每个提取添加丰富的属性信息
                 3. 关系类型必须在 attributes 中标注涉及的主体
                 4. 保持原文出现顺序
+
+                输出格式(非常重要):
+                - 只输出 JSON，不要输出任何解释文字/markdown/代码块
+                - 顶层必须是一个对象，且必须包含键: "extractions"
+                - "extractions" 的值必须是数组；如果没有可提取内容，返回 {"extractions": []}
                 """)
         
         # Use custom examples or build default
@@ -244,12 +351,17 @@ class KnowledgeExtractor:
 
     def extract_from_text(self, text: str, max_length: int = 8000) -> List[KnowledgeExtraction]:
         """Extract knowledge using LangExtract with full char_interval traceability."""
+        quiet = (os.getenv("EXTRACTION_QUIET", "1").strip().lower() in {"1", "true", "yes", "on"})
         if len(text) > max_length:
             extraction_text = text[:max_length]
+            if not quiet:
+                logger.info(f"文本过长，截断至 {max_length} 字符（原长度: {len(text)}）")
         else:
             extraction_text = text
 
         api_key, base_url, model_id = self._model_config
+        if not quiet:
+            logger.info(f"开始知识提取: model={model_id}, text_length={len(extraction_text)} chars")
 
         attempts = [
             {"force_json": False, "fence_output": True},
@@ -259,6 +371,10 @@ class KnowledgeExtractor:
 
         last_err: Optional[Exception] = None
         for idx, cfg in enumerate(attempts, start=1):
+            # Keep attempt logs as process logs (still useful when debugging),
+            # but allow users to disable them via EXTRACTION_QUIET.
+            if not quiet:
+                logger.info(f"尝试 {idx}/{len(attempts)}: force_json={cfg['force_json']}, fence_output={cfg['fence_output']}")
             model = self.model if not cfg["force_json"] else _build_openai_language_model(api_key, base_url, model_id, force_json=True)
             try:
                 result = lx.extract(
@@ -273,26 +389,64 @@ class KnowledgeExtractor:
                     max_workers=1,
                     show_progress=True,
                 )
+                if not quiet:
+                    logger.info(f"✓ 提取成功（尝试 {idx}）: 获得 {len(result.extractions)} 个提取结果")
                 break
+            except (KeyboardInterrupt, SystemExit):
+                # Stop immediately on user/app interruption (Streamlit stop, Ctrl+C, etc.)
+                logger.warning("检测到中断信号，停止知识提取重试")
+                raise
             except Exception as e:
                 last_err = e
+                error_type = type(e).__name__
+                error_msg = str(e)
+                logger.error(f"✗ 提取失败（尝试 {idx}）: {error_type}: {error_msg}")
+
+                # During interpreter shutdown, thread pools can't accept new tasks.
+                # Retrying only makes it worse, so fail fast.
+                if isinstance(e, RuntimeError) and "cannot schedule new futures after interpreter shutdown" in error_msg:
+                    logger.error("解释器正在关闭，终止重试以避免 futures 提交失败")
+                    raise
+
+                # 记录详细的错误堆栈（仅在最后一次尝试时）
+                if idx == len(attempts):
+                    import traceback
+                    logger.error(f"完整错误堆栈:\n{traceback.format_exc()}")
+
                 # Small backoff to ride out transient empty responses / rate limits.
                 if idx < len(attempts):
+                    logger.info(f"等待 1 秒后重试...")
                     time.sleep(1.0)
         else:
             assert last_err is not None
+            logger.error(f"所有尝试均失败，抛出最后一个错误")
             raise last_err
 
         extractions: List[KnowledgeExtraction] = []
         # result itself is an AnnotatedDocument
-        for ext in result.extractions:
+        if not quiet:
+            logger.info(f"开始处理 {len(result.extractions)} 个提取结果...")
+
+        type_error_count = 0
+        for idx, ext in enumerate(result.extractions):
             ext_text = ext.extraction_text
+
+            # 检查并修复 extraction_text 类型问题
             if not isinstance(ext_text, (str, int, float)):
+                type_error_count += 1
+                original_type = type(ext_text).__name__
+                logger.warning(
+                    f"提取结果 #{idx+1} 的 extraction_text 类型错误: "
+                    f"期望 str/int/float，实际为 {original_type}"
+                )
+
                 try:
                     import json
                     ext_text = json.dumps(ext_text, ensure_ascii=False)
-                except Exception:
+                    logger.info(f"  → 已转换为 JSON 字符串: {ext_text[:100]}...")
+                except Exception as e:
                     ext_text = str(ext_text)
+                    logger.warning(f"  → JSON 转换失败，使用 str() 转换: {e}")
 
             char_interval = None
             if ext.char_interval:
@@ -310,6 +464,12 @@ class KnowledgeExtractor:
                     attributes=ext.attributes,
                 )
             )
+
+        if type_error_count > 0:
+            logger.warning(f"共发现 {type_error_count} 个类型错误的 extraction_text，已全部修复")
+
+        if not quiet:
+            logger.info(f"✓ 知识提取完成: 成功提取 {len(extractions)} 个知识点")
         return extractions
 
 

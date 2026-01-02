@@ -1,0 +1,352 @@
+[
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语",
+    "extraction_text": "来因在命，忌入夫妻。",
+    "char_interval": {
+      "start_pos": 1150,
+      "end_pos": 1160
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "来因在命，表示事件的起因落在命宫；忌入夫妻，表示化忌飞入夫妻宫，主事情由自身引发而应在夫妻关系上。"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "以宫位数看，卯位是化忌入逆三宫位。",
+    "char_interval": {
+      "start_pos": 1181,
+      "end_pos": 1198
+    },
+    "attributes": {
+      "前提条件": "夫在丑位，与卯不同旬",
+      "结论": "卯位化忌需以逆三宫位来判断"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "从天干数的逆三宫位看，卯化忌是入了财帛。",
+    "char_interval": {
+      "start_pos": 1218,
+      "end_pos": 1240
+    },
+    "attributes": {
+      "前提条件": "寅至亥的天干是一气的",
+      "结论": "卯位化忌最终落入财帛宫"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语",
+    "extraction_text": "寅至亥的天干是一气的。",
+    "char_interval": {
+      "start_pos": 1200,
+      "end_pos": 1211
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "寅到亥的天干在紫微斗数中视为同一气数系统，用以判断飞化与逆顺关系。"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "传统上说，子丑发射至寅卯位，会退回子丑位。",
+    "char_interval": {
+      "start_pos": 1381,
+      "end_pos": 1404
+    },
+    "attributes": {
+      "前提条件": "子丑位与寅卯位存在发射关系",
+      "结论": "化星不会真正进到寅卯，而是退回子丑"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "不是飞去又退回，而是根本不会飞。",
+    "char_interval": {
+      "start_pos": 1504,
+      "end_pos": 1522
+    },
+    "attributes": {
+      "前提条件": "子丑位与寅卯位同干不同旬，子丑不同旬不立来因宫",
+      "结论": "进马忌与退马忌在此结构下皆不成立"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语",
+    "extraction_text": "连环忌是十干化曜特殊的运动法，这是源于十干化曜与布星法的结构。",
+    "char_interval": {
+      "start_pos": 1618,
+      "end_pos": 1651
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "定义": "连环忌是基于十天干化曜与星曜布置结构所形成的连续化忌现象，不同于一般飞星抛物线观点。"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "连环忌是怎么形成的？连环忌是十干化曜特殊的运动法。",
+    "char_interval": {
+      "start_pos": 1606,
+      "end_pos": 1651
+    },
+    "attributes": {
+      "前提条件": "十干化曜与布星法的结构成立",
+      "结论": "形成连续的化忌作用链条"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语",
+    "extraction_text": "十干化曜是天地日月的消息。",
+    "char_interval": {
+      "start_pos": 1671,
+      "end_pos": 1683
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "十天干的化曜运行用以仿真天地日月运行变化，是天象与人事映射的理论基础。"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "机巨为地球之两极，天机指向北辰（紫微星）是地球运转的轴心，巨门是象未知之大地不受光明。",
+    "char_interval": {
+      "start_pos": 1888,
+      "end_pos": 1935
+    },
+    "attributes": {
+      "主星": [
+        "天机",
+        "巨门"
+      ],
+      "属性": "中性主星",
+      "基本含义": "天机象天体运转轴心，巨门象未知与遮蔽，构成天地结构之象"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "日月并明或反背于辰戌，象日月之升降。",
+    "char_interval": {
+      "start_pos": 1949,
+      "end_pos": 1967
+    },
+    "attributes": {
+      "主星": [
+        "太阳",
+        "太阴"
+      ],
+      "属性": {
+        "太阳": "男星",
+        "太阴": "女星"
+      },
+      "基本含义": "太阳太阴在辰戌的相对位置象征日月升降、明暗变化"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "天开于子、地辟在丑、人生在寅",
+    "char_interval": {
+      "start_pos": 2101,
+      "end_pos": 2115
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "完整定义": "天道运行以子位为开端，地气成形以丑位为开始，而人生与人事的展开则从寅位发生，用以说明天地人三才在宫位上的起始秩序。"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "「天开于子、地辟在丑、人生在寅」",
+    "char_interval": {
+      "start_pos": 2100,
+      "end_pos": 2116
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "地辟在丑",
+    "char_interval": {
+      "start_pos": 2106,
+      "end_pos": 2110
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "完整定义": "当地支丑位作为地气开辟完成之处时，命盘上以连环化忌作为主要叙事与判断结构，用以说明事情由形成到落实的过程。"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "在此「地辟在丑」时，就是以连环化忌来说故事了。",
+    "char_interval": {
+      "start_pos": 2148,
+      "end_pos": 2173
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "连环忌",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "完整定义": "连环忌是由五星与五个对应宫位串联形成的一种化忌结构，其重点在于最终产生直线自化，用以判断事情发展的终局与自我反噬。"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "连环忌也就是五星与五宫所形成的。",
+    "char_interval": {
+      "start_pos": 2369,
+      "end_pos": 2385
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "紫微星入丑未线判断",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "紫微星落在丑未轴线",
+      "判断过程": "推断天机、巨门必居子午，再观察日月是否落在辰戌",
+      "结论": "具备地已成形、人生展开的故事结构；若无日月于辰戌，则人生之象不成立"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "紫微星入丑未线，则机巨必在子午，所以有地已辟成之象！「地辟在丑」，必见日月于辰戌。如果没有日月，即无人生在寅的故事了。",
+    "char_interval": {
+      "start_pos": 2257,
+      "end_pos": 2322
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "连环忌重点法则",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "命盘形成连环忌结构",
+      "判断过程": "追踪五星五宫的化忌串联，聚焦最终走向",
+      "结论": "判断应落在最终直线自化所显示的结果，而非单一飞化星象"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "重要的是，它的重点即在最后的直线自化上，这也是当年个人弃飞星，学自化应用的原由之一。",
+    "char_interval": {
+      "start_pos": 2414,
+      "end_pos": 2460
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "丑未线、子午线、辰戌线关系",
+    "char_interval": null,
+    "attributes": null
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "紫微星入丑未线，则机巨必在子午，必见日月于辰戌。",
+    "char_interval": {
+      "start_pos": 2257,
+      "end_pos": 2302
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "连环忌十干化曜图",
+    "char_interval": {
+      "start_pos": 2720,
+      "end_pos": 2728
+    },
+    "attributes": {
+      "类型": "对照表",
+      "说明": "以十天干对应化曜，构成连环忌的完整化曜关系图"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "（连环忌十干化曜图）",
+    "char_interval": {
+      "start_pos": 2719,
+      "end_pos": 2729
+    },
+    "attributes": null
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "自化应用",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "自化",
+      "使用方法": "舍弃单点飞星，追踪化曜最终自返本宫的结果",
+      "适用场景": "用于分析事件最终结果与内在因果，尤其在连环忌结构中"
+    }
+  },
+  {
+    "doc_id": "09e977e9",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "extraction_text",
+    "extraction_text": "重要的是，它的重点即在最后的直线自化上，这也是当年个人弃飞星，学自化应用的原由之一。",
+    "char_interval": {
+      "start_pos": 2414,
+      "end_pos": 2460
+    },
+    "attributes": null
+  }
+]

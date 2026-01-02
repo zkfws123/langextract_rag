@@ -78,8 +78,10 @@ class SessionManager:
     
     @property
     def current_kb_id(self) -> str:
-        return st.session_state.current_kb_id
-    
+        # Be defensive: Streamlit can execute modules in an order where
+        # properties are accessed before our initializer ran for a new session.
+        return st.session_state.get("current_kb_id", "")
+
     @current_kb_id.setter
     def current_kb_id(self, value: str):
         st.session_state.current_kb_id = value
@@ -281,4 +283,8 @@ def get_session() -> SessionManager:
     global _session_manager
     if _session_manager is None:
         _session_manager = SessionManager()
+    else:
+        # Streamlit may create a fresh session_state on reruns/new browser sessions;
+        # ensure required keys exist even when reusing the singleton.
+        _session_manager._init_all_states()
     return _session_manager

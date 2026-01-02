@@ -1,0 +1,849 @@
+[
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "飞星棋谱",
+    "char_interval": {
+      "start_pos": 0,
+      "end_pos": 4
+    },
+    "attributes": {
+      "类型": "概念/术语",
+      "别名": "化忌棋谱"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "斗数爱好者",
+    "char_interval": null,
+    "attributes": {
+      "类型": "概念",
+      "定义": "对紫微斗数感兴趣的群体"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "事件",
+    "extraction_text": "宋太祖赌棋输华山",
+    "char_interval": {
+      "start_pos": 48,
+      "end_pos": 56
+    },
+    "attributes": {
+      "主体": "宋太祖",
+      "地点": "华山",
+      "性质": "传说故事",
+      "后果": "华山居民免税"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "宋太祖",
+    "char_interval": null,
+    "attributes": {
+      "类型": "人物",
+      "身份": "皇帝/赵匡胤"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "华山",
+    "char_interval": null,
+    "attributes": {
+      "类型": "地点",
+      "关联事件": "赌棋"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "陈希夷",
+    "char_interval": null,
+    "attributes": {
+      "类型": "人物",
+      "身份": "道家高人/陈抟"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "关系描述",
+    "extraction_text": "陈希夷在第二局中，却以单马巧胜太祖的马炮五卒士象全",
+    "char_interval": {
+      "start_pos": 156,
+      "end_pos": 181
+    },
+    "attributes": {
+      "类型": "对弈关系",
+      "主体1": "陈希夷",
+      "主体2": "宋太祖",
+      "结果": "陈希夷胜",
+      "详情": "单马胜马炮五卒士象全"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "数据指标",
+    "extraction_text": "千年",
+    "char_interval": null,
+    "attributes": {
+      "指标": "免税时长",
+      "单位": "年"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "化忌法",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "领域": "紫微斗数",
+      "内容": "象的归纳"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "四化飞伏",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "领域": "紫微斗数"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "逆水忌",
+    "char_interval": {
+      "start_pos": 254,
+      "end_pos": 257
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "分类": "化忌法",
+      "逻辑": "六内入六外"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "顺水忌",
+    "char_interval": {
+      "start_pos": 260,
+      "end_pos": 263
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "分类": "化忌法"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "六内入六外",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "定义": "逆水忌的一种表现形式"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "命、財、官、田",
+    "char_interval": {
+      "start_pos": 470,
+      "end_pos": 477
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "定义": "命宫、财帛宫、官禄宫、田宅宫"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "退马忌",
+    "char_interval": {
+      "start_pos": 753,
+      "end_pos": 756
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "分类": "飞星用法"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "进马忌",
+    "char_interval": {
+      "start_pos": 759,
+      "end_pos": 762
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "分类": "飞星用法"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "子丑宫位",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "范畴": "地支宫位"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "来因宫位",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "领域": "钦天四化/飞星"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "紫立在寅",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "定义": "紫微星定位于寅宫"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "寅卯宫位",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "分类": "地支宫位",
+      "描述": "斗数盘中寅位与卯位的组合"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "子丑宫位",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "分类": "地支宫位",
+      "描述": "斗数盘中子位与丑位的组合"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "进退马",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "学科": "紫微斗数",
+      "定义": "关于宫位化象进退的特殊规则"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "关系描述",
+    "extraction_text": "来因在命，忌入夫妻",
+    "char_interval": {
+      "start_pos": 1150,
+      "end_pos": 1159
+    },
+    "attributes": {
+      "类型": "因果/垂象关系",
+      "主体1": "来因宫（命宫）",
+      "主体2": "夫妻宫",
+      "动作": "忌入",
+      "含义": "由来因命宫产生的化忌能量进入夫妻宫"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "财帛",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "分类": "十二宫位",
+      "别称": "财帛宫"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "关系描述",
+    "extraction_text": "卯化忌是入了财帛",
+    "char_interval": {
+      "start_pos": 1231,
+      "end_pos": 1239
+    },
+    "attributes": {
+      "类型": "隶属/化象关系",
+      "主体1": "卯位",
+      "主体2": "财帛宫",
+      "关系": "化忌飞入",
+      "逻辑": "基于天干数的逆三宫位看"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "进马忌",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "范畴": "飞星四化",
+      "关联概念": "退马忌"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "福德",
+    "char_interval": {
+      "start_pos": 1366,
+      "end_pos": 1368
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "分类": "十二宫位",
+      "别称": "福德宫"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "关系描述",
+    "extraction_text": "子丑发射至寅卯位",
+    "char_interval": {
+      "start_pos": 1386,
+      "end_pos": 1394
+    },
+    "attributes": {
+      "类型": "飞星路径",
+      "主体1": "子丑位",
+      "主体2": "寅卯位",
+      "动作": "发射"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "桥马",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "释义": "子丑位与寅卯位之间的特殊飞星形态"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "事件",
+    "extraction_text": "紫微起于寅",
+    "char_interval": {
+      "start_pos": 1425,
+      "end_pos": 1430
+    },
+    "attributes": {
+      "类型": "布星法则",
+      "主体": "紫微星",
+      "位置": "寅宫",
+      "意义": "紫微斗数排盘的基本起始规则"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "来因宫",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "定义": "出生年干所在的宫位",
+      "作用": "判断生数与业力所在"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "连环忌",
+    "char_interval": {
+      "start_pos": 1562,
+      "end_pos": 1565
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "成因": "十干化曜特殊的运动法",
+      "结构": "源于十干化曜与布星法的结构"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "十干化曜",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "别名": "四化",
+      "概念": "天地日月的消息"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "五星连珠",
+    "char_interval": {
+      "start_pos": 1715,
+      "end_pos": 1719
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "领域": "天文学/占星术"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "天机",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "类别": "十四主星",
+      "象义": "地球运转的轴心"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "北辰",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "别称": "紫微星",
+      "角色": "指向中心"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "巨门",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "类别": "十四主星",
+      "象义": "未知之大地不受光明"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "盖天理论",
+    "char_interval": null,
+    "attributes": {
+      "类型": "概念",
+      "范畴": "古代宇宙观"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "日月并明",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "分类": "格局/象义",
+      "象意": "日月之升降"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "辰戌",
+    "char_interval": null,
+    "attributes": {
+      "类型": "概念",
+      "分类": "地支/宫位",
+      "别称": "天罗地网位"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "机巨",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语/星曜组合",
+      "全称": "天机星、巨门星",
+      "方位描述": "立于南北"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "卯酉",
+    "char_interval": null,
+    "attributes": {
+      "类型": "地支/宫位",
+      "含义": "传统方位或时辰"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "辰戌",
+    "char_interval": null,
+    "attributes": {
+      "类型": "地支/宫位",
+      "上下文": "日月入辰戌"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "南北子午线",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "形态描述": "呈倾斜之形态"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "「天开于子、地辟在丑、人生在寅」",
+    "char_interval": {
+      "start_pos": 2100,
+      "end_pos": 2116
+    },
+    "attributes": {
+      "类型": "命理概念/引语",
+      "来源": "斗数学说"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "紫微星",
+    "char_interval": null,
+    "attributes": {
+      "类型": "星曜",
+      "地位": "斗数核心主星"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "连环化忌",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "构成": "五星与五宫形成"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "关系描述",
+    "extraction_text": "紫微星入丑未线，则机巨必在子午",
+    "char_interval": {
+      "start_pos": 2257,
+      "end_pos": 2272
+    },
+    "attributes": {
+      "类型": "星曜位置关联",
+      "主体1": "紫微星",
+      "主体2": "机巨",
+      "关系": "同步对应关系",
+      "位置": "丑未线 vs 子午位"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "廉真",
+    "char_interval": null,
+    "attributes": {
+      "类型": "星曜",
+      "关联": "位于月巨之间，与紫微星有关联"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "五星连珠",
+    "char_interval": {
+      "start_pos": 2394,
+      "end_pos": 2398
+    },
+    "attributes": {
+      "类型": "概念/典故",
+      "关联": "与连环忌相关联的故事由来"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "直线自化",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "地位": "连环忌的重点"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "事件",
+    "extraction_text": "弃飞星，学自化应用",
+    "char_interval": null,
+    "attributes": {
+      "主体": "个人 (作者)",
+      "行为": "学术转型/选择",
+      "原由": "基于直线自化的应用重要性"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "连环忌十干化曜图",
+    "char_interval": {
+      "start_pos": 2720,
+      "end_pos": 2728
+    },
+    "attributes": {
+      "类型": "技术图表",
+      "内容": "包含丁圣、戊癸、甲己等化曜逻辑"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "飞星棋谱",
+    "char_interval": {
+      "start_pos": 2818,
+      "end_pos": 2822
+    },
+    "attributes": {
+      "类型": "技术术语/著作",
+      "数量": "择其三说明"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "体系篇讲义",
+    "char_interval": null,
+    "attributes": {
+      "类型": "文档/资料",
+      "内容": "包含三种飞星应用"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "陈博",
+    "char_interval": null,
+    "attributes": {
+      "类型": "人物",
+      "职业": "道家人物/术数家",
+      "别名": "陈抟"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "宋太祖",
+    "char_interval": null,
+    "attributes": {
+      "类型": "人物",
+      "职位": "皇帝"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "事件",
+    "extraction_text": "陈博与宋太祖下棋",
+    "char_interval": {
+      "start_pos": 2917,
+      "end_pos": 2925
+    },
+    "attributes": {
+      "涉及主体": "陈博、宋太祖",
+      "争议点": "下围棋或象棋",
+      "性质": "历史典故"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "顺水、反弓或说绝命、入库",
+    "char_interval": {
+      "start_pos": 2941,
+      "end_pos": 2951
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "范畴": "别种数术用语"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "飞星棋谱",
+    "char_interval": {
+      "start_pos": 2968,
+      "end_pos": 2972
+    },
+    "attributes": {
+      "类型": "技术术语",
+      "领域": "围棋、命理或术数",
+      "描述": "文中所讨论的核心对象或著作"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "研究者",
+    "char_interval": null,
+    "attributes": {
+      "类型": "人物",
+      "特征": "具备理则分析能力的主体"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "飞星",
+    "char_interval": null,
+    "attributes": {
+      "类型": "概念",
+      "属性": "研究、玩赏或博弈的对象"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "关系描述",
+    "extraction_text": "研究者自我对飞星的一种玩赏方式",
+    "char_interval": null,
+    "attributes": {
+      "类型": "互动关系",
+      "主体1": "研究者",
+      "主体2": "飞星",
+      "性质": "自我研究与消遣"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "理则",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技术术语",
+      "含义": "规律、原理或逻辑规则"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "闲人",
+    "char_interval": null,
+    "attributes": {
+      "类型": "人物",
+      "特征": "非专业、故弄玄虚者"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "事件",
+    "extraction_text": "闲人乱弄玄虚",
+    "char_interval": null,
+    "attributes": {
+      "主体": "闲人",
+      "行为描述": "在缺乏理则依据的情况下制造迷惑"
+    }
+  },
+  {
+    "doc_id": "ocr_09e977e9",
+    "doc_title": "OCR文档-飞星棋谱",
+    "extraction_class": "实体",
+    "extraction_text": "后学之众",
+    "char_interval": null,
+    "attributes": {
+      "类型": "人物",
+      "范畴": "后续的学习者、学者群体"
+    }
+  }
+]
