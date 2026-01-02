@@ -4,10 +4,12 @@ from langchain.tools import tool
 
 from src.retrieval.vector.chroma_store import ChromaVectorStore
 from src.graph.in_memory_store import InMemoryGraphStore
+from src.utils.logger import get_agent_logger
 
 
 _VECTOR_STORE: Optional[ChromaVectorStore] = None
 _GRAPH_STORE: Optional[InMemoryGraphStore] = None
+_logger = get_agent_logger()
 
 
 def init_tools(vector_store: ChromaVectorStore, graph_store: InMemoryGraphStore) -> None:
@@ -19,11 +21,19 @@ def init_tools(vector_store: ChromaVectorStore, graph_store: InMemoryGraphStore)
 @tool
 def vector_search_tool(query: str) -> str:
     """在向量数据库中搜索与查询相关的知识片段。用于语义相似度检索。"""
+    _logger.log_tool_call("vector_search_tool", {"query": query})
+
     if not _VECTOR_STORE:
+        _logger.log_tool_result("vector_search_tool", "向量库未初始化", success=False)
         return "向量库未初始化"
+
     results = _VECTOR_STORE.similarity_search(query, top_k=5)
+    _logger.log_vector_search(query, len(results))
+
     if not results:
+        _logger.log_tool_result("vector_search_tool", "未找到相关信息", success=False)
         return "未找到相关信息"
+
     output_parts = []
     for i, r in enumerate(results, 1):
         part = f"[V{i}] {r.get('extraction_class')}: {r.get('extraction_text')}"
@@ -35,15 +45,32 @@ def vector_search_tool(query: str) -> str:
         if attrs:
             part += f"\n     属性: {attrs}"
         output_parts.append(part)
-    return "\n\n".join(output_parts)
+    result = "\n\n".join(output_parts)
+    _logger.log_tool_result("vector_search_tool", result, success=True)
+    return result
 
 
 @tool
-def graph_search_tool(entity: str) -> str:
-    """在知识图谱中搜索实体及其关联关系。用于结构化知识查询。"""
+def graph_search_tool(entity: str = "", query: str = "") -> str:
+    """在知识图谱中搜索实体及其关联关系。用于结构化知识查询。
+
+    说明：LLM 在工具调用时可能会使用 `query` 作为通用字段名。
+    为避免 schema mismatch（例如：entity: Field required），这里兼容 `entity`/`query` 两种入参。
+    """
+
+    resolved = (entity or query or "").strip()
+    if resolved and (entity != resolved):
+        _logger.debug(
+            f"[tool_schema] graph_search_tool alias param used: entity='{entity}' query='{query}' -> resolved='{resolved}'"
+        )
+
+    _logger.log_tool_call("graph_search_tool", {"entity": resolved})
+
     if not _GRAPH_STORE:
+        _logger.log_tool_result("graph_search_tool", "知识图谱未初始化", success=False)
         return "知识图谱未初始化"
-    results = _GRAPH_STORE.search(entity, hop=1)
+
+    results = _GRAPH_STORE.search(resolved, hop=1)
     lines = []
     if results.get("matched_entities"):
         lines.append("匹配实体:")
@@ -59,14 +86,24 @@ def graph_search_tool(entity: str) -> str:
         lines.append("\n关联实体:")
         for ent in results["connected_entities"]:
             lines.append(f"- {ent}")
-    return "\n".join(lines) if lines else "未找到相关信息"
+
+    result = "\n".join(lines) if lines else "未找到相关信息"
+    has_results = bool(lines)
+    _logger.log_graph_search(resolved, has_results)
+    _logger.log_tool_result("graph_search_tool", result, success=has_results)
+    return result
 
 
 @tool
 def hybrid_search_tool(query: str) -> str:
     """混合检索工具，同时使用向量检索和图谱检索获取更全面的结果。"""
+    _logger.log_tool_call("hybrid_search_tool", {"query": query})
+    _logger.log_hybrid_search(query)
+
     if not _VECTOR_STORE or not _GRAPH_STORE:
+        _logger.log_tool_result("hybrid_search_tool", "混合检索组件未初始化", success=False)
         return "混合检索组件未初始化"
+
     vector_result = vector_search_tool.invoke(query)
     words = [w for w in query.replace("？", "").replace("?", "").replace("，", " ").replace("。", " ").split() if len(w) >= 2]
     graph_results = []
@@ -74,7 +111,10 @@ def hybrid_search_tool(query: str) -> str:
         gr = graph_search_tool.invoke(word)
         if "未找到" not in gr and gr:
             graph_results.append(gr)
+
     output = "=== 向量检索结果 ===\n" + vector_result
     if graph_results:
         output += "\n\n=== 图谱检索结果 ===\n" + "\n".join(graph_results)
+
+    _logger.log_tool_result("hybrid_search_tool", output, success=True)
     return output

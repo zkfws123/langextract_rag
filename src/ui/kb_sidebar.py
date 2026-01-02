@@ -61,13 +61,13 @@ def render_kb_sidebar(session: SessionManager):
             if selected_kb_id != session.current_kb_id:
                 # 切换知识库
                 session.switch_kb(selected_kb_id)
-                
+
                 # 加载知识库的图谱和向量库
                 try:
                     # 加载图谱
                     graph_data = kb_service.get_graph(selected_kb_id)
                     session.graph_store = InMemoryGraphStore(graph_data)
-                    
+
                     # 加载向量库
                     kb = kb_service.get_kb(selected_kb_id)
                     if kb and kb.status == KBStatus.READY:
@@ -75,10 +75,18 @@ def render_kb_sidebar(session: SessionManager):
                         session.vector_store = ChromaVectorStore(collection_name=collection_name)
                     else:
                         session.vector_store = None
-                    
+
+                    # 重新构建Agent并初始化工具
+                    if session.vector_store and session.graph_store:
+                        from src.agents import build_agent
+                        build_agent(session.vector_store, session.graph_store)
+                        session.agent_built = True
+                    else:
+                        session.agent_built = False
+
                     # 加载文档列表
                     session.doc_list_cache = kb_service.list_documents(selected_kb_id)
-                    
+
                     st.success(f"已切换到: {selected_label}")
                     st.rerun()
                 except Exception as e:
@@ -306,6 +314,11 @@ def render_kb_sidebar(session: SessionManager):
                                             session.uploaded_filename = doc.filename
                                             session.graph_store = InMemoryGraphStore(kb_service.get_graph(session.current_kb_id))
                                             session.vector_store = vector_store
+
+                                            # 重新构建Agent并初始化工具
+                                            from src.agents import build_agent
+                                            build_agent(session.vector_store, session.graph_store)
+                                            session.agent_built = True
 
                                             st.success("入库完成")
                                             st.rerun()

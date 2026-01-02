@@ -7,16 +7,24 @@ from src.retrieval.vector.chroma_store import ChromaVectorStore
 
 def render_chat_tab(session: SessionManager, kb_service):
     """渲染问答标签页"""
-    st.header("GraphRAG 智能问答")
-    
     # 检查是否选择了知识库
     if not session.current_kb_id:
+        st.header("GraphRAG 智能问答")
         st.info("👈 请先在左侧选择或创建知识库")
         return
-    
+
     # 检查知识库是否有数据
     kb = kb_service.get_kb(session.current_kb_id)
-    if not kb or kb.total_entities == 0:
+    if not kb:
+        st.header("GraphRAG 智能问答")
+        st.error("❌ 知识库不存在")
+        return
+
+    # 显示标题和当前知识库名称
+    st.header("GraphRAG 智能问答")
+    st.markdown(f"**📚 当前知识库：** `{kb.name}` (ID: `{session.current_kb_id[:8]}...`)")
+
+    if kb.total_entities == 0:
         st.info("💡 当前知识库为空，请先上传并处理文档")
         return
     
@@ -43,12 +51,21 @@ def render_chat_tab(session: SessionManager, kb_service):
     # 显示对话历史
     for msg in session.chat_history:
         with st.chat_message(msg["role"]):
+            # 如果是助手消息且有错误标记，显示错误提示
+            if msg["role"] == "assistant" and msg.get("error") == "NO_TOOL_CALLED":
+                st.error("❌ **错误：Agent未调用知识库工具**")
+                st.error("⚠️ 该回答没有证据溯源，不可信！")
+
             st.markdown(msg["content"])
+
             if msg.get("evidence"):
                 with st.expander("📎 查看证据溯源"):
                     for ev in msg["evidence"]:
                         if ev.get("type") == "result":
                             st.code(ev.get("content", ""), language="text")
+            elif msg["role"] == "assistant" and not msg.get("error"):
+                # 如果是助手消息，没有证据也没有错误标记，显示警告
+                st.warning("⚠️ 警告：该回答缺少证据溯源")
     
     # 输入框
     if prompt := st.chat_input("输入您的问题..."):
@@ -63,17 +80,28 @@ def render_chat_tab(session: SessionManager, kb_service):
                 result = agent_query(prompt)
                 answer = result.get("answer", "无法回答")
                 evidence = result.get("evidence", [])
-            
+                error = result.get("error", None)
+
+            # 检查是否有错误（未调用工具）
+            if error == "NO_TOOL_CALLED":
+                st.error("❌ **错误：Agent未调用知识库工具**")
+                st.error("⚠️ 该回答没有证据溯源，不可信！")
+                st.warning("💡 建议：请重新提问或换个问法，确保问题与知识库内容相关")
+
             st.markdown(answer)
-            
+
             if evidence:
                 with st.expander("📎 查看证据溯源"):
                     for ev in evidence:
                         if ev.get("type") == "result":
                             st.code(ev.get("content", ""), language="text")
-            
+            elif not error:
+                # 如果没有证据也没有错误标记，也显示警告
+                st.warning("⚠️ 警告：该回答缺少证据溯源")
+
             session.chat_history.append({
                 "role": "assistant",
                 "content": answer,
-                "evidence": evidence
+                "evidence": evidence,
+                "error": error
             })

@@ -37,6 +37,65 @@ st.set_page_config(
 )
 
 # ============================================================================
+# 全局样式：美化按钮选中态（primary）
+# ============================================================================
+st.markdown(
+        """
+        <style>
+            /* Base button shape */
+            .stButton > button {
+                border-radius: 999px !important;
+                padding: 0.45rem 0.85rem !important;
+                font-weight: 600 !important;
+                border: 1px solid rgba(148, 163, 184, 0.35) !important; /* slate-400 */
+                transition: transform 120ms ease, box-shadow 160ms ease, background-color 160ms ease, border-color 160ms ease;
+                box-shadow: 0 1px 0 rgba(15, 23, 42, 0.06) !important;
+            }
+
+            /* Secondary (unselected) */
+            .stButton > button[kind="secondary"] {
+                background: rgba(15, 23, 42, 0.06) !important;
+                color: rgba(15, 23, 42, 0.86) !important;
+            }
+            .stButton > button[kind="secondary"]:hover {
+                background: rgba(15, 23, 42, 0.09) !important;
+                border-color: rgba(148, 163, 184, 0.55) !important;
+                transform: translateY(-1px);
+                box-shadow: 0 8px 22px rgba(15, 23, 42, 0.12) !important;
+            }
+
+            /* Primary (selected) */
+            .stButton > button[kind="primary"] {
+                background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%) !important; /* blue-600 -> violet-600 */
+                border-color: rgba(37, 99, 235, 0.45) !important;
+                color: #ffffff !important;
+                box-shadow: 0 10px 26px rgba(37, 99, 235, 0.28), 0 2px 0 rgba(15, 23, 42, 0.08) !important;
+            }
+            .stButton > button[kind="primary"]:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 14px 30px rgba(124, 58, 237, 0.30), 0 10px 22px rgba(37, 99, 235, 0.18) !important;
+                filter: brightness(1.02);
+            }
+            .stButton > button:active {
+                transform: translateY(0px) scale(0.99);
+            }
+
+            /* Better focus ring */
+            .stButton > button:focus {
+                outline: none !important;
+                box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25), 0 10px 26px rgba(37, 99, 235, 0.22) !important;
+            }
+
+            /* Sidebar buttons a bit tighter to look like list selection chips */
+            section[data-testid="stSidebar"] .stButton > button {
+                padding: 0.36rem 0.65rem !important;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
+)
+
+# ============================================================================
 # 初始化 Session
 # ============================================================================
 session = get_session()

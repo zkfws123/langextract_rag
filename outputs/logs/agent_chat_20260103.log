@@ -1,0 +1,601 @@
+2026-01-03 00:05:39 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:05:39 | INFO     | AgentRAG | Agent日志系统已启动
+2026-01-03 00:05:39 | INFO     | AgentRAG | 日志文件: outputs\logs\agent_chat_20260103.log
+2026-01-03 00:05:39 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:05:57 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:05:57 | INFO     | AgentRAG | Agent日志系统已启动
+2026-01-03 00:05:57 | INFO     | AgentRAG | 日志文件: outputs\logs\agent_chat_20260103.log
+2026-01-03 00:05:57 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:06:43 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:06:43 | INFO     | AgentRAG | Agent日志系统已启动
+2026-01-03 00:06:43 | INFO     | AgentRAG | 日志文件: outputs\logs\agent_chat_20260103.log
+2026-01-03 00:06:43 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:06:45 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:06:45 | INFO     | AgentRAG | 📝 用户提问: 紫微星是什么？
+2026-01-03 00:06:45 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:06:45 | INFO     | AgentRAG | 开始调用Agent处理问题...
+2026-01-03 00:06:48 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:06:48 | DEBUG    | AgentRAG |    参数: {'query': '紫微星是什么？'}
+2026-01-03 00:06:48 | INFO     | AgentRAG | 🔄 混合检索: '紫微星是什么？'
+2026-01-03 00:06:48 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:06:48 | DEBUG    | AgentRAG |    参数: {'query': '紫微星是什么？'}
+2026-01-03 00:06:48 | INFO     | AgentRAG | 🔍 向量检索: '紫微星是什么？' -> 找到 0 条结果
+2026-01-03 00:06:48 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:06:48 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:06:48 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:06:48 | DEBUG    | AgentRAG |    参数: {'entity': '紫微星是什么'}
+2026-01-03 00:06:48 | INFO     | AgentRAG | 🕸️  图谱检索: '紫微星是什么' -> 未找到
+2026-01-03 00:06:48 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:06:48 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:06:48 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:06:48 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:06:52 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:06:52 | DEBUG    | AgentRAG |    参数: {'entity': '紫微星'}
+2026-01-03 00:06:52 | INFO     | AgentRAG | 🕸️  图谱检索: '紫微星' -> 未找到
+2026-01-03 00:06:52 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:06:52 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:06:55 | DEBUG    | AgentRAG | [trace] agent.invoke result keys: ['messages']
+2026-01-03 00:06:55 | DEBUG    | AgentRAG | [trace] agent.invoke messages count: 6
+2026-01-03 00:06:55 | DEBUG    | AgentRAG | [trace] msg[0] type=HumanMessage role=human name= has_tool_calls=False content=紫微星是什么？
+2026-01-03 00:06:55 | DEBUG    | AgentRAG | [trace] msg[1] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:06:55 | DEBUG    | AgentRAG | [trace] msg[2] type=ToolMessage role=tool name=hybrid_search_tool has_tool_calls=False content==== 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:06:55 | DEBUG    | AgentRAG | [trace] msg[3] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:06:55 | DEBUG    | AgentRAG | [trace] msg[4] type=ToolMessage role=tool name=graph_search_tool has_tool_calls=False content=未找到相关信息
+2026-01-03 00:06:55 | DEBUG    | AgentRAG | [trace] msg[5] type=AIMessage role=ai name= has_tool_calls=False content=关于“紫微星”，在当前的知识库中未找到相关信息。
+
+这可能是因为知识库尚未包含有关天文学、中国传统星象学或相关文化背景的内容。
+
+**建议：**
+1. 如果您是指天文学中的**北极星**（小熊座α），我可以根据通用知识为您解答，但由于知识库未命中，无法提供基于特定文档的证据。
+2. 如果您是指中国传统命理学中的**紫微...
+2026-01-03 00:06:55 | INFO     | AgentRAG | 💬 Agent回答: 关于“紫微星”，在当前的知识库中未找到相关信息。
+
+这可能是因为知识库尚未包含有关天文学、中国传统星象学或相关文化背景的内容。
+
+**建议：**
+1. 如果您是指天文学中的**北极星**（小熊座α），我可以根据通用知识为您解答，但由于知识库未命中，无法提供基于特定文档的证据。
+2. 如果您是指中国传统命理学中的**紫微斗数**主星，也请告知，我可以尝试从更广泛的角度为您解释。
+3. 您可以尝试提供...
+2026-01-03 00:06:55 | INFO     | AgentRAG | 📊 使用的工具: hybrid_search_tool, graph_search_tool
+2026-01-03 00:06:55 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:08:42 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:08:42 | INFO     | AgentRAG | Agent日志系统已启动
+2026-01-03 00:08:42 | INFO     | AgentRAG | 日志文件: outputs\logs\agent_chat_20260103.log
+2026-01-03 00:08:42 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:08:42 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:08:42 | INFO     | AgentRAG | 📝 用户提问: 什么是生年禄？
+2026-01-03 00:08:42 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:08:42 | ERROR    | AgentRAG | Agent未初始化
+2026-01-03 00:10:39 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:10:39 | INFO     | AgentRAG | Agent日志系统已启动
+2026-01-03 00:10:39 | INFO     | AgentRAG | 日志文件: outputs\logs\agent_chat_20260103.log
+2026-01-03 00:10:39 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:10:40 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:10:40 | INFO     | AgentRAG | 📝 用户提问: 什么是生年禄？
+2026-01-03 00:10:40 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:10:40 | INFO     | AgentRAG | 开始调用Agent处理问题...
+2026-01-03 00:10:43 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:10:43 | DEBUG    | AgentRAG |    参数: {'query': '什么是生年禄'}
+2026-01-03 00:10:43 | INFO     | AgentRAG | 🔄 混合检索: '什么是生年禄'
+2026-01-03 00:10:43 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:10:43 | DEBUG    | AgentRAG |    参数: {'query': '什么是生年禄'}
+2026-01-03 00:10:43 | INFO     | AgentRAG | 🔍 向量检索: '什么是生年禄' -> 找到 0 条结果
+2026-01-03 00:10:43 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:10:43 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:10:43 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:10:43 | DEBUG    | AgentRAG |    参数: {'entity': '什么是生年禄'}
+2026-01-03 00:10:43 | INFO     | AgentRAG | 🕸️  图谱检索: '什么是生年禄' -> 未找到
+2026-01-03 00:10:43 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:10:43 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:10:43 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:10:43 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:10:47 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:10:47 | DEBUG    | AgentRAG |    参数: {'query': '紫微斗数 生年禄'}
+2026-01-03 00:10:47 | INFO     | AgentRAG | 🔍 向量检索: '紫微斗数 生年禄' -> 找到 0 条结果
+2026-01-03 00:10:47 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:10:47 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:10:49 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:10:49 | DEBUG    | AgentRAG |    参数: {'entity': '生年禄'}
+2026-01-03 00:10:49 | INFO     | AgentRAG | 🕸️  图谱检索: '生年禄' -> 未找到
+2026-01-03 00:10:49 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:10:49 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] agent.invoke result keys: ['messages']
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] agent.invoke messages count: 8
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] msg[0] type=HumanMessage role=human name= has_tool_calls=False content=什么是生年禄？
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] msg[1] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] msg[2] type=ToolMessage role=tool name=hybrid_search_tool has_tool_calls=False content==== 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] msg[3] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] msg[4] type=ToolMessage role=tool name=vector_search_tool has_tool_calls=False content=未找到相关信息
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] msg[5] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] msg[6] type=ToolMessage role=tool name=graph_search_tool has_tool_calls=False content=未找到相关信息
+2026-01-03 00:10:52 | DEBUG    | AgentRAG | [trace] msg[7] type=AIMessage role=ai name= has_tool_calls=False content=很抱歉，在当前的知识库中未找到关于“生年禄”的相关信息。
+
+这可能是因为知识库尚未包含紫微斗数或命理学相关的专业内容。
+
+**证据:**
+* 混合检索、向量检索及图谱检索均返回“未找到相关信息”。
+
+**建议：**
+1. 如果您有相关的文档或资料，可以尝试将其上传至知识库后再进行提问。
+2. 您可以尝试提供更具体的上下...
+2026-01-03 00:10:52 | INFO     | AgentRAG | 💬 Agent回答: 很抱歉，在当前的知识库中未找到关于“生年禄”的相关信息。
+
+这可能是因为知识库尚未包含紫微斗数或命理学相关的专业内容。
+
+**证据:**
+* 混合检索、向量检索及图谱检索均返回“未找到相关信息”。
+
+**建议：**
+1. 如果您有相关的文档或资料，可以尝试将其上传至知识库后再进行提问。
+2. 您可以尝试提供更具体的上下文（例如：紫微斗数中的四化），以便我确认是否是因为关键词匹配问题导致无法检索。
+...
+2026-01-03 00:10:52 | INFO     | AgentRAG | 📊 使用的工具: hybrid_search_tool, graph_search_tool, vector_search_tool
+2026-01-03 00:10:52 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:13:56 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:13:56 | INFO     | AgentRAG | Agent日志系统已启动
+2026-01-03 00:13:56 | INFO     | AgentRAG | 日志文件: outputs\logs\agent_chat_20260103.log
+2026-01-03 00:13:56 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:13:58 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:13:58 | INFO     | AgentRAG | 📝 用户提问: 四化是什么？
+2026-01-03 00:13:58 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:13:58 | INFO     | AgentRAG | 开始调用Agent处理问题...
+2026-01-03 00:14:01 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:14:01 | DEBUG    | AgentRAG |    参数: {'query': '四化'}
+2026-01-03 00:14:01 | INFO     | AgentRAG | 🔄 混合检索: '四化'
+2026-01-03 00:14:01 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:14:01 | DEBUG    | AgentRAG |    参数: {'query': '四化'}
+2026-01-03 00:14:02 | INFO     | AgentRAG | 🔍 向量检索: '四化' -> 找到 0 条结果
+2026-01-03 00:14:02 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:14:02 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:14:02 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:14:02 | DEBUG    | AgentRAG |    参数: {'entity': '四化'}
+2026-01-03 00:14:02 | INFO     | AgentRAG | 🕸️  图谱检索: '四化' -> 找到关联
+2026-01-03 00:14:02 | INFO     | AgentRAG | ✅ 成功 工具返回: graph_search_tool
+2026-01-03 00:14:02 | DEBUG    | AgentRAG |    结果预览: 匹配实体:
+- 四化、禄权科忌ABCD(要背熟)、星辰分男女。 | 类型: 四化系统 | 属性: {'四化名称': '禄权科忌', '代号': 'ABCD', '关联属性': '星辰分男女'}
+- 廉贞与军、警有关。包括人的忠诚度，会不会背叛？唯有廉贞可观之(看它落何宫位？重点是你会不会观照？)。若比喻为中心思想，廉贞在内与外局的范围不同，不看四化而单只有廉贞一颗星的时候，看它在什么宫位？它就以什么为中心！ | 类型: 判断规则 | 属性: {'判断对象': '忠诚度、中心思想', '判断法则': '看廉贞落何宫位，即以该宫位为中心（对其宫位忠实）'}
+- 天府星：戊土
+
+天府星未参加四化，但相当于一颗化科星，又含有权令之星。 | 类型: 星曜体系 | 属性: {'主星名称': '天府星', '五行属性': '戊土', '特殊属性': '未参加四化，相当于化科星，含权令性质'}
+- 天府星未参加四化，但相当于一颗化科星，又含有权令之星，其特性：
+
+a. 主有才华、能干、多才多艺、主聪明、风度佳。
+b.因有财，较会计算，又有才华、能干，因此容易造就自傲或孤芳自赏，宜借后天的修养调适。 |... (共7685字符)
+2026-01-03 00:14:02 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:14:02 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+未找到相关信息
+
+=== 图谱检索结果 ===
+匹配实体:
+- 四化、禄权科忌ABCD(要背熟)、星辰分男女。 | 类型: 四化系统 | 属性: {'四化名称': '禄权科忌', '代号': 'ABCD', '关联属性': '星辰分男女'}
+- 廉贞与军、警有关。包括人的忠诚度，会不会背叛？唯有廉贞可观之(看它落何宫位？重点是你会不会观照？)。若比喻为中心思想，廉贞在内与外局的范围不同，不看四化而单只有廉贞一颗星的时候，看它在什么宫位？它就以什么为中心！ | 类型: 判断规则 | 属性: {'判断对象': '忠诚度、中心思想', '判断法则': '看廉贞落何宫位，即以该宫位为中心（对其宫位忠实）'}
+- 天府星：戊土
+
+天府星未参加四化，但相当于一颗化科星，又含有权令之星。 | 类型: 星曜体系 | 属性: {'主星名称': '天府星', '五行属性': '戊土', '特殊属性': '未参加四化，相当于化科星，含权令性质'}
+- 天府星未参加四化，但相当于一颗化科星，又含有权令之星，其特性：
+
+a. 主有才华、能干、多才多艺、主聪明、风度佳。
+b.因有财，... (共7724字符)
+2026-01-03 00:14:11 | DEBUG    | AgentRAG | [trace] agent.invoke result keys: ['messages']
+2026-01-03 00:14:11 | DEBUG    | AgentRAG | [trace] agent.invoke messages count: 4
+2026-01-03 00:14:11 | DEBUG    | AgentRAG | [trace] msg[0] type=HumanMessage role=human name= has_tool_calls=False content=四化是什么？
+2026-01-03 00:14:11 | DEBUG    | AgentRAG | [trace] msg[1] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:14:11 | DEBUG    | AgentRAG | [trace] msg[2] type=ToolMessage role=tool name=hybrid_search_tool has_tool_calls=False content==== 向量检索结果 ===
+未找到相关信息
+
+=== 图谱检索结果 ===
+匹配实体:
+- 四化、禄权科忌ABCD(要背熟)、星辰分男女。 | 类型: 四化系统 | 属性: {'四化名称': '禄权科忌', '代号': 'ABCD', '关联属性': '星辰分男女'}
+- 廉贞与军、警有关。包括人的忠诚度，会不会背叛...
+2026-01-03 00:14:11 | DEBUG    | AgentRAG | [trace] msg[3] type=AIMessage role=ai name= has_tool_calls=False content=在紫微斗数中，“四化”是指星曜的四种性质变化，即**化禄、化权、化科、化忌**。它是推断命理格局、运势起伏的核心逻辑系统。
+
+以下是基于知识库内容的详细解释：
+
+### 1. 基本定义与代号
+四化是星曜在不同天干作用下产生的能量转化。在现代四化命盘中，通常用大写字母代替：
+*   **化禄 (A)**：代表缘起、财禄、...
+2026-01-03 00:14:11 | INFO     | AgentRAG | 💬 Agent回答: 在紫微斗数中，“四化”是指星曜的四种性质变化，即**化禄、化权、化科、化忌**。它是推断命理格局、运势起伏的核心逻辑系统。
+
+以下是基于知识库内容的详细解释：
+
+### 1. 基本定义与代号
+四化是星曜在不同天干作用下产生的能量转化。在现代四化命盘中，通常用大写字母代替：
+*   **化禄 (A)**：代表缘起、财禄、顺利、收获。
+*   **化权 (B)**：代表权力、成就、开创、掌控。
+*  ...
+2026-01-03 00:14:11 | INFO     | AgentRAG | 📊 使用的工具: hybrid_search_tool
+2026-01-03 00:14:11 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:14:11 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:14:11 | INFO     | AgentRAG | 📝 用户提问: 命宫有什么作用？
+2026-01-03 00:14:11 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:14:11 | INFO     | AgentRAG | 开始调用Agent处理问题...
+2026-01-03 00:14:14 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:14:14 | DEBUG    | AgentRAG |    参数: {'query': '命宫的作用'}
+2026-01-03 00:14:14 | INFO     | AgentRAG | 🔄 混合检索: '命宫的作用'
+2026-01-03 00:14:14 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:14:14 | DEBUG    | AgentRAG |    参数: {'query': '命宫的作用'}
+2026-01-03 00:14:14 | INFO     | AgentRAG | 🔍 向量检索: '命宫的作用' -> 找到 0 条结果
+2026-01-03 00:14:14 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:14:14 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:14:14 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:14:14 | DEBUG    | AgentRAG |    参数: {'entity': '命宫的作用'}
+2026-01-03 00:14:14 | INFO     | AgentRAG | 🕸️  图谱检索: '命宫的作用' -> 未找到
+2026-01-03 00:14:14 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:14:14 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:14:14 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:14:14 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:14:21 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:14:21 | DEBUG    | AgentRAG |    参数: {'entity': '命宫'}
+2026-01-03 00:14:21 | INFO     | AgentRAG | 🕸️  图谱检索: '命宫' -> 找到关联
+2026-01-03 00:14:21 | INFO     | AgentRAG | ✅ 成功 工具返回: graph_search_tool
+2026-01-03 00:14:21 | DEBUG    | AgentRAG |    结果预览: 匹配实体:
+- 主贵又主名：条件要落命宫、官禄宫，还要会六吉星，如左辅、右弼、文昌、文曲、化科星等。主富又主财：条件要落在命宫、财帛宫、田宅宫，还要三方会合天相、天府、化禄星等。 | 类型: 判断规则 | 属性: {'规则名称': '紫微名利论', '主贵条件': {'宫位': ['命宫', '官禄宫'], '会照': '六吉星（左辅、右弼、文昌、文曲、化科等）'}, '主富条件': {'宫位': ['命宫', '财帛宫', '田宅宫'], '会照': ['天相', '天府', '化禄']}}
+- A、头脑比较灵活，如在命宫主智慧较高，行为较灵巧。
+B、驿马之星：主动，此动是看不到的动，如头脑的动，然后再付于行动的动。
+C、表兄弟主：含义有  2 - ... -
+
+(1)主近亲平辈  
+(2)以五官而言主眉毛。
+
+D、教化之星：天机星为乙木，木主仁主教化学术之星，因此天机星比较会从事学术研究教化之工作。 | 类型: 星曜体系 | 属性: {'星曜名称': '天机', '特性详解': {'智慧': '头脑灵活，行为灵巧', '驿马': '主动，先脑动后行动', '兄弟主': '近亲平辈，... (共2092字符)
+2026-01-03 00:14:21 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:14:21 | DEBUG    | AgentRAG |    参数: {'query': '命宫的作用'}
+2026-01-03 00:14:21 | INFO     | AgentRAG | 🔍 向量检索: '命宫的作用' -> 找到 0 条结果
+2026-01-03 00:14:21 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:14:21 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] agent.invoke result keys: ['messages']
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] agent.invoke messages count: 9
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] msg[0] type=HumanMessage role=human name= has_tool_calls=False content=命宫有什么作用？
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] msg[1] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] msg[2] type=ToolMessage role=tool name=hybrid_search_tool has_tool_calls=False content==== 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] msg[3] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] msg[4] type=ToolMessage role=tool name=graph_search_tool has_tool_calls=False content=Error invoking tool 'graph_search_tool' with kwargs {'query': '命宫'} with error:
+ entity: Field required
+ Please fix the error and try again.
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] msg[5] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] msg[6] type=ToolMessage role=tool name=graph_search_tool has_tool_calls=False content=匹配实体:
+- 主贵又主名：条件要落命宫、官禄宫，还要会六吉星，如左辅、右弼、文昌、文曲、化科星等。主富又主财：条件要落在命宫、财帛宫、田宅宫，还要三方会合天相、天府、化禄星等。 | 类型: 判断规则 | 属性: {'规则名称': '紫微名利论', '主贵条件': {'宫位': ['命宫', '官禄宫'], '会照':...
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] msg[7] type=ToolMessage role=tool name=vector_search_tool has_tool_calls=False content=未找到相关信息
+2026-01-03 00:14:26 | DEBUG    | AgentRAG | [trace] msg[8] type=AIMessage role=ai name= has_tool_calls=False content=在紫微斗数中，**命宫**被视为整个命盘的核心，是论断命运最重要的“太极点”。它的作用主要体现在以下几个方面：
+
+### 1. 统领全局的“太极点”
+命宫总揽人生的一切，是观察一个人命运吉凶的基准。它不仅代表了个人的性格、脾气，还涵盖了机缘、桃花、事业、婚姻等各方面的综合信息。
+
+### 2. 决定先天特质
+*   *...
+2026-01-03 00:14:26 | INFO     | AgentRAG | 💬 Agent回答: 在紫微斗数中，**命宫**被视为整个命盘的核心，是论断命运最重要的“太极点”。它的作用主要体现在以下几个方面：
+
+### 1. 统领全局的“太极点”
+命宫总揽人生的一切，是观察一个人命运吉凶的基准。它不仅代表了个人的性格、脾气，还涵盖了机缘、桃花、事业、婚姻等各方面的综合信息。
+
+### 2. 决定先天特质
+*   **性格与智慧：** 命宫反映了一个人的头脑灵活性和行为风格。例如，若天机星落在命...
+2026-01-03 00:14:26 | INFO     | AgentRAG | 📊 使用的工具: vector_search_tool, graph_search_tool, hybrid_search_tool
+2026-01-03 00:14:26 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:14:26 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:14:26 | INFO     | AgentRAG | 📝 用户提问: 禄权科忌分别代表什么？
+2026-01-03 00:14:26 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:14:26 | INFO     | AgentRAG | 开始调用Agent处理问题...
+2026-01-03 00:14:29 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:14:29 | DEBUG    | AgentRAG |    参数: {'query': '禄权科忌分别代表什么？'}
+2026-01-03 00:14:29 | INFO     | AgentRAG | 🔄 混合检索: '禄权科忌分别代表什么？'
+2026-01-03 00:14:29 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:14:29 | DEBUG    | AgentRAG |    参数: {'query': '禄权科忌分别代表什么？'}
+2026-01-03 00:14:29 | INFO     | AgentRAG | 🔍 向量检索: '禄权科忌分别代表什么？' -> 找到 0 条结果
+2026-01-03 00:14:29 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:14:29 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:14:29 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:14:29 | DEBUG    | AgentRAG |    参数: {'entity': '禄权科忌分别代表什么'}
+2026-01-03 00:14:29 | INFO     | AgentRAG | 🕸️  图谱检索: '禄权科忌分别代表什么' -> 未找到
+2026-01-03 00:14:29 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:14:29 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:14:29 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:14:29 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:14:32 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:14:32 | DEBUG    | AgentRAG |    参数: {'query': '化禄 化权 化科 化忌 的含义'}
+2026-01-03 00:14:32 | INFO     | AgentRAG | 🔍 向量检索: '化禄 化权 化科 化忌 的含义' -> 找到 0 条结果
+2026-01-03 00:14:32 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:14:32 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:14:36 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:14:36 | DEBUG    | AgentRAG |    参数: {'entity': '四化'}
+2026-01-03 00:14:36 | INFO     | AgentRAG | 🕸️  图谱检索: '四化' -> 找到关联
+2026-01-03 00:14:36 | INFO     | AgentRAG | ✅ 成功 工具返回: graph_search_tool
+2026-01-03 00:14:36 | DEBUG    | AgentRAG |    结果预览: 匹配实体:
+- 四化、禄权科忌ABCD(要背熟)、星辰分男女。 | 类型: 四化系统 | 属性: {'四化名称': '禄权科忌', '代号': 'ABCD', '关联属性': '星辰分男女'}
+- 廉贞与军、警有关。包括人的忠诚度，会不会背叛？唯有廉贞可观之(看它落何宫位？重点是你会不会观照？)。若比喻为中心思想，廉贞在内与外局的范围不同，不看四化而单只有廉贞一颗星的时候，看它在什么宫位？它就以什么为中心！ | 类型: 判断规则 | 属性: {'判断对象': '忠诚度、中心思想', '判断法则': '看廉贞落何宫位，即以该宫位为中心（对其宫位忠实）'}
+- 天府星：戊土
+
+天府星未参加四化，但相当于一颗化科星，又含有权令之星。 | 类型: 星曜体系 | 属性: {'主星名称': '天府星', '五行属性': '戊土', '特殊属性': '未参加四化，相当于化科星，含权令性质'}
+- 天府星未参加四化，但相当于一颗化科星，又含有权令之星，其特性：
+
+a. 主有才华、能干、多才多艺、主聪明、风度佳。
+b.因有财，较会计算，又有才华、能干，因此容易造就自傲或孤芳自赏，宜借后天的修养调适。 |... (共7685字符)
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] agent.invoke result keys: ['messages']
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] agent.invoke messages count: 8
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] msg[0] type=HumanMessage role=human name= has_tool_calls=False content=禄权科忌分别代表什么？
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] msg[1] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] msg[2] type=ToolMessage role=tool name=hybrid_search_tool has_tool_calls=False content==== 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] msg[3] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] msg[4] type=ToolMessage role=tool name=vector_search_tool has_tool_calls=False content=未找到相关信息
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] msg[5] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] msg[6] type=ToolMessage role=tool name=graph_search_tool has_tool_calls=False content=匹配实体:
+- 四化、禄权科忌ABCD(要背熟)、星辰分男女。 | 类型: 四化系统 | 属性: {'四化名称': '禄权科忌', '代号': 'ABCD', '关联属性': '星辰分男女'}
+- 廉贞与军、警有关。包括人的忠诚度，会不会背叛？唯有廉贞可观之(看它落何宫位？重点是你会不会观照？)。若比喻为中心思想，廉贞...
+2026-01-03 00:14:49 | DEBUG    | AgentRAG | [trace] msg[7] type=AIMessage role=ai name= has_tool_calls=False content=在紫微斗数中，“禄、权、科、忌”统称为**“四化”**（Si Hua），是命盘中能量变动的核心。它们分别代表了四种不同的能量性质和人生趋向。在学术表达中，常以 **A（禄）、B（权）、C（科）、D（忌）** 作为代号。
+
+根据检索到的知识库信息，其具体含义如下：
+
+### 1. 化禄 (A)：缘起、财禄、丰盈
+*   ...
+2026-01-03 00:14:49 | INFO     | AgentRAG | 💬 Agent回答: 在紫微斗数中，“禄、权、科、忌”统称为**“四化”**（Si Hua），是命盘中能量变动的核心。它们分别代表了四种不同的能量性质和人生趋向。在学术表达中，常以 **A（禄）、B（权）、C（科）、D（忌）** 作为代号。
+
+根据检索到的知识库信息，其具体含义如下：
+
+### 1. 化禄 (A)：缘起、财禄、丰盈
+*   **核心含义：** 代表“多”、“喜悦”、“财源”和“希望”。
+*   **特质...
+2026-01-03 00:14:49 | INFO     | AgentRAG | 📊 使用的工具: vector_search_tool, graph_search_tool, hybrid_search_tool
+2026-01-03 00:14:49 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:29 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:29 | INFO     | AgentRAG | Agent日志系统已启动
+2026-01-03 00:20:29 | INFO     | AgentRAG | 日志文件: outputs\logs\agent_chat_20260103.log
+2026-01-03 00:20:29 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:32 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:32 | INFO     | AgentRAG | 📝 用户提问: 四化是什么？
+2026-01-03 00:20:32 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:32 | INFO     | AgentRAG | 开始调用Agent处理问题...
+2026-01-03 00:20:35 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:20:35 | DEBUG    | AgentRAG |    参数: {'query': '四化是什么？'}
+2026-01-03 00:20:35 | INFO     | AgentRAG | 🔄 混合检索: '四化是什么？'
+2026-01-03 00:20:35 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:20:35 | DEBUG    | AgentRAG |    参数: {'query': '四化是什么？'}
+2026-01-03 00:20:35 | INFO     | AgentRAG | 🔍 向量检索: '四化是什么？' -> 找到 0 条结果
+2026-01-03 00:20:35 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:20:35 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:20:35 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:20:35 | DEBUG    | AgentRAG |    参数: {'entity': '四化是什么'}
+2026-01-03 00:20:35 | INFO     | AgentRAG | 🕸️  图谱检索: '四化是什么' -> 未找到
+2026-01-03 00:20:35 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:20:35 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:20:35 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:20:35 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:20:38 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:20:38 | DEBUG    | AgentRAG |    参数: {'query': '四个现代化'}
+2026-01-03 00:20:38 | INFO     | AgentRAG | 🔄 混合检索: '四个现代化'
+2026-01-03 00:20:38 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:20:38 | DEBUG    | AgentRAG |    参数: {'query': '四个现代化'}
+2026-01-03 00:20:38 | INFO     | AgentRAG | 🔍 向量检索: '四个现代化' -> 找到 0 条结果
+2026-01-03 00:20:38 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:20:38 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:20:38 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:20:38 | DEBUG    | AgentRAG |    参数: {'entity': '四个现代化'}
+2026-01-03 00:20:38 | INFO     | AgentRAG | 🕸️  图谱检索: '四个现代化' -> 未找到
+2026-01-03 00:20:38 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:20:38 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:20:38 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:20:38 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:20:42 | DEBUG    | AgentRAG | [trace] agent.invoke result keys: ['messages']
+2026-01-03 00:20:42 | DEBUG    | AgentRAG | [trace] agent.invoke messages count: 6
+2026-01-03 00:20:42 | DEBUG    | AgentRAG | [trace] msg[0] type=HumanMessage role=human name= has_tool_calls=False content=四化是什么？
+2026-01-03 00:20:42 | DEBUG    | AgentRAG | [trace] msg[1] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:20:42 | DEBUG    | AgentRAG | [trace] msg[2] type=ToolMessage role=tool name=hybrid_search_tool has_tool_calls=False content==== 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:20:42 | DEBUG    | AgentRAG | [trace] msg[3] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:20:42 | DEBUG    | AgentRAG | [trace] msg[4] type=ToolMessage role=tool name=hybrid_search_tool has_tool_calls=False content==== 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:20:42 | DEBUG    | AgentRAG | [trace] msg[5] type=AIMessage role=ai name= has_tool_calls=False content=针对您提到的“四化”，在目前的知识库中未找到直接相关的匹配信息。
+
+“四化”在不同的语境下可能有不同的含义，最常见的包括：
+1.  **四个现代化**：工业现代化、农业现代化、国防现代化、科学技术现代化。
+2.  **干部“四化”**：革命化、年轻化、知识化、专业化。
+3.  **其他领域**：如信息化、城镇化等相关的...
+2026-01-03 00:20:42 | INFO     | AgentRAG | 💬 Agent回答: 针对您提到的“四化”，在目前的知识库中未找到直接相关的匹配信息。
+
+“四化”在不同的语境下可能有不同的含义，最常见的包括：
+1.  **四个现代化**：工业现代化、农业现代化、国防现代化、科学技术现代化。
+2.  **干部“四化”**：革命化、年轻化、知识化、专业化。
+3.  **其他领域**：如信息化、城镇化等相关的政策表述。
+
+**证据:**
+> 检索结果显示：未找到相关信息。
+
+**建议：*...
+2026-01-03 00:20:42 | INFO     | AgentRAG | 📊 使用的工具: hybrid_search_tool
+2026-01-03 00:20:42 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:42 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:42 | INFO     | AgentRAG | 📝 用户提问: 命宫有什么作用？
+2026-01-03 00:20:42 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:42 | INFO     | AgentRAG | 开始调用Agent处理问题...
+2026-01-03 00:20:44 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:20:44 | DEBUG    | AgentRAG |    参数: {'query': '命宫的作用'}
+2026-01-03 00:20:44 | INFO     | AgentRAG | 🔄 混合检索: '命宫的作用'
+2026-01-03 00:20:44 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:20:44 | DEBUG    | AgentRAG |    参数: {'query': '命宫的作用'}
+2026-01-03 00:20:44 | INFO     | AgentRAG | 🔍 向量检索: '命宫的作用' -> 找到 0 条结果
+2026-01-03 00:20:44 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:20:44 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:20:44 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:20:44 | DEBUG    | AgentRAG |    参数: {'entity': '命宫的作用'}
+2026-01-03 00:20:44 | INFO     | AgentRAG | 🕸️  图谱检索: '命宫的作用' -> 未找到
+2026-01-03 00:20:44 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:20:44 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:20:44 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:20:44 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:20:47 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:20:47 | DEBUG    | AgentRAG |    参数: {'entity': '命宫'}
+2026-01-03 00:20:47 | INFO     | AgentRAG | 🕸️  图谱检索: '命宫' -> 找到关联
+2026-01-03 00:20:47 | INFO     | AgentRAG | ✅ 成功 工具返回: graph_search_tool
+2026-01-03 00:20:47 | DEBUG    | AgentRAG |    结果预览: 匹配实体:
+- 主贵又主名：条件要落命宫、官禄宫，还要会六吉星，如左辅、右弼、文昌、文曲、化科星等。主富又主财：条件要落在命宫、财帛宫、田宅宫，还要三方会合天相、天府、化禄星等。 | 类型: 判断规则 | 属性: {'规则名称': '紫微名利论', '主贵条件': {'宫位': ['命宫', '官禄宫'], '会照': '六吉星（左辅、右弼、文昌、文曲、化科等）'}, '主富条件': {'宫位': ['命宫', '财帛宫', '田宅宫'], '会照': ['天相', '天府', '化禄']}}
+- A、头脑比较灵活，如在命宫主智慧较高，行为较灵巧。
+B、驿马之星：主动，此动是看不到的动，如头脑的动，然后再付于行动的动。
+C、表兄弟主：含义有  2 - ... -
+
+(1)主近亲平辈  
+(2)以五官而言主眉毛。
+
+D、教化之星：天机星为乙木，木主仁主教化学术之星，因此天机星比较会从事学术研究教化之工作。 | 类型: 星曜体系 | 属性: {'星曜名称': '天机', '特性详解': {'智慧': '头脑灵活，行为灵巧', '驿马': '主动，先脑动后行动', '兄弟主': '近亲平辈，... (共2092字符)
+2026-01-03 00:20:51 | DEBUG    | AgentRAG | [trace] agent.invoke result keys: ['messages']
+2026-01-03 00:20:51 | DEBUG    | AgentRAG | [trace] agent.invoke messages count: 6
+2026-01-03 00:20:51 | DEBUG    | AgentRAG | [trace] msg[0] type=HumanMessage role=human name= has_tool_calls=False content=命宫有什么作用？
+2026-01-03 00:20:51 | DEBUG    | AgentRAG | [trace] msg[1] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:20:51 | DEBUG    | AgentRAG | [trace] msg[2] type=ToolMessage role=tool name=hybrid_search_tool has_tool_calls=False content==== 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:20:51 | DEBUG    | AgentRAG | [trace] msg[3] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:20:51 | DEBUG    | AgentRAG | [trace] msg[4] type=ToolMessage role=tool name=graph_search_tool has_tool_calls=False content=匹配实体:
+- 主贵又主名：条件要落命宫、官禄宫，还要会六吉星，如左辅、右弼、文昌、文曲、化科星等。主富又主财：条件要落在命宫、财帛宫、田宅宫，还要三方会合天相、天府、化禄星等。 | 类型: 判断规则 | 属性: {'规则名称': '紫微名利论', '主贵条件': {'宫位': ['命宫', '官禄宫'], '会照':...
+2026-01-03 00:20:51 | DEBUG    | AgentRAG | [trace] msg[5] type=AIMessage role=ai name= has_tool_calls=False content=在紫微斗数中，**命宫**被视为整个命盘的核心，具有至关重要的作用。根据检索到的知识库信息，其主要作用和地位可以概括为以下几点：
+
+### 1. 核心统领作用（太极点）
+命宫是紫微论断命运中**最重要的太极点**。它总揽人生的一切，是观察一个人命运全局的基准。
+
+### 2. 决定个人特质与机缘
+命宫直接反映了一个人的...
+2026-01-03 00:20:51 | INFO     | AgentRAG | 💬 Agent回答: 在紫微斗数中，**命宫**被视为整个命盘的核心，具有至关重要的作用。根据检索到的知识库信息，其主要作用和地位可以概括为以下几点：
+
+### 1. 核心统领作用（太极点）
+命宫是紫微论断命运中**最重要的太极点**。它总揽人生的一切，是观察一个人命运全局的基准。
+
+### 2. 决定个人特质与机缘
+命宫直接反映了一个人的核心个人信息，包括：
+*   **性格与脾气**：决定了个人的内在性格特质和外在...
+2026-01-03 00:20:51 | INFO     | AgentRAG | 📊 使用的工具: hybrid_search_tool, graph_search_tool
+2026-01-03 00:20:51 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:51 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:51 | INFO     | AgentRAG | 📝 用户提问: 禄权科忌分别代表什么？
+2026-01-03 00:20:51 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:20:51 | INFO     | AgentRAG | 开始调用Agent处理问题...
+2026-01-03 00:20:53 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:20:53 | DEBUG    | AgentRAG |    参数: {'query': '禄权科忌分别代表什么？'}
+2026-01-03 00:20:53 | INFO     | AgentRAG | 🔄 混合检索: '禄权科忌分别代表什么？'
+2026-01-03 00:20:53 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:20:53 | DEBUG    | AgentRAG |    参数: {'query': '禄权科忌分别代表什么？'}
+2026-01-03 00:20:54 | INFO     | AgentRAG | 🔍 向量检索: '禄权科忌分别代表什么？' -> 找到 0 条结果
+2026-01-03 00:20:54 | INFO     | AgentRAG | ❌ 失败 工具返回: vector_search_tool
+2026-01-03 00:20:54 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:20:54 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:20:54 | DEBUG    | AgentRAG |    参数: {'entity': '禄权科忌分别代表什么'}
+2026-01-03 00:20:54 | INFO     | AgentRAG | 🕸️  图谱检索: '禄权科忌分别代表什么' -> 未找到
+2026-01-03 00:20:54 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:20:54 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:20:54 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:20:54 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+未找到相关信息
+2026-01-03 00:29:04 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:29:04 | INFO     | AgentRAG | Agent日志系统已启动
+2026-01-03 00:29:04 | INFO     | AgentRAG | 日志文件: outputs\logs\agent_chat_20260103.log
+2026-01-03 00:29:04 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:29:46 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:29:46 | INFO     | AgentRAG | 📝 用户提问: 什么是四化
+2026-01-03 00:29:46 | INFO     | AgentRAG | ================================================================================
+2026-01-03 00:29:46 | INFO     | AgentRAG | 开始调用Agent处理问题...
+2026-01-03 00:29:48 | INFO     | AgentRAG | 🔧 调用工具: hybrid_search_tool
+2026-01-03 00:29:48 | DEBUG    | AgentRAG |    参数: {'query': '四化 定义 是什么'}
+2026-01-03 00:29:48 | INFO     | AgentRAG | 🔄 混合检索: '四化 定义 是什么'
+2026-01-03 00:29:48 | INFO     | AgentRAG | 🔧 调用工具: vector_search_tool
+2026-01-03 00:29:48 | DEBUG    | AgentRAG |    参数: {'query': '四化 定义 是什么'}
+2026-01-03 00:29:49 | INFO     | AgentRAG | 🔍 向量检索: '四化 定义 是什么' -> 找到 5 条结果
+2026-01-03 00:29:49 | INFO     | AgentRAG | ✅ 成功 工具返回: vector_search_tool
+2026-01-03 00:29:49 | DEBUG    | AgentRAG |    结果预览: [V1] 专业术语定义: 生年四化
+     来源: 白派飞宫紫微斗数速成体系(1).pdf
+
+[V2] 专业术语定义: 向心自化、离心自化。
+     位置: 字符 319-329
+     来源: 云中清钦天四化讲义2024-有页码(1).pdf
+     属性: {'类型': '核心概念', '术语名称': '自化', '分类': ['向心自化', '离心自化']}
+
+[V3] 四化系统: 四化、禄权科忌ABCD(要背熟)、星辰分男女。
+     位置: 字符 291-314
+     来源: 云中清钦天四化讲义2024-有页码(1).pdf
+     属性: {'四化名称': '禄权科忌', '代号': 'ABCD', '关联属性': '星辰分男女'}
+
+[V4] 四化系统: 生年四化占宫含义
+     来源: 白派飞宫紫微斗数速成体系(1).pdf
+     属性: {'基本含义': '生年四化占据宫位表示该宫位象征的事物必然存在', '性质': '先天、永恒不灭'}
+
+[V5] extraction_text: 生年四化除了代表生年质的含义意外，还代表着四种不同性质的影响。... (共551字符)
+2026-01-03 00:29:49 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:29:49 | DEBUG    | AgentRAG |    参数: {'entity': '四化'}
+2026-01-03 00:29:49 | INFO     | AgentRAG | 🕸️  图谱检索: '四化' -> 找到关联
+2026-01-03 00:29:49 | INFO     | AgentRAG | ✅ 成功 工具返回: graph_search_tool
+2026-01-03 00:29:49 | DEBUG    | AgentRAG |    结果预览: 匹配实体:
+- 四化、禄权科忌ABCD(要背熟)、星辰分男女。 | 类型: 四化系统 | 属性: {'四化名称': '禄权科忌', '代号': 'ABCD', '关联属性': '星辰分男女'}
+- 廉贞与军、警有关。包括人的忠诚度，会不会背叛？唯有廉贞可观之(看它落何宫位？重点是你会不会观照？)。若比喻为中心思想，廉贞在内与外局的范围不同，不看四化而单只有廉贞一颗星的时候，看它在什么宫位？它就以什么为中心！ | 类型: 判断规则 | 属性: {'判断对象': '忠诚度、中心思想', '判断法则': '看廉贞落何宫位，即以该宫位为中心（对其宫位忠实）'}
+- 天府星：戊土
+
+天府星未参加四化，但相当于一颗化科星，又含有权令之星。 | 类型: 星曜体系 | 属性: {'主星名称': '天府星', '五行属性': '戊土', '特殊属性': '未参加四化，相当于化科星，含权令性质'}
+- 天府星未参加四化，但相当于一颗化科星，又含有权令之星，其特性：
+
+a. 主有才华、能干、多才多艺、主聪明、风度佳。
+b.因有财，较会计算，又有才华、能干，因此容易造就自傲或孤芳自赏，宜借后天的修养调适。 |... (共7685字符)
+2026-01-03 00:29:49 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:29:49 | DEBUG    | AgentRAG |    参数: {'entity': '定义'}
+2026-01-03 00:29:49 | INFO     | AgentRAG | 🕸️  图谱检索: '定义' -> 未找到
+2026-01-03 00:29:49 | INFO     | AgentRAG | ❌ 失败 工具返回: graph_search_tool
+2026-01-03 00:29:49 | DEBUG    | AgentRAG |    结果预览: 未找到相关信息
+2026-01-03 00:29:49 | INFO     | AgentRAG | 🔧 调用工具: graph_search_tool
+2026-01-03 00:29:49 | DEBUG    | AgentRAG |    参数: {'entity': '是什么'}
+2026-01-03 00:29:49 | INFO     | AgentRAG | 🕸️  图谱检索: '是什么' -> 找到关联
+2026-01-03 00:29:49 | INFO     | AgentRAG | ✅ 成功 工具返回: graph_search_tool
+2026-01-03 00:29:49 | DEBUG    | AgentRAG |    结果预览: 匹配实体:
+- 很多新人在刚学习的时候，都是非常重视星情的，比如某某星是什么含义，在什么宫代表什么现象。 | 类型: 判断规则 | 属性: {'类型': '学习误区', '前提条件': '紫微斗数初学阶段', '结论': '过度重视单一星曜星情', 'extraction_text': '很多新人在刚学习的时候，都是非常重视星情的，比如某某星是什么含义，在什么宫代表什么现象。'}
+2026-01-03 00:29:49 | INFO     | AgentRAG | ✅ 成功 工具返回: hybrid_search_tool
+2026-01-03 00:29:49 | DEBUG    | AgentRAG |    结果预览: === 向量检索结果 ===
+[V1] 专业术语定义: 生年四化
+     来源: 白派飞宫紫微斗数速成体系(1).pdf
+
+[V2] 专业术语定义: 向心自化、离心自化。
+     位置: 字符 319-329
+     来源: 云中清钦天四化讲义2024-有页码(1).pdf
+     属性: {'类型': '核心概念', '术语名称': '自化', '分类': ['向心自化', '离心自化']}
+
+[V3] 四化系统: 四化、禄权科忌ABCD(要背熟)、星辰分男女。
+     位置: 字符 291-314
+     来源: 云中清钦天四化讲义2024-有页码(1).pdf
+     属性: {'四化名称': '禄权科忌', '代号': 'ABCD', '关联属性': '星辰分男女'}
+
+[V4] 四化系统: 生年四化占宫含义
+     来源: 白派飞宫紫微斗数速成体系(1).pdf
+     属性: {'基本含义': '生年四化占据宫位表示该宫位象征的事物必然存在', '性质': '先天、永恒不灭'}
+
+[V5] extraction_text: 生年四化除了代表生年质的含义意外... (共8460字符)
+2026-01-03 00:30:01 | DEBUG    | AgentRAG | [trace] agent.invoke result keys: ['messages']
+2026-01-03 00:30:01 | DEBUG    | AgentRAG | [trace] agent.invoke messages count: 4
+2026-01-03 00:30:01 | DEBUG    | AgentRAG | [trace] msg[0] type=HumanMessage role=human name= has_tool_calls=False content=什么是四化
+2026-01-03 00:30:01 | DEBUG    | AgentRAG | [trace] msg[1] type=AIMessage role=ai name= has_tool_calls=True content=
+2026-01-03 00:30:01 | DEBUG    | AgentRAG | [trace] msg[2] type=ToolMessage role=tool name=hybrid_search_tool has_tool_calls=False content==== 向量检索结果 ===
+[V1] 专业术语定义: 生年四化
+     来源: 白派飞宫紫微斗数速成体系(1).pdf
+
+[V2] 专业术语定义: 向心自化、离心自化。
+     位置: 字符 319-329
+     来源: 云中清钦天四化讲义2024-有页码(1).pdf
+     属性: {'类型': '核心...
+2026-01-03 00:30:01 | DEBUG    | AgentRAG | [trace] msg[3] type=AIMessage role=ai name= has_tool_calls=False content=“四化”是紫微斗数中的一个核心概念，指的是**化禄、化权、化科、化忌**这四种能量变化体系，合称为“四化”。  
+它们常以 **禄、权、科、忌**（也称 ABCD）来表示，是用来判断命盘中事情如何发生、如何发展的重要工具。
+
+基于知识库中的定义与说明，可以这样理解：
+
+一、四化的基本定义  
+四化就是命盘中由生年（出生...
+2026-01-03 00:30:01 | INFO     | AgentRAG | 💬 Agent回答: “四化”是紫微斗数中的一个核心概念，指的是**化禄、化权、化科、化忌**这四种能量变化体系，合称为“四化”。  
+它们常以 **禄、权、科、忌**（也称 ABCD）来表示，是用来判断命盘中事情如何发生、如何发展的重要工具。
+
+基于知识库中的定义与说明，可以这样理解：
+
+一、四化的基本定义  
+四化就是命盘中由生年（出生天干）所引动的四种先天能量变化，称为**生年四化**。  
+生年四化属于**先天...
+2026-01-03 00:30:01 | INFO     | AgentRAG | 📊 使用的工具: hybrid_search_tool
+2026-01-03 00:30:01 | INFO     | AgentRAG | ================================================================================
