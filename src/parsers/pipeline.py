@@ -60,7 +60,9 @@ class KnowledgeExtractionPipeline:
     def extract(
         self,
         text: str,
-        max_length: int = 8000
+        max_length: int = 8000,
+        *,
+        parallel_workers: Optional[int] = None,
     ) -> Tuple[List[KnowledgeExtraction], List[RelationTriple]]:
         """
         执行完整的知识提取流水线
@@ -82,7 +84,11 @@ class KnowledgeExtractionPipeline:
         if not quiet:
             logger.info("【阶段 1/2】开始提取实体...")
         try:
-            extractions = self.entity_extractor.extract_from_text(text, max_length)
+            extractions = self.entity_extractor.extract_from_text(
+                text,
+                max_length,
+                parallel_workers=parallel_workers,
+            )
             if not quiet:
                 logger.info(f"【阶段 1/2】完成: 提取了 {len(extractions)} 个实体")
         except Exception as e:

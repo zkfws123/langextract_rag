@@ -14,6 +14,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 load_dotenv(PROJECT_ROOT / ".env", override=True)
 
 from src.ui.session import get_session
+from src.ui.ui_logger import setup_ui_logger
 from src.ui.kb_sidebar import render_kb_sidebar
 from src.ui.doc_workflow import render_doc_workflow
 from src.ui.settings_sidebar import render_settings_sidebar
@@ -37,6 +38,68 @@ st.set_page_config(
 )
 
 # ============================================================================
+# iOS-ish theme: soft background, cards, subtle borders, better typography
+# ============================================================================
+st.markdown(
+        """
+        <style>
+            :root {
+                --ios-bg: #0e1117;
+                --ios-card: rgba(17, 24, 39, 0.78);
+                --ios-border: rgba(148, 163, 184, 0.18);
+                --ios-text: rgba(255, 255, 255, 0.92);
+                --ios-muted: rgba(255, 255, 255, 0.64);
+                --ios-primary: #0A84FF;
+                --ios-primary-2: #7C3AED;
+            }
+
+            .stApp {
+                background: radial-gradient(1200px 900px at 10% 0%, rgba(10,132,255,0.14), transparent 60%),
+                                        radial-gradient(1100px 800px at 90% 10%, rgba(124,58,237,0.14), transparent 62%),
+                                        var(--ios-bg) !important;
+                color: var(--ios-text) !important;
+            }
+
+            /* Make main container feel like a card */
+            section.main > div {
+                padding-top: 0.25rem;
+            }
+
+            /* Sidebar polish */
+            section[data-testid="stSidebar"] {
+                background: linear-gradient(180deg, rgba(17,24,39,0.86), rgba(17,24,39,0.72)) !important;
+                border-right: 1px solid var(--ios-border) !important;
+                backdrop-filter: blur(14px);
+            }
+
+            /* Expander card look */
+            div[data-testid="stExpander"] {
+                border: 1px solid var(--ios-border) !important;
+                border-radius: 14px !important;
+                background: var(--ios-card) !important;
+                box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+            }
+
+            /* Inputs */
+            input, textarea {
+                border-radius: 12px !important;
+            }
+
+            /* Tabs - slightly round */
+            div[data-baseweb="tab"] {
+                border-radius: 999px !important;
+            }
+
+            /* Captions */
+            .stCaption {
+                color: var(--ios-muted) !important;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
+)
+
+# ============================================================================
 # 全局样式：美化按钮选中态（primary）
 # ============================================================================
 st.markdown(
@@ -54,14 +117,14 @@ st.markdown(
 
             /* Secondary (unselected) */
             .stButton > button[kind="secondary"] {
-                background: rgba(15, 23, 42, 0.06) !important;
-                color: rgba(15, 23, 42, 0.86) !important;
+                background: rgba(255, 255, 255, 0.06) !important;
+                color: rgba(255, 255, 255, 0.88) !important;
             }
             .stButton > button[kind="secondary"]:hover {
-                background: rgba(15, 23, 42, 0.09) !important;
+                background: rgba(255, 255, 255, 0.10) !important;
                 border-color: rgba(148, 163, 184, 0.55) !important;
                 transform: translateY(-1px);
-                box-shadow: 0 8px 22px rgba(15, 23, 42, 0.12) !important;
+                box-shadow: 0 8px 22px rgba(15, 23, 42, 0.22) !important;
             }
 
             /* Primary (selected) */
@@ -99,6 +162,9 @@ st.markdown(
 # 初始化 Session
 # ============================================================================
 session = get_session()
+
+# 初始化 UI 日志捕获（写入 session_state.ui_logs）
+setup_ui_logger()
 
 # ============================================================================
 # 侧边栏：知识库管理 + 文档工作流 + 设置
@@ -142,6 +208,24 @@ with tab5:
 
 with tab6:
     render_insights_tab(session)
+
+# ============================================================================
+# 日志面板（底部可折叠）
+# ============================================================================
+with st.expander("🧾 运行日志", expanded=False):
+    col_a, col_b = st.columns([1, 1])
+    with col_a:
+        st.caption("显示提取/关系抽取/入库等流程的开始-结束日志（自动滚动保存最近 N 行）。")
+    with col_b:
+        if st.button("清空日志", use_container_width=True):
+            session.ui_logs_clear()
+            st.rerun()
+
+    logs = session.ui_logs
+    if not logs:
+        st.info("暂无日志")
+    else:
+        st.code("\n".join(logs[-500:]), language="text")
 
 # ============================================================================
 # 页脚

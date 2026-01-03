@@ -35,6 +35,32 @@ def render_settings_sidebar(session: SessionManager):
     
     # 提取配置
     with st.expander("知识提取配置", expanded=False):
+        st.markdown("**并行分块提取**")
+
+        parallel_enabled = st.toggle(
+            "启用并行",
+            value=session.extraction_parallel_enabled,
+            help="开启后会并行处理分块提取（速度更快，但更吃资源）",
+            key="extraction_parallel_enabled",
+        )
+
+        workers = st.number_input(
+            "Workers",
+            min_value=2,
+            max_value=16,
+            value=int(session.extraction_parallel_workers or 4),
+            step=1,
+            disabled=not parallel_enabled,
+            help="并行 worker 数量（建议 2~8）",
+            key="extraction_parallel_workers",
+        )
+
+        # Also mirror to env so non-UI codepaths can reuse.
+        if parallel_enabled:
+            os.environ["EXTRACTION_PARALLEL_WORKERS"] = str(int(workers))
+        else:
+            os.environ["EXTRACTION_PARALLEL_WORKERS"] = "1"
+
         st.markdown("**文档类型选择**")
         
         # 文档类型选择

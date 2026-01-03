@@ -10,6 +10,7 @@ Note: This script calls the configured LLM endpoint via langextract.
 from __future__ import annotations
 
 import os
+from pathlib import Path
 from collections import Counter
 
 
@@ -20,21 +21,22 @@ def main() -> int:
     from src.parsers.knowledge_extractor import KnowledgeExtractor
     from src.parsers.relation_extractor import RelationExtractor
 
-    # Mixed snippet: 星曜 + 四化 + 宫位关系 + 案例/技法
-    # Keep it short to make debug runs fast.
-    text = (
-        "# 星曜与四化\n\n"
-        "紫微星为帝星，天府星为财库星。\n"
-        "禄主缘起，忌主阻滞。\n\n"
-        "# 宫位关系\n\n"
-        "命宫对宫为迁移宫，三合方为财帛宫与官禄宫。\n\n"
-        "# 案例：婚姻分析\n\n"
-        "夫妻宫有生年忌，主感情不顺，但也寓意命主必定有婚姻。\n"
-        "来因宫在子女宫，以子女为媒介促成婚姻。\n"
-        "技法：用‘媒介’与‘串联’看宫位如何推动事件发展。\n"
+    src_path = Path(
+        r"outputs\knowledge_bases\57e434ee\documents\3baf1340\content.md"
     )
+    raw = src_path.read_text(encoding="utf-8")
 
-    exts = KnowledgeExtractor(doc_id="dbg", doc_title="dbg").extract_from_text(text, max_length=5000)
+    # Take an early window that's long enough to force chunking, but not too massive.
+    # (Keep it deterministic for repeatable debug runs.)
+    text = raw[:20000]
+
+    extractor = KnowledgeExtractor(doc_id="dbg", doc_title="dbg")
+    exts = extractor.extract_from_text(
+        text,
+        max_length=5000,
+        enable_chunking=True,
+        parallel_workers=4,
+    )
 
     classes = [e.extraction_class for e in exts]
     counts = Counter(classes)

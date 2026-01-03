@@ -49,6 +49,18 @@ class SessionManager:
         if "selected_doc_type" not in st.session_state:
             from src.configs import ConfigType
             st.session_state.selected_doc_type = ConfigType.ZIWEI_DOUSHU
+
+        # 并行提取设置（UI 控制）
+        if "extraction_parallel_enabled" not in st.session_state:
+            st.session_state.extraction_parallel_enabled = False
+        if "extraction_parallel_workers" not in st.session_state:
+            st.session_state.extraction_parallel_workers = 4
+
+        # UI 日志缓冲（给前端日志面板用）
+        if "ui_logs" not in st.session_state:
+            st.session_state.ui_logs = []
+        if "ui_logs_max_lines" not in st.session_state:
+            st.session_state.ui_logs_max_lines = 500
         
         # 图谱和向量库
         if "graph_store" not in st.session_state:
@@ -193,6 +205,51 @@ class SessionManager:
     @selected_doc_type.setter
     def selected_doc_type(self, value):
         st.session_state.selected_doc_type = value
+
+    # ========== 并行提取设置 ==========
+
+    @property
+    def extraction_parallel_enabled(self) -> bool:
+        return bool(st.session_state.get("extraction_parallel_enabled", False))
+
+    @extraction_parallel_enabled.setter
+    def extraction_parallel_enabled(self, value: bool):
+        st.session_state.extraction_parallel_enabled = bool(value)
+
+    @property
+    def extraction_parallel_workers(self) -> int:
+        try:
+            return int(st.session_state.get("extraction_parallel_workers", 4))
+        except Exception:
+            return 4
+
+    @extraction_parallel_workers.setter
+    def extraction_parallel_workers(self, value: int):
+        try:
+            st.session_state.extraction_parallel_workers = int(value)
+        except Exception:
+            st.session_state.extraction_parallel_workers = 4
+
+    # ========== UI 日志 ==========
+
+    @property
+    def ui_logs(self) -> List[str]:
+        return st.session_state.ui_logs
+
+    @property
+    def ui_logs_max_lines(self) -> int:
+        return int(st.session_state.get("ui_logs_max_lines", 500))
+
+    def ui_log(self, message: str) -> None:
+        """Append one log line to the UI buffer (ring buffer)."""
+        msg = str(message)
+        st.session_state.ui_logs.append(msg)
+        max_lines = self.ui_logs_max_lines
+        if max_lines and len(st.session_state.ui_logs) > max_lines:
+            st.session_state.ui_logs = st.session_state.ui_logs[-max_lines:]
+
+    def ui_logs_clear(self) -> None:
+        st.session_state.ui_logs = []
     
     # ========== 图谱和向量库 ==========
     

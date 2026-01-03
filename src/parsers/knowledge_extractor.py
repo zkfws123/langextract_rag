@@ -4,7 +4,8 @@ import textwrap
 import time
 import logging
 from pathlib import Path
-from typing import List, Optional, Any, Dict
+from typing import List, Optional, Any, Dict, Iterable, Tuple
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import langextract as lx
 from dotenv import load_dotenv
@@ -73,6 +74,11 @@ def _coerce_langextract_payload(content: str) -> str:
     import json
 
     stripped = _strip_markdown_fence(content)
+    # Some gateways return JSON-like strings with invalid backslash escapes.
+    # As a best-effort sanitizer, remove stray backslashes that don't start a valid JSON escape.
+    # This prevents hard failures like: Invalid \escape at some position.
+    # Note: This is lossy, but preferable to a total parse failure.
+    stripped = re.sub(r"\\(?![\\/bfnrt\"]|u[0-9a-fA-F]{4})", "", stripped)
     try:
         parsed = json.loads(stripped)
     except Exception:
@@ -230,9 +236,27 @@ def _patch_langextract_json_parser():
 
             return data
         
+        def _repair_json_invalid_escapes(s: str) -> str:
+            """Best-effort repair for common invalid JSON escapes (e.g. `\m`, `\Q`).
+
+            Some gateways/models emit JSON-like text where backslashes appear before
+            non-JSON escape characters, triggering `Invalid \\escape` in json.loads.
+            We conservatively convert those sequences to a literal backslash.
+            """
+
+            if not s or "\\" not in s:
+                return s
+
+            # Valid JSON escape sequences: \\ \/ \" \b \f \n \r \t \uXXXX
+            # Replace any other `\X` with `\\X` (i.e. literal backslash + X).
+            return re.sub(r"\\(?![\\/\"bfnrtu])", r"\\\\", s)
+
         def patched_parse_output(self, content: str, *args, **kwargs):
             # Normalize to langextract's expected payload shape.
             content = _coerce_langextract_payload(content)
+
+            # Repair common invalid escapes before any JSON parsing.
+            content = _repair_json_invalid_escapes(content)
             
             # Try to pre-process JSON to fix extraction_text types
             try:
@@ -297,29 +321,147 @@ class KnowledgeExtractor:
     def _build_examples(self) -> List[lx.data.ExampleData]:
         return ZIWEI_EXAMPLES
 
-    def extract_from_text(self, text: str, max_length: int = 8000) -> List[KnowledgeExtraction]:
+    def _split_text_to_chunks(self, text: str, *, max_length: int) -> List[Tuple[int, str]]:
+        """Split long text to chunks preserving global offsets.
+
+        Returns list of (offset, chunk_text). Offsets are absolute char indices into `text`.
+
+        Strategy:
+        - Prefer paragraph-based chunks (split on blank lines).
+        - If a single paragraph is too long, fall back to fixed-size slicing.
+        """
+
+        if not text:
+            return [(0, "")]
+
+        if len(text) <= max_length:
+            return [(0, text)]
+
+        chunks: List[Tuple[int, str]] = []
+
+        # Split into paragraphs while keeping separator lengths so offsets stay accurate.
+        parts = re.split(r"(\n\s*\n)", text)
+        offset = 0
+        buf_offset: Optional[int] = None
+        buf = ""
+
+        def _flush_buffer():
+            nonlocal buf_offset, buf
+            if buf:
+                chunks.append((buf_offset or 0, buf))
+            buf_offset = None
+            buf = ""
+
+        for part in parts:
+            if part == "":
+                continue
+
+            # If it's a blank-line separator, always attach it to the current buffer.
+            if re.fullmatch(r"\n\s*\n", part):
+                if buf == "":
+                    # leading separators: keep offset advancing but don't start a chunk
+                    offset += len(part)
+                    continue
+                # Only add separator if it doesn't blow the chunk.
+                if len(buf) + len(part) <= max_length:
+                    buf += part
+                    offset += len(part)
+                    continue
+                _flush_buffer()
+                offset += len(part)
+                continue
+
+            # Normal text paragraph.
+            para = part
+
+            if len(para) > max_length:
+                # Paragraph itself is too long: flush current buffer, then slice paragraph.
+                _flush_buffer()
+                start = 0
+                while start < len(para):
+                    chunk = para[start : start + max_length]
+                    chunks.append((offset + start, chunk))
+                    start += max_length
+                offset += len(para)
+                continue
+
+            if buf == "":
+                buf_offset = offset
+                buf = para
+                offset += len(para)
+                continue
+
+            if len(buf) + len(para) <= max_length:
+                buf += para
+                offset += len(para)
+                continue
+
+            _flush_buffer()
+            buf_offset = offset
+            buf = para
+            offset += len(para)
+
+        _flush_buffer()
+
+        # Ensure we didn't somehow create empty output.
+        return chunks or [(0, text[:max_length])]
+
+    def _dedupe_extractions(self, extractions: List[KnowledgeExtraction]) -> List[KnowledgeExtraction]:
+        """Best-effort de-dup across chunk boundaries."""
+
+        seen: set[tuple] = set()
+        deduped: List[KnowledgeExtraction] = []
+
+        for ext in extractions:
+            key = (
+                (ext.extraction_class or "").strip(),
+                (ext.extraction_text or "").strip(),
+                (ext.char_interval or {}).get("start_pos"),
+                (ext.char_interval or {}).get("end_pos"),
+            )
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append(ext)
+        return deduped
+
+    def extract_from_text(
+        self,
+        text: str,
+        max_length: int = 8000,
+        *,
+        enable_chunking: bool = True,
+        parallel_workers: Optional[int] = None,
+    ) -> List[KnowledgeExtraction]:
         """
         Extract knowledge using LangExtract with full char_interval traceability.
 
-        使用简单的单次抽取策略（参考之前的稳定版本）：
-        - 不使用分块并行（避免extraction_text类型错误）
-        - 单线程处理（避免日志混乱）
-        - 保留文本截断限制（避免超长文本导致超时）
+        Prefer full-text coverage:
+        - When text is longer than `max_length`, optionally split into chunks.
+        - Optionally run chunks in parallel and merge results.
+        - Always convert chunk-local char_interval to global char_interval via offset.
         """
         quiet = (os.getenv("EXTRACTION_QUIET", "1").strip().lower() in {"1", "true", "yes", "on"})
 
-        # 截断文本到max_length
-        if len(text) > max_length:
-            extraction_text = text[:max_length]
+        # Decide chunking + parallelism.
+        effective_parallel = parallel_workers
+        if effective_parallel is None:
+            # Default: keep stable single-thread behavior unless explicitly enabled.
+            env_parallel = (os.getenv("EXTRACTION_PARALLEL_WORKERS", "").strip() or "")
+            if env_parallel.isdigit():
+                effective_parallel = max(1, int(env_parallel))
+            else:
+                effective_parallel = 1
+
+        chunks: List[Tuple[int, str]]
+        if enable_chunking and len(text) > max_length:
+            chunks = self._split_text_to_chunks(text, max_length=max_length)
             if not quiet:
-                logger.info(f"文本过长，截断至 {max_length} 字符（原长度: {len(text)}）")
+                logger.info(f"文本过长，启用分块: total_length={len(text):,}, chunks={len(chunks)}")
         else:
-            extraction_text = text
+            chunks = [(0, text)]
 
         api_key, base_url, model_id = self._model_config
-        if not quiet:
-            logger.info(f"开始知识提取: model={model_id}, text_length={len(extraction_text):,} chars")
-            logger.info(f"  API: {base_url}")
 
         attempts = [
             {"force_json": False, "fence_output": True},
@@ -327,131 +469,170 @@ class KnowledgeExtractor:
             {"force_json": True, "fence_output": True},
         ]
 
-        last_err: Optional[Exception] = None
-        for idx, cfg in enumerate(attempts, start=1):
+        def _extract_one_chunk(chunk_offset: int, chunk_text: str) -> List[KnowledgeExtraction]:
+            if not chunk_text:
+                return []
+
             if not quiet:
-                logger.info(f"尝试 {idx}/{len(attempts)}: force_json={cfg['force_json']}, fence_output={cfg['fence_output']}")
-            model = self.model if not cfg["force_json"] else _build_openai_language_model(api_key, base_url, model_id, force_json=True)
-            try:
-                result = lx.extract(
-                    text_or_documents=extraction_text,
-                    prompt_description=self.prompt,
-                    examples=self.examples,
-                    model=model,
-                    fence_output=cfg["fence_output"],
-                    use_schema_constraints=False,
-                    prompt_validation_level=PromptValidationLevel.OFF,
-                    temperature=0,
-                    max_workers=1,            # 单线程处理（避免extraction_text类型错误）
-                    show_progress=True,
+                logger.info(
+                    f"开始分块提取: model={model_id}, chunk_offset={chunk_offset}, chunk_length={len(chunk_text):,}"
                 )
+
+            last_err: Optional[Exception] = None
+            result = None
+            for attempt_idx, cfg in enumerate(attempts, start=1):
                 if not quiet:
-                    logger.info(f"✓ 提取成功（尝试 {idx}）: 获得 {len(result.extractions)} 个提取结果")
-                break
-            except (KeyboardInterrupt, SystemExit):
-                # Stop immediately on user/app interruption (Streamlit stop, Ctrl+C, etc.)
-                logger.warning("检测到中断信号，停止知识提取重试")
-                raise
-            except Exception as e:
-                last_err = e
-                error_type = type(e).__name__
-                error_msg = str(e)
-                logger.error(f"✗ 提取失败（尝试 {idx}）: {error_type}: {error_msg}")
-
-                # During interpreter shutdown, thread pools can't accept new tasks.
-                # Retrying only makes it worse, so fail fast.
-                if isinstance(e, RuntimeError) and "cannot schedule new futures after interpreter shutdown" in error_msg:
-                    logger.error("解释器正在关闭，终止重试以避免 futures 提交失败")
-                    raise
-
-                # 记录详细的错误堆栈（仅在最后一次尝试时）
-                if idx == len(attempts):
-                    import traceback
-                    logger.error(f"完整错误堆栈:\n{traceback.format_exc()}")
-
-                # Small backoff to ride out transient empty responses / rate limits.
-                if idx < len(attempts):
-                    if not quiet:
-                        logger.info(f"等待 1 秒后重试...")
-                    time.sleep(1.0)
-        else:
-            assert last_err is not None
-            if not quiet:
-                logger.error(f"所有尝试均失败，抛出最后一个错误")
-            raise last_err
-
-        extractions: List[KnowledgeExtraction] = []
-        # result itself is an AnnotatedDocument
-        if not quiet:
-            logger.info(f"开始处理 {len(result.extractions)} 个提取结果...")
-
-        # Keep ZiWei domain classes intact, but guard against field-name leakage.
-        def _normalize_extraction_class(raw: Any) -> tuple[str, Optional[str]]:
-            """Return (class_value, original_if_changed). Only fixes obvious invalid values."""
-            try:
-                s = ("" if raw is None else str(raw)).strip()
-            except Exception:
-                s = ""
-            if not s:
-                return "专业术语定义", None
-            bad = {"extraction_text", "extraction_class", "char_interval", "attributes"}
-            if s in bad:
-                return "专业术语定义", s
-            return s, None
-
-        type_error_count = 0
-        for idx, ext in enumerate(result.extractions):
-            ext_text = ext.extraction_text
-
-            # Normalize extraction_class to stable coarse classes.
-            norm_class, original_class = _normalize_extraction_class(getattr(ext, "extraction_class", None))
-
-            # 检查并修复 extraction_text 类型问题
-            if not isinstance(ext_text, (str, int, float)):
-                type_error_count += 1
-                original_type = type(ext_text).__name__
-                logger.warning(
-                    f"提取结果 #{idx+1} 的 extraction_text 类型错误: "
-                    f"期望 str/int/float，实际为 {original_type}"
+                    logger.info(
+                        f"  尝试 {attempt_idx}/{len(attempts)}: force_json={cfg['force_json']}, fence_output={cfg['fence_output']}"
+                    )
+                model = (
+                    self.model
+                    if not cfg["force_json"]
+                    else _build_openai_language_model(api_key, base_url, model_id, force_json=True)
                 )
-
                 try:
-                    import json
-                    ext_text = json.dumps(ext_text, ensure_ascii=False)
-                    logger.info(f"  → 已转换为 JSON 字符串: {ext_text[:100]}...")
+                    result = lx.extract(
+                        text_or_documents=chunk_text,
+                        prompt_description=self.prompt,
+                        examples=self.examples,
+                        model=model,
+                        fence_output=cfg["fence_output"],
+                        use_schema_constraints=False,
+                        prompt_validation_level=PromptValidationLevel.OFF,
+                        temperature=0,
+                        # Keep langextract internal concurrency disabled; we handle parallelism at chunk level.
+                        max_workers=1,
+                        show_progress=True,
+                    )
+                    if not quiet:
+                        logger.info(f"  ✓ 分块提取成功（尝试 {attempt_idx}）: {len(result.extractions)}")
+                    break
+                except (KeyboardInterrupt, SystemExit):
+                    logger.warning("检测到中断信号，停止知识提取重试")
+                    raise
                 except Exception as e:
-                    ext_text = str(ext_text)
-                    logger.warning(f"  → JSON 转换失败，使用 str() 转换: {e}")
+                    last_err = e
+                    error_type = type(e).__name__
+                    error_msg = str(e)
+                    logger.error(f"  ✗ 分块提取失败（尝试 {attempt_idx}）: {error_type}: {error_msg}")
 
-            char_interval = None
-            if ext.char_interval:
-                char_interval = {
-                    "start_pos": ext.char_interval.start_pos,
-                    "end_pos": ext.char_interval.end_pos
-                }
+                    if isinstance(e, RuntimeError) and "cannot schedule new futures after interpreter shutdown" in error_msg:
+                        logger.error("解释器正在关闭，终止重试以避免 futures 提交失败")
+                        raise
 
-            # Preserve original class if we had to normalize it.
-            attrs = ext.attributes or {}
-            if original_class and isinstance(attrs, dict):
-                attrs.setdefault("原始extraction_class", original_class)
+                    if attempt_idx == len(attempts):
+                        import traceback
 
-            extractions.append(
-                KnowledgeExtraction(
-                    doc_id=self.doc_id,
-                    doc_title=self.doc_title,
-                    extraction_class=norm_class,
-                    extraction_text=str(ext_text),
-                    char_interval=char_interval,
-                    attributes=attrs,
+                        logger.error(f"完整错误堆栈:\n{traceback.format_exc()}")
+
+                    if attempt_idx < len(attempts):
+                        if not quiet:
+                            logger.info("  等待 1 秒后重试...")
+                        time.sleep(1.0)
+            else:
+                assert last_err is not None
+                raise last_err
+
+            if result is None:
+                return []
+
+            # Some parse errors are swallowed/raised inside langextract; if we reach here,
+            # ensure we can still safely post-process.
+            try:
+                raw_extractions = getattr(result, "extractions", None) or []
+            except Exception:
+                raw_extractions = []
+
+            # Post-process chunk results into our domain model.
+
+            # Keep ZiWei domain classes intact, but guard against field-name leakage.
+            def _normalize_extraction_class(raw: Any) -> tuple[str, Optional[str]]:
+                """Return (class_value, original_if_changed). Only fixes obvious invalid values."""
+                try:
+                    s = ("" if raw is None else str(raw)).strip()
+                except Exception:
+                    s = ""
+                if not s:
+                    return "专业术语定义", None
+                bad = {"extraction_text", "extraction_class", "char_interval", "attributes"}
+                if s in bad:
+                    return "专业术语定义", s
+                return s, None
+
+            extractions: List[KnowledgeExtraction] = []
+            type_error_count = 0
+
+            for idx, ext in enumerate(raw_extractions):
+                ext_text = getattr(ext, "extraction_text", "")
+
+                # Normalize extraction_class (but keep ZiWei classes intact).
+                norm_class, original_class = _normalize_extraction_class(getattr(ext, "extraction_class", None))
+
+                # Fix extraction_text type issues.
+                if not isinstance(ext_text, (str, int, float)):
+                    type_error_count += 1
+                    try:
+                        import json
+
+                        ext_text = json.dumps(ext_text, ensure_ascii=False)
+                    except Exception:
+                        ext_text = str(ext_text)
+
+                char_interval = None
+                try:
+                    ci = getattr(ext, "char_interval", None)
+                    if ci:
+                        char_interval = {
+                            "start_pos": ci.start_pos + chunk_offset,
+                            "end_pos": ci.end_pos + chunk_offset,
+                        }
+                except Exception:
+                    char_interval = None
+
+                # Preserve original class if we had to normalize it.
+                attrs = getattr(ext, "attributes", None) or {}
+                if original_class and isinstance(attrs, dict):
+                    attrs.setdefault("原始extraction_class", original_class)
+
+                extractions.append(
+                    KnowledgeExtraction(
+                        doc_id=self.doc_id,
+                        doc_title=self.doc_title,
+                        extraction_class=norm_class,
+                        extraction_text=str(ext_text),
+                        char_interval=char_interval,
+                        attributes=attrs,
+                    )
                 )
-            )
 
-        if type_error_count > 0:
-            logger.warning(f"共发现 {type_error_count} 个类型错误的 extraction_text，已全部修复")
+            if type_error_count > 0 and not quiet:
+                logger.warning(f"共发现 {type_error_count} 个类型错误的 extraction_text，已全部修复")
+
+            return extractions
+
+        # Run chunk extraction (optionally parallel) and merge.
+        merged: List[KnowledgeExtraction] = []
+        if len(chunks) == 1 or effective_parallel <= 1:
+            for off, chunk_text in chunks:
+                merged.extend(_extract_one_chunk(off, chunk_text))
+        else:
+            if not quiet:
+                logger.info(f"启用并行分块提取: workers={effective_parallel}")
+            with ThreadPoolExecutor(max_workers=effective_parallel) as pool:
+                futures = [pool.submit(_extract_one_chunk, off, chunk_text) for off, chunk_text in chunks]
+                for fut in as_completed(futures):
+                    res = fut.result()
+                    if not res:
+                        continue
+                    merged.extend(res)
+
+        # Sort & best-effort de-dup.
+        merged.sort(key=lambda e: ((e.char_interval or {}).get("start_pos", 10**18), e.extraction_class, e.extraction_text))
+        merged = self._dedupe_extractions(merged)
 
         if not quiet:
-            logger.info(f"✓ 知识提取完成: 成功提取 {len(extractions)} 个知识点")
-        return extractions
+            logger.info(f"✓ 知识提取完成: 成功提取 {len(merged)} 个知识点")
+        return merged
 
 
 def ingest_text_file(

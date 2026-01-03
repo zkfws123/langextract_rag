@@ -1,7 +1,8 @@
-"""文档处理工作流组件"""
+"""文档处理工作流组件--已经作废了--目前的文档管理在D:\pythonprojects\llamaindex_langextract_rag\src\ui\kb_sidebar.py"""
 import os
 import tempfile
 import streamlit as st
+import logging
 from src.ui.session import SessionManager
 from src.knowledge_base import KnowledgeBaseService, DocumentStatus
 from src.parsers.mineru_parser import MinerUParser
@@ -10,6 +11,9 @@ from src.parsers.pipeline import KnowledgeExtractionPipeline
 from src.agents import build_agent
 from src.graph.in_memory_store import InMemoryGraphStore
 from src.retrieval.vector.chroma_store import ChromaVectorStore
+
+
+logger = logging.getLogger(__name__)
 
 
 def render_doc_workflow(session: SessionManager, kb_service: KnowledgeBaseService):
@@ -72,10 +76,11 @@ def render_doc_workflow(session: SessionManager, kb_service: KnowledgeBaseServic
     
     # 阶段1：解析 PDF
     parse_done = bool(session.markdown_content)
-    parse_btn_label = "✅ 已解析" if parse_done else "🚀 解析 PDF"
+    parse_btn_label = "🚀 解析 PDF" + (" ✅" if parse_done else "")
     
     if st.button(parse_btn_label, disabled=parse_done or not session.pdf_bytes, use_container_width=True, key="parse_btn"):
         st.info(f"📄 开始解析: {doc.filename}")
+        logger.info(f"[workflow] parse_start filename={doc.filename}")
         with st.spinner("正在解析 PDF..."):
             try:
                 with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
@@ -105,9 +110,11 @@ def render_doc_workflow(session: SessionManager, kb_service: KnowledgeBaseServic
                 kb_service.update_document(doc)
                 
                 st.success(f"✅ 解析完成: 共 {len(pages)} 页，{len(full_md):,} 字符")
+                logger.info(f"[workflow] parse_done pages={len(pages)} chars={len(full_md)}")
                 st.rerun()
             except Exception as e:
                 st.error(f"解析失败: {e}")
+                logger.exception("[workflow] parse_failed")
                 import traceback
                 st.code(traceback.format_exc())
             finally:
@@ -115,11 +122,18 @@ def render_doc_workflow(session: SessionManager, kb_service: KnowledgeBaseServic
     
     # 阶段2：提取知识
     extract_done = len(session.extractions) > 0
-    extract_btn_label = "✅ 已提取" if extract_done else "🔍 提取知识"
+    extract_btn_label = "🔍 提取知识" + (" ✅" if extract_done else "")
     extract_disabled = not session.markdown_content or extract_done
     
     if st.button(extract_btn_label, disabled=extract_disabled, use_container_width=True, key="extract_btn"):
         st.info(f"🎯 开始提取知识...")
+        parallel_workers = None
+        if session.extraction_parallel_enabled:
+            parallel_workers = max(1, int(session.extraction_parallel_workers or 4))
+        logger.info(
+            f"[workflow] extraction_start parallel_enabled={session.extraction_parallel_enabled} "
+            f"parallel_workers={parallel_workers}"
+        )
         with st.spinner("正在提取知识..."):
             try:
                 # 获取自定义配置
@@ -153,7 +167,10 @@ def render_doc_workflow(session: SessionManager, kb_service: KnowledgeBaseServic
                     custom_prompt=custom_prompt,
                     custom_examples=custom_examples
                 )
-                extractions, stage2_relations = pipeline.extract(session.markdown_content)
+                extractions, stage2_relations = pipeline.extract(
+                    session.markdown_content,
+                    parallel_workers=parallel_workers,
+                )
                 session.extractions = extractions
                 
                 # 保存提取结果
@@ -170,19 +187,24 @@ def render_doc_workflow(session: SessionManager, kb_service: KnowledgeBaseServic
                 kb_service.update_document(doc)
                 
                 st.success(f"✅ 知识提取完成: 共 {len(extractions)} 条知识点")
+                logger.info(
+                    f"[workflow] extraction_done extractions={len(extractions)} relations={len(stage2_relations) if stage2_relations else 0}"
+                )
                 st.rerun()
             except Exception as e:
                 st.error(f"提取失败: {e}")
+                logger.exception("[workflow] extraction_failed")
                 import traceback
                 st.code(traceback.format_exc())
     
     # 阶段3：入库（增量合并）
     index_done = doc.status == DocumentStatus.COMPLETED
-    index_btn_label = "✅ 已入库" if index_done else "💾 入库（增量）"
+    index_btn_label = "💾 入库（增量）" + (" ✅" if index_done else "")
     index_disabled = not session.extractions or index_done
     
     if st.button(index_btn_label, disabled=index_disabled, use_container_width=True, key="index_btn"):
         st.info(f"📊 开始入库...")
+        logger.info("[workflow] index_start")
         with st.spinner("正在入库并合并图谱..."):
             try:
                 # 获取向量库collection
@@ -221,10 +243,14 @@ def render_doc_workflow(session: SessionManager, kb_service: KnowledgeBaseServic
                 session.agent_built = False
                 
                 st.success(f"✅ 入库完成！图谱已合并")
+                logger.info(
+                    f"[workflow] index_done entities={len(merged_graph.get('entities', {}))} relations={len(merged_graph.get('relations', []))}"
+                )
                 st.info(f"🕸️ 当前知识库: {len(merged_graph.get('entities', {}))} 个实体, {len(merged_graph.get('relations', []))} 条关系")
                 st.rerun()
             except Exception as e:
                 st.error(f"入库失败: {e}")
+                logger.exception("[workflow] index_failed")
                 import traceback
                 st.code(traceback.format_exc())
     

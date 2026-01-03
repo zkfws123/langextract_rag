@@ -1,7 +1,7 @@
 {
   "id": "57e434ee",
   "name": "四化",
-  "status": "ready",
+  "status": "empty",
   "config": {
     "description": "",
     "llm_model": "gpt-5.2-high",
@@ -11,8 +11,8 @@
     "extraction_prompt": "general"
   },
   "created_at": "2026-01-01T22:08:33.385937",
-  "updated_at": "2026-01-03T12:55:36.552145",
+  "updated_at": "2026-01-03T18:58:35.241218",
   "document_count": 1,
-  "total_entities": 188,
-  "total_relations": 151
+  "total_entities": 0,
+  "total_relations": 0
 }
