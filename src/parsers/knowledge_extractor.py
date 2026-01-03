@@ -350,8 +350,17 @@ class KnowledgeExtractor:
         return [lx.data.ExampleData(text=example_text, extractions=example_extractions)]
 
     def extract_from_text(self, text: str, max_length: int = 8000) -> List[KnowledgeExtraction]:
-        """Extract knowledge using LangExtract with full char_interval traceability."""
+        """
+        Extract knowledge using LangExtract with full char_interval traceability.
+
+        使用简单的单次抽取策略（参考之前的稳定版本）：
+        - 不使用分块并行（避免extraction_text类型错误）
+        - 单线程处理（避免日志混乱）
+        - 保留文本截断限制（避免超长文本导致超时）
+        """
         quiet = (os.getenv("EXTRACTION_QUIET", "1").strip().lower() in {"1", "true", "yes", "on"})
+
+        # 截断文本到max_length
         if len(text) > max_length:
             extraction_text = text[:max_length]
             if not quiet:
@@ -361,7 +370,8 @@ class KnowledgeExtractor:
 
         api_key, base_url, model_id = self._model_config
         if not quiet:
-            logger.info(f"开始知识提取: model={model_id}, text_length={len(extraction_text)} chars")
+            logger.info(f"开始知识提取: model={model_id}, text_length={len(extraction_text):,} chars")
+            logger.info(f"  API: {base_url}")
 
         attempts = [
             {"force_json": False, "fence_output": True},
@@ -371,8 +381,6 @@ class KnowledgeExtractor:
 
         last_err: Optional[Exception] = None
         for idx, cfg in enumerate(attempts, start=1):
-            # Keep attempt logs as process logs (still useful when debugging),
-            # but allow users to disable them via EXTRACTION_QUIET.
             if not quiet:
                 logger.info(f"尝试 {idx}/{len(attempts)}: force_json={cfg['force_json']}, fence_output={cfg['fence_output']}")
             model = self.model if not cfg["force_json"] else _build_openai_language_model(api_key, base_url, model_id, force_json=True)
@@ -386,7 +394,7 @@ class KnowledgeExtractor:
                     use_schema_constraints=False,
                     prompt_validation_level=PromptValidationLevel.OFF,
                     temperature=0,
-                    max_workers=1,
+                    max_workers=1,            # 单线程处理（避免extraction_text类型错误）
                     show_progress=True,
                 )
                 if not quiet:
@@ -415,11 +423,13 @@ class KnowledgeExtractor:
 
                 # Small backoff to ride out transient empty responses / rate limits.
                 if idx < len(attempts):
-                    logger.info(f"等待 1 秒后重试...")
+                    if not quiet:
+                        logger.info(f"等待 1 秒后重试...")
                     time.sleep(1.0)
         else:
             assert last_err is not None
-            logger.error(f"所有尝试均失败，抛出最后一个错误")
+            if not quiet:
+                logger.error(f"所有尝试均失败，抛出最后一个错误")
             raise last_err
 
         extractions: List[KnowledgeExtraction] = []

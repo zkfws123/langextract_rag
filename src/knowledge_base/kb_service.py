@@ -166,7 +166,7 @@ class KnowledgeBaseService:
     def merge_graph(self, kb_id: str, new_graph: Dict[str, Any]) -> Dict[str, Any]:
         """合并新图谱到现有图谱（增量更新）"""
         existing = self.get_graph(kb_id)
-        
+
         # 合并实体
         for name, entity_data in new_graph.get("entities", {}).items():
             if name not in existing["entities"]:
@@ -177,25 +177,39 @@ class KnowledgeBaseService:
                 new_attrs = entity_data.get("attributes", {})
                 merged_attrs = {**old_attrs, **new_attrs}
                 existing["entities"][name]["attributes"] = merged_attrs
-                
+
                 old_mentions = existing["entities"][name].get("mentions", [])
                 new_mentions = entity_data.get("mentions", [])
                 existing["entities"][name]["mentions"] = old_mentions + new_mentions
-        
+
         # 合并关系（去重）
         existing_rel_keys = set()
         for rel in existing.get("relations", []):
             key = (rel.get("subject"), rel.get("object"), rel.get("relation"))
             existing_rel_keys.add(key)
-        
+
         for rel in new_graph.get("relations", []):
             key = (rel.get("subject"), rel.get("object"), rel.get("relation"))
             if key not in existing_rel_keys:
                 existing["relations"].append(rel)
                 existing_rel_keys.add(key)
-        
+
         self.save_graph(kb_id, existing)
         return existing
+
+    def clear_graph(self, kb_id: str) -> None:
+        """清空知识库的知识图谱（保留文档）"""
+        # 重置为空图谱
+        empty_graph = {"entities": {}, "relations": []}
+        self.save_graph(kb_id, empty_graph)
+
+        # 更新知识库状态
+        kb = self.get_kb(kb_id)
+        if kb:
+            kb.total_entities = 0
+            kb.total_relations = 0
+            kb.status = KBStatus.EMPTY
+            self.update_kb(kb)
     
     # ========== 文档处理缓存 ==========
     

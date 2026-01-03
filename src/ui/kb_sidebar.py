@@ -128,7 +128,39 @@ def render_kb_sidebar(session: SessionManager):
             
             if kb.config.description:
                 st.caption(kb.config.description)
-            
+
+            # 清空知识图谱按钮
+            st.divider()
+            with st.expander("⚠️ 危险操作", expanded=False):
+                st.warning("清空知识图谱将删除所有实体和关系，但保留文档。此操作不可恢复！")
+                col_clear, col_spacer = st.columns([3, 1])
+                with col_clear:
+                    if st.button("🗑️ 清空知识图谱", key="clear_graph_btn", type="secondary", use_container_width=True):
+                        try:
+                            kb_service.clear_graph(session.current_kb_id)
+
+                            # 重新加载空图谱到session
+                            graph_data = kb_service.get_graph(session.current_kb_id)
+                            session.graph_store = InMemoryGraphStore(graph_data)
+
+                            # 清空向量库
+                            if session.vector_store:
+                                collection_name = kb_service.get_collection_name(session.current_kb_id)
+                                session.vector_store = ChromaVectorStore(collection_name=collection_name)
+
+                            # 重建Agent
+                            if session.vector_store and session.graph_store:
+                                from src.agents import build_agent
+                                build_agent(session.vector_store, session.graph_store)
+                                session.agent_built = True
+                            else:
+                                session.agent_built = False
+
+                            st.success("✅ 知识图谱已清空！")
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"清空失败: {e}")
+
             # 显示文档列表（参考 RAGFlow）
             st.divider()
             col_title, col_refresh = st.columns([4, 1])
