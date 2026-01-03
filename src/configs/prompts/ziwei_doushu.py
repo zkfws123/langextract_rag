@@ -54,6 +54,76 @@ PROMPT = textwrap.dedent("""\
     """)
 
 EXAMPLES = [
+    # --- Short, high-signal examples to help the model hit key ZiWei categories ---
+    # 星曜体系
+    lx.data.ExampleData(
+        text="紫微星为帝星，主尊贵与领导；天府星为财库星，主稳重与守成。",
+        extractions=[
+            lx.data.Extraction(
+                extraction_class="星曜体系",
+                extraction_text="紫微星",
+                attributes={
+                    "类型": "主星",
+                    "别称": "帝星",
+                    "基本含义": "尊贵与领导"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="星曜体系",
+                extraction_text="天府星",
+                attributes={
+                    "类型": "主星",
+                    "别称": "财库星",
+                    "基本含义": "稳重与守成"
+                }
+            ),
+        ],
+    ),
+
+    # 四化系统
+    lx.data.ExampleData(
+        text="禄主缘起与人缘；权主变化与竞争；科主名誉与表现；忌主阻滞与纠结。",
+        extractions=[
+            lx.data.Extraction(
+                extraction_class="四化系统",
+                extraction_text="禄主缘起与人缘",
+                attributes={"四化类型": "禄", "含义": "缘起", "人的特征": "人缘"}
+            ),
+            lx.data.Extraction(
+                extraction_class="四化系统",
+                extraction_text="权主变化与竞争",
+                attributes={"四化类型": "权", "含义": "变化", "人的特征": "竞争"}
+            ),
+            lx.data.Extraction(
+                extraction_class="四化系统",
+                extraction_text="科主名誉与表现",
+                attributes={"四化类型": "科", "含义": "名誉", "人的特征": "表现"}
+            ),
+            lx.data.Extraction(
+                extraction_class="四化系统",
+                extraction_text="忌主阻滞与纠结",
+                attributes={"四化类型": "忌", "含义": "阻滞", "人的特征": "纠结"}
+            ),
+        ],
+    ),
+
+    # 宫位关系网络
+    lx.data.ExampleData(
+        text="命宫对宫为迁移宫，三合方为财帛宫与官禄宫。",
+        extractions=[
+            lx.data.Extraction(
+                extraction_class="宫位关系网络",
+                extraction_text="命宫对宫为迁移宫",
+                attributes={"关系类型": "对宫关系", "本宫": "命宫", "对宫": "迁移宫"}
+            ),
+            lx.data.Extraction(
+                extraction_class="宫位关系网络",
+                extraction_text="三合方为财帛宫与官禄宫",
+                attributes={"关系类型": "三合关系", "宫位组": ["命宫", "财帛宫", "官禄宫"]}
+            ),
+        ],
+    ),
+
     lx.data.ExampleData(
         text="# 十一、破象论\n\n# （一）何为破象\n\n所谓破象，乃是指生年四化象被同组或同类自化拉破，破象的方式不光有同宫，还有本对，三合方，同宗位等等。\n\n# （二）破象的类型\n\n# (1) 同类破象\n\n同类破象共有四种：\n\n禄+自化禄（离心+向心）\n\n# (2）同组破象\n\n生年禄+自化忌（离心+向心）=禄忌同组破象",
         extractions=[

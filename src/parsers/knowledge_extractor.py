@@ -14,6 +14,7 @@ from langextract.prompt_validation import PromptValidationLevel
 from src.graph.models import KnowledgeExtraction
 from src.graph.in_memory_store import InMemoryGraphStore
 from src.retrieval.vector.chroma_store import ChromaVectorStore
+from src.configs.prompts.ziwei_doushu import PROMPT as ZIWEI_PROMPT, EXAMPLES as ZIWEI_EXAMPLES
 
 load_dotenv(override=True)
 
@@ -283,26 +284,10 @@ class KnowledgeExtractor:
                 - \"extractions\" 的值必须是数组；如果没有可提取内容，返回 {\"extractions\": []}
                 """).strip()
         else:
-            self.prompt = textwrap.dedent("""\
-                从文档中提取以下结构化知识:
-                
-                - 实体: 人物、机构、地点、时间、概念、技术术语
-                - 数据指标: 数值、百分比、统计数据
-                - 关系描述: 实体之间的关系（合作、隶属、引用等）
-                - 事件: 重要事件和行为
-                
-                要求:
-                1. extraction_text 必须是原文的精确子串
-                2. 为每个提取添加丰富的属性信息
-                3. 关系类型必须在 attributes 中标注涉及的主体
-                4. 保持原文出现顺序
+            # Default: use ZiWei DouShu domain-specific extraction contract.
+            # This aligns stage-1 classes with downstream graph/relation workflows.
+            self.prompt = ZIWEI_PROMPT
 
-                输出格式(非常重要):
-                - 只输出 JSON，不要输出任何解释文字/markdown/代码块
-                - 顶层必须是一个对象，且必须包含键: "extractions"
-                - "extractions" 的值必须是数组；如果没有可提取内容，返回 {"extractions": []}
-                """)
-        
         # Use custom examples or build default
         if custom_examples:
             self.examples = custom_examples
@@ -310,44 +295,7 @@ class KnowledgeExtractor:
             self.examples = self._build_examples()
 
     def _build_examples(self) -> List[lx.data.ExampleData]:
-        example_text = textwrap.dedent("""\
-            # 人工智能发展报告
-            
-            ## 作者
-            张三（清华大学）、李四（北京大学）
-            
-            ## 摘要
-            本报告分析了2024年人工智能的发展趋势。研究显示，大模型参数量增长了300%，
-            推理成本下降了50%。清华大学与北京大学联合开展了此项研究。
-            """).strip()
-        example_extractions = [
-            lx.data.Extraction(
-                extraction_class="实体",
-                extraction_text="张三",
-                attributes={"类型": "人物", "机构": "清华大学"}
-            ),
-            lx.data.Extraction(
-                extraction_class="实体",
-                extraction_text="清华大学",
-                attributes={"类型": "机构", "类别": "高校"}
-            ),
-            lx.data.Extraction(
-                extraction_class="数据指标",
-                extraction_text="增长了300%",
-                attributes={"指标": "大模型参数量", "类型": "增长率"}
-            ),
-            lx.data.Extraction(
-                extraction_class="关系描述",
-                extraction_text="清华大学与北京大学联合开展了此项研究",
-                attributes={
-                    "类型": "合作关系",
-                    "主体1": "清华大学",
-                    "主体2": "北京大学",
-                    "关系": "联合研究"
-                }
-            ),
-        ]
-        return [lx.data.ExampleData(text=example_text, extractions=example_extractions)]
+        return ZIWEI_EXAMPLES
 
     def extract_from_text(self, text: str, max_length: int = 8000) -> List[KnowledgeExtraction]:
         """
@@ -437,9 +385,26 @@ class KnowledgeExtractor:
         if not quiet:
             logger.info(f"开始处理 {len(result.extractions)} 个提取结果...")
 
+        # Keep ZiWei domain classes intact, but guard against field-name leakage.
+        def _normalize_extraction_class(raw: Any) -> tuple[str, Optional[str]]:
+            """Return (class_value, original_if_changed). Only fixes obvious invalid values."""
+            try:
+                s = ("" if raw is None else str(raw)).strip()
+            except Exception:
+                s = ""
+            if not s:
+                return "专业术语定义", None
+            bad = {"extraction_text", "extraction_class", "char_interval", "attributes"}
+            if s in bad:
+                return "专业术语定义", s
+            return s, None
+
         type_error_count = 0
         for idx, ext in enumerate(result.extractions):
             ext_text = ext.extraction_text
+
+            # Normalize extraction_class to stable coarse classes.
+            norm_class, original_class = _normalize_extraction_class(getattr(ext, "extraction_class", None))
 
             # 检查并修复 extraction_text 类型问题
             if not isinstance(ext_text, (str, int, float)):
@@ -464,14 +429,20 @@ class KnowledgeExtractor:
                     "start_pos": ext.char_interval.start_pos,
                     "end_pos": ext.char_interval.end_pos
                 }
+
+            # Preserve original class if we had to normalize it.
+            attrs = ext.attributes or {}
+            if original_class and isinstance(attrs, dict):
+                attrs.setdefault("原始extraction_class", original_class)
+
             extractions.append(
                 KnowledgeExtraction(
                     doc_id=self.doc_id,
                     doc_title=self.doc_title,
-                    extraction_class=ext.extraction_class,
+                    extraction_class=norm_class,
                     extraction_text=str(ext_text),
                     char_interval=char_interval,
-                    attributes=ext.attributes,
+                    attributes=attrs,
                 )
             )
 
