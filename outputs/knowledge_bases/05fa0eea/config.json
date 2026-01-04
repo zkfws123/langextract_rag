@@ -1,7 +1,7 @@
 {
-  "id": "57e434ee",
+  "id": "05fa0eea",
   "name": "四化",
-  "status": "empty",
+  "status": "ready",
   "config": {
     "description": "",
     "llm_model": "gpt-5.2-high",
@@ -10,9 +10,9 @@
     "chunk_overlap": 200,
     "extraction_prompt": "general"
   },
-  "created_at": "2026-01-01T22:08:33.385937",
-  "updated_at": "2026-01-03T18:58:35.241218",
-  "document_count": 1,
-  "total_entities": 0,
-  "total_relations": 0
+  "created_at": "2026-01-03T21:18:39.246171",
+  "updated_at": "2026-01-03T23:31:26.717139",
+  "document_count": 3,
+  "total_entities": 888,
+  "total_relations": 780
 }

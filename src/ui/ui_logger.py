@@ -15,6 +15,18 @@ from typing import Optional
 
 import streamlit as st
 
+try:
+    # Streamlit >= 1.25
+    from streamlit.runtime.scriptrunner import get_script_run_ctx  # type: ignore
+except Exception:  # pragma: no cover
+    try:
+        # Older / alternative import path
+        from streamlit.runtime.scriptrunner.script_run_context import (  # type: ignore
+            get_script_run_ctx,
+        )
+    except Exception:  # pragma: no cover
+        get_script_run_ctx = None  # type: ignore
+
 
 class UILogHandler(logging.Handler):
     def __init__(self, *, max_lines_key: str = "ui_logs_max_lines", buffer_key: str = "ui_logs"):
@@ -23,6 +35,14 @@ class UILogHandler(logging.Handler):
         self._buffer_key = buffer_key
 
     def emit(self, record: logging.LogRecord) -> None:
+        # Avoid touching Streamlit session_state from background threads.
+        # Otherwise Streamlit will emit: "missing ScriptRunContext" warnings.
+        try:
+            if get_script_run_ctx is not None and get_script_run_ctx() is None:
+                return
+        except Exception:
+            return
+
         try:
             msg = self.format(record)
         except Exception:

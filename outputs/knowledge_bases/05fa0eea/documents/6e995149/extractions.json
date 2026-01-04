@@ -1,0 +1,457 @@
+[
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞星棋谱",
+    "char_interval": {
+      "start_pos": 0,
+      "end_pos": 4
+    },
+    "attributes": {
+      "别称": "化忌棋谱",
+      "来源": "章节标题",
+      "定义": "象的一种归纳，而非四化飞伏的应用之法"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "[化忌棋谱]",
+    "char_interval": {
+      "start_pos": 246,
+      "end_pos": 252
+    },
+    "attributes": {
+      "内容": [
+        "逆水忌",
+        "顺水忌",
+        "拆马忌",
+        "进马忌",
+        "循环忌",
+        "是非忌",
+        "纠缠忌",
+        "反弓忌",
+        "泄出忌",
+        "入库忌",
+        "绝命忌"
+      ]
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "逆水忌",
+    "char_interval": {
+      "start_pos": 254,
+      "end_pos": 257
+    },
+    "attributes": {
+      "类型": "化忌棋谱",
+      "定义": "六内入六外（福德不算）"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "进马忌",
+    "char_interval": {
+      "start_pos": 271,
+      "end_pos": 274
+    },
+    "attributes": {
+      "定义": "飞星的用法"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生忌无自化，称忌被生忌「挡回」可横发",
+    "char_interval": {
+      "start_pos": 366,
+      "end_pos": 384
+    },
+    "attributes": {
+      "前提条件": "生忌无自化",
+      "结论": "称忌被生忌「挡回」可横发",
+      "适用场景": "逆水忌"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "命、財、官、田",
+    "char_interval": {
+      "start_pos": 470,
+      "end_pos": 477
+    },
+    "attributes": {
+      "类型": "内局宫位",
+      "组成": [
+        "命宫",
+        "财帛宫",
+        "官禄宫",
+        "田宅宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "顺水忌入内局，都要比逆水忌的造化强得多",
+    "char_interval": {
+      "start_pos": 613,
+      "end_pos": 632
+    },
+    "attributes": {
+      "前提条件": "顺水忌入内局",
+      "结论": "造化强得多",
+      "比较对象": "逆水忌"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "退马忌",
+    "char_interval": {
+      "start_pos": 753,
+      "end_pos": 756
+    },
+    "attributes": {
+      "定义": "飞星的用法"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "因为紫立在寅，寅卯宫位与子丑宫位，干支永远不在同一旬中",
+    "char_interval": {
+      "start_pos": 864,
+      "end_pos": 895
+    },
+    "attributes": {
+      "前提": "紫立在寅",
+      "推导过程": "寅卯宫位与子丑宫位，干支永远不在同一旬中",
+      "结论": "子丑宫位不会飞至寅卯宫位"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "从天干数的逆三宫位看，卯化忌是入了财帛",
+    "char_interval": {
+      "start_pos": 1218,
+      "end_pos": 1239
+    },
+    "attributes": {
+      "前提": "来因在命，忌入夫妻，夫在丑位与卯不同旬",
+      "推理过程": "以宫位数看，卯位是化忌入逆三宫位，寅至亥天干一气",
+      "结论": "卯化忌入财帛"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "子丑不同旬不立来因宫",
+    "char_interval": {
+      "start_pos": 1448,
+      "end_pos": 1458
+    },
+    "attributes": {
+      "类型": "宫位规则",
+      "前提": "子丑位与寅卯位同干不同旬",
+      "结论": "不立来因宫"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "连环忌",
+    "char_interval": {
+      "start_pos": 1562,
+      "end_pos": 1565
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "十干化曜特殊的运动法",
+      "渊源": "十干化曜与布星法的结构，天象与化象的关系"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "十干化曜是天地日月的消息",
+    "char_interval": {
+      "start_pos": 1671,
+      "end_pos": 1683
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "含义": "十干化曜是仿真天地日月的消息"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "日月并明或反背于辰戌，象日月之升降",
+    "char_interval": {
+      "start_pos": 1949,
+      "end_pos": 1966
+    },
+    "attributes": {
+      "类型": "星曜组合",
+      "前提": "太阳太阴在辰戌宫位",
+      "结论": "象征日月的升降"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "「地辟在丑」，必见日月于辰戌",
+    "char_interval": {
+      "start_pos": 2100,
+      "end_pos": 2101
+    },
+    "attributes": {
+      "前提条件": "地辟在丑（紫微在丑未）",
+      "结论": "必见日月于辰戌",
+      "推论": "如果没有日月，即无人生在寅的故事"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "天开于子、地辟在丑、人生在寅",
+    "char_interval": {
+      "start_pos": 2101,
+      "end_pos": 2115
+    },
+    "attributes": {
+      "类型": "易理口诀",
+      "基本含义": "描述天地人三才于宫位的开启状态"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "地辟在丑",
+    "char_interval": {
+      "start_pos": 2106,
+      "end_pos": 2110
+    },
+    "attributes": {
+      "类型": "宫位配置象意",
+      "对应星曜": "紫微星入丑未线",
+      "基本含义": "见日月于辰戌"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "紫微星入丑未线，则机巨必在子午",
+    "char_interval": {
+      "start_pos": 2257,
+      "end_pos": 2272
+    },
+    "attributes": {
+      "前提条件": "紫微星入丑未线",
+      "结论": "机巨必在子午",
+      "象意": "地已辟成之象"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "连环忌也就是五星与五宫所形成的",
+    "char_interval": {
+      "start_pos": 2369,
+      "end_pos": 2384
+    },
+    "attributes": {
+      "关系类型": "连环忌关系",
+      "组成要素": [
+        "五星",
+        "五宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "连环忌十干化曜图",
+    "char_interval": {
+      "start_pos": 2720,
+      "end_pos": 2728
+    },
+    "attributes": {
+      "包含内容": [
+        "丁圣",
+        "戊癸",
+        "甲己"
+      ],
+      "类型": "化曜配置图"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞星棋谱",
+    "char_interval": {
+      "start_pos": 2818,
+      "end_pos": 2822
+    },
+    "attributes": {
+      "类型": "技法体系",
+      "包含内容": "体系篇讲义里的三种应用"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞星棋谱",
+    "char_interval": {
+      "start_pos": 2968,
+      "end_pos": 2972
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "基本含义": "研究者自我对飞星的一种玩赏方式"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "直线自化",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "所属体系": "自化应用",
+      "关联": "连环忌的重点"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "进退马",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "应用宫位": "子丑寅卯",
+      "前提条件": "宫位有自化"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "进马忌",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "别称": "桥马",
+      "传统定义": "子丑发射至寅卯位，会退回子丑位",
+      "实质观点": "根本不会飞"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "连环忌",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "连环忌也就是五星与五宫所形成的",
+      "重点": "重点即在最后的直线自化上"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "子丑宫位不可立来因宫位",
+    "char_interval": null,
+    "attributes": {
+      "限制条件": "子丑宫位",
+      "结论": "不可立来因宫位"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "自化应用",
+    "char_interval": null,
+    "attributes": {
+      "核心点": "直线自化",
+      "应用场景": "替代部分飞星体系的归纳见解"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "飞星",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "飞星",
+      "应用要求": "能将其理则说明清楚"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天机",
+    "char_interval": null,
+    "attributes": {
+      "指向": "北辰（紫微星）",
+      "物理含义": "地球运转的轴心"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "巨门",
+    "char_interval": null,
+    "attributes": {
+      "基本含义": "象未知之大地不受光明",
+      "理论归属": "盖天理论"
+    }
+  },
+  {
+    "doc_id": "6e995149",
+    "doc_title": "钦天四化派-飞星棋谱.pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "机巨",
+    "char_interval": null,
+    "attributes": {
+      "组成": "天机、巨门",
+      "基本含义": "地球之两极"
+    }
+  }
+]

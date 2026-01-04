@@ -30,6 +30,10 @@ class SessionManager:
             st.session_state.pdf_bytes = b""
         if "uploaded_filename" not in st.session_state:
             st.session_state.uploaded_filename = ""
+        # Upload de-duplication: prevent file_uploader from re-adding the same
+        # file repeatedly across Streamlit reruns.
+        if "last_upload_fingerprint" not in st.session_state:
+            st.session_state.last_upload_fingerprint = ""
         if "markdown_content" not in st.session_state:
             st.session_state.markdown_content = ""
         if "markdown_pages" not in st.session_state:
@@ -139,6 +143,14 @@ class SessionManager:
     @uploaded_filename.setter
     def uploaded_filename(self, value: str):
         st.session_state.uploaded_filename = value
+
+    @property
+    def last_upload_fingerprint(self) -> str:
+        return st.session_state.get("last_upload_fingerprint", "")
+
+    @last_upload_fingerprint.setter
+    def last_upload_fingerprint(self, value: str):
+        st.session_state.last_upload_fingerprint = value
     
     @property
     def markdown_content(self) -> str:

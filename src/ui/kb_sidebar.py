@@ -170,6 +170,41 @@ def render_kb_sidebar(session: SessionManager):
                 if st.button("🔄", key="refresh_docs", help="刷新文档列表"):
                     session.doc_list_cache = kb_service.list_documents(session.current_kb_id)
                     st.rerun()
+
+            # 上传入口：始终显示（包括空态），避免依赖已废弃的 doc_workflow.py
+            uploaded_file = st.file_uploader(
+                "上传 PDF 文档",
+                type=["pdf"],
+                help="支持中英文 PDF，建议文件大小 < 20MB",
+                key=f"pdf_uploader_{session.current_kb_id}",
+            )
+            if uploaded_file is not None:
+                try:
+                    import hashlib
+
+                    pdf_bytes = uploaded_file.getvalue()
+                    fp_material = (
+                        f"{session.current_kb_id}::{uploaded_file.name}::".encode("utf-8")
+                        + pdf_bytes
+                    )
+                    fingerprint = hashlib.sha256(fp_material).hexdigest()
+
+                    # Streamlit 会在 rerun 时仍保留 uploaded_file，必须做幂等处理。
+                    if fingerprint != session.last_upload_fingerprint:
+                        doc = kb_service.add_document(
+                            session.current_kb_id, uploaded_file.name, pdf_bytes
+                        )
+                        session.last_upload_fingerprint = fingerprint
+                        session.current_doc_id = doc.id
+                        session.uploaded_filename = doc.filename
+                        session.pdf_bytes = pdf_bytes
+                        session.doc_list_cache = kb_service.list_documents(
+                            session.current_kb_id
+                        )
+                        st.success(f"✅ 已上传: {uploaded_file.name}")
+                        st.rerun()
+                except Exception as e:
+                    st.error(f"上传失败: {e}")
             
             # 刷新文档列表
             docs = kb_service.list_documents(session.current_kb_id)
@@ -248,7 +283,7 @@ def render_kb_sidebar(session: SessionManager):
 
                             # 按钮1: 解析
                             with c1:
-                                if st.button("完成" if parse_done else "解析", key=f"sidebar_p_{doc.id}",
+                                if st.button("解析（✅）" if parse_done else "解析", key=f"sidebar_p_{doc.id}",
                                            disabled=parse_done, use_container_width=True):
                                     with st.spinner("解析中..."):
                                         try:
@@ -278,7 +313,7 @@ def render_kb_sidebar(session: SessionManager):
 
                             # 按钮2: 提取
                             with c2:
-                                if st.button("完成" if extract_done else "提取", key=f"sidebar_e_{doc.id}",
+                                if st.button("提取（✅）" if extract_done else "提取", key=f"sidebar_e_{doc.id}",
                                            disabled=(not parse_done) or extract_done, use_container_width=True):
                                     with st.spinner("提取中..."):
                                         try:
@@ -314,7 +349,7 @@ def render_kb_sidebar(session: SessionManager):
 
                             # 按钮3: 入库
                             with c3:
-                                if st.button("完成" if index_done else "入库", key=f"sidebar_i_{doc.id}",
+                                if st.button("入库（✅）" if index_done else "入库", key=f"sidebar_i_{doc.id}",
                                            disabled=(not extract_done) or index_done, use_container_width=True):
                                     with st.spinner("入库中..."):
                                         try:

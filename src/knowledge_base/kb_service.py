@@ -121,16 +121,63 @@ class KnowledgeBaseService:
     
     def delete_document(self, kb_id: str, doc_id: str) -> bool:
         """删除文档"""
+        # Capture filename before deletion (needed for graph/source cleanup).
+        doc = self.get_document(kb_id, doc_id)
+        doc_title = doc.filename if doc else ""
+
         doc_dir = self._doc_dir(kb_id, doc_id)
-        if doc_dir.exists():
-            shutil.rmtree(doc_dir, ignore_errors=True)
-            # 更新知识库文档数量
-            kb = self.get_kb(kb_id)
-            if kb and kb.document_count > 0:
-                kb.document_count -= 1
-                self.update_kb(kb)
-            return True
-        return False
+        if not doc_dir.exists():
+            return False
+
+        # 1) Delete document files
+        shutil.rmtree(doc_dir, ignore_errors=True)
+
+        # 2) Best-effort: delete vectors from Chroma collection for this document
+        try:
+            from src.retrieval.vector.chroma_store import ChromaVectorStore
+
+            collection_name = self.get_collection_name(kb_id)
+            vector_store = ChromaVectorStore(collection_name=collection_name)
+            # LangChain Chroma exposes underlying chromadb collection via _collection
+            # We filter by metadata field "doc_id" which we set during indexing.
+            vector_store.vectorstore._collection.delete(where={"doc_id": doc_id})
+        except Exception:
+            # Don't block deletion if vector store cleanup fails.
+            pass
+
+        # 3) Best-effort: remove mentions/source in graph.json
+        try:
+            graph = self.get_graph(kb_id)
+            entities = graph.get("entities", {}) or {}
+
+            for _name, data in entities.items():
+                mentions = data.get("mentions")
+                if isinstance(mentions, list) and mentions:
+                    data["mentions"] = [
+                        m
+                        for m in mentions
+                        if (m.get("source") != doc_title and m.get("source") != doc_id)
+                    ]
+
+            relations = graph.get("relations", []) or []
+            if isinstance(relations, list) and relations:
+                graph["relations"] = [
+                    r
+                    for r in relations
+                    if (r.get("source") != doc_title and r.get("source") != doc_id)
+                ]
+
+            self.save_graph(kb_id, graph)
+        except Exception:
+            pass
+
+        # 4) Update knowledge base doc count
+        kb = self.get_kb(kb_id)
+        if kb and kb.document_count > 0:
+            kb.document_count -= 1
+            self.update_kb(kb)
+
+        return True
     
     def get_document_content(self, kb_id: str, doc_id: str) -> Optional[bytes]:
         """获取文档原始内容"""

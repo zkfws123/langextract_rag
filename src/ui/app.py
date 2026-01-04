@@ -16,7 +16,6 @@ load_dotenv(PROJECT_ROOT / ".env", override=True)
 from src.ui.session import get_session
 from src.ui.ui_logger import setup_ui_logger
 from src.ui.kb_sidebar import render_kb_sidebar
-from src.ui.doc_workflow import render_doc_workflow
 from src.ui.settings_sidebar import render_settings_sidebar
 from src.ui.tabs import (
     render_chat_tab,
@@ -26,6 +25,19 @@ from src.ui.tabs import (
     render_extractions_tab,
     render_insights_tab,
 )
+
+
+def _render_doc_workflow_optional(session, kb_service) -> None:
+    """Render doc_workflow if present; tolerate the module being disabled."""
+    try:
+        import importlib
+
+        mod = importlib.import_module("src.ui.doc_workflow")
+        fn = getattr(mod, "render_doc_workflow", None)
+        if callable(fn):
+            fn(session, kb_service)
+    except Exception:
+        return
 
 # ============================================================================
 # 页面配置
@@ -173,8 +185,8 @@ with st.sidebar:
     # 1. 知识库管理
     kb_service = render_kb_sidebar(session)
     
-    # 2. 文档工作流
-    render_doc_workflow(session, kb_service)
+    # 2. 文档工作流（可选：doc_workflow.py 可能被注释/禁用）
+    _render_doc_workflow_optional(session, kb_service)
     
     # 3. 设置配置
     render_settings_sidebar(session)

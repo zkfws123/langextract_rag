@@ -202,6 +202,46 @@ def agent_query(question: str) -> Dict[str, Any]:
                 "error": "NO_TOOL_CALLED"
             }
 
+        # 兜底过滤：如果向量库/索引残留导致 evidence 里出现已删除文档的“来源”，则隐藏这些来源行。
+        # 注意：这不是替代索引清理，只是避免 UI 继续展示“已删除文档”。
+        try:
+            kb_id = ""
+            try:
+                # collection_name 形如 kb_<kb_id>
+                from src.agents.tools import _VECTOR_STORE as __VS  # type: ignore
+
+                cname = getattr(__VS, "collection_name", "") if __VS else ""
+                if isinstance(cname, str) and cname.startswith("kb_"):
+                    kb_id = cname[3:]
+            except Exception:
+                kb_id = ""
+
+            if kb_id:
+                from src.knowledge_base import get_kb_service
+
+                kb_service = get_kb_service()
+                docs = kb_service.list_documents(kb_id)
+                alive_titles = {d.filename for d in docs}
+
+                for ev in tool_calls:
+                    if ev.get("type") != "result":
+                        continue
+                    content = ev.get("content")
+                    if not isinstance(content, str) or not content:
+                        continue
+
+                    cleaned = []
+                    for line in content.splitlines():
+                        s = line.strip()
+                        if s.startswith("来源:"):
+                            src = s.split(":", 1)[-1].strip()
+                            if src and src not in alive_titles:
+                                continue
+                        cleaned.append(line)
+                    ev["content"] = "\n".join(cleaned)
+        except Exception:
+            pass
+
         _logger.info("=" * 80)
 
         return {

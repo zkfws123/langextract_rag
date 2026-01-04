@@ -1,0 +1,8462 @@
+[
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "来因宫",
+    "char_interval": {
+      "start_pos": 57,
+      "end_pos": 60
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "章节": "二"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年四化",
+    "char_interval": {
+      "start_pos": 67,
+      "end_pos": 71
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "章节": "三",
+      "组成部分": [
+        "生年质",
+        "生年四化的含义"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "十二宫职卡",
+    "char_interval": {
+      "start_pos": 117,
+      "end_pos": 122
+    },
+    "attributes": {
+      "类型": "术语/表格",
+      "来源": "章节标题",
+      "章节": "五"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "六阳宫和六阴宫",
+    "char_interval": {
+      "start_pos": 145,
+      "end_pos": 152
+    },
+    "attributes": {
+      "类型": "宫位分组",
+      "来源": "章节标题",
+      "章节": "六（一）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "破格和损格",
+    "char_interval": {
+      "start_pos": 161,
+      "end_pos": 166
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "六（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "四化的分组",
+    "char_interval": {
+      "start_pos": 188,
+      "end_pos": 193
+    },
+    "attributes": {
+      "类型": "四化规则",
+      "来源": "章节标题",
+      "章节": "七（一）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "四化的跟随",
+    "char_interval": {
+      "start_pos": 202,
+      "end_pos": 207
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "七（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "逆行",
+    "char_interval": {
+      "start_pos": 216,
+      "end_pos": 218
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "七（三）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "河图口诀",
+    "char_interval": {
+      "start_pos": 237,
+      "end_pos": 241
+    },
+    "attributes": {
+      "类型": "河图系统",
+      "来源": "章节标题",
+      "章节": "八（一）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "共宗同源",
+    "char_interval": {
+      "start_pos": 266,
+      "end_pos": 270
+    },
+    "attributes": {
+      "类型": "河图关系",
+      "来源": "章节标题",
+      "章节": "八（三）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "洛书口诀",
+    "char_interval": {
+      "start_pos": 293,
+      "end_pos": 297
+    },
+    "attributes": {
+      "类型": "洛书系统",
+      "来源": "章节标题",
+      "章节": "九（一）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "洛书分组",
+    "char_interval": {
+      "start_pos": 306,
+      "end_pos": 310
+    },
+    "attributes": {
+      "类型": "洛书系统",
+      "来源": "章节标题",
+      "章节": "九（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "气数位",
+    "char_interval": {
+      "start_pos": 319,
+      "end_pos": 322
+    },
+    "attributes": {
+      "类型": "宫位关系",
+      "来源": "章节标题",
+      "章节": "九（三）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化即变化",
+    "char_interval": {
+      "start_pos": 342,
+      "end_pos": 347
+    },
+    "attributes": {
+      "类型": "定义性质句子",
+      "术语": "自化",
+      "定义": "变化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "离心自化",
+    "char_interval": {
+      "start_pos": 369,
+      "end_pos": 373
+    },
+    "attributes": {
+      "类型": "自化类型",
+      "序号": "(1)",
+      "章节": "十（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "向心自化",
+    "char_interval": {
+      "start_pos": 382,
+      "end_pos": 386
+    },
+    "attributes": {
+      "类型": "自化类型",
+      "序号": "(2)",
+      "章节": "十（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "法象",
+    "char_interval": {
+      "start_pos": 394,
+      "end_pos": 396
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "十（三）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "破象论",
+    "char_interval": {
+      "start_pos": 404,
+      "end_pos": 407
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十一"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "破象的类型",
+    "char_interval": {
+      "start_pos": 428,
+      "end_pos": 433
+    },
+    "attributes": {
+      "类型": "破象子类",
+      "具体类型": [
+        "同类破象",
+        "同组破象",
+        "自化忌破象",
+        "本对宫破象",
+        "三合方破象",
+        "共宗位破象"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "双象论",
+    "char_interval": {
+      "start_pos": 522,
+      "end_pos": 525
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十二"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "平衡论",
+    "char_interval": {
+      "start_pos": 593,
+      "end_pos": 596
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十四",
+      "子项": [
+        "自化平衡",
+        "飞宫平衡"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "三象一物论",
+    "char_interval": {
+      "start_pos": 631,
+      "end_pos": 636
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十五"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "一忌多论",
+    "char_interval": {
+      "start_pos": 690,
+      "end_pos": 694
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十六",
+      "分类": [
+        "忌坐论",
+        "忌冲论"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "四化媒介用法",
+    "char_interval": {
+      "start_pos": 798,
+      "end_pos": 804
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "十七",
+      "子项": [
+        "媒介的概念",
+        "媒介的用法"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "十天干四化表",
+    "char_interval": {
+      "start_pos": 859,
+      "end_pos": 865
+    },
+    "attributes": {
+      "类型": "对照表",
+      "来源": "章节标题",
+      "章节": "十八（一）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "何谓飞宫",
+    "char_interval": {
+      "start_pos": 874,
+      "end_pos": 878
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "术语": "飞宫",
+      "章节": "十八（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "飞宫八大理则",
+    "char_interval": {
+      "start_pos": 901,
+      "end_pos": 907
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "来源": "章节标题",
+      "具体原则": [
+        "互为阴阳说",
+        "飞宫冲照论",
+        "本命盘十二宫职对待关系",
+        "同类官职体用对待关系",
+        "任何官职不可冲本命宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫法象生年",
+    "char_interval": {
+      "start_pos": 1061,
+      "end_pos": 1067
+    },
+    "attributes": {
+      "类型": "技法核心",
+      "来源": "章节标题",
+      "章节": "十八（五）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "禄因忌果",
+    "char_interval": {
+      "start_pos": 1077,
+      "end_pos": 1081
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十八（六）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "忌星棋谱",
+    "char_interval": {
+      "start_pos": 1091,
+      "end_pos": 1095
+    },
+    "attributes": {
+      "类型": "核心概念/技法",
+      "来源": "章节标题",
+      "章节": "十九",
+      "包含内容": [
+        "流出忌",
+        "流水忌",
+        "循环忌",
+        "反弓忌",
+        "是非忌",
+        "纠缠忌",
+        "逆水忌",
+        "水泄忌",
+        "拆马忌",
+        "入库忌",
+        "绝命忌"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "流出忌",
+    "char_interval": {
+      "start_pos": 1103,
+      "end_pos": 1106
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（一）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "流水忌",
+    "char_interval": {
+      "start_pos": 1115,
+      "end_pos": 1118
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "循环忌",
+    "char_interval": {
+      "start_pos": 1127,
+      "end_pos": 1130
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（三）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "反弓忌",
+    "char_interval": {
+      "start_pos": 1139,
+      "end_pos": 1142
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（四）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "是非忌",
+    "char_interval": {
+      "start_pos": 1151,
+      "end_pos": 1154
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（五）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "纠缠忌",
+    "char_interval": {
+      "start_pos": 1163,
+      "end_pos": 1166
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（六）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "逆水忌",
+    "char_interval": {
+      "start_pos": 1175,
+      "end_pos": 1178
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（七）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "水泄忌",
+    "char_interval": {
+      "start_pos": 1187,
+      "end_pos": 1190
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（八）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "拆马忌",
+    "char_interval": {
+      "start_pos": 1199,
+      "end_pos": 1202
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（九）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "入库忌",
+    "char_interval": {
+      "start_pos": 1211,
+      "end_pos": 1214
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（十）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌",
+    "char_interval": {
+      "start_pos": 1223,
+      "end_pos": 1226
+    },
+    "attributes": {
+      "类型": "忌星棋谱",
+      "序号": "（十一）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "转忌为导气之媒介",
+    "char_interval": {
+      "start_pos": 1252,
+      "end_pos": 1260
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十",
+      "包含内容": [
+        "禄转忌",
+        "忌转忌",
+        "煞气飞伏"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "十八星辰分男女",
+    "char_interval": {
+      "start_pos": 1307,
+      "end_pos": 1314
+    },
+    "attributes": {
+      "类型": "星曜体系",
+      "来源": "章节标题",
+      "章节": "二十一",
+      "包含内容": [
+        "男星",
+        "女星",
+        "廉贞星"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "廉贞星",
+    "char_interval": {
+      "start_pos": 1344,
+      "end_pos": 1347
+    },
+    "attributes": {
+      "类型": "主星",
+      "来源": "十八星辰分男女"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "紫微斗数论职业",
+    "char_interval": {
+      "start_pos": 1373,
+      "end_pos": 1380
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十二"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "紫微斗数论婚姻",
+    "char_interval": {
+      "start_pos": 1391,
+      "end_pos": 1398
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十三"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "紫微斗数论伤灾",
+    "char_interval": {
+      "start_pos": 1409,
+      "end_pos": 1416
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十四"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "紫微斗数论兄弟",
+    "char_interval": {
+      "start_pos": 1427,
+      "end_pos": 1434
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十五",
+      "判断前提": [
+        "命宫与兄弟宫有交感",
+        "兄弟宫构成三象一物",
+        "田宅有兄弟用神"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "大限的论断",
+    "char_interval": {
+      "start_pos": 1496,
+      "end_pos": 1501
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十六",
+      "应用技法": [
+        "飞宫法",
+        "自化法"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "流年应期",
+    "char_interval": {
+      "start_pos": 1535,
+      "end_pos": 1539
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十七",
+      "核心观念": "天地人的观念"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "其核心无非就是太极理论，阴阳理论，因果理论，体用互涉，以及动静变化之道",
+    "char_interval": {
+      "start_pos": 2571,
+      "end_pos": 2606
+    },
+    "attributes": {
+      "类型": "核心理论",
+      "组成内容": [
+        "太极理论",
+        "阴阳理论",
+        "因果理论",
+        "体用互涉",
+        "动静变化之道"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "来因宫",
+    "char_interval": {
+      "start_pos": 2665,
+      "end_pos": 2668
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "章节": "二"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "来因宫就是告诉我们，你为何而来到这个世上，同时这个官位将会对我们的一生产生非常重大的影响",
+    "char_interval": {
+      "start_pos": 2744,
+      "end_pos": 2788
+    },
+    "attributes": {
+      "核心概念": "来因宫",
+      "含义": "告诉我们，你为何而来到这个世上",
+      "作用": "对我们的一生产生非常重大的影响"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "我们出生年的天干所在的官位，即是我们来因宫之所在",
+    "char_interval": {
+      "start_pos": 2789,
+      "end_pos": 2813
+    },
+    "attributes": {
+      "类型": "来因宫判定规则",
+      "前提条件": "出生年的天干所在的官位",
+      "结论": "即是来因宫之所在"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "我们十二地支的子宫和丑宫是不取作来因宫的",
+    "char_interval": {
+      "start_pos": 2825,
+      "end_pos": 2845
+    },
+    "attributes": {
+      "类型": "来因宫排除规则",
+      "前提条件": "十二地支的子宫和丑宫",
+      "结论": "不取作来因宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命主出生于癸卯年，那么出生年天干为“癸”干，那么癸干所在的宫位，即是来因所在的地方",
+    "char_interval": {
+      "start_pos": 2936,
+      "end_pos": 2977
+    },
+    "attributes": {
+      "命盘配置": "出生于癸卯年",
+      "分析过程": "出生年天干为“癸”干",
+      "判断结论": "癸干所在的宫位即是来因所在的地方"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "此命主来因宫在迁移宫，那么他的一生将与这个宫位有着斩不断的因果，注定了要离家而发展。",
+    "char_interval": {
+      "start_pos": 2978,
+      "end_pos": 3020
+    },
+    "attributes": {
+      "命盘配置": "来因宫在迁移宫",
+      "分析过程": "一生与宫位有斩不断的因果",
+      "判断结论": "注定了要离家而发展"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "若我们的来因天干落在子宫或者丑宫的时候,那么必定会出现一条相同的天干,我们只需要取另一条相同天干所在的宫位即可",
+    "char_interval": {
+      "start_pos": 3058,
+      "end_pos": 3113
+    },
+    "attributes": {
+      "规则名称": "子丑位取来因规则",
+      "前提条件": "来因天干落在子宫或者丑宫",
+      "操作结论": "取另一条相同天干所在的宫位"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "这个命主是辛酉年出生，出生年天干为辛，故取辛干所在的天干宫位为来因宫。但是通过对命盘的观察我们可以看出，在这个命盘上是有两个辛天干的。我们前面说了，子位和丑位是不取做来因宫的。所以，我们可以根据这个规则排除掉辛丑位，取辛卯的宫位作为来因宫。",
+    "char_interval": {
+      "start_pos": 3204,
+      "end_pos": 3324
+    },
+    "attributes": {
+      "命盘配置": "辛酉年出生，有两个辛天干（辛丑、辛卯）",
+      "推理逻辑": "排除子位（子宫）和丑位（丑宫）",
+      "判断结论": "取辛卯宫位作为来因宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年四化",
+    "char_interval": {
+      "start_pos": 3369,
+      "end_pos": 3373
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "章节": "三",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年质",
+    "char_interval": {
+      "start_pos": 3380,
+      "end_pos": 3383
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "所谓的生年质，乃是指命盘中的生年自化象，即先天的禄权科忌，在四化命盘里面以大写的ABCD四个字母代替。",
+    "char_interval": {
+      "start_pos": 3385,
+      "end_pos": 3436
+    },
+    "attributes": {
+      "核心术语": "生年质",
+      "定义": "命盘中的生年自化象，即先天的禄权科忌",
+      "符号": "大写的ABCD"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年四化为先天之体，其质不变，代表命主的先天禀赋。",
+    "char_interval": {
+      "start_pos": 3436,
+      "end_pos": 3461
+    },
+    "attributes": {
+      "核心术语": "生年四化",
+      "性质": "先天之体",
+      "特征": "其质不变",
+      "含义": "代表命主的先天禀赋"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "一个官位里面有生年四化，表示占有了这个空间，也代表这个空间之内必定有物象或者现象存在，且永恒不灭。",
+    "char_interval": {
+      "start_pos": 3461,
+      "end_pos": 3510
+    },
+    "attributes": {
+      "前提条件": "官位里面有生年四化",
+      "结论": "这个空间之内必定有物象或者现象存在，且永恒不灭"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "兄弟宫有生年质，寓意着我有兄弟间的缘分；福德宫有生年质，寓意我会有福可享；田宅宫有生年质，寓意我必定会有房产或者不动产；官禄宫有生年质，寓意我一定有工作。",
+    "char_interval": {
+      "start_pos": 3679,
+      "end_pos": 3756
+    },
+    "attributes": {
+      "前提条件": "生年四化占据对应宫位空间",
+      "推理结果": [
+        "兄弟宫：有兄弟间的缘分",
+        "福德宫：有福可享",
+        "田宅宫：必定会有房产或者不动产",
+        "官禄宫：一定有工作"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "生年四化占据了夫妻宫、交友宫和父母宫三个宫位，那么代表这个盘必定有婚姻；必定会交很多朋友（哪怕后面会分开）；必定会得到父母的恩惠和帮助。",
+    "char_interval": {
+      "start_pos": 3963,
+      "end_pos": 4031
+    },
+    "attributes": {
+      "命盘配置": "生年四化在夫妻宫、交友宫、父母宫",
+      "判断结论": "必定有婚姻、必定交友多、必定得父母恩惠",
+      "分析类型": "存在论判断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "虽然这个夫妻宫的四化是生年忌，但是生年忌同样是代表质的存在，所以命主必定会有婚姻，必定会结婚。",
+    "char_interval": {
+      "start_pos": 4031,
+      "end_pos": 4078
+    },
+    "attributes": {
+      "前提": "夫妻宫见生年忌",
+      "推理过程": "生年忌代表质的存在",
+      "结论": "命主必定会有婚姻"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "我们在论质的存在时，不必将四化性质区分开，因为都代表存在。",
+    "char_interval": {
+      "start_pos": 4080,
+      "end_pos": 4112
+    },
+    "attributes": {
+      "规则类型": "存在论",
+      "适用范围": "生年四化",
+      "核心逻辑": "四化性质皆代表质的存在"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "子女宫有生年四化，代表有子女；财帛宫有生年四化，代表有钱赚；疾厄宫有生年四化，代表有健康问题；迁移宫有生年四化，代表有外出的现象；交友宫有生年四化，代表会交到朋友；官禄宫有生年四化，代表会有工作；田宅宫有生年四化，表示会得到房子或者不动产；福德宫有生年四化，代表会有福可享等。",
+    "char_interval": {
+      "start_pos": 4119,
+      "end_pos": 4257
+    },
+    "attributes": {
+      "类型": "宫位生年四化象意",
+      "规则列表": [
+        "子女宫: 有子女",
+        "财帛宫: 有钱赚",
+        "疾厄宫: 有健康问题",
+        "迁移宫: 有外出",
+        "交友宫: 会交友",
+        "官禄宫: 有工作",
+        "田宅宫: 有不动产",
+        "福德宫: 有福享"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年四化的含义",
+    "char_interval": {
+      "start_pos": 4264,
+      "end_pos": 4271
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "定义": "除了代表生年质的含义，还代表着四种不同性质的影响，可针对人事物三方面解读。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "禄——缘起",
+    "char_interval": {
+      "start_pos": 4406,
+      "end_pos": 4411
+    },
+    "attributes": {
+      "四化类型": "禄",
+      "含义": "缘起",
+      "人的特征": "人缘佳、桃花、缺乏主见、有才艺、聪明、喜新厌旧",
+      "事的特征": "新的开始、加薪、缘聚处",
+      "物的特征": "财禄、增加、投资、丰满圆润、解厄"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "权——缘变",
+    "char_interval": {
+      "start_pos": 4565,
+      "end_pos": 4570
+    },
+    "attributes": {
+      "四化类型": "权",
+      "含义": "缘变",
+      "人的特征": "重血缘、领导力、能干才华、霸气",
+      "事的特征": "开创管理、成就感、摩擦、变动升迁",
+      "物的特征": "权力地位、增值、突发伤害、不可逆转的自然变数"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "科——缘续",
+    "char_interval": {
+      "start_pos": 4746,
+      "end_pos": 4751
+    },
+    "attributes": {
+      "四化类型": "科",
+      "含义": "缘续",
+      "人的特征": "贵人、风度佳、斯文、博学、幕僚格局",
+      "事的特征": "功名考试、重复纠缠、完美主义",
+      "物的特征": "创意设计、智慧财、文学、稳定拖延"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "忌——缘灭",
+    "char_interval": {
+      "start_pos": 4901,
+      "end_pos": 4906
+    },
+    "attributes": {
+      "四化类型": "忌",
+      "核心含义": "缘灭",
+      "人际/心理含义": "亏欠、固执、溺爱、无缘、看不开、舍不得、放不下、忘不了、在意、占有欲、执着",
+      "事象含义": "是非、不顺、困扰、劳碌、收束、收藏、管束、变动、守旧、代沟、分歧、不知变通、凡事亲力亲为、结束、不利的、凶兆、凶厄、死亡、病痛、生离死别",
+      "财务/职业含义": "上班族、现金生意、欠债、义务、现金周转不佳",
+      "因果含义": "有种变无，无中生有、得而复失、失而复得、聚少离多"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "我们在论断生年四化时，应该以存在论结合四化含义一起论断",
+    "char_interval": {
+      "start_pos": 5075,
+      "end_pos": 5102
+    },
+    "attributes": {
+      "核心技法": "存在论",
+      "应用方式": "结合四化含义一起论断",
+      "适用场景": "论断生年四化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "该宫位有生年四化，表示命主一定会结婚；不过该命主在感情历程上肯定是不顺利的、而且会对妻子有亏欠感、而且占有欲非常强；严重甚至会经历生离死别；对于感情看不开、得不得、放不下也忘不了。",
+    "char_interval": {
+      "start_pos": 5423,
+      "end_pos": 5513
+    },
+    "attributes": {
+      "命盘配置": "夫妻宫有生年四化（忌）",
+      "判断结论": [
+        "一定会结婚",
+        "感情历程不顺利",
+        "对妻子有亏欠感",
+        "占有欲非常强",
+        "严重甚至经历生离死别",
+        "对感情看不开、得不到、放不下、忘不了"
+      ],
+      "推理逻辑": "基于存在论（有生年象代表有此人事物）与忌象的负面含义结合"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "来因宫配先天格局",
+    "char_interval": {
+      "start_pos": 5519,
+      "end_pos": 5527
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "四"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "十二宫职卡",
+    "char_interval": {
+      "start_pos": 6841,
+      "end_pos": 6846
+    },
+    "attributes": {
+      "类型": "宫位系统",
+      "来源": "章节标题",
+      "章节": "五"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "144诀",
+    "char_interval": {
+      "start_pos": 6895,
+      "end_pos": 6899
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "所谓144诀，即是指分别以十二宫立太极，所产生了 $12 \\times 12$ ，共计144种宫职含义。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "兄弟宫",
+    "char_interval": {
+      "start_pos": 7077,
+      "end_pos": 7080
+    },
+    "attributes": {
+      "含义": "现金财库；事业规模；私营企业；成就；健康体质；父母婚姻；床位；短途驿马；健康气数"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "命宫",
+    "char_interval": {
+      "start_pos": 7132,
+      "end_pos": 7134
+    },
+    "attributes": {
+      "含义": "我的性格、脾气、机缘、桃花、事业婚姻等等，总揽人生一切，是紫微论断命运最重要的太极点"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "父母宫",
+    "char_interval": {
+      "start_pos": 7188,
+      "end_pos": 7191
+    },
+    "attributes": {
+      "含义": "父母；长辈；上司；文书；名分位；官司；公家机构；大公司；交易买卖"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "福德宫",
+    "char_interval": {
+      "start_pos": 7235,
+      "end_pos": 7238
+    },
+    "attributes": {
+      "含义": "兴趣爱好；特长；投资；外财及债务；享乐；福报；品味；祖父母；股票基金期货等偏财"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "夫妻宫",
+    "char_interval": {
+      "start_pos": 7298,
+      "end_pos": 7301
+    },
+    "attributes": {
+      "含义": "异性缘；婚姻；感情；事业方向"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "田宅宫",
+    "char_interval": {
+      "start_pos": 7360,
+      "end_pos": 7363
+    },
+    "attributes": {
+      "含义": "房产；不动产；店面；工厂；商铺；家庭关系；家族；祖业"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "子女宫",
+    "char_interval": {
+      "start_pos": 7410,
+      "end_pos": 7413
+    },
+    "attributes": {
+      "含义": "子女缘；性生活；桃花位；二婚；意外宫；驿马位；学生；下属；合伙人；娱乐；经销商"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "官禄宫",
+    "char_interval": {
+      "start_pos": 7464,
+      "end_pos": 7467
+    },
+    "attributes": {
+      "含义": "工作特点、工作性质；婚外情；气数位"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "财帛宫",
+    "char_interval": {
+      "start_pos": 7505,
+      "end_pos": 7508
+    },
+    "attributes": {
+      "含义": "钱财中转站；现金流量；感情对待位；父母健康状况"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "疾厄宫",
+    "char_interval": {
+      "start_pos": 7543,
+      "end_pos": 7546
+    },
+    "attributes": {
+      "含义": "身体健康；脾气；行为；办公室；工作环境；副业"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "迁移宫",
+    "char_interval": {
+      "start_pos": 7580,
+      "end_pos": 7583
+    },
+    "attributes": {
+      "含义": "社交能力；外表；身份地位；交通出行；意外伤灾；外地；外出；旅游"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "交友宫",
+    "char_interval": {
+      "start_pos": 7626,
+      "end_pos": 7629
+    },
+    "attributes": {
+      "含义": "人际关系；众生缘；客户；流水人缘；配偶健康；考运位；竞争位；父母运势；父母事业；意外伤灾或死亡"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "当我们生年四化落入某个官位时，我们可以结合生年四化的特性，对该官位进行多方面的论断",
+    "char_interval": {
+      "start_pos": 7699,
+      "end_pos": 7742
+    },
+    "attributes": {
+      "方法": "结合生年四化特性与宫位含义进行多方面论断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "子女宫生年禄",
+    "char_interval": {
+      "start_pos": 7760,
+      "end_pos": 7766
+    },
+    "attributes": {
+      "命盘配置": "生年禄在子女宫",
+      "推理过程": [
+        "1、命主子女缘佳，和孩子相处融洽，就如同朋友一样",
+        "2、命主性生活比较频繁",
+        "3、命主桃花比较多，人缘好，不断地有桃花出现"
+      ],
+      "判断结论": "主子女缘佳、性生活频繁、桃花人缘多"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命主遇到意外情况比较频繁，但没有严重的伤害和后果",
+    "char_interval": {
+      "start_pos": 7840,
+      "end_pos": 7864
+    },
+    "attributes": {
+      "分析类型": "意外与安全",
+      "判断结论": "意外频繁但无严重伤害"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命主驿马跑动比较多",
+    "char_interval": {
+      "start_pos": 7870,
+      "end_pos": 7879
+    },
+    "attributes": {
+      "分析类型": "变动/出外",
+      "判断结论": "驿马跑动多"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命主可以赚娱乐性质的财",
+    "char_interval": {
+      "start_pos": 7899,
+      "end_pos": 7910
+    },
+    "attributes": {
+      "分析类型": "财运事业",
+      "判断结论": "可赚娱乐财"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命主可以做经销商、司机或者导游",
+    "char_interval": {
+      "start_pos": 7916,
+      "end_pos": 7931
+    },
+    "attributes": {
+      "分析类型": "职业选择",
+      "判断结论": "适合做经销商、司机、导游"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "根据生年四化的含义进行多方面的论断",
+    "char_interval": {
+      "start_pos": 7949,
+      "end_pos": 7966
+    },
+    "attributes": {
+      "分析对象": "生年四化",
+      "方法论": "多方面论断",
+      "目的": "防止论断时黔驴技穷"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "以六阳宫主贵，以六阴宫主富",
+    "char_interval": {
+      "start_pos": 8153,
+      "end_pos": 8166
+    },
+    "attributes": {
+      "类型": "富贵格局判断",
+      "前提": "生年四化落在六阳宫多还是六阴宫多",
+      "结论": "在六阳宫多则主命主显贵；在六阴宫多则主命主发富"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四化分组及用法",
+    "char_interval": {
+      "start_pos": 9167,
+      "end_pos": 9174
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "七"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "四化分组的原则是：禄忌一组、权科一组。即我们所谓的AD一组、BC一组。",
+    "char_interval": {
+      "start_pos": 9212,
+      "end_pos": 9249
+    },
+    "attributes": {
+      "类型": "分组规则",
+      "组合1": "禄忌一组（AD）",
+      "组合2": "权科一组（BC）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "AD一组，则是讲的子女宫与夫妻宫同组，意味着这两个宫位讲的是同一件事情。",
+    "char_interval": {
+      "start_pos": 9659,
+      "end_pos": 9695
+    },
+    "attributes": {
+      "宫位组合": [
+        "子女宫",
+        "夫妻宫"
+      ],
+      "逻辑关联": "讲的是同一件事情",
+      "分析视角": "站在夫妻宫角度谈妻子有桃花，站在子女宫角度谈子女有婚姻"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "夫妻宫还可以论事业的发展方向，结合子女宫来论，可以事业发展方向可以朝合伙方面开展。",
+    "char_interval": {
+      "start_pos": 9753,
+      "end_pos": 9796
+    },
+    "attributes": {
+      "前提": "夫妻宫论事业 + 子女宫（合伙）",
+      "结论": "事业发展方向可以朝合伙方面开展"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "BC组，谈的是交友宫和福德宫的关系。",
+    "char_interval": {
+      "start_pos": 9798,
+      "end_pos": 9821
+    },
+    "attributes": {
+      "宫位组合": [
+        "交友宫",
+        "福德宫"
+      ],
+      "分析视角": "站在交友宫谈朋友投资，站在命主视角谈喜欢和朋友待在一起或投资有朋友参与"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "财帛宫与迁移宫构成AD组，疾厄宫与福德宫构成BC组",
+    "char_interval": {
+      "start_pos": 10063,
+      "end_pos": 10088
+    },
+    "attributes": {
+      "命盘配置": "财帛宫与迁移宫构成AD组，疾厄宫与福德宫构成BC组",
+      "分组情况": [
+        "财帛宫与迁移宫(AD组)",
+        "疾厄宫与福德宫(BC组)"
+      ],
+      "分析结论": "财帛宫和迁移宫讲的是同一件事情；BC组则是讲的疾厄宫和福德宫之间的关联"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "站在钱财的角度讲，我需要外出赚钱，或者以互联网作为媒介来赚钱，亦或者通过迁移的行业来赚钱",
+    "char_interval": {
+      "start_pos": 10110,
+      "end_pos": 10154
+    },
+    "attributes": {
+      "前提": "财帛宫与迁移宫构成AD组",
+      "角度": "钱财角度",
+      "结论": "需要外出赚钱、以互联网为媒介或通过迁移行业赚钱"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "站在迁移的角度来讲，我外出可以赚到钱，我为了赚钱而选择外出",
+    "char_interval": {
+      "start_pos": 10168,
+      "end_pos": 10198
+    },
+    "attributes": {
+      "前提": "财帛宫与迁移宫构成AD组",
+      "角度": "迁移角度",
+      "结论": "外出可以赚到钱"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "站在疾厄宫的角度来看，这个组合讲的可能就是带有精神和心理层面的疾病，例如轻度抑郁和业力病",
+    "char_interval": {
+      "start_pos": 10260,
+      "end_pos": 10306
+    },
+    "attributes": {
+      "前提": "疾厄宫与福德宫构成BC组",
+      "角度": "疾厄角度",
+      "结论": "可能带有精神和心理层面的疾病"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "站在福德的角度来讲，福德可以代表兴趣爱好，也可以代表感受，可以谈健康影响感受，也可以谈有消耗体能的兴趣爱好",
+    "char_interval": {
+      "start_pos": 10307,
+      "end_pos": 10361
+    },
+    "attributes": {
+      "前提": "疾厄宫与福德宫构成BC组",
+      "角度": "福德角度",
+      "结论": "健康影响感受，或有消耗体能的兴趣爱好"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四化的跟随",
+    "char_interval": {
+      "start_pos": 10416,
+      "end_pos": 10421
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "章节": "（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "AD分组里面D是占据主导地位的，所以A要跟随D走",
+    "char_interval": {
+      "start_pos": 10796,
+      "end_pos": 10820
+    },
+    "attributes": {
+      "类型": "四化的跟随规则",
+      "前提": "AD分组",
+      "主导方": "D",
+      "跟随方": "A",
+      "结论": "A随D走"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "AD组谈的是官禄和父母的关系，以父母为主导，官禄为跟随",
+    "char_interval": {
+      "start_pos": 10972,
+      "end_pos": 11003
+    },
+    "attributes": {
+      "分析对象": "官禄宫与父母宫",
+      "分组类型": "AD组",
+      "主导宫位": "父母宫",
+      "跟随宫位": "官禄宫",
+      "推理逻辑": "工作性质会跟着父母宫（公家机构、大公司、领导）走"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "交友宫和财帛宫的分组，则是以财帛宫为主导地位，以交友宫向财帛靠拢",
+    "char_interval": {
+      "start_pos": 11117,
+      "end_pos": 11150
+    },
+    "attributes": {
+      "分析对象": "交友宫与财帛宫",
+      "主导宫位": "财帛宫",
+      "跟随宫位": "交友宫",
+      "推理逻辑": "交友动机多为利益相关，易交酒肉朋友"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "夫妻宫跟随父母宫",
+    "char_interval": {
+      "start_pos": 11408,
+      "end_pos": 11416
+    },
+    "attributes": {
+      "前提": "夫妻宫与父母宫为一组且前者跟随后者",
+      "结论": [
+        "婚姻会跟随父母意见",
+        "婚后会与父母同住",
+        "妻子照顾父母",
+        "婚姻趋向于名分位/文书位（可能离婚）"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "疾厄宫跟随子女宫",
+    "char_interval": {
+      "start_pos": 11522,
+      "end_pos": 11530
+    },
+    "attributes": {
+      "前提": "疾厄宫与子女宫为一组且前者跟随后者",
+      "结论": [
+        "追求桃花或发生关系",
+        "易受外伤（疾厄为身体，子女为意外）",
+        "工作环境随子女改变"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "逆行",
+    "char_interval": {
+      "start_pos": 11688,
+      "end_pos": 11690
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十五（三）",
+      "含义": "正常跟随关系发生反转的特殊情况"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "正常情况下 AD 分组, 以 D 为主导地位, A 随 D 走。但是有一种情况是例外的，那就是A自化A的时候，这个时候D就要反过来跟随A走。",
+    "char_interval": {
+      "start_pos": 11719,
+      "end_pos": 11751
+    },
+    "attributes": {
+      "规则类型": "逆行规则",
+      "分组": "AD组",
+      "正常逻辑": "A随D走",
+      "例外条件": "A自化A",
+      "结论": "D跟随A走"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "BC分组，正常的情况下是C随B走，但是当C自化C的时候，B就要反过来跟随C走。",
+    "char_interval": {
+      "start_pos": 11797,
+      "end_pos": 11836
+    },
+    "attributes": {
+      "规则类型": "逆行规则",
+      "分组": "BC组",
+      "正常逻辑": "C随B走",
+      "例外条件": "C自化C",
+      "结论": "B跟随C走"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "当A自化A时，D随A走；当C自化C时，B随C走。",
+    "char_interval": {
+      "start_pos": 12057,
+      "end_pos": 12083
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "前提": "A自化A / C自化C",
+      "结论": "D随A走 / B随C走",
+      "逻辑": "跟随关系的变化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "在BC这组四化里面，C自化C了。本来按照正常的逻辑，兄弟宫该跟随父母宫，但是C自化C以后，父母宫反而会跟随兄弟宫。",
+    "char_interval": {
+      "start_pos": 12177,
+      "end_pos": 12240
+    },
+    "attributes": {
+      "命盘配置": "BC四化组合且C宫自化C",
+      "分析过程": "自化打破常规跟随逻辑",
+      "判断结论": "父母宫跟随兄弟宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "父母做决定会参考会通从命主兄弟姐妹的意见，或者说会跟随命主兄弟姐妹生活。",
+    "char_interval": {
+      "start_pos": 12248,
+      "end_pos": 12284
+    },
+    "attributes": {
+      "前提": "父母宫跟随兄弟宫",
+      "结论": "父母听从兄弟姐妹意见或随其生活"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "河图点窍",
+    "char_interval": {
+      "start_pos": 12290,
+      "end_pos": 12294
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "八"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "河图口诀",
+    "char_interval": {
+      "start_pos": 12301,
+      "end_pos": 12305
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "一六共宗，二七同道。三八为朋，四九为友。五十居中。",
+    "char_interval": {
+      "start_pos": 12307,
+      "end_pos": 12336
+    },
+    "attributes": {
+      "类型": "河图口诀",
+      "用途": "宫位关系判定"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "河图数与十二宫",
+    "char_interval": {
+      "start_pos": 12343,
+      "end_pos": 12350
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "福德宫排列数字原本是 11，而父母宫排列数字原本是 12，但是因为 10 是河图数之极，因此我们在此基础上减去 10，以 1 表示福德宫，以 2 表示父母宫。",
+    "char_interval": {
+      "start_pos": 12690,
+      "end_pos": 12773
+    },
+    "attributes": {
+      "前提": "宫位序数超过10",
+      "逻辑": "10为河图数之极",
+      "结论": "减去10作为河图对应数"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "共宗同源",
+    "char_interval": {
+      "start_pos": 12780,
+      "end_pos": 12784
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "本命宫——⑥疾厄宫——①福德宫（一六共宗原则）",
+    "char_interval": {
+      "start_pos": 12846,
+      "end_pos": 12869
+    },
+    "attributes": {
+      "关系类型": "河图关系",
+      "原则": "一六共宗",
+      "宫位组": [
+        "本命宫",
+        "疾厄宫",
+        "福德宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "兄弟宫——⑦迁移宫——②父母宫（二七同道原则）",
+    "char_interval": {
+      "start_pos": 12873,
+      "end_pos": 12896
+    },
+    "attributes": {
+      "关系类型": "河图关系",
+      "原则": "二七同道",
+      "宫位组": [
+        "兄弟宫",
+        "迁移宫",
+        "父母宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "夫妻宫——⑧交友宫（三八为朋原则）",
+    "char_interval": {
+      "start_pos": 12901,
+      "end_pos": 12918
+    },
+    "attributes": {
+      "关系类型": "河图关系",
+      "原则": "三八为朋",
+      "宫位组": [
+        "夫妻宫",
+        "交友宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "(4)子女宫——⑨官禄宫（四九为友原则）",
+    "char_interval": {
+      "start_pos": 12921,
+      "end_pos": 12941
+    },
+    "attributes": {
+      "关系类型": "河图关系",
+      "原则": "四九为友",
+      "宫位组": [
+        "子女宫",
+        "官禄宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "(5)财帛宫——⑩田宅宫（五十居中原则）",
+    "char_interval": {
+      "start_pos": 12944,
+      "end_pos": 12964
+    },
+    "attributes": {
+      "关系类型": "河图关系",
+      "原则": "五十居中",
+      "宫位组": [
+        "财帛宫",
+        "田宅宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "洛书与气数位用法",
+    "char_interval": {
+      "start_pos": 13410,
+      "end_pos": 13418
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "九"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "戴九履一，左三右七。二四为肩，六八为足。五居中央。",
+    "char_interval": {
+      "start_pos": 13431,
+      "end_pos": 13460
+    },
+    "attributes": {
+      "类型": "洛书口诀",
+      "用途": "确定洛书方位与宫位对应关系"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "洛书数配宫职应用原则",
+    "char_interval": {
+      "start_pos": 13544,
+      "end_pos": 13554
+    },
+    "attributes": {
+      "数据内容": [
+        {
+          "序": "1",
+          "口诀": "戴九履一",
+          "宫职": "①命宫; ⑨官禄宫",
+          "事件现象": "运势吉凶(气数)"
+        },
+        {
+          "序": "2",
+          "口诀": "左三右七",
+          "宫职": "③夫妻宫; ⑦迁移宫",
+          "事件现象": "驿马"
+        },
+        {
+          "序": "3",
+          "口诀": "二四为肩",
+          "宫职": "②兄弟宫; ④子女宫",
+          "事件现象": "桃花"
+        },
+        {
+          "序": "4",
+          "口诀": "六八为足",
+          "宫职": "⑥疾厄宫; ⑧交友宫",
+          "事件现象": "身体健康"
+        },
+        {
+          "序": "5",
+          "口诀": "五居中央",
+          "宫职": "⑤财帛宫",
+          "事件现象": ""
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "二四为肩，讲的是桃花的事件和现象。",
+    "char_interval": {
+      "start_pos": 13954,
+      "end_pos": 13975
+    },
+    "attributes": {
+      "宫位组合": [
+        "兄弟宫(②)",
+        "子女宫(④)"
+      ],
+      "含义": "桃花的事件和现象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "兄弟宫以自化为媒介与子女宫生年质产生交感，那么这个命盘必然会出现桃花之物象与现象。",
+    "char_interval": {
+      "start_pos": 13975,
+      "end_pos": 14020
+    },
+    "attributes": {
+      "媒介": "自化",
+      "对象": [
+        "兄弟宫",
+        "子女宫"
+      ],
+      "结论": "必然会出现桃花之物象与现象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "六八为足，讲的是身体健康的问题。",
+    "char_interval": {
+      "start_pos": 14121,
+      "end_pos": 14141
+    },
+    "attributes": {
+      "宫位组合": [
+        "疾厄宫(⑥)",
+        "交友宫(⑧)"
+      ],
+      "含义": "身体健康的问题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "疾厄宫与交友宫通过向心D串联而产生了交感，那么就触发了洛书应用中跟健康有关的事件和现象，所以此命主必定有健康方面的问题。",
+    "char_interval": {
+      "start_pos": 14141,
+      "end_pos": 14201
+    },
+    "attributes": {
+      "媒介": "向心D串联",
+      "对象": [
+        "疾厄宫",
+        "交友宫"
+      ],
+      "结论": "此命主必定有健康方面的问题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "气数位",
+    "char_interval": {
+      "start_pos": 14208,
+      "end_pos": 14211
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "章节": "三"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "所谓气数，谈的就是戴九履一的关系。",
+    "char_interval": {
+      "start_pos": 14213,
+      "end_pos": 14230
+    },
+    "attributes": {
+      "术语": "气数",
+      "核心逻辑": "戴九履一"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "我们立太极以后，可以以该太极点的官禄宫论运势吉凶。",
+    "char_interval": {
+      "start_pos": 14316,
+      "end_pos": 14341
+    },
+    "attributes": {
+      "技法": "立太极",
+      "应用": "以太极点的气数位（官禄宫）论运势吉凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "看感情的运势吉凶，就看“夫之官”，即福德宫",
+    "char_interval": {
+      "start_pos": 14363,
+      "end_pos": 14384
+    },
+    "attributes": {
+      "太极点": "夫妻宫",
+      "气数位": "福德宫",
+      "别称": "夫之官",
+      "论断内容": "感情运势吉凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "看父母的运势吉凶，就看“父之官”，即交友宫",
+    "char_interval": {
+      "start_pos": 14385,
+      "end_pos": 14406
+    },
+    "attributes": {
+      "太极点": "父母宫",
+      "气数位": "交友宫",
+      "别称": "父之官",
+      "论断内容": "父母运势吉凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "看事业的运势吉凶，就看“官之官”，即财帛宫",
+    "char_interval": {
+      "start_pos": 14407,
+      "end_pos": 14428
+    },
+    "attributes": {
+      "太极点": "官禄宫",
+      "气数位": "财帛宫",
+      "别称": "官之官",
+      "论断内容": "事业运势吉凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "看投资的运势吉凶，就看“福之官”，即迁移宫",
+    "char_interval": {
+      "start_pos": 14429,
+      "end_pos": 14450
+    },
+    "attributes": {
+      "太极点": "福德宫",
+      "气数位": "迁移宫",
+      "别称": "福之官",
+      "论断内容": "投资运势吉凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "以夫妻宫为太极点，逆数第九位，即为夫妻宫的气数位。也就是以福德宫来论感情运势吉凶。",
+    "char_interval": {
+      "start_pos": 14583,
+      "end_pos": 14630
+    },
+    "attributes": {
+      "命盘配置": "福德宫为夫妻宫之气数位",
+      "分析过程": "福德宫是被生年忌所冲之宫位",
+      "判断结论": "主感情运势不顺利，凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "以疾厄宫立太极点为1，然后逆数到第9个宫位，也就是“疾之官”为健康气数位。",
+    "char_interval": {
+      "start_pos": 14782,
+      "end_pos": 14825
+    },
+    "attributes": {
+      "命盘配置": "疾厄宫为太极点",
+      "气数位定位": "逆数第9位（疾之官）",
+      "判断结论": "兄弟宫为健康气数位"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "兄弟宫坐生年忌，主该官位不顺利，气脉不畅，有阻碍，故可以判断该命盘健康运势不佳，但因为太极点坐着生年禄，可以解厄制化，不会有太大的健康问题。",
+    "char_interval": {
+      "start_pos": 14843,
+      "end_pos": 14921
+    },
+    "attributes": {
+      "命盘配置": "兄弟宫坐生年忌，太极点坐生年禄",
+      "分析过程": "兄弟宫主健康气脉，忌主阻碍；禄主解厄制化",
+      "判断结论": "健康运势不佳但无大碍"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "福德宫有自化忌的现象，则表示该命主感情运势坎坷，初恋感情走不到最后。不过因为夫妻宫坐生年科，结合论断则是命主感情坎坷，与恋人无法走到结局，最后是在别人的介绍下认识妻子，完成了自己的婚姻。",
+    "char_interval": {
+      "start_pos": 14977,
+      "end_pos": 15076
+    },
+    "attributes": {
+      "命盘配置": "福德宫自化忌，夫妻宫坐生年科",
+      "分析过程": "气数位自化忌主坎坷，太极点生年科主贵人介绍/结局完成",
+      "判断结论": "初恋无果，经人介绍成婚"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "可以将太极点作为结果，而气数位的好坏看做过程",
+    "char_interval": {
+      "start_pos": 15103,
+      "end_pos": 15125
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "前提条件": "论断运势时",
+      "结论": "太极点=结果，气数位=过程"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化及法象",
+    "char_interval": {
+      "start_pos": 15170,
+      "end_pos": 15175
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "十"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化即是变化",
+    "char_interval": {
+      "start_pos": 15201,
+      "end_pos": 15207
+    },
+    "attributes": {
+      "核心概念": "自化",
+      "定义": "一个官位如果有自化产生，那么这个官位必然有变化发生",
+      "特征": "动态的，具有时间概念"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "自化又分为离心力自化与向心力自化",
+    "char_interval": {
+      "start_pos": 15301,
+      "end_pos": 15317
+    },
+    "attributes": {
+      "类型": "自化分类",
+      "组成": [
+        "离心力自化",
+        "向心力自化"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "该命盘产生自化的宫位一共有6处，分别是田宅宫、兄弟宫、夫妻宫疾厄宫，以及作为发射宫的父母宫和官禄宫。在命盘上这些宫位产生了自化，那么这些宫位在后天的时空中必然会产生某些变化。",
+    "char_interval": {
+      "start_pos": 15409,
+      "end_pos": 15496
+    },
+    "attributes": {
+      "前提": "宫位产生自化",
+      "结论": "后天时空中必然产生某些变化",
+      "涉及宫位": [
+        "田宅宫",
+        "兄弟宫",
+        "夫妻宫",
+        "疾厄宫",
+        "父母宫",
+        "官禄宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "离心自化",
+    "char_interval": {
+      "start_pos": 15539,
+      "end_pos": 15543
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "指宫位的天干让本宫内的星辰产生了变化",
+      "标注": "以向宫位外面指向的箭头来标注"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "向心自化",
+    "char_interval": {
+      "start_pos": 15783,
+      "end_pos": 15787
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "指宫位的天干让对宫的星辰产生了变化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "法象",
+    "char_interval": {
+      "start_pos": 16006,
+      "end_pos": 16008
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "定义": "所谓法象并非什么高深的技法和理论，其实讲的就是自化和生年之间的动静、阴阳以及体用关系",
+      "核心逻辑": "所有的自化，都要回归生年来看待和论断",
+      "extraction_text": "所谓法象并非什么高深的技法和理论，其实讲的就是自化和生年之间的动静、阴阳以及体用关系。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例2：命宫生年权与官禄/田宅自化权",
+    "char_interval": {
+      "start_pos": 16701,
+      "end_pos": 16705
+    },
+    "attributes": {
+      "命盘配置": "命宫有生年权，官禄宫和田宅宫有自化权",
+      "推理逻辑": "生年权表示命主握有权力（当老板/管理者格局），自化权代表权力行使的地方",
+      "判断结论": "命主的权力主要行使在工作上，以及家庭中",
+      "extraction_text": "命主命宫有生年权，即表示命主握有权力，有权利当老板或者做管理者的格局。而命盘上有两处自化权...看自化权分别在官禄宫和田宅宫，则表示命主的权力主要行使在工作上，以及家庭中。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "命主在工作上必定是老板或者管理者，因为官禄宫和田宅宫都有自化权",
+    "char_interval": {
+      "start_pos": 16866,
+      "end_pos": 16897
+    },
+    "attributes": {
+      "前提": "官禄宫和田宅宫都有自化权",
+      "结论": "命主在工作上必定是老板或者管理者",
+      "推理步骤": "利用自化权的权力性质，串联官禄（事业）与田宅（店面/家庭）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "命盘上所有的自化A，都要回归生年A来讲",
+    "char_interval": {
+      "start_pos": 17184,
+      "end_pos": 17203
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "原则": "法象（回归生年象）",
+      "含义": "自化象是生年象的延伸，其具体含义由生年象所在的宫位决定"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "破象论",
+    "char_interval": {
+      "start_pos": 17611,
+      "end_pos": 17614
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十一"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "同类破象",
+    "char_interval": {
+      "start_pos": 17697,
+      "end_pos": 17701
+    },
+    "attributes": {
+      "类型": "破象类型",
+      "数量": "四种",
+      "内容": [
+        "禄+自化禄（离心+向心）",
+        "权+自化权（离心+向心）",
+        "科+自化科（离心+向心）",
+        "忌+自化忌（离心+向心）"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "同组破象",
+    "char_interval": {
+      "start_pos": 17775,
+      "end_pos": 17779
+    },
+    "attributes": {
+      "类型": "破象类型",
+      "公式组": [
+        "生年禄+自化忌（离心+向心）=禄忌同组破象",
+        "生年忌+自化禄（离心+向心）=禄忌同组破象",
+        "生年权+自化科（离心+向心）=权科同组破象"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生年禄+自化忌（离心+向心）=禄忌同组破象",
+    "char_interval": {
+      "start_pos": 17781,
+      "end_pos": 17802
+    },
+    "attributes": {
+      "类型": "破象公式",
+      "组合": "禄忌同组",
+      "前提": "生年禄遇自化忌",
+      "结论": "禄忌同组破象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生年权+自化科（离心+向心）=权科同组破象",
+    "char_interval": {
+      "start_pos": 17827,
+      "end_pos": 17848
+    },
+    "attributes": {
+      "类型": "破象公式",
+      "组合": "权科同组",
+      "前提": "生年权遇自化科",
+      "结论": "权科同组破象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生年科+自化权（离心+向心）=权科同组破象",
+    "char_interval": {
+      "start_pos": 17850,
+      "end_pos": 17871
+    },
+    "attributes": {
+      "类型": "破象公式",
+      "组合": "权科同组",
+      "前提": "生年科+自化权",
+      "结论": "权科同组破象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化忌破象",
+    "char_interval": {
+      "start_pos": 17879,
+      "end_pos": 17884
+    },
+    "attributes": {
+      "类型": "破象类型",
+      "序号": "(3)",
+      "定义": "任何宫位+自化忌=破象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "本对宫破象",
+    "char_interval": {
+      "start_pos": 17905,
+      "end_pos": 17910
+    },
+    "attributes": {
+      "类型": "破象类型",
+      "序号": "(4)",
+      "定义": "本宫有生年象，对宫有同类或者同组自化象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "三合方破象",
+    "char_interval": {
+      "start_pos": 17939,
+      "end_pos": 17944
+    },
+    "attributes": {
+      "类型": "破象类型",
+      "序号": "(5)",
+      "定义": "三合方有生年象，同时另一方具有同类或者同组自化象拉破"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "共宗位破象",
+    "char_interval": {
+      "start_pos": 17981,
+      "end_pos": 17986
+    },
+    "attributes": {
+      "类型": "破象类型",
+      "序号": "(6)",
+      "定义": "本宫有生年象，共宗位有同类或同组自化象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "双象论",
+    "char_interval": {
+      "start_pos": 18015,
+      "end_pos": 18018
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十二"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "双象构成的条件",
+    "char_interval": {
+      "start_pos": 18025,
+      "end_pos": 18032
+    },
+    "attributes": {
+      "类型": "构成条件",
+      "具体条件": [
+        "生年象+生年象",
+        "生年象+自化象",
+        "生年象+飞宫象"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "权+科=权科双象=BC",
+    "char_interval": {
+      "start_pos": 18199,
+      "end_pos": 18210
+    },
+    "attributes": {
+      "类型": "双象组合",
+      "组合名称": "权科双象",
+      "代号": "BC",
+      "组成": "权+科"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "权+忌=权忌双象=BD",
+    "char_interval": {
+      "start_pos": 18212,
+      "end_pos": 18223
+    },
+    "attributes": {
+      "类型": "双象组合",
+      "组合名称": "权忌双象",
+      "代号": "BD",
+      "组成": "权+忌"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "科 + 忌 = 科忌双象 ≡ CD",
+    "char_interval": {
+      "start_pos": 18225,
+      "end_pos": 18226
+    },
+    "attributes": {
+      "类型": "双象组合",
+      "组合名称": "科忌双象",
+      "代号": "CD",
+      "组成": "科+忌"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "论自化时空的概念",
+    "char_interval": {
+      "start_pos": 18773,
+      "end_pos": 18781
+    },
+    "attributes": {
+      "核心概念": "自化",
+      "定义": "自化是生年质在后天时空中的变化",
+      "时空特性": "带有时间的概念",
+      "对比": "生年代表质的存在，占据空间永恒不灭"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "兄弟宫自化A，那么兄弟宫的用神便是AD组",
+    "char_interval": {
+      "start_pos": 19030,
+      "end_pos": 19050
+    },
+    "attributes": {
+      "类型": "用神分组规则",
+      "前提": "自化禄(A)",
+      "用神组": "AD组"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "太阴星自化C，让生年质产生了时空的概念，也就是说田宅变化的用神是BC组",
+    "char_interval": {
+      "start_pos": 19198,
+      "end_pos": 19234
+    },
+    "attributes": {
+      "类型": "用神分组规则",
+      "前提": "自化科(C)",
+      "用神组": "BC组"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "疾厄宫生年C+自化D，CD不同组，属于象二数二，属于增多的现象",
+    "char_interval": {
+      "start_pos": 19597,
+      "end_pos": 19630
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "前提": "疾厄宫生年科(C) + 自化忌(D)",
+      "逻辑": "CD不同组，属于象二数二",
+      "结论": "属于增多的现象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "应期判断",
+    "extraction_text": "走到生年A或者生年D的时候，就会触发这个健康问题的应期",
+    "char_interval": {
+      "start_pos": 19802,
+      "end_pos": 19816
+    },
+    "attributes": {
+      "前提": "大运命宫或大运疾厄宫走生年禄(A)或生年忌(D)",
+      "结论": "触发健康问题的应期"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命主在第四大运，也就是32-41岁期间容易出现健康问题",
+    "char_interval": {
+      "start_pos": 19841,
+      "end_pos": 19868
+    },
+    "attributes": {
+      "大运区间": "第四大运 (32-41岁)",
+      "判断结论": "容易出现健康问题",
+      "分析逻辑": "大运疾厄宫用神为天机星，结合原局武曲自化忌",
+      "病症判断": "手足骨骼问题，注意骨折"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "以此盘论妻子健康问题",
+    "char_interval": {
+      "start_pos": 20029,
+      "end_pos": 20039
+    },
+    "attributes": {
+      "分析对象": "妻子健康",
+      "宫位判定": "交友宫可以代表妻子的健康宫位",
+      "命盘特征": "交友宫生年C自化A",
+      "应期判断": "54-63岁期间（大运交友宫踩到生年D的时候）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "平衡论",
+    "char_interval": {
+      "start_pos": 20172,
+      "end_pos": 20175
+    },
+    "attributes": {
+      "类型": "核心技法/判断法则",
+      "来源": "第十四章标题",
+      "定义": "是指两个官位之中的多个四化能量一致，得到个官位之中的能量平衡",
+      "前提条件": "其中有一个官位中含有生年四化",
+      "分类": [
+        "自化平衡",
+        "飞宫平衡"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化平衡",
+    "char_interval": {
+      "start_pos": 20272,
+      "end_pos": 20276
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "是一组象具有生年双象，或者生年象+自化象，另一组有同类的自化双象，从而达成两个官位之间的平衡"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫平衡",
+    "char_interval": {
+      "start_pos": 20587,
+      "end_pos": 20591
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "是指另外一个官位没有只有单象四化，没有达成双象，这个时候，我们可以用飞宫来满足另一个象的能量，从而使另个宫位完成四化能量的平衡"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "自化禄产生在太阳星，那么这个象就是以父亲为主导，父亲是老板格局",
+    "char_interval": {
+      "start_pos": 20799,
+      "end_pos": 20833
+    },
+    "attributes": {
+      "前提": "自化禄产生在太阳星",
+      "推理过程": "太阳星主导父亲",
+      "结论": "父亲是老板格局"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "父亲是老板格局或者做生意的格局，而他做的是店铺店面的生意，或者是跟不动产有关的生意",
+    "char_interval": {
+      "start_pos": 21055,
+      "end_pos": 21096
+    },
+    "attributes": {
+      "命盘配置": "父母宫AB组合，田宅宫自化A并飞B入官禄宫实现平衡",
+      "判断结论": "父亲做店面或不动产生意",
+      "分析类型": "事业/格局判断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命主会有健康问题；而这个问题是财帛大运（45-54岁）的意外导致的",
+    "char_interval": {
+      "start_pos": 21348,
+      "end_pos": 21381
+    },
+    "attributes": {
+      "命盘配置": "疾厄宫CD组合，子女宫飞D出并飞C入财帛宫平衡",
+      "推理逻辑": "子女宫代表意外伤灾，疾厄宫代表健康问题",
+      "应期判断": "财帛大运（45-54岁）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "三象一物论",
+    "char_interval": {
+      "start_pos": 21389,
+      "end_pos": 21394
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十五"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "单象不成物（言有无）——朋友",
+    "char_interval": {
+      "start_pos": 21588,
+      "end_pos": 21602
+    },
+    "attributes": {
+      "类型": "三象层次",
+      "序号": "(1)",
+      "含义": "单象不成物，言有无",
+      "示例": "朋友"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "双象成物对（言对待关系）——朋友打我",
+    "char_interval": {
+      "start_pos": 21609,
+      "end_pos": 21627
+    },
+    "attributes": {
+      "类型": "三象层次",
+      "序号": "(2)",
+      "含义": "双象成物对，言对待关系",
+      "示例": "朋友打我"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "三象成一物（完整的事件）——星期五的晚上朋友在酒吧打了我",
+    "char_interval": {
+      "start_pos": 21634,
+      "end_pos": 21662
+    },
+    "attributes": {
+      "类型": "三象层次",
+      "序号": "(3)",
+      "含义": "三象成一物，完整的事件",
+      "示例": "星期五的晚上朋友在酒吧打了我"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "组合形式可以是生年象+自化象、生年象+飞宫象、自化象+自化象、自化象+飞宫象",
+    "char_interval": {
+      "start_pos": 21726,
+      "end_pos": 21764
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "具体组合": [
+        "生年象+自化象",
+        "生年象+飞宫象",
+        "自化象+自化象",
+        "自化象+飞宫象"
+      ],
+      "要求": "其象必须达到三条"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "若宫位双象遇到飞宫象，则也达成三象一物的条件",
+    "char_interval": {
+      "start_pos": 21776,
+      "end_pos": 21798
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "前提": "宫位双象遇到飞宫象",
+      "结论": "达成三象一物"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "本命盘夫妻宫生年双象+向心自化象，构成三象一物，那么这就是一个完整的物象组合，可以言命主必定有婚姻的现象和事件产生",
+    "char_interval": {
+      "start_pos": 21901,
+      "end_pos": 21958
+    },
+    "attributes": {
+      "案例编号": "案例1",
+      "命盘配置": "夫妻宫生年双象+向心自化象",
+      "分析过程": "构成三象一物，是一个完整的物象组合",
+      "判断结论": "可以言命主必定有婚姻的现象和事件产生"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "兄弟宫向心DC与离心A构成了三象一物，那么说明兄弟宫必有其物象存在，我们由此可以判断该命主必定有兄弟姐妹存在",
+    "char_interval": {
+      "start_pos": 22082,
+      "end_pos": 22136
+    },
+    "attributes": {
+      "案例编号": "案例2",
+      "命盘配置": "兄弟宫向心DC与离心A",
+      "分析过程": "构成了三象一物",
+      "判断结论": "该命主必定有兄弟姐妹存在"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "子女宫达成了三象一物的条件，其中包含了生年象，那么我们我们在言必定有子女的时候，还必然带有时空是完整的事件链条，还可以言命主必定会达成合伙的事件",
+    "char_interval": {
+      "start_pos": 22231,
+      "end_pos": 22294
+    },
+    "attributes": {
+      "案例编号": "案例3",
+      "命盘配置": "子女宫达成了三象一物的条件，其中包含了生年象",
+      "判断结论": "必定有子女，且必定会达成合伙的事件"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "子女宫自化A，消耗命宫生年A，讲的是命主拿钱合伙做生意的完整事件",
+    "char_interval": {
+      "start_pos": 22388,
+      "end_pos": 22421
+    },
+    "attributes": {
+      "前提": "子女宫自化A，消耗命宫生年A",
+      "推理过程": "消耗关系",
+      "结论": "命主拿钱合伙做生意的完整事件"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "迁移宫，因为向心 CD + 离心C构成了三象一物的条件...说明这个命主必定会有跟迁移有关的完整事件发生",
+    "char_interval": {
+      "start_pos": 22571,
+      "end_pos": 22689
+    },
+    "attributes": {
+      "案例编号": "案例4",
+      "命盘配置": "迁移宫向心 CD + 离心C",
+      "分析过程": "构成了三象一物的条件（包含飞了一个向心D到命宫）",
+      "判断结论": "说明这个命主必定会有跟迁移有关的完整事件发生"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "迁移宫的天干为丙，丙干飞天机B入疾厄宫，构成了疾厄宫的三象一物",
+    "char_interval": {
+      "start_pos": 22693,
+      "end_pos": 22728
+    },
+    "attributes": {
+      "核心技法": "飞宫",
+      "应用场景": "论疾厄宫物象",
+      "操作": "丙干飞天机B入疾厄宫",
+      "结果": "构成了疾厄宫的三象一物"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "疾厄宫有生年 C + 自化C，已经构成了双象言吉凶",
+    "char_interval": {
+      "start_pos": 22734,
+      "end_pos": 22740
+    },
+    "attributes": {
+      "类型": "双象构成的条件",
+      "前提": "生年 C + 自化C",
+      "结论": "构成了双象言吉凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "一忌多论",
+    "char_interval": {
+      "start_pos": 22895,
+      "end_pos": 22899
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十六"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "忌坐论",
+    "char_interval": {
+      "start_pos": 22906,
+      "end_pos": 22909
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "论生年忌的时候，要结合宫职的多种含义来进行论断",
+      "来源": "（一）忌坐论"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "一六、二七、三八、四九、五十的组合论断都可以相互借用四化的力量",
+    "char_interval": {
+      "start_pos": 23021,
+      "end_pos": 23054
+    },
+    "attributes": {
+      "依据": "河图原则",
+      "内容": "特定宫位组合可以相互借用四化力量",
+      "组合": [
+        "一六",
+        "二七",
+        "三八",
+        "四九",
+        "五十"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "本宫论",
+    "char_interval": {
+      "start_pos": 23151,
+      "end_pos": 23154
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "根据生年忌所在宫位的宫职含义进行结论推导",
+      "序号": "（1）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "河图论",
+    "char_interval": {
+      "start_pos": 23379,
+      "end_pos": 23382
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "序号": "(2)",
+      "原理": "二七同道",
+      "应用": "兄弟宫（第二宫）的生年忌可借用到迁移宫（第七宫）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "气数论",
+    "char_interval": {
+      "start_pos": 23620,
+      "end_pos": 23623
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "序号": "(3)",
+      "方法": "通过生年忌所在的宫位作为气数位，反推出受其影响运势的太极点宫职"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "忌冲论",
+    "char_interval": {
+      "start_pos": 23855,
+      "end_pos": 23858
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "序号": "（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "夫妻宫作为来因宫，给了疾厄宫一颗手雷，然后疾厄宫把手雷触发以后丢入了父母宫。那么在这个环节中，受到最大伤害的必然是父母宫。而罪魁祸首则是夫妻宫",
+    "char_interval": {
+      "start_pos": 24172,
+      "end_pos": 24243
+    },
+    "attributes": {
+      "前提": "夫妻宫为来因宫，生年忌在疾厄宫",
+      "推理过程": "来因宫(夫妻)借坐忌宫(疾厄)之手冲父母宫",
+      "结论": "伤害最大的是父母宫，根源在夫妻宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "本宫论",
+    "char_interval": {
+      "start_pos": 24337,
+      "end_pos": 24340
+    },
+    "attributes": {
+      "类型": "忌冲判断层次",
+      "定义": "直接将生年忌冲的宫位作为凶象来论",
+      "章节": "(1)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "生年忌在兄弟宫，那么我们的忌冲位便是交友宫，这个时候交友宫直接可以用凶象来论断",
+    "char_interval": {
+      "start_pos": 24386,
+      "end_pos": 24427
+    },
+    "attributes": {
+      "命盘配置": "生年忌在兄弟宫",
+      "判断结论": "交友宫为忌冲位，属凶象",
+      "具体表现": [
+        "命主人际关系不好",
+        "不擅长结交人缘",
+        "竞争力不强",
+        "考试运差",
+        "配偶身体不好",
+        "父母事业不顺"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "河图论",
+    "char_interval": {
+      "start_pos": 24564,
+      "end_pos": 24567
+    },
+    "attributes": {
+      "类型": "忌冲判断层次",
+      "理论依据": "河图三八为朋原则",
+      "章节": "(2)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "交友宫为第八宫，前面我们谈过河图三八为朋的原则。那么，根据该原则，我们交友宫受到忌冲，相当于夫妻宫也受到生年忌冲的危害。",
+    "char_interval": {
+      "start_pos": 24569,
+      "end_pos": 24629
+    },
+    "attributes": {
+      "关系类型": "河图关系",
+      "原则": "三八为朋",
+      "关联宫位": [
+        "交友宫(八)",
+        "夫妻宫(三)"
+      ],
+      "效应传递": "交友受冲影响夫妻宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "气数论",
+    "char_interval": {
+      "start_pos": 24701,
+      "end_pos": 24704
+    },
+    "attributes": {
+      "类型": "忌冲判断层次",
+      "核心逻辑": "将忌冲的宫位立为气数位，直接论断太极点气数为凶",
+      "章节": "(3)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "交友宫是父母官的气数位。结论如下：①父母运势不佳。②学业运不好。(3)考运不好。④与公家单位无缘。",
+    "char_interval": {
+      "start_pos": 24854,
+      "end_pos": 24950
+    },
+    "attributes": {
+      "前提条件": "交友宫作为父母宫的气数位出现问题",
+      "结论": [
+        "父母运势不佳",
+        "学业运不好",
+        "考运不好",
+        "与公家单位无缘"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "交友宫是父母官的气数位",
+    "char_interval": {
+      "start_pos": 24854,
+      "end_pos": 24865
+    },
+    "attributes": {
+      "关系类型": "气数关系",
+      "本宫": "父母宫",
+      "气数位": "交友宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "父母宫除了代表父母长辈领导之外，还可以代表文书，学业等等",
+    "char_interval": {
+      "start_pos": 24866,
+      "end_pos": 24894
+    },
+    "attributes": {
+      "宫位": "父母宫",
+      "含义": [
+        "父母",
+        "长辈",
+        "领导",
+        "文书",
+        "学业"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四化媒介用法",
+    "char_interval": {
+      "start_pos": 25045,
+      "end_pos": 25051
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "十七"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "142、243、341",
+    "char_interval": {
+      "start_pos": 25354,
+      "end_pos": 25365
+    },
+    "attributes": {
+      "类型": "媒介记忆口诀",
+      "对应逻辑": "数字1234对应禄权科忌，142即A+D媒介为B，以此类推"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "官禄宫坐生年D，又得向心C，就形成了一个科忌CD的组合",
+    "char_interval": {
+      "start_pos": 25547,
+      "end_pos": 25574
+    },
+    "attributes": {
+      "命盘配置": "官禄宫生年忌(D)与向心科(C)",
+      "判断结论": "技术性或者技能性上班的组合，多为技术工",
+      "分析类型": "职业性质判断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "CD组合的媒介为A，所以我们以官禄宫飞A来看落点。官禄宫天干为己干，通过天干四化口诀，得知官禄宫飞禄入田宅宫。",
+    "char_interval": {
+      "start_pos": 25688,
+      "end_pos": 25745
+    },
+    "attributes": {
+      "前提": "CD双象组合已形成",
+      "推理过程": "寻找媒介A的落点，官禄宫(己干)飞武曲禄入田宅宫",
+      "结论": "工作性质与田宅（工厂、店铺）有关"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "生年A自化B，形成了AB双象组合，表示健康会出现问题",
+    "char_interval": {
+      "start_pos": 25931,
+      "end_pos": 25961
+    },
+    "attributes": {
+      "命盘配置": "生年象A与自化象B形成AB组合",
+      "判断结论": "健康会出现问题",
+      "分析类型": "健康论断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "AB组合的媒介是D，那么我们用疾厄宫飞D出去，结果是落在的迁移宫，那么也就意味着这个健康问题跟外出或者迁移有关",
+    "char_interval": {
+      "start_pos": 26002,
+      "end_pos": 26057
+    },
+    "attributes": {
+      "核心技法": "媒介",
+      "媒介象": "D (忌)",
+      "起点宫位": "疾厄宫",
+      "终点宫位": "迁移宫",
+      "结论": "健康问题与外出或迁移有关"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "十天干四化表",
+    "char_interval": {
+      "start_pos": 26082,
+      "end_pos": 26088
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "用途": "飞宫基础"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "十天干四化表",
+    "char_interval": {
+      "start_pos": 26082,
+      "end_pos": 26088
+    },
+    "attributes": {
+      "甲": "廉贞化禄、破军化权、武曲化科、太阳化忌",
+      "乙": "天机化禄、天梁化权、紫微化科、太阴化忌",
+      "丙": "天同化禄、天机化权、文昌化科、廉贞化忌",
+      "丁": "太阴化禄、天同化权、天机化科、巨门化忌",
+      "戊": "贪狼化禄、太阴化权、右弼化科、天机化忌",
+      "己": "武曲化禄、贪狼化权、天梁化科、文曲化忌",
+      "庚": "太阳化禄、武曲化权、太阴化科、天同化忌",
+      "辛": "巨门化禄、太阳化权、文曲化科、文昌化忌",
+      "壬": "天梁化禄、紫微化权、左辅化科、武曲化忌",
+      "癸": "破军化禄、巨门化权、太阴化科、贪狼化忌"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "甲廉破武阳；乙机梁紫阴；丙同机昌廉；丁阴同机巨；戊寅阴右机；己武贪梁曲；庚阳武阴同；辛巨阳曲昌；壬梁紫左武；癸破巨阴贪。",
+    "char_interval": {
+      "start_pos": 26117,
+      "end_pos": 26181
+    },
+    "attributes": {
+      "名称": "十天干四化口诀",
+      "类型": "快速记忆口诀"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "丁天干可以让太阴星化禄，那么丁天干的宫职就可以以太阴星为媒介，让太阴星所在的宫位化禄；以天同星为媒介，让天同星所在的宫位化权；以天机星为媒介，让天机星所在的宫位化科；以巨门星为媒介，让巨门星所在的宫位化忌。",
+    "char_interval": {
+      "start_pos": 26637,
+      "end_pos": 26740
+    },
+    "attributes": {
+      "技法名称": "飞宫应用",
+      "示例天干": "丁",
+      "媒介与转化": [
+        "太阴-化禄",
+        "天同-化权",
+        "天机-化科",
+        "巨门-化忌"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "丁阴同机巨",
+    "char_interval": {
+      "start_pos": 26898,
+      "end_pos": 26903
+    },
+    "attributes": {
+      "类型": "十天干四化口诀",
+      "天干": "丁",
+      "四化分配": "太阴化禄，天同化权，天机化科，巨门化忌"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "夫妻宫天干通过太阴星让父母宫化禄了，即解释为：妻子对我的父母好，妻子善待孝顺我的父母，妻子给我的父母带去了好的感受",
+    "char_interval": {
+      "start_pos": 27090,
+      "end_pos": 27147
+    },
+    "attributes": {
+      "前提": "夫妻宫（丁）飞禄入父母宫（太阴）",
+      "推理过程": "飞宫禄主善待、好感受",
+      "结论": "妻子孝顺父母"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "夫妻宫天干通过天同星让交友宫化权了，即解释为：妻子给我带来了很多有权势的人脉，容易因为我结交的朋友争吵，妻子习惯管束我的人际交往等等",
+    "char_interval": {
+      "start_pos": 27150,
+      "end_pos": 27216
+    },
+    "attributes": {
+      "前提": "夫妻宫（丁）飞权入交友宫（天同）",
+      "推理过程": "飞宫权主权势、争吵、管束",
+      "结论": "妻管人际或带来人脉"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "夫妻宫天干通过天机星让子女宫化科了，即解释为：妻子给子女带去了科，也就是妻子会辅导孩子的学业，妻子会有良性的桃花",
+    "char_interval": {
+      "start_pos": 27219,
+      "end_pos": 27275
+    },
+    "attributes": {
+      "前提": "夫妻宫（丁）飞科入子女宫（天机）",
+      "推理过程": "飞宫科主学业、辅导、良性桃花",
+      "结论": "妻子辅导子女或有良性桃花"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "夫妻宫天干通过巨门星让田宅宫化忌了，即解释为：妻子给家庭带来了不好的感受，妻子容易在家里引起争吵，也可以理解为妻子一心为了家庭而付出",
+    "char_interval": {
+      "start_pos": 27278,
+      "end_pos": 27344
+    },
+    "attributes": {
+      "前提": "夫妻宫（丁）飞忌入田宅宫（巨门）",
+      "推理过程": "飞宫忌主不好的感受、争吵或一心付出",
+      "结论": "家宅争吵或妻子为家付出"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "命宫四化",
+    "char_interval": {
+      "start_pos": 27352,
+      "end_pos": 27356
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "含义": "命盘的后天格局"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "丙同机昌廉",
+    "char_interval": {
+      "start_pos": 27566,
+      "end_pos": 27571
+    },
+    "attributes": {
+      "类型": "十天干四化口诀",
+      "天干": "丙",
+      "四化分配": "天同化禄、天机化权、文昌化科、廉贞化忌"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "论断格局的时候，要以先天生年四化+命宫四化来论断",
+    "char_interval": {
+      "start_pos": 27713,
+      "end_pos": 27741
+    },
+    "attributes": {
+      "核心技法": "综合论断",
+      "组合方式": "先天生年四化（与生俱来）+ 命宫四化（后天选择）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫八大理财",
+    "char_interval": {
+      "start_pos": 27749,
+      "end_pos": 27755
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "互为阴阳说",
+    "char_interval": {
+      "start_pos": 27762,
+      "end_pos": 27767
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "序号": "(1)",
+      "定义": "是指甲宫飞禄权科忌四化象到乙宫，等同于甲宫+乙宫得"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "夫妻宫天干为丙，根据口诀“丙同机昌廉”可知，父母宫飞天同禄入了福德宫",
+    "char_interval": {
+      "start_pos": 27970,
+      "end_pos": 28004
+    },
+    "attributes": {
+      "命盘配置": "夫妻宫天干为丙，天同禄入福德宫",
+      "推理逻辑": "夫妻宫+福德宫=禄",
+      "判断结论": "妻子福气好，婚姻带给命主福气，夫妻缘分好"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "A宫飞禄/权/科/忌入B宫，等同于A宫+B宫=禄/权/科/忌",
+    "char_interval": {
+      "start_pos": 28186,
+      "end_pos": 28216
+    },
+    "attributes": {
+      "类型": "飞宫公式",
+      "公式内容": "A宫飞禄/权/科/忌入B宫，等同于A宫+B宫=禄/权/科/忌",
+      "含义": "两宫位产生了能量对待"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "A宫飞禄/权/科/忌入B宫，等同于A宫给B宫带去禄/权/科/忌的变化",
+    "char_interval": {
+      "start_pos": 28219,
+      "end_pos": 28253
+    },
+    "attributes": {
+      "类型": "飞宫公式",
+      "公式内容": "A宫飞禄/权/科/忌入B宫，等同于A宫给B宫带去禄/权/科/忌的变化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "A宫飞禄/权/科/忌入B宫，等同于B宫给A宫带去禄/权/科/忌的变化",
+    "char_interval": {
+      "start_pos": 28256,
+      "end_pos": 28290
+    },
+    "attributes": {
+      "类型": "飞宫公式",
+      "公式内容": "A宫飞禄/权/科/忌入B宫，等同于B宫给A宫带去禄/权/科/忌的变化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫冲照论",
+    "char_interval": {
+      "start_pos": 28299,
+      "end_pos": 28304
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "(2)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "禄权科三股力量都是如此，在惠及落点的同时，也会给对宫带去好处，此为照",
+    "char_interval": {
+      "start_pos": 28533,
+      "end_pos": 28570
+    },
+    "attributes": {
+      "类型": "冲照规则",
+      "对象": "禄、权、科",
+      "前提条件": "飞入某宫",
+      "结论": "惠及落点并给对宫带去好处（照）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "飞忌不同，太极点飞忌落于某宫，不光会给该官位带去不顺与阻碍，还会给对宫带去毁灭性的冲击",
+    "char_interval": {
+      "start_pos": 28571,
+      "end_pos": 28615
+    },
+    "attributes": {
+      "类型": "冲照规则",
+      "对象": "忌",
+      "前提条件": "太极点飞忌落于某宫",
+      "结论": "本宫不顺，对宫受冲击（冲），主缘薄或凶象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "夫妻宫科入田宅宫，可以理解为妻子给田宅带去了一个C的力量",
+    "char_interval": {
+      "start_pos": 28755,
+      "end_pos": 28783
+    },
+    "attributes": {
+      "命盘配置": "夫妻宫飞科（C）入田宅宫",
+      "推理逻辑": "飞宫能量传递",
+      "判断结论": "妻子非常顾家，在家里是非常贤惠的"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "夫妻宫飞C入田宅宫，我们已知子田往来一线，那么这个科的力量进入田宅宫以后会照入子女宫。那么，夫妻宫相当于间接给了子女宫一个C的力量，表示妻子照顾孩子，妻子辅导孩子学业。",
+    "char_interval": {
+      "start_pos": 28806,
+      "end_pos": 28890
+    },
+    "attributes": {
+      "命盘配置": "夫妻宫飞科（C）入田宅宫",
+      "推理逻辑": "子田线往来，科入田宅照子女宫",
+      "判断结论": "妻子照顾孩子，辅导孩子学业"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "夫妻宫飞忌入交友宫，表示妻子会干涉我的人际交往，也主要子本人非常在意人际关系。通过兄友线气的来往，这个忌的力量会冲间接性冲了兄弟宫，所以主夫妻宫与兄弟宫无缘。",
+    "char_interval": {
+      "start_pos": 28895,
+      "end_pos": 28976
+    },
+    "attributes": {
+      "命盘配置": "夫妻宫飞忌入交友宫",
+      "推理逻辑": "兄友线往来，忌入交友冲兄弟宫",
+      "判断结论": "夫妻宫与兄弟宫无缘；妻子干涉人际交往"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "本命盘十二官职对待关系",
+    "char_interval": {
+      "start_pos": 29042,
+      "end_pos": 29053
+    },
+    "attributes": {
+      "类型": "宫位关系网络",
+      "来源": "章节标题",
+      "序号": "(3)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "任何宫职天干飞忌冲命宫，则主该宫职与命宫缘薄或者无缘，主凶象。",
+    "char_interval": {
+      "start_pos": 29078,
+      "end_pos": 29110
+    },
+    "attributes": {
+      "前提条件": "宫职天干飞忌入迁移宫冲命宫",
+      "结论": "该宫职与命宫缘薄或者无缘，主凶象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "夫妻宫天干飞忌入迁移宫冲命宫，形成了夫妻宫冲命的对待关系，表示婚姻与命主无缘或者婚姻不顺，则感情婚姻主凶象。",
+    "char_interval": {
+      "start_pos": 29201,
+      "end_pos": 29255
+    },
+    "attributes": {
+      "命盘配置": "夫妻宫飞忌入迁移宫",
+      "推理逻辑": "飞忌冲命形成对待关系",
+      "判断结论": "婚姻与命主无缘或不顺，感情婚姻主凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "人位与人位相冲要特别注意，因为人位与人位相冲很容易出现生离死别的现象。",
+    "char_interval": {
+      "start_pos": 29314,
+      "end_pos": 29352
+    },
+    "attributes": {
+      "前提条件": "人位与人位相冲",
+      "结论": "很容易出现生离死别"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "福德宫冲命宫，我们已知福德宫可以代表祖父母，则主爷爷奶奶与命主缘薄或者无缘，那么命主出生后就很容易出现与祖父母生离死别的现象。",
+    "char_interval": {
+      "start_pos": 29354,
+      "end_pos": 29419
+    },
+    "attributes": {
+      "命盘配置": "福德宫飞忌冲命宫",
+      "推理逻辑": "福德宫代表人位（祖父母）",
+      "判断结论": "祖父母与命主缘薄，易出现生离死别"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命主的子女宫如果与福德宫相冲，则主命主的孩子与自己祖父母无缘，那么就主孩子见不到祖父母，或者孩子出生后不久祖父母就会离世",
+    "char_interval": {
+      "start_pos": 29423,
+      "end_pos": 29483
+    },
+    "attributes": {
+      "命盘配置": "子女宫与福德宫相冲",
+      "分析结论": "孩子与祖父母无缘，子女见不到祖父母或祖父母离世"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "同类官职体用对待关系",
+    "char_interval": {
+      "start_pos": 29506,
+      "end_pos": 29516
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "序号": "(4)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "同类宫职以禄权科入照同类宫职或者命宫主吉，而以飞忌坐冲同类宫职或者命宫主凶",
+    "char_interval": {
+      "start_pos": 29527,
+      "end_pos": 29564
+    },
+    "attributes": {
+      "前提条件": "大限宫位飞化至原局同类宫位或命宫",
+      "结论": "禄权科入照主吉，飞忌坐冲主凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "此大运疾厄宫飞忌坐入了原盘疾厄宫...则主这是年大运健康状况亮红灯，主健康凶。",
+    "char_interval": {
+      "start_pos": 29684,
+      "end_pos": 29700
+    },
+    "attributes": {
+      "命盘配置": "大运疾厄宫忌入原局疾厄宫",
+      "推理逻辑": "同类宫职飞忌坐冲同类宫职",
+      "判断结论": "大运健康状况亮红灯，主健康凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "任何官职不可冲本命宫",
+    "char_interval": {
+      "start_pos": 29803,
+      "end_pos": 29813
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "序号": "(5)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "任何层级官职飞忌的落点都不可以进入原局迁移宫冲本命宫，否则必主凶象",
+    "char_interval": {
+      "start_pos": 29833,
+      "end_pos": 29866
+    },
+    "attributes": {
+      "前提条件": "飞宫飞忌落入原局迁移宫",
+      "结论": "冲本命宫，必主凶象",
+      "适用范围": "原盘、大运、流年"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "以此盘2023年的流年举例子，流年交友宫庚干飞忌入本命迁移宫，形成了流年交友与本命宫相冲的对待关系，那么必主今年人际关系不顺",
+    "char_interval": {
+      "start_pos": 29951,
+      "end_pos": 30013
+    },
+    "attributes": {
+      "命盘配置": "流年交友宫庚干飞忌入本命迁移宫",
+      "推理过程": "流年交友与本命宫形成相冲对待关系",
+      "判断结论": "今年人际关系不顺"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "宫职由小归大说",
+    "char_interval": {
+      "start_pos": 30021,
+      "end_pos": 30028
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "序号": "(6)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "不可以同级宫职飞宫来看待吉凶关系",
+    "char_interval": {
+      "start_pos": 30083,
+      "end_pos": 30099
+    },
+    "attributes": {
+      "规则": "禁止同级飞宫论吉凶",
+      "原因": "同层次宫职各司一职互不干涉，空间范围一致，无法互相产生影响"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "交易逢伏象",
+    "char_interval": {
+      "start_pos": 30618,
+      "end_pos": 30623
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "序号": "(7)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "交易逢自化象",
+    "char_interval": {
+      "start_pos": 31440,
+      "end_pos": 31446
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "(8)",
+      "定义": "所谓交易逢自化象，是之飞宫四化所落点的官位有自化象，这里的自化象不光指离心自化，还指向心自化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "也就是说我虽然在私人公司做管理，但是迟早会结束，会辞职或者不再担任管理职位。",
+    "char_interval": {
+      "start_pos": 31741,
+      "end_pos": 31779
+    },
+    "attributes": {
+      "分析场景": "论事业",
+      "前提": "在私人公司做管理",
+      "结论": "迟早会结束，会辞职或者不再担任管理职位"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫法象生年",
+    "char_interval": {
+      "start_pos": 31786,
+      "end_pos": 31792
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "序号": "（五）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命宫飞忌如夫妻宫，表示命宫与夫妻宫形成了忌的对待，主命主婚姻不顺，感情有问题",
+    "char_interval": {
+      "start_pos": 32019,
+      "end_pos": 32057
+    },
+    "attributes": {
+      "命盘配置": "命宫飞忌入夫妻宫",
+      "判断结论": "婚姻不顺，感情有问题",
+      "分析类型": "飞宫论婚姻"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "忌是造成结果的媒介。而我们回归生年忌来看，生年忌代表的是子女宫。也就是造成这个婚姻不顺结果的原因是桃花或者孩子导致的",
+    "char_interval": {
+      "start_pos": 32093,
+      "end_pos": 32153
+    },
+    "attributes": {
+      "前提": "飞忌入夫妻宫且生年忌在子女宫",
+      "媒介": "忌",
+      "结论": "婚姻不顺的原因是桃花或孩子"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命宫飞B入交友宫，表示命主可以管束和约束他人，也表示命主容易交到有权势地位的朋友",
+    "char_interval": {
+      "start_pos": 32254,
+      "end_pos": 32294
+    },
+    "attributes": {
+      "命盘配置": "命宫飞权(B)入交友宫",
+      "判断结论": "管束他人、交到有权势的朋友",
+      "分析类型": "飞宫论人际"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "造成这个结果的媒介是生年B，我们法象生年权结果是在父母宫，那么父母宫就是造成我们这个现象的媒介。也就是说，命主在公家机关或者大公司里面任职管理或者当领导",
+    "char_interval": {
+      "start_pos": 32295,
+      "end_pos": 32375
+    },
+    "attributes": {
+      "前提": "飞权入交友宫且生年权在父母宫",
+      "媒介": "权(B)",
+      "结论": "因在公职或大公司任职而拥有管束权"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "禄因忌果",
+    "char_interval": {
+      "start_pos": 32425,
+      "end_pos": 32429
+    },
+    "attributes": {
+      "类型": "技法/判断法则",
+      "来源": "章节标题",
+      "章节": "六"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "所谓禄因忌果，是指我们在飞宫的时候，以飞出的忌落点作为结果来看，而飞出的禄就可以看到原因",
+    "char_interval": {
+      "start_pos": 32431,
+      "end_pos": 32475
+    },
+    "attributes": {
+      "核心概念": "禄因忌果",
+      "定义": "以飞忌落点为结果，飞禄落点为原因",
+      "原理": "禄代表缘起，而忌代表缘灭"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "大运命宫飞忌入本命迁移冲本命宫，形成了大运命宫以小冲大的凶象，结果是十年大运主凶象，主不利",
+    "char_interval": {
+      "start_pos": 32632,
+      "end_pos": 32677
+    },
+    "attributes": {
+      "类型": "冲破规则",
+      "术语": "以小冲大",
+      "前提": "大运命宫飞忌入本命迁移冲本命命宫",
+      "结论": "十年大运主凶，不利"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大命飞禄入财帛宫，那么这十年凶险是因为钱财方面的原因导致的",
+    "char_interval": {
+      "start_pos": 32728,
+      "end_pos": 32737
+    },
+    "attributes": {
+      "技法": "禄因忌果",
+      "前提": "大命飞忌入迁冲命（果），大命飞禄入财（因）",
+      "结论": "十年凶险的原因是钱财"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "不顺的根源就在财帛宫，财帛宫可以主钱财，也可以主父母健康，也可以主夫妻对待，那么这十年这些方面必定出现不利。",
+    "char_interval": {
+      "start_pos": 32746,
+      "end_pos": 32800
+    },
+    "attributes": {
+      "命盘配置": "财帛宫不顺",
+      "判断结论": "钱财、父母健康或夫妻对待出现不利",
+      "分析类型": "大限判断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "事实上，此大运命主父亲已经发生了重大车祸，不过所幸性命无虞。",
+    "char_interval": {
+      "start_pos": 32802,
+      "end_pos": 32832
+    },
+    "attributes": {
+      "分析过程": "财帛宫主父母健康",
+      "结论": "父亲发生重大车祸",
+      "分析类型": "实证案例"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "忌星棋谱",
+    "char_interval": {
+      "start_pos": 32839,
+      "end_pos": 32843
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十九"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "流出忌",
+    "char_interval": {
+      "start_pos": 32895,
+      "end_pos": 32898
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "本宫（A宫）的天干使对宫（B宫）的星化忌，即由本宫化忌到对宫",
+      "基本含义": "本宫的主星或官位所代表的意义会流出，留不住"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "逆水忌",
+    "char_interval": {
+      "start_pos": 32988,
+      "end_pos": 32991
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "对宫（B宫）若有生年忌星坐守，而本宫化忌到对宫",
+      "属性": "有百分之五十发达的概率"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "假如本宫（A宫）为命宫、事业宫、财帛宫，则此忌又叫做“水命忌”",
+    "char_interval": {
+      "start_pos": 33001,
+      "end_pos": 33032
+    },
+    "attributes": {
+      "类型": "术语定义",
+      "前提": "本宫为命宫、事业宫、财帛宫且发生流出忌",
+      "结论": "此忌又叫做“水命忌”"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "代表此命盘主人并不适合经营制造、生产事业，宜向服务业、买卖业、现金交易的行业发展或当领薪阶级。",
+    "char_interval": {
+      "start_pos": 33033,
+      "end_pos": 33080
+    },
+    "attributes": {
+      "类型": "应用规则",
+      "前提": "水命忌",
+      "结论": "不宜经营制造生产，宜向服务业、买卖业或当领薪阶级"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "流水忌",
+    "char_interval": {
+      "start_pos": 33120,
+      "end_pos": 33123
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "如果B宫非为A宫的对宫，而是除去A宫本宫及对宫以外的其它宫位，则此忌为“流水忌”",
+      "基本含义": "会像流水一样的流向B宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "如果A宫是财帛宫，而B宫为仆役宫，即财帛化忌入仆役，乃是钱财流入朋友口袋，大江东去，一去不回头。",
+    "char_interval": {
+      "start_pos": 33180,
+      "end_pos": 33228
+    },
+    "attributes": {
+      "命盘配置": "财帛宫化忌入仆役宫",
+      "分析过程": "构成流水忌",
+      "判断结论": "钱财流入朋友口袋，一去不回头"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "循环忌",
+    "char_interval": {
+      "start_pos": 33235,
+      "end_pos": 33238
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "A、B两宫为六亲宫位，若A宫化忌入B宫，同时B宫也化忌入A宫，相互之间一来一往",
+      "基本含义": "平等待遇的对待关系，恩怨分明"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "反弓忌",
+    "char_interval": {
+      "start_pos": 33460,
+      "end_pos": 33463
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "别称": "回力忌",
+      "定义": "当大限行运走入本命的三合方时，而大限命宫化忌入本命的夫妻宫、迁移宫、福德宫时，会冲到本命的事业宫、命宫、财帛宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "行运碰到此种状况时，要保守一点，否则出力愈大，反震力愈强。通常一受到损害，则非三年以上的休养生息，不能回复元气。",
+    "char_interval": {
+      "start_pos": 33595,
+      "end_pos": 33605
+    },
+    "attributes": {
+      "类型": "应期与建议",
+      "前提": "碰到反弓忌",
+      "结论": "需保守，受损则需三年以上才能回复元气"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "是非忌",
+    "char_interval": {
+      "start_pos": 33660,
+      "end_pos": 33663
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "设A、B两宫不互为对宫，而A宫化禄入B宫，而B宫也化忌入A宫",
+      "特征": "禄去忌来的型态"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "是非忌",
+    "char_interval": {
+      "start_pos": 33757,
+      "end_pos": 33760
+    },
+    "attributes": {
+      "类型": "忌星表现",
+      "定义": "表现在六亲官位的现象。有“以德报怨”或“以怨报德”的情形。即某一方一厢情愿的对他方好，而却得不到他方对等的回报，且还招来是非、怨言。",
+      "extraction_text": "“是非忌”是表现在六亲官位的现象。有“以德报怨”或“以怨报德”的情形。即某一方一厢情愿的对他方好，而却得不到他方对等的回报，且还招来是非、怨言。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命宫化禄入夫妻宫，夫妻宫化忌回命宫，表示您疼爱配偶，但配偶却嫌您管得太多、太紧，关心过度，令其压力太大，没有自由。",
+    "char_interval": {
+      "start_pos": 33832,
+      "end_pos": 33889
+    },
+    "attributes": {
+      "命盘配置": "命宫化禄入夫妻宫，夫妻宫化忌回命宫",
+      "判断结论": "命主疼爱配偶，配偶嫌管太多压力大",
+      "推理逻辑": "禄出忌回形成不对等对待",
+      "extraction_text": "命宫化禄入夫妻宫，夫妻宫化忌回命宫，表示您疼爱配偶，但配偶却嫌您管得太多、太紧，关心过度，令其压力太大，没有自由。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "纠缠忌",
+    "char_interval": {
+      "start_pos": 33896,
+      "end_pos": 33899
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "定义": "两个不同的宫位所化出的忌星，成对宫互冲状态。",
+      "章节": "六",
+      "extraction_text": "纠缠忌\n\n即两个不同的宫位所化出的忌星，成对宫互冲状态。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "怨叹忌",
+    "char_interval": {
+      "start_pos": 34034,
+      "end_pos": 34037
+    },
+    "attributes": {
+      "前提条件": "命宫与夫妻宫的忌星成对宫互冲状态",
+      "结论": "夫妻会吵来吵去，活到老，吵到老",
+      "extraction_text": "假如是命宫与夫妻宫的忌星成对宫互冲状态时，也叫做“怨叹忌”，夫妻会吵来吵去，活到老，吵到老。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "逆水忌",
+    "char_interval": {
+      "start_pos": 34062,
+      "end_pos": 34065
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "定义": "如果命宫、财帛宫、事业宫有“流出忌”...此时若对宫...有生年忌坐守，而且没有自化时，则此生年忌宛若一道墙，会把“流出忌”给挡住，往回逆灌，“流出忌”不会流出，此时的型态，即称之为“逆水忌”。",
+      "章节": "七",
+      "extraction_text": "逆水忌\n\n如果命宫、财帛宫、事业宫有“流出忌”，即所谓的“水命忌”。此时若对宫，即迁移宫、福德宫或夫妻宫有生年忌坐守，而且没有自化时，则此生年忌宛若一道墙，会把“流出忌”给挡住，往回逆灌，“流出忌”不会流出，此时的型态，即称之为“逆水忌”。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "水泄忌",
+    "char_interval": {
+      "start_pos": 34282,
+      "end_pos": 34285
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "定义": "“逆水忌”的破格，即“逆水忌”的型态，但是生年忌坐守的迁移宫、福德宫、夫妻宫却又有自化的情形。",
+      "章节": "八",
+      "extraction_text": "水泄忌\n\n此为“逆水忌”的破格，即“逆水忌”的型态，但是生年忌坐守的迁移宫、福德宫、夫妻宫却又有自化的情形，此时即称之为“水泄忌”。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "拆马忌",
+    "char_interval": {
+      "start_pos": 34470,
+      "end_pos": 34473
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "定义": "生年忌落在此四马官位，或此四个官位的天干有自化忌。",
+      "章节": "九",
+      "extraction_text": "拆马忌\n\n“拆”有拆开、分离的意味存在，而此忌所发生的位置就在命盘的“四马地”，即寅宫、申宫、巳宫、亥宫四个角落，因此也称之为“四马忌”。其型态即为生年忌落在此四马官位，或此四个官位的天干有自化忌，都是称之为“拆马忌”。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四马地",
+    "char_interval": {
+      "start_pos": 34505,
+      "end_pos": 34508
+    },
+    "attributes": {
+      "宫位": [
+        "寅宫",
+        "申宫",
+        "巳宫",
+        "亥宫"
+      ],
+      "extraction_text": "“四马地”，即寅宫、申宫、巳宫、亥宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "入库忌",
+    "char_interval": {
+      "start_pos": 34679,
+      "end_pos": 34682
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "定义": "辰、戌、丑、未宫称之为四墓库，若有生年忌星坐守，而且又无自化，称之为“入库忌”。",
+      "章节": "十",
+      "extraction_text": "入库忌\n\n辰、戌、丑、未宫称之为四墓库，若有生年忌星坐守，而且又无自化，称之为“入库忌”。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "入库忌",
+    "char_interval": {
+      "start_pos": 34735,
+      "end_pos": 34738
+    },
+    "attributes": {
+      "含义": "有一点欠债的意味存在",
+      "人际表现": "如在六亲宫位时，即主该六亲努力赚钱，而您能因而得利",
+      "具体应用": "如在夫妻宫，则结婚时配偶带财来，或者婚后配偶努力赚钱供您花"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "泄库忌",
+    "char_interval": {
+      "start_pos": 34914,
+      "end_pos": 34917
+    },
+    "attributes": {
+      "前提条件": "财帛宫为入库忌且有任何自化",
+      "结论": "钱财守不住，会流失",
+      "定义": "在财帛宫则表示为财奔忙，但守财牢靠，但如果有任何自化，则钱财守不住，会流失，此时即成为“泄库忌”了"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "绝命忌",
+    "char_interval": {
+      "start_pos": 34928,
+      "end_pos": 34931
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十一",
+      "定义": "绝命忌断生死，必须命宫坐生年忌星",
+      "基本用法": "命宫坐生年忌时，最怕他宫化忌入命"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(2)",
+    "char_interval": {
+      "start_pos": 35044,
+      "end_pos": 35051
+    },
+    "attributes": {
+      "前提条件": "命宫没有坐生年忌, 大限迁移宫化忌冲本命; 或冲本命官禄宫; 或大限田宅宫化忌冲本命/本命官禄宫",
+      "结论": "谓绝命忌。结束之位, 是什么官位就会发生什么问题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(3)",
+    "char_interval": {
+      "start_pos": 35125,
+      "end_pos": 35132
+    },
+    "attributes": {
+      "定义": "绝命忌乃是劫数之位, 绝命之事",
+      "禁忌条件": "大限或流年化忌不可冲本命或本命官禄宫；田宅宫也不可化忌冲本命或冲本命官禄宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(5)",
+    "char_interval": {
+      "start_pos": 35234,
+      "end_pos": 35241
+    },
+    "attributes": {
+      "前提条件": "本命坐生年忌时, 夫妻宫化忌入本命宫",
+      "结论": "主夫妻吵架分开, 而夫妻其中一人有身体或其它事故之情形"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(6)",
+    "char_interval": {
+      "start_pos": 35297,
+      "end_pos": 35304
+    },
+    "attributes": {
+      "前提条件": "迁移宫化忌冲本命宫; 或冲官禄宫, 同时田宅宫也化忌冲本命宫或冲官禄宫",
+      "结论": "此情况生命非常危险"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(7)",
+    "char_interval": {
+      "start_pos": 35351,
+      "end_pos": 35358
+    },
+    "attributes": {
+      "前提条件": "迁移宫化忌冲本命官禄宫",
+      "结论": "与冲本命相同, 如发生意外必非常严重（流年大限同论）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(9)",
+    "char_interval": {
+      "start_pos": 35445,
+      "end_pos": 35452
+    },
+    "attributes": {
+      "前提条件": "流年迁移宫化忌冲大限命宫",
+      "结论": "冲必危险"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "钦天专用秘诀",
+    "char_interval": {
+      "start_pos": 35640,
+      "end_pos": 35646
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "十二"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "忌出现在来因宫元神宫",
+    "char_interval": {
+      "start_pos": 35648,
+      "end_pos": 35658
+    },
+    "attributes": {
+      "结论": "极大的欠债关系"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "若父母宫化忌入子女宫，子女宫有生年忌，一生为子女父母拖累",
+    "char_interval": {
+      "start_pos": 35767,
+      "end_pos": 35795
+    },
+    "attributes": {
+      "前提": "父母宫化忌入子女宫且子女宫有生年忌",
+      "结论": "一生为子女父母拖累"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "若父母冲子女，那么你的感情会很不顺，或者和配偶父母亲合不来，或者比较奔波，常常走动或则搬家",
+    "char_interval": {
+      "start_pos": 35796,
+      "end_pos": 35841
+    },
+    "attributes": {
+      "前提": "父母冲子女",
+      "结论": "感情不顺或与配偶父母不合或奔波搬家"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "转忌为导气之媒介",
+    "char_interval": {
+      "start_pos": 35849,
+      "end_pos": 35857
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "二十"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "禄转忌",
+    "char_interval": {
+      "start_pos": 35864,
+      "end_pos": 35867
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "所谓禄转忌即使以飞忌作为媒介，将生年禄的力量引导到下一个官位"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "A宫有生年禄，那么A宫飞忌入B宫，相当于B宫也有生年禄的力量",
+    "char_interval": {
+      "start_pos": 35922,
+      "end_pos": 35952
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "前提": "A宫有生年禄且A宫飞忌入B宫",
+      "结论": "B宫等同拥有生年禄的力量"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命宫生年禄，代表命主有钱财，代表命主的钱财，转忌入夫妻宫，就代表命主的钱财给老婆花了",
+    "char_interval": {
+      "start_pos": 36191,
+      "end_pos": 36237
+    },
+    "attributes": {
+      "命盘配置": "命宫生年禄转忌入夫妻宫",
+      "分析过程": "生年禄为钱财，转忌入夫妻宫代表好处给配偶",
+      "判断结论": "命主的钱财给老婆花了"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "忌转忌",
+    "char_interval": {
+      "start_pos": 36262,
+      "end_pos": 36265
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "一个官位有生年忌，以该官位飞忌所入的官位也等同于拥有生年忌"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "所谓忌转忌和禄转忌其实是一个道理，一个官位有生年忌，以该官位飞忌所入的官位也等同于拥有生年忌",
+    "char_interval": {
+      "start_pos": 36267,
+      "end_pos": 36313
+    },
+    "attributes": {
+      "使用方法": "忌转忌",
+      "应用场景": "查看不顺具体体现在哪个方面"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "子女宫给命主带来不顺的感受，最后体现在了事业上面",
+    "char_interval": {
+      "start_pos": 36505,
+      "end_pos": 36529
+    },
+    "attributes": {
+      "命盘配置": "命宫坐生年忌（来因子女），命宫转忌入官禄宫",
+      "推理逻辑": "子女宫带来的不顺通过生年忌转忌进入官禄宫",
+      "判断结论": "事业合伙失败"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "煞气飞伏",
+    "char_interval": {
+      "start_pos": 36597,
+      "end_pos": 36601
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "陀罗",
+    "char_interval": {
+      "start_pos": 36624,
+      "end_pos": 36626
+    },
+    "attributes": {
+      "类型": "煞星",
+      "基本含义": "不"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "火星代表突发、冲突、碰撞和争执",
+    "char_interval": {
+      "start_pos": 36678,
+      "end_pos": 36693
+    },
+    "attributes": {
+      "名称": "火星",
+      "基本含义": "突发、冲突、碰撞和争执"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "铃星代表小人、阴暗、报复和嫉妒",
+    "char_interval": {
+      "start_pos": 36694,
+      "end_pos": 36709
+    },
+    "attributes": {
+      "名称": "铃星",
+      "基本含义": "小人、阴暗、报复和嫉妒"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "地空代表失去、结束和空耗",
+    "char_interval": {
+      "start_pos": 36710,
+      "end_pos": 36722
+    },
+    "attributes": {
+      "名称": "地空",
+      "基本含义": "失去、结束和空耗"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "地劫代表阻断和状态改变",
+    "char_interval": {
+      "start_pos": 36723,
+      "end_pos": 36734
+    },
+    "attributes": {
+      "名称": "地劫",
+      "基本含义": "阻断和状态改变"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命宫飞忌入财帛宫。那么这个飞忌作为媒介，也会将命宫中地劫星所拥有的煞气给带到财帛宫里去",
+    "char_interval": {
+      "start_pos": 37015,
+      "end_pos": 37059
+    },
+    "attributes": {
+      "命盘配置": "命宫有地劫，财帛宫有地空",
+      "推理逻辑": "命宫飞忌入财帛宫，将地劫煞气导入财帛宫",
+      "判断结论": "财帛宫受两颗煞星影响，为命主大破财的现象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "以财帛宫转忌入交友宫，那么我们大破财以后，两颗煞星的力量将被导入交友宫，最终因为这次破财损伤友情",
+    "char_interval": {
+      "start_pos": 37161,
+      "end_pos": 37212
+    },
+    "attributes": {
+      "前提": "财帛宫转忌入交友宫",
+      "过程": "煞星力量导入交友宫",
+      "结论": "损伤友情"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "十八星辰分男女",
+    "char_interval": {
+      "start_pos": 37254,
+      "end_pos": 37261
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "二十一"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "男星",
+    "char_interval": {
+      "start_pos": 37269,
+      "end_pos": 37271
+    },
+    "attributes": {
+      "类型": "星曜分类",
+      "组成": "天府、天机、天相、天同、天梁、太阳、贪狼、文昌、左辅"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "女星",
+    "char_interval": {
+      "start_pos": 37308,
+      "end_pos": 37310
+    },
+    "attributes": {}
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "廉贞星化禄为男，化忌为女",
+    "char_interval": {
+      "start_pos": 37347,
+      "end_pos": 37359
+    },
+    "attributes": {
+      "星曜": "廉贞星",
+      "前提条件": [
+        "化禄",
+        "化忌"
+      ],
+      "结论": [
+        "化禄为男",
+        "化忌为女"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "男女星的运用",
+    "char_interval": {
+      "start_pos": 37367,
+      "end_pos": 37373
+    },
+    "attributes": {
+      "目的": "精准看待六亲关系、感情变化、确定取用神、判断事件影响和人际关系往来"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例1：以这个盘的婚姻论，原局夫妻宫有天梁星",
+    "char_interval": {
+      "start_pos": 37562,
+      "end_pos": 37565
+    },
+    "attributes": {
+      "命盘配置": "夫妻宫有天梁星",
+      "分析过程": "天梁星代表法律、医疗和文教之星",
+      "判断结论": "命主的妻子就会带有这些星星的特质"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例3：母亲的职业与地位判断",
+    "char_interval": {
+      "start_pos": 38193,
+      "end_pos": 38197
+    },
+    "attributes": {
+      "命盘配置": "太阴生年D产生自化B，串联福德宫，法象交友宫生年B",
+      "分析逻辑": "交友宫是父母宫的官禄宫，福德宫是父母宫的父母",
+      "判断结论": "母亲是在体制内工作，并且握有权利，工作地位处于领导层",
+      "extraction_text": "说明母亲是在体制内工作，并且握有权利，工作地位处于领导层"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "紫微斗数论职业",
+    "char_interval": {
+      "start_pos": 38573,
+      "end_pos": 38580
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十二",
+      "extraction_text": "紫微斗数论职业"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "首先比较论断职业比较重要的点，要看官禄宫，财帛宫里有无四化和自化，其次要看生年禄在哪个位置。",
+    "char_interval": {
+      "start_pos": 38801,
+      "end_pos": 38847
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "应用场景": "论断职业",
+      "核心要素": [
+        "官禄宫四化和自化",
+        "财帛宫四化和自化",
+        "生年禄所在位置"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例1：老师的命盘分析",
+    "char_interval": {
+      "start_pos": 38943,
+      "end_pos": 38951
+    },
+    "attributes": {
+      "命盘配置": "官禄宫AD组合，财帛宫天梁B，命宫天同自化忌，来因宫在交友宫",
+      "分析过程": [
+        "太阴正财星在官禄：拿固定工薪",
+        "天机禄：拿智慧学识之财",
+        "天梁B在财帛：拿文职科教之财",
+        "天同自化忌：工作与小孩子密切关联",
+        "来因在交友（众生位）：科在交友取意教化众生，科自化科代表众生来了又走",
+        "官禄禄忌组合：代表开始与结束的循环，寓意送走一批又一批学生"
+      ],
+      "判断结论": "职业为老师，且范围基本在幼儿园和小学区间"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "太阴星是正财星",
+    "char_interval": {
+      "start_pos": 39080,
+      "end_pos": 39087
+    },
+    "attributes": {
+      "星曜名称": "太阴星",
+      "类型": "正财星",
+      "职能含义": "落在官禄宫拿固定工薪"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "拿的钱性质为天梁，即为文职科教之财",
+    "char_interval": {
+      "start_pos": 39157,
+      "end_pos": 39174
+    },
+    "attributes": {
+      "前提条件": "财帛宫用神为天梁化权（B）",
+      "结论": "收入性质为文职科教之财"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天同为儿童之星",
+    "char_interval": {
+      "start_pos": 39231,
+      "end_pos": 39238
+    },
+    "attributes": {
+      "星曜名称": "天同星",
+      "含义": "代表小孩子",
+      "逻辑推演": "天同自化忌，意味着孩子和她的工作息息相关"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "科在交友取意教化众生",
+    "char_interval": {
+      "start_pos": 39388,
+      "end_pos": 39398
+    },
+    "attributes": {
+      "应用场景": "论断职业性质",
+      "逻辑": "交友宫为众生位，科主名誉、教化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "所谓禄为开始，权为变化，科为转折，忌为结束。",
+    "char_interval": {
+      "start_pos": 39452,
+      "end_pos": 39474
+    },
+    "attributes": {
+      "禄": "开始",
+      "权": "变化",
+      "科": "转折",
+      "忌": "结束"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例2：这是师门内一个学员的盘，问我以后职业方向。",
+    "char_interval": {
+      "start_pos": 39652,
+      "end_pos": 39679
+    },
+    "attributes": {
+      "命盘配置": "案例2",
+      "分析过程": "问职业方向",
+      "案例来源": "师门内一个学员"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "官禄宫自化B又向心A，故官禄为AB组，事业上为老板格或者管理着。",
+    "char_interval": {
+      "start_pos": 39686,
+      "end_pos": 39718
+    },
+    "attributes": {
+      "前提": "官禄宫自化B又向心A",
+      "推理过程": "官禄为AB组",
+      "结论": "事业上为老板格或者管理着"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "官禄宫甲干飞太阳忌入田宅宫，因此事业媒介是田宅宫。",
+    "char_interval": {
+      "start_pos": 39763,
+      "end_pos": 39788
+    },
+    "attributes": {
+      "前提": "官禄宫甲干飞太阳忌入田宅宫",
+      "推理过程": "以官禄宫来飞D（忌）看媒介",
+      "结论": "事业媒介是田宅宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例3",
+    "char_interval": {
+      "start_pos": 39898,
+      "end_pos": 39901
+    },
+    "attributes": {
+      "命盘配置": "命宫飞权入财帛宫，法象生年权，媒介为子女宫",
+      "推理逻辑": "子女宫为合作桃花或娱乐，命宫飞禄到子女宫且媒介为疾厄宫",
+      "判断结论": "命主是网红或者主播，通过形态样貌赚取粉丝及桃花财"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例4",
+    "char_interval": {
+      "start_pos": 40223,
+      "end_pos": 40226
+    },
+    "attributes": {
+      "命盘配置": "财帛宫生年忌，来因宫为父母宫",
+      "推理逻辑": "以来因宫为媒介而得财，父母宫代表政府机关、大单位",
+      "判断结论": "本命主在体制内求财"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例5",
+    "char_interval": {
+      "start_pos": 40404,
+      "end_pos": 40407
+    },
+    "attributes": {
+      "命盘配置": "财帛宫飞权入子女宫，法象兄弟宫为现金流快财",
+      "判断结论": "命主赚粉丝或者桃花快财，职业为网红"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例6",
+    "char_interval": {
+      "start_pos": 40555,
+      "end_pos": 40558
+    },
+    "attributes": {
+      "命盘配置": "财帛宫天干为甲，飞禄入兄弟宫，法象疾厄宫生年禄",
+      "推理逻辑": "赚钱的工作环境在兄弟宫",
+      "判断结论": "在私人公司私营企业上班就职"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "若夫妻宫坐生年A，则主缘浓情深，感情早发却未必早婚",
+    "char_interval": {
+      "start_pos": 40751,
+      "end_pos": 40776
+    },
+    "attributes": {
+      "类型": "婚姻判断规则",
+      "前提条件": "夫妻宫坐生年禄（A）",
+      "结论": "主缘浓情深，感情早发却未必早婚"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生年禄坐在夫妻宫，容易是自己谈恋爱而走入婚姻的殿堂",
+    "char_interval": {
+      "start_pos": 40780,
+      "end_pos": 40805
+    },
+    "attributes": {
+      "前提条件": "生年禄在夫妻宫",
+      "结论": "容易自由恋爱结婚"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "夫妻宫坐生年B，权代表外力的干预，这种情况下婚姻容易受到外力的促成而走向结婚，例如，在父母催促之下草草结婚，或者奉子成婚等等",
+    "char_interval": {
+      "start_pos": 40806,
+      "end_pos": 40869
+    },
+    "attributes": {
+      "前提条件": "夫妻宫坐生年权(B)",
+      "含义": "权代表外力干预",
+      "结论": "外力促成婚姻（父母催促、奉子成婚）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "夫妻宫坐生年科，则容易是别人介绍而认识，或者相亲结婚，也有可能是旧情复燃走入婚姻殿堂",
+    "char_interval": {
+      "start_pos": 40870,
+      "end_pos": 40913
+    },
+    "attributes": {
+      "前提条件": "夫妻宫坐生年科(C)",
+      "结论": "介绍、相亲或旧情复燃"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "若是夫妻宫坐生年忌，那么必定会有婚姻，只不过感情经历比较坎坷，初恋无法走到最后，成为一生的遗憾",
+    "char_interval": {
+      "start_pos": 40914,
+      "end_pos": 40961
+    },
+    "attributes": {
+      "前提条件": "夫妻宫坐生年忌(D)",
+      "结论": "必定有婚姻，但感情坎坷，初恋无果"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "比如此命盘，夫妻宫有生年忌，虽然主感情不顺，但是也寓意命主必定是有婚姻之人。而来因宫在子女宫，也就是以子女为媒介促成这段婚姻，因此，可能会有未婚先孕而奉子成婚的现象。",
+    "char_interval": {
+      "start_pos": 41066,
+      "end_pos": 41149
+    },
+    "attributes": {
+      "命盘配置": "夫妻宫有生年忌，来因宫在子女宫",
+      "推理逻辑": "生年忌保底婚姻；来因宫为子女，子女为媒介",
+      "判断结论": "可能未婚先孕奉子成婚"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "首先我们本命的夫妻宫飞了向心B入对宫，那么说明我们原局的婚姻用神为BC组",
+    "char_interval": {
+      "start_pos": 41258,
+      "end_pos": 41294
+    },
+    "attributes": {
+      "前提条件": "本命夫妻宫飞向心B入对宫",
+      "结论": "婚姻用神为BC组",
+      "技术点": "向心自化、用神取舍"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "应期判断",
+    "extraction_text": "我们的气讲本对宫的往来，因此原局的向心B，寓意着我们命主会在第三大运结婚。",
+    "char_interval": {
+      "start_pos": 41321,
+      "end_pos": 41359
+    },
+    "attributes": {
+      "依据": "原局向心B（本对宫往来）",
+      "结论": "第三大运结婚"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天同是男星，而右弼是女星",
+    "char_interval": {
+      "start_pos": 41504,
+      "end_pos": 41516
+    },
+    "attributes": {
+      "星曜": "天同",
+      "属性": "男星"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "2028年天干让大运夫妻宫内的右弼星化科，科即为名分和证书。也就是2028年，命主给了这科右弼星名分，庆典和证书认可。故该命主28岁结婚。",
+    "char_interval": {
+      "start_pos": 41584,
+      "end_pos": 41655
+    },
+    "attributes": {
+      "推理逻辑": "大运夫妻宫右弼（妻星）在2028年流年化科",
+      "术语含义": "科代表名分、证书",
+      "应期结论": "2028年（28岁）结婚"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大运夫妻宫坐生年BC，完成了男女星的配对，故婚姻现象必定成立。",
+    "char_interval": {
+      "start_pos": 41800,
+      "end_pos": 41831
+    },
+    "attributes": {
+      "前提": "大运夫妻宫坐生年BC",
+      "推理过程": "完成了男女星的配对",
+      "结论": "婚姻现象必定成立"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "生年象来自来因宫，所以流年命宫走到来因宫，或者来因宫天干同气的官位，则完成婚姻匹配。",
+    "char_interval": {
+      "start_pos": 41831,
+      "end_pos": 41878
+    },
+    "attributes": {
+      "前提": "生年象来自来因宫",
+      "推理过程": "流年命宫走到来因宫或同气位",
+      "结论": "完成婚姻匹配"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "该命主会在29岁或者27岁成婚。结果：命主实际结婚年龄在27岁。",
+    "char_interval": {
+      "start_pos": 41878,
+      "end_pos": 41913
+    },
+    "attributes": {
+      "分析类型": "婚姻应期",
+      "预测年龄": [
+        "29岁",
+        "27岁"
+      ],
+      "实际结论": "27岁成婚"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "紫微斗数论伤灾",
+    "char_interval": {
+      "start_pos": 41962,
+      "end_pos": 41969
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "二十四"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "所谓伤灾，我们这个单元主要指受伤或者生病。",
+    "char_interval": {
+      "start_pos": 41971,
+      "end_pos": 41992
+    },
+    "attributes": {
+      "核心概念": "伤灾",
+      "定义": "主要指受伤或者生病"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "看伤灾最终的，肯定是疾厄宫，其次是子女宫、迁移宫以及兄友线。",
+    "char_interval": {
+      "start_pos": 42076,
+      "end_pos": 42106
+    },
+    "attributes": {
+      "应用场景": "论伤灾",
+      "核心宫位": [
+        "疾厄宫",
+        "子女宫",
+        "迁移宫",
+        "兄友线"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "看疾病的话，必须要看疾厄宫和命迁线、兄友线的交感。",
+    "char_interval": {
+      "start_pos": 42108,
+      "end_pos": 42137
+    },
+    "attributes": {
+      "类型": "伤灾类型判断",
+      "前提": "看疾病",
+      "结论": "看疾厄宫和命迁线、兄友线的交感"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "意外伤则主要看疾厄宫与子女宫、迁移宫的交感。",
+    "char_interval": {
+      "start_pos": 42137,
+      "end_pos": 42160
+    },
+    "attributes": {
+      "类型": "伤灾类型判断",
+      "前提": "看意外伤",
+      "结论": "看疾厄宫与子女宫、迁移宫的交感"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "意外发生了，但是命主没有受伤，这种就可以直接看迁移宫和子田线的交感，而没有牵扯到疾厄宫和兄友线。",
+    "char_interval": {
+      "start_pos": 42160,
+      "end_pos": 42214
+    },
+    "attributes": {
+      "类型": "伤灾类型判断",
+      "前提": "意外发生但未受伤",
+      "结论": "看迁移宫和子田线的交感，不牵扯疾厄宫和兄友线"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "子女宫凶险=疾厄宫+迁移宫",
+    "char_interval": {
+      "start_pos": 42587,
+      "end_pos": 42600
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "含义": "子女宫的凶险能量由疾厄宫与迁移宫共同构成，指向外出意外受伤"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "结论是：子女宫凶险和外出意外有关，所以白衣判断此命主容易出意外状况受伤，命主反馈已经发生。",
+    "char_interval": {
+      "start_pos": 42602,
+      "end_pos": 42648
+    },
+    "attributes": {
+      "命盘配置": "子女宫AD组合，疾厄宫向心A，疾厄宫飞武曲D到迁移宫",
+      "推理逻辑": "子女宫凶险=疾厄宫+迁移宫",
+      "判断结论": "容易出意外状况受伤"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "这个子女宫原局生年D自化C，也就是说子女宫先天DC组合，又有向心A构成三象一物，那么必定有事件发生在子女宫",
+    "char_interval": {
+      "start_pos": 42740,
+      "end_pos": 42793
+    },
+    "attributes": {
+      "宫位": "子女宫",
+      "象义组合": "生年D+自化C+向心A",
+      "技法": "三象一物",
+      "结论": "必定有事件发生在子女宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "子女宫自化C法象迁移宫，表示子女宫的象与迁移宫有关，即代表是意外事件",
+    "char_interval": {
+      "start_pos": 42802,
+      "end_pos": 42836
+    },
+    "attributes": {
+      "核心技法": "法象",
+      "宫位对应": "子女宫自化C法象迁移宫",
+      "应用场景": "论意外事件",
+      "含义": "表示子女宫的象与迁移宫有关"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "首先我们要论断健康问题，首先是以疾厄宫本身为基准点，先看看原局疾厄宫是否有生年四化与自化",
+    "char_interval": {
+      "start_pos": 42871,
+      "end_pos": 42897
+    },
+    "attributes": {
+      "类型": "健康论断基准",
+      "前提条件": "论断健康问题",
+      "结论": "以疾厄宫本身为基准点，观察生年四化与自化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "一个宫位有自化，那么这个宫位必定有变化产生",
+    "char_interval": {
+      "start_pos": 43038,
+      "end_pos": 43059
+    },
+    "attributes": {
+      "前提条件": "一个宫位有自化",
+      "结论": "这个宫位必定有变化产生"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "应期判断",
+    "extraction_text": "官禄宫坐生年C，那么命主将会再第五大限，也就是官禄限（45-54岁）出现健康问题",
+    "char_interval": {
+      "start_pos": 43135,
+      "end_pos": 43175
+    },
+    "attributes": {
+      "依据": "疾厄宫自化C法象官禄宫生年C",
+      "时间点": "第五大限（官禄限）",
+      "结论": "出现健康问题"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "文曲为弯弯曲曲的水，可以指肠道消化系统也可以指血管",
+    "char_interval": {
+      "start_pos": 43293,
+      "end_pos": 43318
+    },
+    "attributes": {
+      "星曜名称": "文曲",
+      "基本含义": "肠道消化系统、血管",
+      "属性": "弯弯曲曲的水"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "巨门，为暗水下水道，偏向于肛肠肾水类疾病",
+    "char_interval": {
+      "start_pos": 43319,
+      "end_pos": 43348
+    },
+    "attributes": {
+      "星曜名称": "巨门",
+      "属性": "暗水下水道",
+      "基本含义": "肛肠肾水类疾病"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "紫微斗数论兄弟",
+    "char_interval": {
+      "start_pos": 43357,
+      "end_pos": 43364
+    },
+    "attributes": {
+      "类型": "章节标题",
+      "章节": "二十五",
+      "应用场景": "论兄弟姐妹"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "该命盘命宫自化B，法象兄弟宫生年B。因为生年B为紫微星，而紫微星是女星，所以该命主必定有姐妹",
+    "char_interval": {
+      "start_pos": 43508,
+      "end_pos": 43554
+    },
+    "attributes": {
+      "命盘配置": "命宫自化B，法象兄弟宫生年B",
+      "推理逻辑": "生年B紫微星为女星",
+      "判断结论": "必定有姐妹"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "兄弟宫构成三象一物",
+    "char_interval": {
+      "start_pos": 43562,
+      "end_pos": 43571
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "所谓兄弟宫构成三象一物，是指兄弟宫出现三种四化能量，则确定兄弟宫必有其物存在",
+      "结论": "这种情况兄弟宫必定存在兄弟姐妹",
+      "extraction_text": "所谓兄弟宫构成三象一物，是指兄弟宫出现三种四化能量，则确定兄弟宫必有其物存在"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "如该命盘兄弟宫坐生年D，又有向心AC，构成了兄弟宫三象一物，寓意着兄弟宫必有其象存在，故兄弟宫存在兄弟姐妹。",
+    "char_interval": {
+      "start_pos": 43713,
+      "end_pos": 43767
+    },
+    "attributes": {
+      "命盘配置": "兄弟宫坐生年D，又有向心AC",
+      "推理逻辑": "构成了兄弟宫三象一物",
+      "判断结论": "故兄弟宫存在兄弟姐妹"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "田宅有兄弟用神",
+    "char_interval": {
+      "start_pos": 43774,
+      "end_pos": 43781
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "章节": "(三)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "所谓田宅宫有兄弟的用神，是指田宅宫中的生年四化星用在了兄弟宫中。",
+    "char_interval": {
+      "start_pos": 43783,
+      "end_pos": 43815
+    },
+    "attributes": {
+      "术语": "田宅宫有兄弟的用神",
+      "定义": "田宅宫中的生年四化星用在了兄弟宫中"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "该命主田宅宫中有太阴D。太阴是女星... 兄弟宫产生了向心D，则生年D用在了兄弟宫，那么说明这颗太阴星是姐姐或者妹妹。由此判断，命主一定是拥有姐妹的。",
+    "char_interval": {
+      "start_pos": 43912,
+      "end_pos": 44042
+    },
+    "attributes": {
+      "分析过程": "太阴D（女星）在田宅宫，兄弟宫产生向心D，即生年D用在兄弟宫",
+      "推理逻辑": "生年为体而自化为用",
+      "判断结论": "命主一定是拥有姐妹的"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "大限的论断",
+    "char_interval": {
+      "start_pos": 44116,
+      "end_pos": 44121
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十六"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "大运的看法，目前白衣使用最多的是两种，一种是以自化来论，一种是以飞宫来论。",
+    "char_interval": {
+      "start_pos": 44123,
+      "end_pos": 44160
+    },
+    "attributes": {
+      "具体技法": [
+        "自化法",
+        "飞宫法"
+      ],
+      "适用场景": "论断大运/大限"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫法",
+    "char_interval": {
+      "start_pos": 44217,
+      "end_pos": 44220
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "(一)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "所谓飞宫法，即是指以我们大运命宫的天干去飞四化，看大限的整体运势，再根据自己想要看的具体方向去立太极点飞宫，来论具体事件的吉凶。",
+    "char_interval": {
+      "start_pos": 44222,
+      "end_pos": 44286
+    },
+    "attributes": {
+      "术语": "飞宫法",
+      "定义": "以大运命宫天干飞四化看整体运势，再立太极点飞宫论具体吉凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "命宫飞CD入本夫遇自化B，形成了三象一物，则此大运内必有婚姻的事件发生。",
+    "char_interval": {
+      "start_pos": 44472,
+      "end_pos": 44508
+    },
+    "attributes": {
+      "命盘配置": "大命飞CD入本夫遇自化B",
+      "推理逻辑": "形成了三象一物",
+      "判断结论": "大运内必有婚姻的事件发生"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大命飞B入迁移照本命，则大运利于事业上的掌权与升迁。",
+    "char_interval": {
+      "start_pos": 44585,
+      "end_pos": 44612
+    },
+    "attributes": {
+      "前提": "大命飞B入迁移照本命",
+      "应用方向": "事业",
+      "结论": "利于掌权与升迁"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化法",
+    "char_interval": {
+      "start_pos": 45076,
+      "end_pos": 45079
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "所谓自化法，就是看大运的哪些宫职产生了变化，然后根据自化的交感，看各个宫位间产生的关联性，从而判断是发生了什么事件。",
+      "来源": "章节标题",
+      "章节": "（二）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大运福德宫自化忌如何解",
+    "char_interval": {
+      "start_pos": 45715,
+      "end_pos": 45726
+    },
+    "attributes": {
+      "前提条件": "大运福德宫自化忌（D）",
+      "推理过程": "福德可代表外财或外债；自化D法象生年忌（若生年忌在田宅）",
+      "结论": "表示这十年会有外债，且外债与房子有关（房贷）；精神上表示心累、感受不好"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "大运田宅宫坐生年禄",
+    "char_interval": {
+      "start_pos": 45875,
+      "end_pos": 45884
+    },
+    "attributes": {
+      "命盘配置": "大运田宅宫坐生年禄",
+      "判断结论": "这十年命主会买房，必定会有房子",
+      "分析逻辑": "生年四化为质的存在占据空间"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "流年应期",
+    "char_interval": {
+      "start_pos": 45979,
+      "end_pos": 45983
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "来源": "章节标题",
+      "章节": "二十七"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "天地人的观念",
+    "char_interval": {
+      "start_pos": 46021,
+      "end_pos": 46027
+    },
+    "attributes": {
+      "来源": "章节标题",
+      "定义": "所谓的天地人的观念，则是指本命对应于天，大限对应于地，而流年对应于人",
+      "结论": "当天地人三者统一的时候，就产生了流年的吉凶对待"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "天",
+    "char_interval": {
+      "start_pos": 46133,
+      "end_pos": 46134
+    },
+    "attributes": {
+      "定义": "所谓的天是指天时",
+      "对应宫职": "本命的官职就是代表的天",
+      "性质": "天即指不可抗力，指气象气候等影响；单纯的天没有吉凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "地",
+    "char_interval": {
+      "start_pos": 46244,
+      "end_pos": 46245
+    },
+    "attributes": {
+      "定义": "所谓的地是指地利，也是地理和空间",
+      "对应宫职": "大运的宫职，代表的就是地",
+      "使用规则": "地利是需要和天时配合起来使用的，才有吉凶的显现"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "人",
+    "char_interval": {
+      "start_pos": 46331,
+      "end_pos": 46332
+    },
+    "attributes": {
+      "定义": "所谓的人，则是指触动的时机",
+      "对应宫职": "流年宫职",
+      "作用": "人走入天地交融之处，吉凶便会在流年显露出来"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "天时+地利，就有了吉凶",
+    "char_interval": {
+      "start_pos": 46772,
+      "end_pos": 46785
+    },
+    "attributes": {
+      "类型": "基本法则",
+      "前提": "天时（时间/趋势）与地利（空间/环境）结合",
+      "结论": "产生吉凶现象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "断流年的核心，就是人走入天地交感之地，就会受到吉凶的影响",
+    "char_interval": {
+      "start_pos": 47062,
+      "end_pos": 47093
+    },
+    "attributes": {
+      "类型": "流年判断规则",
+      "前提": "流年命宫或相关宫位（人）走到大运与原局（天地）产生吉凶的宫位",
+      "结论": "在该流年应期发生具体的吉凶事件"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "以这个盘第四大运的财运来举例子",
+    "char_interval": {
+      "start_pos": 47187,
+      "end_pos": 47202
+    },
+    "attributes": {
+      "命盘配置": "第四大运",
+      "分析重点": "流年应期与财运",
+      "推理逻辑": "大运财帛宫（地）飞禄到本命夫妻宫（天），表示妻子的财运不错；当流年夫妻宫踩到该位置（天地人），妻子该年财运好"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大运财帛（地）飞忌入本命田宅宫（天）遇自化忌，表示钱财入库又全部破掉",
+    "char_interval": {
+      "start_pos": 47338,
+      "end_pos": 47372
+    },
+    "attributes": {
+      "前提": "大运财帛飞忌入本命田宅且该宫自化忌",
+      "推理过程": "天地空间主凶，构成破财象",
+      "结论": "当流年命宫或者流年财帛宫踩到该位时（天地人），主破财"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "职业评论，包括职业方向，以及升迁的时机",
+    "char_interval": {
+      "start_pos": 47593,
+      "end_pos": 47612
+    },
+    "attributes": {
+      "核心技法": "职业评论",
+      "应用场景": "论事业",
+      "具体内容": "职业方向、升迁时机"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "婚姻的详论，主要包括婚姻对待，以及对方何时出现，何时成家，感情的历程如何",
+    "char_interval": {
+      "start_pos": 47618,
+      "end_pos": 47654
+    },
+    "attributes": {
+      "核心技法": "婚姻详论",
+      "应用场景": "论婚姻",
+      "具体内容": "婚姻对待、应期判断、感情历程"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "健康的详论，不同病症的判断方法，以及出现健康问题的时间点",
+    "char_interval": {
+      "start_pos": 47660,
+      "end_pos": 47688
+    },
+    "attributes": {
+      "核心技法": "健康详论",
+      "应用场景": "论健康",
+      "具体内容": "病症判断方法、时间点"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "学历以及考试运吉凶的判断",
+    "char_interval": {
+      "start_pos": 47694,
+      "end_pos": 47706
+    },
+    "attributes": {
+      "应用场景": "论学历与考试"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "白派体系特别的用神取用方法",
+    "char_interval": {
+      "start_pos": 47712,
+      "end_pos": 47725
+    },
+    "attributes": {
+      "核心技法": "用神取用方法",
+      "所属体系": "白派体系"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "论重大伤灾，车祸，官非等",
+    "char_interval": {
+      "start_pos": 47731,
+      "end_pos": 47743
+    },
+    "attributes": {
+      "应用场景": "论意外与官非"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "论寿元，生死劫，及如何避开死劫",
+    "char_interval": {
+      "start_pos": 47749,
+      "end_pos": 47764
+    },
+    "attributes": {
+      "应用场景": "论寿元",
+      "核心技法": "避开死劫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "紫微如何看家宅风水的影响",
+    "char_interval": {
+      "start_pos": 47770,
+      "end_pos": 47782
+    },
+    "attributes": {
+      "应用场景": "论风水"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "紫微占卜的体系",
+    "char_interval": {
+      "start_pos": 47788,
+      "end_pos": 47795
+    },
+    "attributes": {
+      "核心技法": "占卜"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "如何避开或者化解伤灾（师承）",
+    "char_interval": {
+      "start_pos": 47802,
+      "end_pos": 47816
+    },
+    "attributes": {
+      "核心技法": "化解伤灾",
+      "来源": "师承"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "财干的使用方法，即如何将财运最大话（自创）",
+    "char_interval": {
+      "start_pos": 47823,
+      "end_pos": 47844
+    },
+    "attributes": {
+      "核心技法": "财干的使用方法",
+      "应用场景": "论财运",
+      "来源": "自创"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "两仪透宫法（自创）",
+    "char_interval": {
+      "start_pos": 47851,
+      "end_pos": 47860
+    },
+    "attributes": {
+      "核心技法": "两仪透宫法",
+      "来源": "自创"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "向心核心用法（自创）",
+    "char_interval": {
+      "start_pos": 47867,
+      "end_pos": 47877
+    },
+    "attributes": {
+      "核心技法": "向心核心用法",
+      "来源": "自创"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "煞气飞伏法（自创）",
+    "char_interval": {
+      "start_pos": 47884,
+      "end_pos": 47893
+    },
+    "attributes": {
+      "核心技法": "煞气飞伏法",
+      "来源": "自创"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "生年走气法（自创）",
+    "char_interval": {
+      "start_pos": 47900,
+      "end_pos": 47909
+    },
+    "attributes": {
+      "核心技法": "生年走气法",
+      "来源": "自创"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "论婚年在何时",
+    "char_interval": {
+      "start_pos": 47916,
+      "end_pos": 47922
+    },
+    "attributes": {
+      "应用场景": "论婚姻",
+      "核心技法": "应期判断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "论六亲生肖",
+    "char_interval": {
+      "start_pos": 47929,
+      "end_pos": 47934
+    },
+    "attributes": {
+      "应用场景": "论六亲"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "论流年的多种技法穿插，如何论出流年细节和完整事件",
+    "char_interval": {
+      "start_pos": 47941,
+      "end_pos": 47965
+    },
+    "attributes": {
+      "核心技法": "技法穿插",
+      "应用场景": "论流年"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "论流月流日的方法",
+    "char_interval": {
+      "start_pos": 47972,
+      "end_pos": 47980
+    },
+    "attributes": {
+      "核心技法": "流月流日论法"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "A随D走",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "定义": "AD分组里面D是占据主导地位的，A是跟随D的想法和行为做事的"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "C随D走",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "定义": "在BC组合中，跟随者（C）跟随决策者（原文表述为C随D走，逻辑为跟随B）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "三合派",
+    "char_interval": null,
+    "attributes": {
+      "类型": "派别定义",
+      "特征": "重星情",
+      "分析方法": "配合星群组合与格局吉凶来论断",
+      "定义句子": "三合派是新人学习者最容易接触的门派，因为三合重星情，很多时候官位结合一颗星星就可以论断很多东西，但是要深入学习的话，就需要配合星群组合与格局吉凶来论断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "三象一物",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "我们将生年四化称之为“体”，虽代表其物质存在，但是言的是有无的概念。当生年象再加上另外一个生年象或者自化象时，就产生了吉凶的概念。而当出现三象的时候，则共同构建出完整的人、事、物的象意组合，此物象则指示出范围之得失、进退。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "三象一物论",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十五"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "交易",
+    "char_interval": null,
+    "attributes": {
+      "核心概念": "交易",
+      "定义": "所谓的交易，就好像我们做生意，做生意的前提时以财易物，或者以物易财。那么都有一个前提，就是有物质的往来才可以进行交易"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "众生位",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "即是不停变动的人际",
+      "关联宫位": "交友宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "六亲宫位",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "组成": [
+        "命宫",
+        "兄弟宫",
+        "夫妻宫",
+        "子女宫",
+        "仆役宫",
+        "父母宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "六阳宫",
+    "char_interval": null,
+    "attributes": {
+      "类型": "宫位系统",
+      "定义": "单数代表的宫位",
+      "包含宫位": [
+        "命宫",
+        "夫妻宫",
+        "财帛宫",
+        "迁移宫",
+        "官禄宫",
+        "福德宫"
+      ],
+      "基本含义": "主贵"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "六阴宫",
+    "char_interval": null,
+    "attributes": {
+      "类型": "宫位系统",
+      "定义": "双数代表的宫位",
+      "包含宫位": [
+        "兄弟宫",
+        "子女宫",
+        "疾厄宫",
+        "交友宫",
+        "田宅宫",
+        "父母宫"
+      ],
+      "基本含义": "主富"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "双象",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "构成条件": "生年象+生年象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "双象论",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十二"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "同组",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "是指二者之间“说的同一人、讲的同一事、言的同一物”"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "后天格局",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "章节": "十八"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "向心自化",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "向心自化是本对宫之间的交易，是涉及到两个宫位的，一方为给予，一方为接收",
+      "extraction_text": "向心自化是本对宫之间的交易，是涉及到两个宫位的，一方为给予，一方为接收。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "命宫与兄弟宫交感",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "所谓命宫与兄弟宫交感，是指命宫与兄弟宫有串联或法象的关系",
+      "extraction_text": "所谓命宫与兄弟宫交感，是指命宫与兄弟宫有串联或法象的关系"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "命宫自化",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "是指我们以命宫天干所飞出来的四化",
+      "作用": "结合先天四化来论断命盘的整体格局"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四化媒介",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "是指我们构成双象组合时，以另一个飞宫象来判断出事情发展的媒介",
+      "功能": "代指事件的起因、时间或空间的概念"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四墓库",
+    "char_interval": null,
+    "attributes": {
+      "宫位": [
+        "辰",
+        "戌",
+        "丑",
+        "未"
+      ],
+      "extraction_text": "辰、戌、丑、未宫称之为四墓库"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "外力格",
+    "char_interval": null,
+    "attributes": {
+      "类型": "人生格局分类",
+      "别称": "他力格",
+      "定义": "来因宫在和自己无关的宫位，也就是六外宫",
+      "要求": "需要借助六亲的力量作为媒介来成就自己，依靠他人的力量打开局面"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "天时、地利、人和",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "天时+地利产生吉凶，人和（流年走入）决定事件对人的最终影响",
+      "斗数对应": "原局为天，大运为地，流年为人"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "婚姻论法",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "主要以夫妻宫为主，以田宅与福德宫为辅助，飞宫参看交友宫来论断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "富贵格局",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "六"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "平衡",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "用于确定象义（如禄忌组合是否指意外）的用法"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "忌冲宫的三个层次",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技法应用",
+      "组成部分": [
+        "本宫论",
+        "河图论",
+        "气数论"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "损格",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "定义": "生年忌落入了子女宫和父母宫",
+      "原理": "冲疾厄宫和田宅宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "来因宫",
+    "char_interval": null,
+    "attributes": {
+      "核心概念": "来因宫",
+      "定义": "我们开启命运之门的枢纽和钥匙"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "核心技法",
+    "char_interval": null,
+    "attributes": {
+      "术语列表": [
+        "媒介",
+        "平衡",
+        "串联",
+        "向心"
+      ],
+      "用途": "看出更多的信息，应证命盘结论"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "气数位",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "基于洛书九宫关系确定的影响运势吉凶的关键宫位位点"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年四化",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "生年四化代表命主的先天格局"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年四化（静态属性）",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "生年四化是对空间的占有，其质永恒不灭，是静态的象",
+      "extraction_text": "生年四化是对空间的占有，其质永恒不灭，是静态的象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "用神组",
+    "char_interval": null,
+    "attributes": {
+      "核心概念": "用神组",
+      "用途": "论时间概念（应期）的判定依据"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "由小归大",
+    "char_interval": null,
+    "attributes": {
+      "类型": "技法核心",
+      "extraction_text": "所谓由小归大，则是指我们看大运吉凶的时候，以大运宫职为太极点，飞出四化的落点要落在本命宫职才可以判断吉凶",
+      "定义": "看大运吉凶时，以大运宫职为太极点，飞出的四化落点需落在本命宫职"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "白派核心内容",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "所属体系": "白派"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "破格",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "定义": "生年忌落入了迁移宫，夫妻宫和福德宫",
+      "原理": "冲命盘的命财官三方"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "破格论",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "六"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "破象",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "所谓破象，乃是指生年四化象被同组或同类自化拉破，破象的方式不光有同宫，还有本对，三合方，同宗位等等。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "破象论",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "十一"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "离心自化",
+    "char_interval": null,
+    "attributes": {
+      "核心概念": "离心自化",
+      "定义": "代表自己本身产生了变化",
+      "extraction_text": "离心自化，代表自己本身产生了变化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自力格",
+    "char_interval": null,
+    "attributes": {
+      "类型": "人生格局分类",
+      "定义": "来因宫落在和自己相关的宫位，也就是六内宫，也就是我们成就人生格局的媒介是自己",
+      "要求": "靠自己的力量打开人生格局，从而自力更生"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化",
+    "char_interval": null,
+    "attributes": {
+      "核心概念": "自化",
+      "定义": "自化代表时间的概念"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化（动态属性）",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "自化则是这个象在时空中的变化，为动态的象",
+      "extraction_text": "自化则是这个象在时空中的变化，为动态的象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "论婚姻",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "二十三"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "定义": "所谓飞宫，就是某官职的天干导致四颗星辰产生禄权科忌四种变化，从而以这四颗星为媒介对其它的官位产生不同程度和性质的影响，使该官职与其它官职产生交感，从而产生吉凶对待关系。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞星派和四化派",
+    "char_interval": null,
+    "attributes": {
+      "类型": "派别定义",
+      "特征": "更加注重逻辑性的东西",
+      "定义句子": "我更推荐新人学习飞星派和四化派，因为这两个派别更加注重逻辑性的东西"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断法则",
+    "extraction_text": "法象公式",
+    "char_interval": null,
+    "attributes": {
+      "内容": "命盘上所有的自化A，都要回到生年A来论断；命盘上所有的自化B，都要回归到生年B来论断；命盘上所有的自化C，都要回归到生年C来论断；命盘上所有的自化D，都要回归生年D来论断",
+      "类型": "公式口诀",
+      "extraction_text": "命盘上所有的自化A，都要回到生年A来论断；命盘上所有的自化B，都要回归到生年B来论断；命盘上所有的自化C，都要回归到生年C来论断；命盘上所有的自化D，都要回归生年D来论断。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "BC组合里面B是占据主导地位的，所以C要跟随B走",
+    "char_interval": null,
+    "attributes": {
+      "类型": "四化的跟随规则",
+      "前提": "BC组合",
+      "主导方": "B",
+      "跟随方": "C",
+      "结论": "C随B走"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "一个宫位有自化，一定会发生变化",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "一个宫位有自化",
+      "结论": "一定会发生变化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "三象一物形成的条件则是一个宫位之内出现三个象意",
+    "char_interval": null,
+    "attributes": {
+      "类型": "三象条件",
+      "前提": "一个宫位之内出现三个象意",
+      "结论": "可以定出完整的物象，和构成完整的事件"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "三象成一物（完整的事件）——星期五的晚上朋友在酒吧打了我",
+    "char_interval": null,
+    "attributes": {
+      "类型": "三象层次",
+      "序号": "(3)",
+      "含义": "三象成一物，完整的事件",
+      "示例": "星期五的晚上朋友在酒吧打了我"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "交易逢伏象的论断",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "飞宫落点遇到生年象",
+      "结论": "不可以用单一的四化来解读，而是应该按照双象的组合来论断最终的结果"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "兄弟宫自化禄与命宫产生交感，表示命主必定会有兄弟姐妹",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "兄弟宫自化禄与命宫产生交感",
+      "判断结论": "命主必定会有兄弟姐妹"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "单象不成物（言有无）——朋友",
+    "char_interval": null,
+    "attributes": {
+      "类型": "三象层次",
+      "序号": "(1)",
+      "含义": "单象不成物，只言有无",
+      "示例": "朋友"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "双象成物对（言对待关系）——朋友打我",
+    "char_interval": null,
+    "attributes": {
+      "类型": "三象层次",
+      "序号": "(2)",
+      "含义": "双象成物对，言对待关系",
+      "示例": "朋友打我"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "吉凶物像论",
+    "char_interval": null,
+    "attributes": {
+      "核心规则": "权科是现象论，无吉凶，吉凶看禄忌，物像论。",
+      "结论": "判别吉凶应通过禄与忌进行物像分析",
+      "extraction_text": "注：权科是现象论，无吉凶，吉凶看禄忌，物像论。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "同类破象",
+    "char_interval": null,
+    "attributes": {
+      "类型": "破象类型",
+      "序号": "(1)",
+      "定义": "同类破象共有四种：禄+自化禄（离心+向心）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "同组破象",
+    "char_interval": null,
+    "attributes": {
+      "类型": "破象类型",
+      "序号": "(2)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "命盘上所有的自化忌，都是在讲命主究竟不顺在哪些地方",
+    "char_interval": null,
+    "attributes": {
+      "前提": "命宫坐生年忌（代表一生较有不顺的感受）",
+      "结论": "自化忌所在宫位即为不顺的来源",
+      "案例": "官禄宫和子女宫自化忌，代表事业不顺和子女缘薄"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "坐忌不忌，忌冲倒闭",
+    "char_interval": null,
+    "attributes": {
+      "类型": "论忌口诀",
+      "内涵": "生年忌坐守的宫位风险性较小，而忌冲的宫位则会受到毁灭性打击",
+      "比喻": "生年忌如手雷，坐宫为握雷者，冲宫为被投掷者"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "大运与原局交感之后，就产生了吉凶了",
+    "char_interval": null,
+    "attributes": {
+      "类型": "斗数判断法则",
+      "前提": "大运（地）与原局（天）发生关联",
+      "结论": "产生吉凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "夫妻宫拥有自化禄，那么我们婚姻的用神组就是AD组",
+    "char_interval": null,
+    "attributes": {
+      "类型": "用神分组规则",
+      "前提": "夫妻宫自化禄(A)",
+      "用神组": "AD组"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "官禄宫是气数位。",
+    "char_interval": null,
+    "attributes": {
+      "定位原则": "以命宫为一，逆数到第9的宫位",
+      "结论": "官禄宫是气数位"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "来因宫与生年象的基本公式",
+    "char_interval": null,
+    "attributes": {
+      "公式一": "命主因为XXXXXX（来因宫）而得到了XXXXXX（生年自化象）",
+      "公式二": "命主的XXXXXX（生年四化象）是通过XXXXXX（来因宫）而得来的"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "每一组之间生年四化可以相互借用",
+    "char_interval": null,
+    "attributes": {
+      "前提": "宫位属于同一河图/洛书分组",
+      "结论": "生年四化可以相互借用且可以同看",
+      "作用": "一荣俱荣，一损俱损"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生年忌落入夫迁福为破格",
+    "char_interval": null,
+    "attributes": {
+      "类型": "格局损益",
+      "前提": "生年忌落入迁移宫、夫妻宫或福德宫",
+      "结论": "构成破格，因其冲命财官三方"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生年忌落入子父宫为损格",
+    "char_interval": null,
+    "attributes": {
+      "类型": "格局损益",
+      "前提": "生年忌落入子女宫或父母宫",
+      "结论": "构成损格，因其冲疾厄宫和田宅宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生年禄+自化忌（离心+向心）=禄忌同组破象",
+    "char_interval": null,
+    "attributes": {
+      "类型": "破象公式",
+      "组合": "禄忌同组",
+      "前提": "生年禄+自化忌",
+      "结论": "禄忌同组破象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生年科的职业性质",
+    "char_interval": null,
+    "attributes": {
+      "前提": "官禄宫有生年四化且为生年科",
+      "结论": "命主必定会有工作，且从事跟技术、技艺有关的工作"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "禄 + 忌 ≡ 禄忌双象 ≡ AD",
+    "char_interval": null,
+    "attributes": {
+      "类型": "双象组合",
+      "组合名称": "禄忌双象",
+      "代号": "AD",
+      "组成": "禄+忌"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "禄 + 权 ≡ 禄权双象 ≡ AB",
+    "char_interval": null,
+    "attributes": {
+      "类型": "双象组合",
+      "组合名称": "禄权双象",
+      "代号": "AB",
+      "组成": "禄+权"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "禄 + 科 ≡ 禄科双象 ≡ AC",
+    "char_interval": null,
+    "attributes": {
+      "类型": "双象组合",
+      "组合名称": "禄科双象",
+      "代号": "AC",
+      "组成": "禄+科"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "禄+权=禄权双象=AB",
+    "char_interval": null,
+    "attributes": {
+      "类型": "双象组合",
+      "组合名称": "禄权双象",
+      "代号": "AB",
+      "组成": "禄+权"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "禄+科=禄科双象=AC",
+    "char_interval": null,
+    "attributes": {
+      "类型": "双象组合",
+      "组合名称": "禄科双象",
+      "代号": "AC",
+      "组成": "禄+科"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "禄权是高层管理和老板格局",
+    "char_interval": null,
+    "attributes": {
+      "类型": "双象含义",
+      "组合": "禄权",
+      "前提": "命主三方位禄权的组合",
+      "结论": "此人必定是创业或者做生意的当老板的格局"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "禄随忌走",
+    "char_interval": null,
+    "attributes": {
+      "类型": "组合规则",
+      "含义": "在案例中理解为财运好但钱花在婚姻或因结婚花掉"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "空宫飞空宫规则",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "当空宫飞四化落点到空宫的时候",
+      "结论": "就只是一种现象，而没有明确的事件发生"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(1)",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "命宫坐生年忌，大限官禄宫或者大限田宅宫再化忌入命",
+      "结论": "谓绝命忌。大限事业家宅要注意"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(4)",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "本命宫坐生年忌，田宅宫或官禄宫之化忌入本命",
+      "结论": "绝不可再入本命，入本命，影响身体健康"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(8)",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "田宅宫化忌冲本命命宫",
+      "结论": "同样影响身体健康。若本命有生年忌更不好"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "绝命忌法则(9)-补充",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "官禄宫坐守生年忌星时, 迁移宫或田宅宫之化忌再入官禄宫",
+      "结论": "入则凶"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "逆水忌合格条件",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "由本命三合飞出，而且对宫之迁移宫、福德宫及夫妻宫，绝不能自化",
+      "结论": "合格的“逆水忌”，可从事生产制造、连锁、关系事业",
+      "extraction_text": "此忌一定要由本命三合飞出，而且对宫之迁移宫、福德宫及夫妻宫，绝不能自化，才是合格的“逆水忌”。可从事生产制造事业，经营连锁事业，关系事业。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "飞宫交易触发规则",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "一个官位飞四化出去，落点官位有生年四化",
+      "结论": "可以达成交易的条件，那么这种时候就必然有事件发生"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "飞宫遇生年象规则",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "飞宫遇到生年象时",
+      "结论": "则以双象含义来解"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "一六共宗，二七同道。三八为朋，四九为友。",
+    "char_interval": null,
+    "attributes": {
+      "类型": "河图口诀",
+      "用途": "宫位关系判定"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "命宫与官禄宫为一九同宫",
+    "char_interval": null,
+    "attributes": {
+      "含义": "此乃绝命忌之用"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "禄因忌果",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断原则",
+      "含义": "以禄为起因，以忌为结果"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "禄权科不管怎么组合，媒介都是忌",
+    "char_interval": null,
+    "attributes": {
+      "类型": "媒介判定口诀",
+      "含义": "A、B、C三象中任意两两组合，其媒介均为D（忌）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "权——缘变，重血缘、关爱家人胜过外人；人际竞争、冲突、变化",
+    "char_interval": null,
+    "attributes": {
+      "四化类型": "权",
+      "含义": "缘变",
+      "人的特征": "重血缘、人际竞争、冲突、变化"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "禄——缘起，人缘佳；异性缘厚；桃花",
+    "char_interval": null,
+    "attributes": {
+      "四化类型": "禄",
+      "含义": "缘起",
+      "人的特征": "人缘佳、异性缘厚、桃花"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "六线",
+    "char_interval": null,
+    "attributes": {
+      "定义": "将十二宫分为了六组",
+      "组成内容": [
+        "命迁线",
+        "父疾线",
+        "兄友线",
+        "夫官线",
+        "子田线",
+        "福财线"
+      ],
+      "核心逻辑": "本宫与对宫的关系，也是讲的气的往来"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "命宫——疾厄宫——福德宫（一六共宗原则）",
+    "char_interval": null,
+    "attributes": {
+      "关系类型": "河图关系",
+      "原则": "一六共宗",
+      "宫位组": [
+        "命宫",
+        "疾厄宫",
+        "福德宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "夫妻宫来立作太极点，则逆数第九宫福德宫为感情气数位",
+    "char_interval": null,
+    "attributes": {
+      "关系类型": "气数关系",
+      "太极点": "夫妻宫",
+      "气数位": "福德宫",
+      "计算规则": "逆数第九宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "把兄弟宫当成气数位来看，那么我们就可以倒推出太极点在疾厄宫",
+    "char_interval": null,
+    "attributes": {
+      "关系类型": "气数关系",
+      "太极点": "疾厄宫",
+      "气数位": "兄弟宫"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "兄弟宫",
+    "char_interval": null,
+    "attributes": {
+      "多重职能": [
+        "兄弟姐妹",
+        "私人机构",
+        "私营企业",
+        "父母婚姻",
+        "短途驿马",
+        "现金财库",
+        "健康气数"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "应期判断",
+    "extraction_text": "大运命宫或者大运田宅宫踩生年B或者生年C时，田宅会产生变动",
+    "char_interval": null,
+    "attributes": {
+      "前提": "大运命宫或大运田宅宫逢生年权(B)或生年科(C)",
+      "结论": "田宅会产生变动（买卖房产）"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "应期判断",
+    "extraction_text": "当我们大运命宫或者大运夫妻宫受到生年A或者生年D的影响时，就是成婚的大运",
+    "char_interval": null,
+    "attributes": {
+      "前提": "大运命宫或大运夫妻宫受生年禄(A)或生年忌(D)影响",
+      "结论": "成婚的大运"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "AB组媒介是D",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "媒介",
+      "应用场景": "双象组合媒介转换",
+      "组合规则": "AB组媒介是D"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "串联",
+    "char_interval": null,
+    "attributes": {
+      "方法说明": "把两个官位串联起来看，或者将官禄宫和子女宫串联起来解",
+      "应用场景": "论事业、论合伙、论家庭地位",
+      "效果": "增加论断的深度和具体空间感"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "交易逢伏象",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "交易逢伏象",
+      "基本原理": "生年四化代表生年质的存在占据官位的空间范围，而我们的飞宫则是讲的官位之间的交易"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "以官位的交感来论断事件或者现象",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "交感",
+      "应用场景": "洛书论断",
+      "交感类型": [
+        "叠宫",
+        "飞宫",
+        "法象",
+        "串联"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "体用关系",
+    "char_interval": null,
+    "attributes": {
+      "应用方式": "生年象为体（如水井、井水），自化象为用（如井水的用途）",
+      "含义": "自化决定了生年象所代表的物质用在了哪里",
+      "extraction_text": "其实自化和生年也是体用关系。如何理解这个体用关系呢？我们假设生年官位是一口水井，那么生年禄就是源源不断的井水。而自化就是这个井水的用处，也就是这井水用在了哪里。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "同类宫职小冲大",
+    "char_interval": null,
+    "attributes": {
+      "含义": "大运宫位（小）冲原局同类宫位（大）",
+      "结论": "主凶象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "增多的现象",
+    "char_interval": null,
+    "attributes": {
+      "应用场景": "论健康",
+      "具体表现": "囊肿，结石，结节，肿瘤，息肉，骨刺"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "天地人三才看流年的方法",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "天地人三才法",
+      "应用场景": "财运、健康、事业、感情等流年应期判断",
+      "使用方法": "以原局为天，大运为地，流年为人，看三者交感"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "媒介",
+    "char_interval": null,
+    "attributes": {
+      "应用方式": "通过飞宫四化寻找对应的生年四化宫位作为现象的媒介",
+      "作用": "寻找事件发生的原因或背景"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "媒介用法",
+    "char_interval": null,
+    "attributes": {
+      "规则": "禄忌媒介为权",
+      "应用场景": "看具体的因缘或者时空范围时",
+      "推理逻辑": "以命宫飞权如父母宫，则可以知道和朋友对待关系出问题的原因，可能跟父母宫有关系"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "媒介论",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "媒介论",
+      "应用场景": "论事业、论得财方式",
+      "基本原理": "通过来因宫或宫位间的飞化联系作为媒介来判断人、事、物的性质"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "平衡",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "平衡",
+      "应用场景": "要想平衡就需要找到另外一组AB的能量",
+      "使用方法": "用田宅宫壬天干飞紫微B入官禄宫，就得到了跟父母宫的平衡"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "我们是通过来因宫为媒介而得到了生年四化象",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "法象/媒介",
+      "逻辑关系": "来因宫 -> 媒介 -> 生年四化象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "来因宫与元神宫交战",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "来因宫冲了元神宫，或者反之",
+      "结论": "必有损害，两败俱伤，有劫数，易有灾难，大限流年同理"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "法象",
+    "char_interval": null,
+    "attributes": {
+      "定义": "命盘上所有的A/B/C/D都是在讲生年A/B/C/D的事情",
+      "适用范围": "不光适用于论断自化，也可以用来论断飞宫",
+      "核心逻辑": "飞宫四化，也可以法象生年来论断"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "生年为体，自化为用",
+    "char_interval": null,
+    "attributes": {
+      "定义": "若生年为体，自化为用",
+      "应用场景": "论大运事业与性质",
+      "推理逻辑": "大兄自化C（科）表示在该大运十年间在私营企业或私人公司从事文职技术类工作"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "由小归大飞宫逻辑",
+    "char_interval": null,
+    "attributes": {
+      "逻辑比喻": "大运飞原局好比向上一级领导打小报告，同等级（同层次）则无法奈何对方"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "自化法的使用方法",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "自化法",
+      "组合使用": "自化法可以结合媒介技法，三象一物技法，以及平衡技法共同使用。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "转忌",
+    "char_interval": null,
+    "attributes": {
+      "定义": "可以将禄气和忌气引渡到另外一个宫位",
+      "核心功能": "作为导气的媒介，引导煞气的走向，看煞气的飞伏",
+      "应用场景": "判断煞气的叠加影响和转移"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "这个论断我们必须配合来因宫使用",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "配合来因宫",
+      "应用场景": "论婚姻"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "通过双象的媒介来看因缘、时间或者空间象",
+    "char_interval": null,
+    "attributes": {
+      "核心技法": "媒介法",
+      "应用场景": "在确定双象基本性质后，进一步判断事件的起因、地点或时间"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "飞宫四化冲照",
+    "char_interval": null,
+    "attributes": {
+      "含义": "飞宫四化冲照给宫位带来的影响",
+      "应用场景": "通过飞宫产生的力量对对宫或三合宫位产生间接影响"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "兄弟宫的这个生年忌就可以影响我们的健康运势吉凶，由此来推断命主健康状况不是很好",
+    "char_interval": null,
+    "attributes": {
+      "前提": "兄弟宫为疾厄宫之气数位且有生年忌",
+      "推理过程": "气数位的生年忌影响太极点（疾厄宫）的吉凶",
+      "结论": "命主健康状况不是很好"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大运分析逻辑",
+    "char_interval": null,
+    "attributes": {
+      "前提": "以大运夫妻宫作为太极点",
+      "推理步骤": "飞四化象落在原局来解答",
+      "结论": "判断十年的婚姻状态"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "来因宫在子女宫，也就是以子女为媒介促成这段婚姻，因此，可能会有未婚先孕而奉子成婚的现象",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "来因宫在子女宫",
+      "媒介": "子女",
+      "结论": "可能未婚先孕、奉子成婚"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "流年吉凶事件构成三要素",
+    "char_interval": null,
+    "attributes": {
+      "天时": "持续高温天气（天时/不可抗力）",
+      "地利": "大兴安岭（地理/空间）",
+      "人和": "村民（触动时机/人）",
+      "结论": "天地人三个条件成就了一个完整事件的发生"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "父母产生变化的原因判断",
+    "char_interval": null,
+    "attributes": {
+      "前提": "天机向心权，法象回归迁移宫",
+      "推理过程": "向心代表外力，法象回归迁移说明与迁移有关",
+      "结论": "会有外力促使父亲外出发展；父母的手足容易因为外出或者意外而受到伤害",
+      "extraction_text": "我们将天机向心权，法象回归迁移宫，就可以知道父母产生的变化跟迁移有关"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "父母宫出现婚外情人的判断",
+    "char_interval": null,
+    "attributes": {
+      "前提": "天魁星出现在父母宫且不是主星男人",
+      "推理过程": "说明父母宫里多出了一个没有名分的男人",
+      "结论": "母亲容易出现外遇",
+      "extraction_text": "当天魁星出现在父母宫的时候，说明父母宫里多出了一个没有名分的男人，所以母亲容易出现外遇"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "自化B的象意解析",
+    "char_interval": null,
+    "attributes": {
+      "前提": "自化B，讲的是疾厄宫",
+      "推理过程": "大迁+大疾 为健康意外；大迁（驿马）+大疾（工作环境）为工作环境变动",
+      "结论": "出差的时候意外受伤，或者因为事业方向变动而出现工作环境变动"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "迁移宫飞B（权）构成三象",
+    "char_interval": null,
+    "attributes": {
+      "前提": "迁移宫飞B进来，增加了一个物象",
+      "过程": "构成了三象，形成了完整的健康问题",
+      "结论": "外出导致了健康问题，即意外或者车祸事件成立"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "配偶职业推断逻辑",
+    "char_interval": null,
+    "attributes": {
+      "前提": "夫妻宫坐巨门权，结合原局天梁星",
+      "推理过程": "巨门为女星即妻子用神，巨门代表口才，天梁具有文教法律属性",
+      "结论": "妻子很容易从事文教法律的行业，例如教师或者律师",
+      "extraction_text": "那么妻子很容易从事文教法律的行业，例如教师或者律师这样需要口才的职业"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "右弼是女星",
+    "char_interval": null,
+    "attributes": {
+      "星曜": "右弼",
+      "属性": "女星"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天同星",
+    "char_interval": null,
+    "attributes": {
+      "属性": "男星",
+      "宫位含义": "在父母宫代表父亲",
+      "extraction_text": "天同是男星"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天机为智慧星，头脑星",
+    "char_interval": null,
+    "attributes": {
+      "星曜名称": "天机星",
+      "基本含义": "智慧星，头脑星",
+      "四化表现": "天机化禄即为工作拿智慧学识之财"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天机星",
+    "char_interval": null,
+    "attributes": {
+      "属性": "男星",
+      "宫位含义": "代表命主的父亲",
+      "其他含义": "也代表手足",
+      "extraction_text": "天机星是男星"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天魁星",
+    "char_interval": null,
+    "attributes": {
+      "别称": "阳贵人",
+      "特殊属性": "不属于十八星，虽然是阳贵人，但是不是男人",
+      "extraction_text": "天魁是阳贵人"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "太阴星",
+    "char_interval": null,
+    "attributes": {
+      "属性": "女星",
+      "宫位含义": "在父母宫代表着母亲",
+      "extraction_text": "太阴是女星"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "巨门星",
+    "char_interval": null,
+    "attributes": {
+      "属性": "女星",
+      "含义": "代表口才嘴巴",
+      "职业推断": "教师或者律师",
+      "extraction_text": "巨门星为女"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "擎羊",
+    "char_interval": null,
+    "attributes": {
+      "类型": "煞星",
+      "基本含义": "破耗"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "武曲",
+    "char_interval": null,
+    "attributes": {
+      "五行属性": "属金",
+      "基本含义": "主骨骼或者肺部呼吸道"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "交友宫受到忌冲，相当于夫妻宫也受到生年忌冲的危害",
+    "char_interval": null,
+    "attributes": {
+      "前提": "忌冲交友宫",
+      "推理依据": "三八为朋",
+      "判断结论": [
+        "婚姻受到冲击，感情波折",
+        "事业发展方向容易受阻",
+        "父母容易受意外伤"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "交友宫飞忌到命宫遇生年禄",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "交友宫飞忌到命宫，遇到生年禄",
+      "推理逻辑": "交友和命宫就形成了一个禄忌的对待关系，为双忌论",
+      "判断结论": "主时好时坏波动大，最后得到的结果必定是不好的"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "兄弟宫生年忌借用到迁移宫的论断",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "兄弟宫为第二宫，迁移宫为第七宫，符合河图二七同道",
+      "推理过程": "迁移宫借用生年忌力量，结合迁移宫宫职（社交、形象、交通、意外、外地）",
+      "判断结论": [
+        "社交能力比较薄弱，不擅长与人打交道",
+        "外在形象比较随意，不修边幅",
+        "容易遇到交通出行的意外状况",
+        "容易受伤",
+        "不适合去外地发展"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "兄弟宫飞禄到命宫遇自化B与向心D",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "兄弟宫飞禄到命宫，遇到了离心自化B和向心自化D",
+      "推理逻辑": "形成了一个ABD的组合；兄弟宫代表私人企业，A结合自化B形成AB组合（管理格局）；对宫射入向心忌（结束）",
+      "判断结论": "命主会在私家机构或者私营企业担任管理职务，向心忌代表结束"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "大命飞A入本财遇到了向心A和离心C，构成三象一物，则必定大运有加薪的事件发生。",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "大命飞A入本财遇向心A和离心C",
+      "推理逻辑": "构成三象一物",
+      "判断结论": "必定大运有加薪的事件发生"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "大运命宫飞忌在原局的迁移宫",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "大运命宫飞忌入原局迁移宫",
+      "推理逻辑": "大运命宫冲了原局命宫，属于同类宫职小冲大",
+      "判断结论": "主凶象"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "大运夫妻宫飞化案例",
+    "char_interval": null,
+    "attributes": {
+      "案例描述": "以此运夫妻宫来举例子，看十年的婚姻状态。",
+      "分析过程": [
+        "大夫飞A入本迁照本命：妻子对我很好，对外表现恩爱",
+        "大夫飞B入本夫：妻子喜欢管束命主，同时妻子事业利晋升",
+        "大夫飞C入本财：妻子从事文职类工作，赚取薪水",
+        "夫妻宫飞忌入田宅宫：妻子忙碌工作对子女疏于照顾，缘分浅"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "夫妻宫有生年忌，虽然主感情不顺，但是也寓意命主必定是有婚姻之人",
+    "char_interval": null,
+    "attributes": {
+      "命盤配置": "夫妻宫有生年忌",
+      "分析过程": "生年忌在夫妻宫",
+      "判断结论": "主感情不顺但必有婚姻"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "夫妻宫遇交友宫是同宗同源的",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "夫妻宫(3)，交友宫(8)，交友宫有生年权，夫妻宫有生年忌",
+      "推理逻辑": "根据三八为朋原则，夫妻宫借用交友宫生年权，交友宫借用夫妻宫生年忌",
+      "判断结论": "夫妻宫与交友宫均等同于拥有BD（权忌）组合"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "来因宫为夫妻子女有生年忌",
+    "char_interval": null,
+    "attributes": {
+      "判断结论": "感情不顺，经常搬家"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "来因宫在父母宫的四化论断",
+    "char_interval": null,
+    "attributes": {
+      "前提条件": "假设来因宫在父母宫（代表公家机构、父母长辈、领导）",
+      "推理逻辑": [
+        "禄：通过父母长辈或者领导认识了很多朋友",
+        "权：在公家单位里面做管理者或者领导",
+        "科：和老婆是通过领导或者长辈介绍而认识步入婚姻",
+        "忌：通过父母得到了一个不是很大的房子，或公家单位分配了较小的房子"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "案例1：财帛宫生年C与田宅宫自化C",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "财帛宫有生年C，自化C在田宅宫",
+      "推理逻辑": "生年C表示拥有钱财，自化C在田宅宫表示钱财用在不动产或家庭上",
+      "判断结论": "命主会花钱买房",
+      "extraction_text": "财帛宫有生年C，表示我拥有钱财（水井）。而自化则表示我的钱财用在了哪里（井水用来做什么）。我们已知自化C在田宅宫，就代表钱花在了不动产或者家庭上，则表示命主会花钱买房。"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "父母宫是AB双象，AB为老板格局",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "父母宫AB双象",
+      "组合含义": "老板格局",
+      "判断结论": "代表父母有人是做生意当老板的"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "生年忌在兄弟宫的本宫论断",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "生年忌在兄弟宫",
+      "推理逻辑": "基于兄弟宫宫职含义",
+      "判断结论": [
+        "兄弟姐妹缘浅",
+        "容易在私家公司和私营企业上班",
+        "父母婚姻相处不好，常有矛盾和争吵",
+        "可能因为某些因素经常进行短途跑动",
+        "身上资金经常周转不良",
+        "身体中气不足, 健康状况不是特别良好"
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "疾厄宫与兄弟宫产生了四化能量的平衡",
+    "char_interval": null,
+    "attributes": {
+      "前提": "疾厄宫生年D+自化C（CD组合），兄弟宫产生自化CD",
+      "结论": "兄弟宫有健康问题，或命主健康问题出现在兄弟大限",
+      "推理逻辑": "四化能量达到平衡，两个官位产生交感"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "疾厄宫作为来因宫论事业",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "来因宫在疾厄宫，官禄宫有生年科",
+      "分析过程": "疾厄宫是六内宫且代表行为、体力、健康。官禄生年科主技术",
+      "判断结论": "命主事业由自己开创（六亲助力小），从事跟体力有关的技术工作"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "双象组合含义表",
+    "char_interval": null,
+    "attributes": {
+      "内容": [
+        {
+          "双象": "禄权",
+          "论财官": "主丰盛，财官兴旺，偏向一般投资，生产的生意，利大于名",
+          "论感情": "论人表二个以上，论桃花则属于泛水桃花，关系多元化且复杂，倾向二度、重复与多角恋"
+        },
+        {
+          "双象": "禄科",
+          "论财官": "名利双收，因名得利，偏向巧艺的生意或文禄之人，如设计师、律师、会计师、教师等等",
+          "论感情": "论人表示二个以上，论桃花则主有缘、有情、好聚好散，即便缘尽也常常留有情思"
+        },
+        {
+          "双象": "禄忌",
+          "论财官": "表事业起伏大、变化大、周转大。最忌讳财牵扯不清，大起大落，多变曲折",
+          "论感情": "以双忌论，主凶；感情如同过山车一般的感受"
+        },
+        {
+          "双象": "权科",
+          "论财官": "以专技、才艺为主，如技师、工程师、建筑师等等",
+          "论感情": "论人或桃花为象二数一，为一前一后，或者一显一隐"
+        },
+        {
+          "双象": "权忌",
+          "论财官": "以专技、技能为主，如技工、机工、或专业性工人，或薪俸者",
+          "论感情": "主善变、突变，来得莫名，去得也快，含有无奈与天意，姻缘桃花定有伤心往事"
+        },
+        {
+          "双象": "科忌",
+          "论财官": "以学术、才艺为主，或上班为宜，或教育、著作或服务业",
+          "论感情": "感情上藕断丝连，主纠缠不清，是非多，拖拖拉拉，容易陷入进退两难的境地"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "四化媒介组合表",
+    "char_interval": null,
+    "attributes": {
+      "组合与媒介对应关系": [
+        {
+          "双象组合": "A+D",
+          "媒介": "B"
+        },
+        {
+          "双象组合": "B+D",
+          "媒介": "C"
+        },
+        {
+          "双象组合": "C+D",
+          "媒介": "A"
+        },
+        {
+          "双象组合": "A+B",
+          "媒介": "D"
+        },
+        {
+          "双象组合": "A+C",
+          "媒介": "D"
+        },
+        {
+          "双象组合": "B+C",
+          "媒介": "D"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "河图数与十二宫对照表",
+    "char_interval": null,
+    "attributes": {
+      "1": "命宫",
+      "2": "兄弟宫 / 父母宫 (12-10)",
+      "3": "夫妻宫",
+      "4": "子女宫",
+      "5": "财帛宫",
+      "6": "疾厄宫",
+      "7": "迁移宫",
+      "8": "交友宫",
+      "9": "官禄宫",
+      "10": "田宅宫",
+      "1 (复数)": "福德宫 (11-10)"
+    }
+  },
+  {
+    "doc_id": "2113da22",
+    "doc_title": "白派飞宫紫微斗数速成体系(1).pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "紫微斗数十二宫富贵属性表",
+    "char_interval": null,
+    "attributes": {
+      "命宫": "1, 阳（贵）",
+      "兄弟宫": "2, 阴（富）",
+      "夫妻宫": "3, 阳（贵）",
+      "子女宫": "4, 阴（富）",
+      "财帛宫": "5, 阳（贵）",
+      "疾厄宫": "6, 阴（富）",
+      "迁移宫": "7, 阳（贵）",
+      "交友宫": "8, 阴（富）",
+      "官禄宫": "9, 阳（贵）",
+      "田宅宫": "10, 阴（富）",
+      "福德宫": "11, 阳（贵）",
+      "父母宫": "12, 阴（富）"
+    }
+  }
+]

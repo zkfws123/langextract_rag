@@ -1,0 +1,6321 @@
+[
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "钦天四化",
+    "char_interval": {
+      "start_pos": 2,
+      "end_pos": 6
+    },
+    "attributes": {
+      "类型": "流派名称",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "命兄夫子财疾迁友官田福父",
+    "char_interval": {
+      "start_pos": 273,
+      "end_pos": 285
+    },
+    "attributes": {
+      "名称": [
+        "命宫",
+        "兄弟宫",
+        "夫妻宫",
+        "子女宫",
+        "财帛宫",
+        "疾厄宫",
+        "迁移宫",
+        "奴仆宫",
+        "官禄宫",
+        "田宅宫",
+        "福德宫",
+        "父母宫"
+      ],
+      "数量": "十二宫"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "禄权科忌ABCD",
+    "char_interval": {
+      "start_pos": 294,
+      "end_pos": 302
+    },
+    "attributes": {
+      "符号": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "核心项": "四化"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "向心自化",
+    "char_interval": {
+      "start_pos": 319,
+      "end_pos": 323
+    },
+    "attributes": {
+      "类型": "核心概念"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "离心自化",
+    "char_interval": {
+      "start_pos": 324,
+      "end_pos": 328
+    },
+    "attributes": {
+      "类型": "核心概念"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "紫微",
+    "char_interval": {
+      "start_pos": 370,
+      "end_pos": 372
+    },
+    "attributes": {
+      "五行": "己土",
+      "基本含义": [
+        "主帝王星",
+        "主有解厄制化之功",
+        "主孤",
+        "主贵又主名",
+        "主富又主财",
+        "主尊星"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "紫微星五行属己土，疾厄论主脾胃有关之疾",
+    "char_interval": {
+      "start_pos": 448,
+      "end_pos": 467
+    },
+    "attributes": {
+      "星曜": "紫微星",
+      "前提条件": "五行属己土",
+      "结论": "主脾胃有关之疾",
+      "应用领域": "疾厄症状论"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "紫微星事物论",
+    "char_interval": {
+      "start_pos": 486,
+      "end_pos": 492
+    },
+    "attributes": {
+      "代表事物": [
+        "黄金",
+        "玛瑙",
+        "古董",
+        "高楼大厦",
+        "金融机构",
+        "银楼",
+        "名画"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "主帝王星",
+    "char_interval": {
+      "start_pos": 553,
+      "end_pos": 557
+    },
+    "attributes": {}
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "主孤",
+    "char_interval": {
+      "start_pos": 802,
+      "end_pos": 804
+    },
+    "attributes": {
+      "星曜": "紫微星",
+      "前提条件": "独坐、缺少贤臣辅佐（左辅、右弼、文昌、文曲、化科星）",
+      "结论": "容易独断专行，或脾气暴躁及孤独"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "主贵又主名",
+    "char_interval": {
+      "start_pos": 885,
+      "end_pos": 890
+    },
+    "attributes": {
+      "前提条件": "落命宫、官禄宫，还要会六吉星（如左辅、右弼、文昌、文曲、化科星等）",
+      "结论": "主贵又主名"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "主富又主财",
+    "char_interval": {
+      "start_pos": 927,
+      "end_pos": 932
+    },
+    "attributes": {
+      "前提条件": "落在命宫、财帛宫、田宅宫，还要三方会合天相、天府、化禄星等",
+      "结论": "主富又主财"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "天机",
+    "char_interval": {
+      "start_pos": 1029,
+      "end_pos": 1031
+    },
+    "attributes": {
+      "来源": "章节标题",
+      "序号": "二",
+      "五行属性": "乙木",
+      "定义": "每一个生命都是住在地球上，此谓之天机。其实天机就是社会，因此就是人与人之间的问题",
+      "基本特性": "与物有对，智慧之星，驿马之星，表兄弟主，教化之星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "天机星疾厄症状论",
+    "char_interval": {
+      "start_pos": 1218,
+      "end_pos": 1226
+    },
+    "attributes": {
+      "应用场景": "论健康",
+      "判断规则": [
+        "天机星为乙木, 木主跟肝、胆有关",
+        "跟神经系统有关",
+        "跟手脚有关"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "天机星事物论",
+    "char_interval": {
+      "start_pos": 1279,
+      "end_pos": 1285
+    },
+    "attributes": {
+      "应用场景": "论事物",
+      "代表物": "车子、镜子、眼镜、玻璃、铁路、家庭用小五金、木牌、木碑",
+      "六亲/职业": "兄弟、平辈、宗教、学术、命相、教育界"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "太阳",
+    "char_interval": {
+      "start_pos": 1522,
+      "end_pos": 1524
+    },
+    "attributes": {
+      "来源": "章节标题",
+      "序号": "三",
+      "五行属性": "丙火",
+      "基本含义": "主光明(对人, 言男性; 对事, 为官禄主)",
+      "核心定义": "所谓格物, 是指对太阳而言",
+      "角色定位": "主权贵之星、为官禄主、主父、夫、子"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "太阳星疾厄症状论",
+    "char_interval": {
+      "start_pos": 1682,
+      "end_pos": 1690
+    },
+    "attributes": {
+      "应用场景": "论健康",
+      "判断规则": [
+        "丙火，跟头脑有关的疾病，如头痛、头晕、脑膜炎、脑溢血",
+        "跟眼睛的疾病有关, 如近视、远视、跟大肠、小肠有关",
+        "跟心脏有关的疾病"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "太阳星事物论",
+    "char_interval": {
+      "start_pos": 1775,
+      "end_pos": 1781
+    },
+    "attributes": {
+      "应用场景": "论事物",
+      "代表物": "发电机、马达、高物、变电所、头部、首颈、轮胎、电话器材",
+      "职业/场景": "公共关系、广播界、贸易公司、旅行社、上班者"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "太阳坐命之人，在儿女私情面，主感情多波动，较有感情的困扰",
+    "char_interval": {
+      "start_pos": 2130,
+      "end_pos": 2158
+    },
+    "attributes": {
+      "前提": "太阳坐命",
+      "结论": "感情多波动，较有感情的困扰",
+      "逻辑依据": "太阳星主波动、主感情"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四、武曲星：辛金",
+    "char_interval": {
+      "start_pos": 2163,
+      "end_pos": 2171
+    },
+    "attributes": {
+      "术语": "武曲星",
+      "五行属性": "辛金",
+      "基本特性": "其财讲究目的论，重经营。其启发点在物曰利，在人曰爱(情威)",
+      "核心职能": [
+        "1. 主将星",
+        "2. 主财星",
+        "3. 寡宿之星"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "武曲星疾厄症状论: 辛金，主跟肺，整个呼吸系统有关之疾病",
+    "char_interval": {
+      "start_pos": 2306,
+      "end_pos": 2335
+    },
+    "attributes": {
+      "类型": "疾厄判断",
+      "前提": "武曲星入疾厄宫",
+      "结论": "主肺、整个呼吸系统有关之疾病，如咳嗽、肺伤、感冒引起鼻不通，鼻过敏，鼻窦炎"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "武曲星事物论",
+    "char_interval": {
+      "start_pos": 2363,
+      "end_pos": 2369
+    },
+    "attributes": {
+      "涵盖范围": [
+        "金融机构",
+        "合作社",
+        "重工业用机械",
+        "金属类",
+        "运动员",
+        "寺塔",
+        "庙宇",
+        "高楼尖塔"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "武曲星为主将星: 主性刚强、刚硬，做事情较果决，有决断力",
+    "char_interval": {
+      "start_pos": 2412,
+      "end_pos": 2437
+    },
+    "attributes": {
+      "特征": "刚强、果决、有决断力、干脆型",
+      "负面影响": "欲速则不达"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "武曲星为寡宿之星: 此星宜男不宜女之星，女命晚婚为宜",
+    "char_interval": {
+      "start_pos": 2581,
+      "end_pos": 2649
+    },
+    "attributes": {
+      "前提": "女命坐武曲星，再逢煞星",
+      "结论": "就比较有寡宿的现象，宜晚婚"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "五、天同星：壬水",
+    "char_interval": {
+      "start_pos": 2654,
+      "end_pos": 2662
+    },
+    "attributes": {
+      "术语": "天同星",
+      "五行属性": "壬水",
+      "基本特性": "主思想、信仰上的关怀，主心灵上的，可知人有无逻辑思维与辨正法则之概念",
+      "核心职能": [
+        "1. 主福星",
+        "2. 主性情温和",
+        "3. 主夫妻之星"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "天同星疾厄症状论: 壬水，跟膀胱、泌尿系统有相关的疾病",
+    "char_interval": {
+      "start_pos": 2815,
+      "end_pos": 2843
+    },
+    "attributes": {
+      "类型": "疾厄判断",
+      "前提": "天同星入疾厄宫",
+      "结论": "跟膀胱、泌尿系统有相关的疾病"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "天同星事物论",
+    "char_interval": {
+      "start_pos": 2848,
+      "end_pos": 2854
+    },
+    "attributes": {
+      "涵盖范围": [
+        "咖啡",
+        "泡沫红茶",
+        "餐饮业",
+        "服务性质",
+        "福利中心",
+        "平价中心"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "天同为福德主：为福德之星，坐命之人主有福可想",
+    "char_interval": {
+      "start_pos": 2905,
+      "end_pos": 2924
+    },
+    "attributes": {
+      "前提": "天同星坐命",
+      "结论": "主有福可想"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "命坐天同星逢生年权星或生年忌星, 可去除天同星懒惰的个性, 反而主人有开创、有冲劲",
+    "char_interval": {
+      "start_pos": 3018,
+      "end_pos": 3059
+    },
+    "attributes": {
+      "星曜": "天同星",
+      "前提条件": "命坐天同星逢生年权星或生年忌星",
+      "结论": "可去除懒惰个性，主人有开创、有冲劲"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "命坐天同星逢生年忌或自化忌，主思想思路，行为较会有歪斜、偏激",
+    "char_interval": {
+      "start_pos": 3067,
+      "end_pos": 3097
+    },
+    "attributes": {
+      "星曜": "天同星",
+      "前提条件": "命坐天同星逢生年忌或自化忌",
+      "结论": "思想思路、行为较会有歪斜、偏激"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "廉贞",
+    "char_interval": {
+      "start_pos": 3238,
+      "end_pos": 3240
+    },
+    "attributes": {
+      "类型": "主星",
+      "五行属性": "丁火",
+      "来源": "章节标题",
+      "章节": "六",
+      "基本含义": "主人之生活",
+      "核心特质": "重点在「争」，主善恶"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "廉贞为何在南方火之离卦位？因为离而变，故离卦重点在洛书三合",
+    "char_interval": {
+      "start_pos": 3386,
+      "end_pos": 3415
+    },
+    "attributes": {
+      "关系类型": "洛书关系",
+      "星曜": "廉贞",
+      "方位": "南方火离卦位",
+      "原理": "离而变，离卦重点在洛书三合"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "司品秩制权令之星",
+    "char_interval": {
+      "start_pos": 3547,
+      "end_pos": 3555
+    },
+    "attributes": {
+      "定义": "所谓品秩为古代官位的次序位",
+      "含义": "主在掌管人事能给他人升迁、记过的单位，或在校为校规，在国家为民法、刑法、执法单位"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "廉贞星疾厄症状论",
+    "char_interval": {
+      "start_pos": 3602,
+      "end_pos": 3610
+    },
+    "attributes": {
+      "五行对应": "丁火，跟心脏有关",
+      "症状类型": "跟疑难杂症有关",
+      "化忌表现": "化忌时跟溃烂、生疮或会腐烂"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "廉贞星事物论",
+    "char_interval": {
+      "start_pos": 3665,
+      "end_pos": 3671
+    },
+    "attributes": {
+      "电器类": "可接收任何的电能、电源、热能的电器用品（电冰箱、电视、电子琴）",
+      "山产类": "所有山产（水果、树木、皮革类）",
+      "地理类": "主空地"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "廉贞星要落在官禄宫，始谓官禄主",
+    "char_interval": {
+      "start_pos": 3849,
+      "end_pos": 3864
+    },
+    "attributes": {
+      "类型": "宫位职能规则",
+      "前提条件": "廉贞星落在官禄宫",
+      "结论": "始谓官禄主",
+      "备注": "主静态的营业状态，如化忌则发展不出来"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "主囚星",
+    "char_interval": {
+      "start_pos": 3895,
+      "end_pos": 3898
+    },
+    "attributes": {
+      "星曜": "廉贞",
+      "类型": "职能定义"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "天府星",
+    "char_interval": {
+      "start_pos": 4089,
+      "end_pos": 4092
+    },
+    "attributes": {
+      "类型": "主星",
+      "五行": "戊土",
+      "来源": "章节标题",
+      "地位": "南斗帝王星、副总统",
+      "性质": "权令之星、财星、库星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "天府星疾厄症状论",
+    "char_interval": {
+      "start_pos": 4160,
+      "end_pos": 4168
+    },
+    "attributes": {
+      "核心技法": "疾厄症状论",
+      "对应五行": "戊土",
+      "身体部位": "脾胃",
+      "应用场景": "论健康"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "天府星事物论",
+    "char_interval": {
+      "start_pos": 4186,
+      "end_pos": 4192
+    },
+    "attributes": {
+      "核心技法": "事物论",
+      "代表事物": [
+        "农渔业",
+        "畜牧业",
+        "税务局",
+        "代书"
+      ],
+      "关联星曜": "与紫微星略同"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "太阴星",
+    "char_interval": {
+      "start_pos": 4542,
+      "end_pos": 4545
+    },
+    "attributes": {
+      "类型": "主星",
+      "五行": "癸水",
+      "来源": "章节标题",
+      "基本定义": "快乐之星、漂亮之星、财星、命理之星、主母/妻/女之星",
+      "性质": "主才艺、主暗（有光芒）、属阴水、具阴柔个性"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "太阴星疾厄症状论",
+    "char_interval": {
+      "start_pos": 4709,
+      "end_pos": 4717
+    },
+    "attributes": {
+      "核心技法": "疾厄症状论",
+      "对应五行": "癸水",
+      "身体部位": "肾水、血液、身体之下部位",
+      "应用场景": "女性为一般妇女病、糖尿病"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "太阴星事物论",
+    "char_interval": {
+      "start_pos": 4748,
+      "end_pos": 4754
+    },
+    "attributes": {
+      "核心技法": "事物论",
+      "代表事物": [
+        "土地",
+        "房子",
+        "与美有关之事物",
+        "车子",
+        "化妆品",
+        "化学品",
+        "设计师",
+        "美发",
+        "服饰",
+        "税务员",
+        "园艺",
+        "命理师",
+        "与水有关之事物",
+        "水坑",
+        "溪水"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "C、财星: 主财帛主、田宅主、主土地、房子",
+    "char_interval": {
+      "start_pos": 4922,
+      "end_pos": 4944
+    },
+    "attributes": {
+      "星曜": "太阴",
+      "功能": "财星",
+      "主掌": [
+        "财帛",
+        "田宅",
+        "土地",
+        "房子"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "D、命理之星: 太阴坐命主跟命理宗教，较会发生兴趣",
+    "char_interval": {
+      "start_pos": 4947,
+      "end_pos": 4973
+    },
+    "attributes": {
+      "前提": "太阴坐命",
+      "结论": "主跟命理宗教较会发生兴趣",
+      "性质": "命理之星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "E、主母、妻、女之星，故宜女不宜男",
+    "char_interval": {
+      "start_pos": 4976,
+      "end_pos": 4993
+    },
+    "attributes": {
+      "星曜": "太阴",
+      "代表人物": [
+        "母",
+        "妻",
+        "女"
+      ],
+      "适用性": "宜女不宜男"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "贪狼星",
+    "char_interval": {
+      "start_pos": 5000,
+      "end_pos": 5003
+    },
+    "attributes": {
+      "类型": "主星",
+      "五行": "甲木",
+      "章节": "三"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "贪狼",
+    "char_interval": {
+      "start_pos": 5058,
+      "end_pos": 5060
+    },
+    "attributes": {
+      "核心本质": "贪狼的内在是「欲」，主祸福",
+      "基本性格": "贪狼主生，随和而不计较；占有欲强之特性，及领导欲望和才能，事业心很重",
+      "星曜属性": [
+        "主祸福之星",
+        "主桃花之星",
+        "主命理之星",
+        "主才艺之星",
+        "主寿星",
+        "主财星"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "贪狼星疾厄症状论",
+    "char_interval": {
+      "start_pos": 5159,
+      "end_pos": 5167
+    },
+    "attributes": {
+      "适用场景": "论健康",
+      "对应五行": "甲木",
+      "对应器官": [
+        "肝",
+        "胆",
+        "肾水",
+        "妇女病"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "贪狼星事物论",
+    "char_interval": {
+      "start_pos": 5198,
+      "end_pos": 5204
+    },
+    "attributes": {
+      "代表事物": [
+        "森林",
+        "娱乐业",
+        "风月场所",
+        "妇产科",
+        "植物类",
+        "电线杆",
+        "文化出版业",
+        "象棋"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "A、主祸福之星: 贪狼坐命，欲望心较重，故为欲望之神...正欲可主福，邪欲可主祸",
+    "char_interval": {
+      "start_pos": 5249,
+      "end_pos": 5276
+    },
+    "attributes": {
+      "星曜": "贪狼",
+      "定义": "欲望之神",
+      "推理逻辑": "正欲可主福，邪欲可主祸"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "B、主桃花之星: 性属水，水性代表桃花...异性缘好",
+    "char_interval": {
+      "start_pos": 5326,
+      "end_pos": 5346
+    },
+    "attributes": {
+      "星曜": "贪狼",
+      "五行性质": "水",
+      "表现": "异性缘好，能言善道"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "C、主命理之星: 喜欢学习命理、易接近神仙术",
+    "char_interval": {
+      "start_pos": 5374,
+      "end_pos": 5397
+    },
+    "attributes": {
+      "星曜": "贪狼",
+      "关联星曜": [
+        "天机",
+        "太阴",
+        "贪狼",
+        "破军"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "D、主才艺之星: 喜欢画图、棋艺、陶艺",
+    "char_interval": {
+      "start_pos": 5425,
+      "end_pos": 5445
+    },
+    "attributes": {
+      "星曜": "贪狼",
+      "特长": [
+        "画图",
+        "棋艺",
+        "陶艺"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "E、主寿星: 如欲望相对减低，桃花有节制，就为寿星",
+    "char_interval": {
+      "start_pos": 5450,
+      "end_pos": 5476
+    },
+    "attributes": {
+      "星曜": "贪狼",
+      "转化条件": "欲望减低，桃花有节制",
+      "结论": "为寿星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "F、主财星: 偏向于与偏财有关",
+    "char_interval": {
+      "start_pos": 5481,
+      "end_pos": 5497
+    },
+    "attributes": {
+      "星曜": "贪狼",
+      "财富类型": "偏财"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "巨门",
+    "char_interval": {
+      "start_pos": 5504,
+      "end_pos": 5506
+    },
+    "attributes": {
+      "类型": "主星",
+      "五行": "癸水",
+      "章节": "四",
+      "核心定义": "主语言之表达, 故主是非"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "巨门可以看学历的高低(学历、文凭等证件均属之), 若自化, 有的学历不高",
+    "char_interval": {
+      "start_pos": 5543,
+      "end_pos": 5579
+    },
+    "attributes": {
+      "分析领域": "学历",
+      "前提条件": "巨门自化",
+      "结论": "学历不高"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "以家而言, 就是户口簿,若巨门在父母, 就表示祖籍、户籍",
+    "char_interval": {
+      "start_pos": 5605,
+      "end_pos": 5633
+    },
+    "attributes": {
+      "宫位": "父母宫",
+      "星曜": "巨门",
+      "象征物": "祖籍、户籍、户口簿"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "巨门主祖先牌位, 若不拜祖先, 会有两件事情发生: 一是夫妻感情, 另一是身体健康",
+    "char_interval": {
+      "start_pos": 5664,
+      "end_pos": 5705
+    },
+    "attributes": {
+      "星曜": "巨门",
+      "前提": "不拜祖先",
+      "影响范围": [
+        "夫妻感情",
+        "身体健康"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "巨门星疾厄症状论",
+    "char_interval": {
+      "start_pos": 5822,
+      "end_pos": 5830
+    },
+    "attributes": {
+      "类型": "技法应用",
+      "章节": "巨门星疾厄症状论"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "性不明之星",
+    "char_interval": {
+      "start_pos": 5927,
+      "end_pos": 5932
+    },
+    "attributes": {
+      "所属星曜": "巨门星",
+      "基本含义": "坐命比较有猜忌之心、猜疑心、多疑，是对任何人事物的不信任感所造成的"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "遗弃之星",
+    "char_interval": {
+      "start_pos": 5975,
+      "end_pos": 5979
+    },
+    "attributes": {
+      "所属星曜": "巨门星",
+      "人际解释": "与六亲比较缘薄寡合, 如有被六亲所遗弃之感受, 又主不利六亲论, 逢煞星、忌星更明显",
+      "物质解释": "论偷盗、失物有关, 如田宅、财帛宫、坐巨门又逢煞星, 宜注意偷盗或失窃财物"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "口舌之神",
+    "char_interval": {
+      "start_pos": 6090,
+      "end_pos": 6094
+    },
+    "attributes": {
+      "所属星曜": "巨门星",
+      "基本含义": "坐命主口才错，但又因口才不错而引来是非，有时因言者无意，听者有心，因此也是是非之星，小人之星，暗星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天相星",
+    "char_interval": {
+      "start_pos": 6153,
+      "end_pos": 6156
+    },
+    "attributes": {
+      "序号": "五",
+      "五行": "壬水",
+      "基本含义": "其性仁慈，聪颖有才华，服务热诚，助人多发自内心，而无所求，有正义感，对人诚恳、随和、慷慨、性情温和、语言诚实",
+      "职能标签": [
+        "衣食之星",
+        "漂亮之星",
+        "印星",
+        "官禄主"
+      ],
+      "疾厄症状": "主膀胱、皮肤有关之疾病",
+      "事物论": [
+        "百货公司",
+        "服饰店",
+        "餐饮业",
+        "伪造赝品",
+        "水池",
+        "动的瀑布之水",
+        "印鉴",
+        "毒品",
+        "职位为中、高级者"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "衣食之星",
+    "char_interval": {
+      "start_pos": 6285,
+      "end_pos": 6289
+    },
+    "attributes": {
+      "所属星曜": "天相星",
+      "含义": "主这一辈子比较不愁吃, 不愁穿, 对吃、穿比较会讲究或研究"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "漂亮之星",
+    "char_interval": {
+      "start_pos": 6296,
+      "end_pos": 6300
+    },
+    "attributes": {
+      "所属星曜": "天相星",
+      "含义": "喜欢穿、漂亮、整齐、舒适或质料好的衣服，有美学观，有审美观"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "印星",
+    "char_interval": {
+      "start_pos": 6306,
+      "end_pos": 6308
+    },
+    "attributes": {
+      "所属星曜": "天相星",
+      "含义": "主人谨言慎行, 处事公正、思考周详、细腻；物质面主印章、印鉴；表心心相印, 具有当和事佬的本事"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "官禄主",
+    "char_interval": {
+      "start_pos": 6315,
+      "end_pos": 6318
+    },
+    "attributes": {
+      "所属星曜": "天相星",
+      "功能": "是要来制化廉贞之恶。如廉贞化忌有天相同宫，则有化解廉贞化忌之恶"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天梁星",
+    "char_interval": {
+      "start_pos": 6702,
+      "end_pos": 6705
+    },
+    "attributes": {
+      "序号": "六",
+      "五行": "戊土",
+      "基本含义": "主文学, 与语文有关。主有才华、能干型, 但比较自负, 喜掌权、爱表现, 爱当老大, 具有逢凶化吉, 遇难呈祥的力量",
+      "性格特征": "性情温和, 心地善良, 喜研究宗教或哲理。女命有老大姐心态",
+      "职能标签": "萌星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "父母星",
+    "char_interval": {
+      "start_pos": 6837,
+      "end_pos": 6840
+    },
+    "attributes": {
+      "星曜": "天梁星",
+      "定义": "代表长上、长辈，喜欢当老大照顾别人；相当于父母心",
+      "能力": "有敏锐的观察力及分析能力"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "寿星",
+    "char_interval": {
+      "start_pos": 6847,
+      "end_pos": 6849
+    },
+    "attributes": {
+      "星曜": "天梁星",
+      "定义": "是一颗长寿之星",
+      "判断法则": "大限、流年逢之主能延寿"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "中康之星",
+    "char_interval": {
+      "start_pos": 6856,
+      "end_pos": 6860
+    },
+    "attributes": {
+      "星曜": "天梁星",
+      "定义": "主中医药之星",
+      "关联": "中药或从事中医师有关"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "桃花之星",
+    "char_interval": {
+      "start_pos": 6867,
+      "end_pos": 6871
+    },
+    "attributes": {
+      "星曜": "天梁星",
+      "定义": "为人缘桃花",
+      "应用": "公关交际之优秀人才"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "天梁星疾厄症状论",
+    "char_interval": {
+      "start_pos": 6887,
+      "end_pos": 6895
+    },
+    "attributes": {
+      "五行": "戊土",
+      "对应器官": "脾、胃、脑部、胫部"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "萌星",
+    "char_interval": {
+      "start_pos": 6988,
+      "end_pos": 6990
+    },
+    "attributes": {
+      "星曜": "天梁星",
+      "定义": "主照顾别人，乐于助人，主福荫于身命及儿孙",
+      "特性": "有高度的服务热忱，但要求当老大，爱现"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "七杀星",
+    "char_interval": {
+      "start_pos": 7284,
+      "end_pos": 7287
+    },
+    "attributes": {
+      "属性": "庚金",
+      "基本含义": "主司斗柄、血光之星、主将星",
+      "个性特征": "才华、聪明、能干、倔强、果决、急性、敢作敢当、敢爱敢恨",
+      "外貌特征": "漂亮, 下巴较尖, 瓜子脸",
+      "婚姻建议": "女命晚婚为宜"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "主将星",
+    "char_interval": {
+      "start_pos": 7649,
+      "end_pos": 7652
+    },
+    "attributes": {
+      "星曜": "七杀星",
+      "定义": "有大将之风, 做事有气魄, 阿莎力"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "七杀星疾厄症状论",
+    "char_interval": {
+      "start_pos": 7655,
+      "end_pos": 7663
+    },
+    "attributes": {
+      "五行": "庚金",
+      "对应器官": "肺"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "七杀星事物论",
+    "char_interval": {
+      "start_pos": 7680,
+      "end_pos": 7686
+    },
+    "attributes": {
+      "行业/场所": "军警业，重五金工业、外科医生、公共场所、菜市场、恐怖、神奇、黑暗、派出所、高楼、尖塔"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "表掌权炳之星",
+    "char_interval": {
+      "start_pos": 7736,
+      "end_pos": 7742
+    },
+    "attributes": {
+      "星曜": "七杀星",
+      "定义": "将在外君命有所不受"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "主血光之星",
+    "char_interval": {
+      "start_pos": 7759,
+      "end_pos": 7764
+    },
+    "attributes": {
+      "星曜": "七杀星",
+      "定义": "这一辈子较容易有碰伤、撞伤、跌伤、烫伤、或开刀而见到血光之灾"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "破军星",
+    "char_interval": {
+      "start_pos": 7830,
+      "end_pos": 7833
+    },
+    "attributes": {
+      "类型": "主星",
+      "五行属性": "癸水",
+      "来源": "章节标题",
+      "章节": "八"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "破军主夫、子、奴",
+    "char_interval": {
+      "start_pos": 7944,
+      "end_pos": 7953
+    },
+    "attributes": {
+      "前提": "因人来自不同的世界而结合",
+      "含义": "A、表没有血缘关系之人",
+      "具体解释": [
+        "(1) 奴: 众生相",
+        "(2) 子: 在解释桃花",
+        "(3) 夫: 因认识而成为配偶"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "破军星疾厄症状论",
+    "char_interval": {
+      "start_pos": 8100,
+      "end_pos": 8108
+    },
+    "attributes": {
+      "五行": "癸水",
+      "涉及器官": [
+        "肾水",
+        "心脏"
+      ],
+      "病症": [
+        "妇女疾",
+        "水厄有关之疾病"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "破军星事物论",
+    "char_interval": {
+      "start_pos": 8140,
+      "end_pos": 8146
+    },
+    "attributes": {
+      "代表事物": [
+        "脏乱市场",
+        "屠宰业",
+        "旅行社",
+        "远洋性质行业",
+        "货柜",
+        "食品",
+        "仓储",
+        "命理",
+        "宗教",
+        "石油类",
+        "布类"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "左辅星",
+    "char_interval": {
+      "start_pos": 8382,
+      "end_pos": 8385
+    },
+    "attributes": {
+      "五行": "戊土",
+      "定义": "为行善令文星",
+      "地位": "紫微之辅相、助力",
+      "性格特征": "主灵巧（表现在外的），稳重、大方、随和、慷慨",
+      "疾厄症状": "跟脾、胃有关之疾病"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "右弼星",
+    "char_interval": {
+      "start_pos": 8392,
+      "end_pos": 8395
+    },
+    "attributes": {
+      "五行": "癸水",
+      "定义": "为行制令之星",
+      "地位": "紫微之辅相、助力",
+      "性格特征": "主机智（表现在内的），度量、清秀、施舍",
+      "疾厄症状": "跟肾水有关之疾病"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "文昌",
+    "char_interval": {
+      "start_pos": 8631,
+      "end_pos": 8633
+    },
+    "attributes": {
+      "五行": "辛金",
+      "疾厄症状": "跟肺、呼吸系统有关之疾病"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "文曲",
+    "char_interval": {
+      "start_pos": 8640,
+      "end_pos": 8642
+    },
+    "attributes": {
+      "五行": "癸水",
+      "疾厄症状": "跟肾水，经水有关之疾病"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "文昌、文曲星相同点",
+    "char_interval": {
+      "start_pos": 8700,
+      "end_pos": 8703
+    },
+    "attributes": {
+      "精神面": "多主科甲、科名、功名之星，文学文墨，口才之星，又称文魁之星",
+      "疾厄共同点": "主跟神经系统有关之疾病",
+      "事物论": [
+        "学校",
+        "报社",
+        "电子交换机",
+        "文书",
+        "支票",
+        "有价证券",
+        "车子",
+        "期刊",
+        "周刊"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "文昌",
+    "char_interval": {
+      "start_pos": 8861,
+      "end_pos": 8863
+    },
+    "attributes": {
+      "基本含义": "文学艺术面，如饱读诗书，有大儒风范温文儒雅",
+      "物质面含义": "主有价证券、支票、房契、地契、契约，合约、文凭、车子"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "文曲",
+    "char_interval": {
+      "start_pos": 8912,
+      "end_pos": 8914
+    },
+    "attributes": {
+      "基本含义": "口才、舌辩方面的机智",
+      "物质面含义": "主有价证券、支票、房契、地契、契约，合约、文凭、车子"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "文昌、文曲星坐命之人",
+    "char_interval": {
+      "start_pos": 8931,
+      "end_pos": 8941
+    },
+    "attributes": {
+      "前提条件": "文昌、文曲星坐命",
+      "结论": "主聪明反应快、口才佳、理解力强；喜欢用名牌之物品；人缘好"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "宫位解说",
+    "char_interval": {
+      "start_pos": 8993,
+      "end_pos": 8997
+    },
+    "attributes": {
+      "类型": "章节标题",
+      "章节": "三",
+      "涵盖内容": "宫殿、四象、星辰 宫位的基本含义、宫殿的隐藏性含义、宫位配河洛理数"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "紫微斗數十二宮職基本解義",
+    "char_interval": {
+      "start_pos": 9038,
+      "end_pos": 9050
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "范畴": "宫位系统"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "命宫",
+    "char_interval": {
+      "start_pos": 9057,
+      "end_pos": 9059
+    },
+    "attributes": {
+      "序号": "1",
+      "含义": [
+        "代表所有的一切",
+        "代表我的個性、面貌、才華、性向",
+        "相貌宮是個性使然或氣質",
+        "表示後天格局知高低",
+        "代表運勢的起伏榮枯(含吉凶)"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "兄弟宫",
+    "char_interval": {
+      "start_pos": 9169,
+      "end_pos": 9172
+    },
+    "attributes": {
+      "序号": "2",
+      "含义": [
+        "代表兄弟姊妹個性、才華、格局之高低",
+        "代表兄弟姊妹與我緣分之厚薄、及對待關係",
+        "代表兄弟姊妹之吉凶",
+        "代表私人機構(公司、行號、工廠、或私立學校)",
+        "代表兄弟姊妹相互扶持之助",
+        "可看朋友、得利與否、及對待關係"
+      ],
+      "排序规则": "本兄為兄弟老大，以此逆行排列；本兄為姊妹老大，以此順行排列"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "夫妻宫",
+    "char_interval": {
+      "start_pos": 9385,
+      "end_pos": 9388
+    },
+    "attributes": {
+      "序号": "3",
+      "含义": [
+        "表示配偶、個性、才華、家世、格局高低",
+        "表示我先天的姻緣厚薄",
+        "表示我婚姻早或晚、及婚姻觀",
+        "看婚後夫妻感情對待關係如何"
+      ],
+      "关联宫位": "合參財帛宮"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "子女宫",
+    "char_interval": {
+      "start_pos": 9485,
+      "end_pos": 9488
+    },
+    "attributes": {
+      "序号": "4",
+      "含义": [
+        "代表子女的個性、才華、格局高低",
+        "代表我與子女緣份厚薄、及子女吉凶",
+        "有無子女",
+        "桃花宮，看桃花運的有無",
+        "合夥位",
+        "意外宮",
+        "驛馬宮"
+      ],
+      "技法对应": "意外宮(与疾厄交易时)，驛馬宮(命遷子田)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "費帛宮",
+    "char_interval": {
+      "start_pos": 9633,
+      "end_pos": 9636
+    },
+    "attributes": {
+      "序号": "5",
+      "含义": [
+        "代表我賺錢的能力高低，與賺錢的機會好坏",
+        "代表財的來龍去脈，錢從哪裡來，錢從哪裡去，含得失",
+        "代表我理財能力",
+        "代表適宜從事那一種賺錢的行業",
+        "代表婚後夫妻之對待關係",
+        "父母的身體位"
+      ],
+      "太极转换": [
+        "以夫妻宮立太極當命宮，財帛宮為夫妻的夫妻宮",
+        "以父母宮立太極當命宮，財帛宮為父母的身體位"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "疾厄宫",
+    "char_interval": {
+      "start_pos": 9810,
+      "end_pos": 9813
+    },
+    "attributes": {
+      "序号": "6",
+      "说明": "基本含义"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "紫微斗數十二宮職基本解義",
+    "char_interval": {
+      "start_pos": 9913,
+      "end_pos": 9925
+    },
+    "attributes": {
+      "类型": "章节标题",
+      "主要内容": "十二宫位的职能与含义"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "官禄宫",
+    "char_interval": {
+      "start_pos": 10201,
+      "end_pos": 10204
+    },
+    "attributes": {
+      "序号": "9",
+      "职能含义": [
+        "代表運勢的宮位，運勢起伏枯榮，故名機運宮",
+        "代表學業讀書之情形，考運之好壞",
+        "代表事業工作營運之情形及工作環境的好壞",
+        "看選運, 及官運、考運的吉凶",
+        "以子女宮立太極，代表子女的身體位，有無子女的命"
+      ],
+      "别称": "機運宮"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "田宅宫",
+    "char_interval": {
+      "start_pos": 10362,
+      "end_pos": 10365
+    },
+    "attributes": {
+      "序号": "10",
+      "职能含义": [
+        "店面、公司、工廠、家業、家、共業位",
+        "看住宅環境好壞及家人對待關係",
+        "看不動產多寡及自置不動產",
+        "看是否有祖業、蔭的宮位",
+        "看財庫的多寡位、祖先的牌位、看陰宅的宮位",
+        "曾祖父母的宮位、直系血親遺傳基因"
+      ],
+      "别称": "共業位"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "福德宫",
+    "char_interval": {
+      "start_pos": 10523,
+      "end_pos": 10526
+    },
+    "attributes": {
+      "序号": "11",
+      "职能含义": [
+        "代表有福氣、道德的宮位，品性、德性",
+        "代表享福、應酬宮位",
+        "代表人的人生觀(精神面)",
+        "代表福慧、佈施宮",
+        "祖父母的宮位，神明的牌位，隔代遺傳，長輩，蔭的宮位",
+        "因果位"
+      ],
+      "别称": "造化宫",
+      "因果位释义": [
+        "上承祖德、祖業、祖考",
+        "自己前世因果",
+        "下薩兒孫"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "父母宫",
+    "char_interval": {
+      "start_pos": 10772,
+      "end_pos": 10775
+    },
+    "attributes": {
+      "序号": "12",
+      "职能含义": [
+        "代表父母親同命解釋"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "父、疾線：公家機關",
+    "char_interval": {
+      "start_pos": 10917,
+      "end_pos": 10926
+    },
+    "attributes": {
+      "宫位线": "父疾线",
+      "代表含义": "公家機關"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "兄、奴線：私人機構",
+    "char_interval": {
+      "start_pos": 10927,
+      "end_pos": 10936
+    },
+    "attributes": {
+      "宫位线": "兄奴线",
+      "代表含义": "私人機構"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "十二宫图书义通",
+    "char_interval": {
+      "start_pos": 10952,
+      "end_pos": 10959
+    },
+    "attributes": {
+      "类型": "宫位其他概念",
+      "序号": "1"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "六阳六阴",
+    "char_interval": {
+      "start_pos": 10965,
+      "end_pos": 10969
+    },
+    "attributes": {
+      "类型": "宫位其他概念",
+      "序号": "2"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "六外六内",
+    "char_interval": {
+      "start_pos": 10974,
+      "end_pos": 10978
+    },
+    "attributes": {
+      "类型": "宫位其他概念",
+      "序号": "3"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "三合, 四正",
+    "char_interval": {
+      "start_pos": 10984,
+      "end_pos": 10990
+    },
+    "attributes": {
+      "类型": "宫位其他概念",
+      "序号": "4"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "本对",
+    "char_interval": {
+      "start_pos": 10996,
+      "end_pos": 10998
+    },
+    "attributes": {
+      "类型": "宫位其他概念",
+      "序号": "5"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "邻宫",
+    "char_interval": {
+      "start_pos": 11004,
+      "end_pos": 11006
+    },
+    "attributes": {
+      "类型": "宫位其他概念",
+      "序号": "6"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "六亲宫,六事宫",
+    "char_interval": {
+      "start_pos": 11011,
+      "end_pos": 11018
+    },
+    "attributes": {
+      "类型": "宫位其他概念",
+      "序号": "7"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "宫位太极转换",
+    "char_interval": {
+      "start_pos": 11024,
+      "end_pos": 11030
+    },
+    "attributes": {
+      "类型": "宫位其他概念",
+      "序号": "8"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四化",
+    "char_interval": {
+      "start_pos": 11036,
+      "end_pos": 11038
+    },
+    "attributes": {
+      "定义": "是紫微斗數斷命用神之所在，四化為“象”而化“氣”是無名的因緣",
+      "本质": "斗曜星辰受十天干影響，而發生星辰質變"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年四化",
+    "char_interval": {
+      "start_pos": 11209,
+      "end_pos": 11213
+    },
+    "attributes": {
+      "定义": "與生俱來，其質不變，承前世因果業力",
+      "性质": "定數",
+      "符号": "o"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化",
+    "char_interval": {
+      "start_pos": 11380,
+      "end_pos": 11382
+    },
+    "attributes": {
+      "地位": "四化是斗數用神，而自化是重心",
+      "定义": "今生今世的造化",
+      "符号": "↗",
+      "判断规则": [
+        "有自化必有變化",
+        "有自化含有舊的結束，新的開始",
+        "有自化必有時間觀念"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "宫",
+    "char_interval": {
+      "start_pos": 11605,
+      "end_pos": 11606
+    },
+    "attributes": {
+      "定义": "宮表宮職，所司思所職",
+      "规则": "宮不會飛需借星之”化氣\"而飛化"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "A宫化祿入B宫，就B宫而言是化入",
+    "char_interval": {
+      "start_pos": 11698,
+      "end_pos": 11714
+    },
+    "attributes": {
+      "类型": "化入",
+      "前提": "A宫化祿入B宫",
+      "结论": "就B宫而言是化入"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "A宫化祿入B宫，就A宫而言是化出",
+    "char_interval": {
+      "start_pos": 11726,
+      "end_pos": 11742
+    },
+    "attributes": {
+      "类型": "化出",
+      "前提": "A宫化祿入B宫",
+      "结论": "就A宫而言是化出"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "A宮化祿入B宮，就B宮的對宮為照",
+    "char_interval": {
+      "start_pos": 11753,
+      "end_pos": 11769
+    },
+    "attributes": {
+      "类型": "照",
+      "前提": "A宮化祿入B宮",
+      "结论": "就B宮的對宮為照"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "冲",
+    "char_interval": {
+      "start_pos": 11776,
+      "end_pos": 11777
+    },
+    "attributes": {
+      "来源": "章节标题",
+      "序号": "8"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "A宮化忌入C宮，就C宮的對宮為沖",
+    "char_interval": {
+      "start_pos": 11780,
+      "end_pos": 11796
+    },
+    "attributes": {
+      "关系类型": "对宫关系",
+      "动作": "化忌入",
+      "结果": "冲"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "祿、權、科為照，忌為沖",
+    "char_interval": {
+      "start_pos": 11797,
+      "end_pos": 11808
+    },
+    "attributes": {
+      "照": [
+        "禄",
+        "权",
+        "科"
+      ],
+      "冲": "忌"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "生年四化以祿為強，飛宮四化以照為強",
+    "char_interval": {
+      "start_pos": 11809,
+      "end_pos": 11826
+    },
+    "attributes": {
+      "生年四化核心": "禄",
+      "飞宫四化核心": "照"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "命宫有坐年化禄星",
+    "char_interval": {
+      "start_pos": 11987,
+      "end_pos": 11995
+    },
+    "attributes": {
+      "宫位": "命宫",
+      "四化": "生年化禄",
+      "含义": [
+        "福祿、食祿、財祿，此生較不缺",
+        "主人緣，人緣不錯",
+        "主聰明，智商高、有才華",
+        "主忙碌，忙碌中得食祿、財祿",
+        "樂於助人、樂善好施"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "兄弟宫坐年化禄星",
+    "char_interval": {
+      "start_pos": 12110,
+      "end_pos": 12118
+    },
+    "attributes": {
+      "宫位": "兄弟宫",
+      "四化": "生年化禄",
+      "含义": [
+        "兄弟姊妹之間，彼此有緣、手足情深",
+        "借兄弟姊妹之力較易得食祿、財祿",
+        "在私人機構或經營、買賣不動產、得食祿、財祿"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "夫妻宫坐年化禄星",
+    "char_interval": {
+      "start_pos": 12212,
+      "end_pos": 12220
+    },
+    "attributes": {
+      "宫位": "夫妻宫",
+      "四化": "生年化禄",
+      "含义": [
+        "夫妻感情豐富、情義深重",
+        "結婚後食祿、財祿更彰顯",
+        "借助配偶之力較能得食祿、財祿",
+        "姻緣早發，未必早婚",
+        "喜自由戀愛結婚",
+        "與配偶緣深，配偶的人緣亦佳"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "子女宫坐年化祿星",
+    "char_interval": {
+      "start_pos": 12399,
+      "end_pos": 12407
+    },
+    "attributes": {
+      "宫位": "子女宫",
+      "四化": "生年化禄",
+      "含义": [
+        "生子後，財祿、食祿較彰顯，表子女帶財庫來",
+        "在外人緣好，異性緣佳",
+        "可借合夥之力得財祿"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "費帛宮坐年化祿星",
+    "char_interval": {
+      "start_pos": 12488,
+      "end_pos": 12496
+    },
+    "attributes": {
+      "宫位": "财帛宫",
+      "四化": "生年化禄",
+      "含义": [
+        "主我有財，喜歡賺錢，並忙碌著賺錢，可得人緣之財",
+        "較不善理財，對錢財的控制較差"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "疾厄宫坐年化禄星",
+    "char_interval": {
+      "start_pos": 12552,
+      "end_pos": 12560
+    },
+    "attributes": {
+      "宫位": "疾厄宫",
+      "四化": "生年化禄",
+      "含义": [
+        "脾氣好",
+        "幼年多災病、難養、過房吃別人家水米，有解厄之功"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "遂移宫坐年化祿星",
+    "char_interval": {
+      "start_pos": 12614,
+      "end_pos": 12622
+    },
+    "attributes": {
+      "宫位": "迁移宫",
+      "四化": "生年化禄",
+      "含义": [
+        "出外較能得食祿、財祿",
+        "出外人緣好、機遇佳，易得貴人相助提拔",
+        "走晚年運、老運亦佳，有財祿"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "奴僕宮坐年化祿星",
+    "char_interval": {
+      "start_pos": 12690,
+      "end_pos": 12698
+    },
+    "attributes": {
+      "宫位": "奴仆宫",
+      "四化": "生年化禄",
+      "含义": [
+        "與朋友有緣，相處和睦",
+        "借朋友之力較能得食祿、財祿"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年化祿在各宮基本解義",
+    "char_interval": {
+      "start_pos": 12787,
+      "end_pos": 12798
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "核心术语": "生年化禄",
+      "适用范围": "十二宫"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "9.官禄宫坐年化禄星",
+    "char_interval": {
+      "start_pos": 12802,
+      "end_pos": 12812
+    },
+    "attributes": {
+      "前提": "官禄宫坐年化禄星",
+      "结论": [
+        "在事业上或工作环境中人缘佳，因得人缘而得财",
+        "在工作事业上忙碌得财，属正财",
+        "求学运佳、事业成绩好",
+        "事业运佳"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "10.田宅宫坐年化禄星",
+    "char_interval": {
+      "start_pos": 12892,
+      "end_pos": 12903
+    },
+    "attributes": {
+      "前提": "田宅宫坐年化禄星",
+      "结论": [
+        "主有财有库、有不动产",
+        "不一定有祖业，但能自立置产",
+        "在家中人缘好，与家人和睦相处",
+        "可开工厂、或店面生意、及做不动产得财禄"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "11.福德宫坐年化禄星",
+    "char_interval": {
+      "start_pos": 12990,
+      "end_pos": 13001
+    },
+    "attributes": {
+      "前提": "福德宫坐年化禄星",
+      "结论": [
+        "有福可享、生活较讲究",
+        "乐善好施，愈布施，愈有财禄、食禄、福禄，明来暗去",
+        "头脑聪慧，悟性很高"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "12. 父母宫坐年化禄星",
+    "char_interval": {
+      "start_pos": 13088,
+      "end_pos": 13100
+    },
+    "attributes": {
+      "前提": "父母宫坐年化禄星",
+      "结论": [
+        "父母与我有缘、得父母之庇荫、得财禄",
+        "文档宫、主头脑聪明",
+        "藉父母、长上之力或服务公家机构得食禄、财禄",
+        "在出生地、血缘地发展，较能食禄、财禄"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "1. 命宮做生年權",
+    "char_interval": {
+      "start_pos": 13380,
+      "end_pos": 13389
+    },
+    "attributes": {
+      "前提": "命宫做生年权",
+      "结论": [
+        "性刚、任性、霸道，主观意识较强，处事具原创性，较负责",
+        "喜欢掌权，有才华、专技、具领导格局",
+        "易有外来伤害，如跌伤、碰伤、撞伤"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "2.兄弟宮做生年權",
+    "char_interval": {
+      "start_pos": 13470,
+      "end_pos": 13479
+    },
+    "attributes": {
+      "前提": "兄弟宫做生年权",
+      "结论": [
+        "兄弟姊妹视同命宫解",
+        "兄弟姊妹比我能干",
+        "兄弟姊妹间较有争执、摩擦"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "3.夫妻宫做生年權",
+    "char_interval": {
+      "start_pos": 13530,
+      "end_pos": 13539
+    },
+    "attributes": {
+      "前提": "夫妻宫做生年权",
+      "结论": [
+        "配偶比我能干，夫妻间亦有争执、摩擦",
+        "姻缘来自父母或儿女之命而结化倾向",
+        "男主惧内、女主怕夫、配偶掌权"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "4.子女宮做生年權",
+    "char_interval": {
+      "start_pos": 13622,
+      "end_pos": 13631
+    },
+    "attributes": {
+      "前提": "子女宫做生年权",
+      "结论": [
+        "子女幼年较顽皮，具抗逆性",
+        "宜用疏导方式教导，不可用专制或压抑方式管教"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "5. 費帛宮做生年權",
+    "char_interval": {
+      "start_pos": 13711,
+      "end_pos": 13721
+    },
+    "attributes": {
+      "前提": "費帛宮做生年權",
+      "结论": [
+        "赚钱的意念甚强，喜欢掌握钱财"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "疾厄宫做生年權",
+    "char_interval": {
+      "start_pos": 13783,
+      "end_pos": 13790
+    },
+    "attributes": {
+      "宫位": "疾厄宫",
+      "四化类型": "生年权",
+      "事象含义": "此生易有意外傷害，如碰傷、撞傷、跌傷",
+      "人的特征": "脾氣剛烈，不易隨和，表現慾強，喜出風頭",
+      "逻辑关联": "命疾為一六共宗，視同一體論，視同命宮解"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "命疾為一六共宗",
+    "char_interval": {
+      "start_pos": 13846,
+      "end_pos": 13853
+    },
+    "attributes": {
+      "关系类型": "河图关系",
+      "原则": "一六共宗",
+      "宫位组": [
+        "命宫",
+        "疾厄宫"
+      ],
+      "结论": "視同一體論，視同命宮解"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "遯移宮做生年權",
+    "char_interval": {
+      "start_pos": 13873,
+      "end_pos": 13880
+    },
+    "attributes": {
+      "宫位": "遯移宮",
+      "四化类型": "生年权",
+      "含义": "出外較能展現才華能幹、受人器重",
+      "注意事项": "在外易與人有爭執、摩擦現象，應避免鋒芒畢露而遭忌妒"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "奴僕宮做生年權",
+    "char_interval": {
+      "start_pos": 13954,
+      "end_pos": 13961
+    },
+    "attributes": {
+      "宫位": "奴僕宮",
+      "四化类型": "生年权",
+      "含义": "朋友比我較能幹、有才華",
+      "逻辑": "朋友視同命宮解",
+      "人际关系": "與朋友較易有爭執、摩擦之象"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年化權星在十二宮解義",
+    "char_interval": {
+      "start_pos": 14018,
+      "end_pos": 14029
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "二"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "官祿宮做生年權",
+    "char_interval": {
+      "start_pos": 14033,
+      "end_pos": 14040
+    },
+    "attributes": {
+      "宫位": "官祿宮",
+      "四化类型": "生年权",
+      "含义": "具有領導管理人才，喜歡掌權",
+      "职业特征": "喜歡開創事業，或開發新產品，為外務人選",
+      "应期判断": "流年走到易升遷"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "田宅宮做生年權",
+    "char_interval": {
+      "start_pos": 14140,
+      "end_pos": 14147
+    },
+    "attributes": {
+      "宫位": "田宅宮",
+      "四化类型": "生年权",
+      "含义": "主有不動產，房飾較喜擺闊、豪華",
+      "家庭关系": "在家裡掌權與家人較會有爭執"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "福德宫做生年權",
+    "char_interval": {
+      "start_pos": 14207,
+      "end_pos": 14214
+    },
+    "attributes": {
+      "宫位": "福德宫",
+      "四化类型": "生年权",
+      "含义": "喜歡享受，有福可享，屬敢花型",
+      "心性特征": "自我主觀意識較強，較勞心、勞力"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "父母宫做生年",
+    "char_interval": {
+      "start_pos": 14279,
+      "end_pos": 14285
+    },
+    "attributes": {
+      "宫位": "父母宫",
+      "四化类型": "生年权",
+      "含义": "父母較威嚴，得父母之庇蔭",
+      "人际关系": "與父母意見較有代溝，較難溝通",
+      "技法应用": "權照疾厄，幼年較有外來傷害"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年化科星及在十二宫解義",
+    "char_interval": {
+      "start_pos": 14366,
+      "end_pos": 14378
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "風度：行為、舉止的風采表現於外 $\rightarrow$ 指男性",
+    "char_interval": {
+      "start_pos": 14574,
+      "end_pos": 14592
+    },
+    "attributes": {
+      "术语": "风度",
+      "定义": "行為、舉止的風采表現於外",
+      "适用对象": "男性"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "風情：情愫、蘊含於內，而呼之於風雅 $\rightarrow$ 指女性",
+    "char_interval": {
+      "start_pos": 14612,
+      "end_pos": 14632
+    },
+    "attributes": {
+      "术语": "风情",
+      "定义": "情愫、蘊含於內，而呼之於風雅",
+      "适用对象": "女性"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "命宫坐生年科",
+    "char_interval": {
+      "start_pos": 14673,
+      "end_pos": 14679
+    },
+    "attributes": {
+      "宫位": "命宫",
+      "四化类型": "生年科",
+      "含义": "主聰明、博學，一學即知",
+      "人际特质": "有風度(男)、有風情(女)，與人相處和睦"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "2.兄弟宫坐生年科",
+    "char_interval": {
+      "start_pos": 14791,
+      "end_pos": 14800
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "兄弟宫坐生年科",
+      "结论": [
+        "兄弟姊妹视同命宫解",
+        "我与兄弟姊妹，彼此有缘，和睦相处",
+        "兄弟姊妹是我的贵人",
+        "兄、奴宫为众生相之位，贵人多，异性缘佳"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "3.夫妻宫坐生年科",
+    "char_interval": {
+      "start_pos": 14884,
+      "end_pos": 14893
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "夫妻宫坐生年科",
+      "结论": [
+        "配偶视同命宫解",
+        "配偶温柔、体贴、善解风情，夫妻感情好",
+        "配偶是我的贵人",
+        "姻缘较属介绍型，如同事、同学、兄弟姊妹介绍"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "4.子女宫坐生年科",
+    "char_interval": {
+      "start_pos": 14977,
+      "end_pos": 14986
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "子女宫坐生年科",
+      "结论": [
+        "子女视同命宫解",
+        "子女聪明伶俐、乖巧、有教养",
+        "在外与人和睦相处，得人缘，易有异性缘",
+        "子女是我的贵人"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "化科星在各宫基本解義",
+    "char_interval": {
+      "start_pos": 15063,
+      "end_pos": 15073
+    },
+    "attributes": {
+      "类型": "章节标题",
+      "核心术语": "化科星",
+      "范畴": "四化系统"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "5. 費帛宮坐生年科",
+    "char_interval": {
+      "start_pos": 15077,
+      "end_pos": 15087
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "财帛宫（文中误作费帛宫）坐生年科",
+      "结论": [
+        "理财能力佳，理财有计划性",
+        "宜上班领薪俸，或从事文教",
+        "收入较平稳，一辈子较不会为财所困",
+        "夫妻对待和睦（财帛宫为夫妻的对待位）"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "6.疾厄宫坐生年科",
+    "char_interval": {
+      "start_pos": 15192,
+      "end_pos": 15201
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "疾厄宫坐生年科",
+      "结论": [
+        "视同命宫解，为人聪明、幽默、风趣、风度",
+        "健康上无大灾大难，能逢凶化吉，化险为夷",
+        "脾气不错",
+        "身材较匀称，好打扮"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "7.遷移宮坐生年科",
+    "char_interval": {
+      "start_pos": 15299,
+      "end_pos": 15308
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "迁移宫坐生年科",
+      "结论": [
+        "出外平顺，多贵人扶助",
+        "出外风度佳，有风情，做事情有计划，亦主顺利"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "8.奴僕宮坐生年科",
+    "char_interval": {
+      "start_pos": 15356,
+      "end_pos": 15365
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "奴仆宫坐生年科",
+      "结论": [
+        "朋友视同命宫解",
+        "我与朋友和睦相处，有风度、风情，相互关怀",
+        "朋友是我的贵人，朋友对待主有情"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "9.官禄宫坐生年科",
+    "char_interval": {
+      "start_pos": 15447,
+      "end_pos": 15456
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "官禄宫坐生年科",
+      "结论": [
+        "在工作事业上擅于计划",
+        "工作上主平顺，稳定较喜安定，且有贵人扶助",
+        "求学过程主平顺",
+        "主有功名"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "10.田宅宫坐生年科",
+    "char_interval": {
+      "start_pos": 15528,
+      "end_pos": 15538
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "田宅宫坐生年科",
+      "结论": [
+        "住宅舒适，不喜搬家",
+        "居家朴实，家中整洁、舒爽、高雅",
+        "我与家人相处和睦，家庭温暖，家人互相关怀"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "11.福德宫坐生年科",
+    "char_interval": {
+      "start_pos": 15606,
+      "end_pos": 15616
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "福德宫坐生年科",
+      "结论": [
+        "视同命宫解",
+        "享受有计划，喜布施助人",
+        "具福慧，精神开朗",
+        "品德好"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "12.父母宫坐生年科",
+    "char_interval": {
+      "start_pos": 15674,
+      "end_pos": 15684
+    },
+    "attributes": {
+      "类型": "宫位解义",
+      "前提": "父母宫坐生年科",
+      "结论": [
+        "父母视同命宫解",
+        "父母、长辈是我的贵人，得父母、长辈的关怀扶助"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "化忌星在各宫基本解義",
+    "char_interval": {
+      "start_pos": 15916,
+      "end_pos": 15926
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "二"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "1. 命宫坐生年忌",
+    "char_interval": {
+      "start_pos": 15930,
+      "end_pos": 15939
+    },
+    "attributes": {
+      "前提条件": "命宫坐生年忌",
+      "结论": [
+        "命宮這一輩子較有不順的感受，一生中往往有事與願違之象",
+        "男：主財、官。女：主婚姻、感情",
+        "自尊心強、自悲感較重",
+        "易固執己見，个性内向",
+        "宜從事於動腦筋，運用思考之工作",
+        "宜上班領薪俸、或作穩定工作",
+        "宜做生意：需做現金生意，不可賒欠；變動性快、變化性的生意；冷門、偏門或店面生意"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "2. 兄弟宫坐生年忌",
+    "char_interval": {
+      "start_pos": 16195,
+      "end_pos": 16204
+    },
+    "attributes": {
+      "前提条件": "兄弟宫坐生年忌",
+      "结论": [
+        "我對兄弟姊妹潛在意識裡，有虧欠的感受，想珍惜他、彌補他",
+        "主兄弟姊妹緣分較薄，或兄弟姊妹中某人與我較無緣",
+        "兄弟姊妹不要住在一起或共業，以免口舌是非"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "3. 夫妻宫坐生年忌",
+    "char_interval": {
+      "start_pos": 16353,
+      "end_pos": 16362
+    },
+    "attributes": {
+      "前提条件": "夫妻宫坐生年忌",
+      "结论": [
+        "夫妻緣分較薄，潛在意識裡，對配偶有所虧欠，想珍惜",
+        "彌補他(她)，替他(她)分憂解勞，也較在意配偶",
+        "初戀不易結合，結婚過程教會有不順現象",
+        "晚婚為宜，早婚會為對方付出較多"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "4. 子女宫坐生年忌",
+    "char_interval": {
+      "start_pos": 16503,
+      "end_pos": 16512
+    },
+    "attributes": {
+      "前提条件": "子女宫坐生年忌",
+      "结论": [
+        "有虧欠子女的感受，故易有溺愛子女之象",
+        "與子女緣分較薄，或得子較晚，或生產較不順之象",
+        "較不宜合夥",
+        "較虛注意意外"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "5. 費帛宮坐生年忌",
+    "char_interval": {
+      "start_pos": 16608,
+      "end_pos": 16618
+    },
+    "attributes": {
+      "前提条件": "費帛宮坐生年忌",
+      "结论": [
+        "主有財，但不多，得財叫辛苦",
+        "看錢較重，較節儉"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "6. 疾厄宫坐生年忌",
+    "char_interval": {
+      "start_pos": 16666,
+      "end_pos": 16675
+    },
+    "attributes": {
+      "前提条件": "疾厄宫坐生年忌",
+      "结论": [
+        "第一大限，幼年體弱，先天不足",
+        "脾氯率性、率直"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "7. 遂移宫坐生年忌",
+    "char_interval": {
+      "start_pos": 16714,
+      "end_pos": 16724
+    },
+    "attributes": {
+      "前提条件": "遂移宫坐生年忌",
+      "结论": [
+        "出外較不順",
+        "較無貴人提拔",
+        "此生機遇較差"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "奴僕宮坐生年忌",
+    "char_interval": {
+      "start_pos": 16773,
+      "end_pos": 16780
+    },
+    "attributes": {
+      "宫位": "奴仆宫",
+      "四化类型": "生年忌",
+      "结论": [
+        "我的朋友视同命宫解",
+        "与朋友较重情义",
+        "有亏欠朋友之感受",
+        "有朋友重情义，较不可重钱财"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "化忌星在各宫基本解義",
+    "char_interval": {
+      "start_pos": 16850,
+      "end_pos": 16860
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "序号": "二"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "官禄宫坐生年忌",
+    "char_interval": {
+      "start_pos": 16867,
+      "end_pos": 16874
+    },
+    "attributes": {
+      "序号": "9",
+      "宫位": "官禄宫",
+      "四化类型": "生年忌",
+      "结论": [
+        "此生工作上多变动、多变迁",
+        "经商宜现金生意或冷门、流动性生意",
+        "学业成绩、考绩、业绩较普通",
+        "流年走到，有辍学、休学、或变换工作或结束生意"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "田宅宫坐生年忌",
+    "char_interval": {
+      "start_pos": 16967,
+      "end_pos": 16974
+    },
+    "attributes": {
+      "序号": "10",
+      "宫位": "田宅宫",
+      "四化类型": "生年忌",
+      "结论": [
+        "主有不动产置产钱较会不足，或须注意产权问题",
+        "未购置不动产前，较易有搬家之象",
+        "家运较有不顺之象"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "福德宫坐生年忌",
+    "char_interval": {
+      "start_pos": 17045,
+      "end_pos": 17052
+    },
+    "attributes": {
+      "序号": "11",
+      "宫位": "福德宫",
+      "四化类型": "生年忌",
+      "结论": [
+        "有福较不会享",
+        "较劳心、劳碌，难得清闲",
+        "有祖蔵"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "父母宫坐生年忌",
+    "char_interval": {
+      "start_pos": 17100,
+      "end_pos": 17107
+    },
+    "attributes": {
+      "序号": "12",
+      "宫位": "父母宫",
+      "四化类型": "生年忌",
+      "结论": [
+        "父母视同命宫解",
+        "与父母观念较有代沟，但心意表达孝顺，较无钱财孝意",
+        "不能为人做担保"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "论命体系",
+    "char_interval": {
+      "start_pos": 17171,
+      "end_pos": 17175
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "序号": "五"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年四化有其象必有其物",
+    "char_interval": {
+      "start_pos": 17180,
+      "end_pos": 17191
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "存在论,天命所在,贵人所至",
+      "特性": [
+        "定数",
+        "变化枢纽",
+        "占有",
+        "质不灭",
+        "物归有主"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "西曆1995年 03月 08日 寅時 男性",
+    "char_interval": {
+      "start_pos": 17294,
+      "end_pos": 17315
+    },
+    "attributes": {
+      "命盘配置": "来因财, 太阴D在子",
+      "推理步骤": [
+        "忌在子女, 命中一定有, 合作, 驿马, 子女, 损财, 桃花, 房子",
+        "配合时间, 即四化配合大运重叠, 产生人事物有无的变迁",
+        "天命之所在, 表示生到死关于忌的人事物缘皆与太阴子女宫关联"
+      ],
+      "判断结论": "子女宫也是努力负责的方向, 也是人生最大利益化或一生的指示性"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "存在的解剖",
+    "char_interval": {
+      "start_pos": 17432,
+      "end_pos": 17437
+    },
+    "attributes": {
+      "定义": "来因加四化为命定,人生命活动范围,一切命运呈象都是要回到生年体",
+      "核心逻辑": "有四化为占有空间,无四化表没有,因果义",
+      "应用条件": "凡生年四化的宫位,就有现象的存在义,不论吉凶祸福,永远存在"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "(5) 理论上质的本体, A = B = C = D , 都是表示存在, 但在气场质性ABCD不尽相同",
+    "char_interval": {
+      "start_pos": 17814,
+      "end_pos": 17826
+    },
+    "attributes": {
+      "前提": "理论上质的本体",
+      "结论": "A=B=C=D均表示存在，但气场质性不同"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "(6)星辰无四化时只表示性, 四化而表示有其质",
+    "char_interval": {
+      "start_pos": 17907,
+      "end_pos": 17930
+    },
+    "attributes": {
+      "前提条件": "星辰是否有四化",
+      "结论": "无四化表性，有四化表质"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "(9)BC重精神,AD重物质",
+    "char_interval": {
+      "start_pos": 18243,
+      "end_pos": 18257
+    },
+    "attributes": {
+      "精神层面": "BC组合",
+      "物质层面": "AD组合"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化",
+    "char_interval": {
+      "start_pos": 18264,
+      "end_pos": 18266
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "序号": "2",
+      "定义": "自化有时间,变化,有无,吉凶,更替,概念",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化串联",
+    "char_interval": {
+      "start_pos": 18415,
+      "end_pos": 18419
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "分类": [
+        "向心串",
+        "离心串"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "串联的禄发生的事要法象生年禄,故所有变化的事都是生年存有的事",
+    "char_interval": {
+      "start_pos": 18492,
+      "end_pos": 18522
+    },
+    "attributes": {
+      "前提": "自化串联禄",
+      "推导过程": "法象生年禄",
+      "结论": "变化的事即是生年存有的事"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "自化直线不冲",
+    "char_interval": {
+      "start_pos": 18640,
+      "end_pos": 18646
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "内容": "自化直线不冲"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "西曆:1994年 03月 31日 子時 男性",
+    "char_interval": {
+      "start_pos": 18864,
+      "end_pos": 18886
+    },
+    "attributes": {
+      "性别": "男",
+      "出生日期": "1994-03-31",
+      "农历": "1994年02月20日子时"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四化媒介",
+    "char_interval": {
+      "start_pos": 18999,
+      "end_pos": 19003
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "单象不成物,双象成物对,三象成一物",
+    "char_interval": {
+      "start_pos": 19011,
+      "end_pos": 19028
+    },
+    "attributes": {
+      "类型": "判断口诀",
+      "逻辑层次": [
+        "单象",
+        "双象",
+        "三象"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "三个象构成一件人事物解说,为结构体,一般三象皆有D存在",
+    "char_interval": {
+      "start_pos": 19029,
+      "end_pos": 19059
+    },
+    "attributes": {
+      "类型": "三象一物构成规则",
+      "核心要素": "忌(D)",
+      "结论": "构成完整的结构体"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "AB => D",
+    "char_interval": {
+      "start_pos": 19078,
+      "end_pos": 19092
+    },
+    "attributes": {
+      "类型": "三象公式",
+      "前提": "禄(A) + 权(B)",
+      "结论": "忌(D)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "AC => D",
+    "char_interval": {
+      "start_pos": 19078,
+      "end_pos": 19092
+    },
+    "attributes": {
+      "类型": "三象公式",
+      "前提": "禄(A) + 科(C)",
+      "结论": "忌(D)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "BC => D",
+    "char_interval": {
+      "start_pos": 19078,
+      "end_pos": 19092
+    },
+    "attributes": {
+      "类型": "三象公式",
+      "前提": "权(B) + 科(C)",
+      "结论": "忌(D)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "BD => C",
+    "char_interval": {
+      "start_pos": 19187,
+      "end_pos": 19201
+    },
+    "attributes": {
+      "类型": "三象公式",
+      "前提": "权(B) + 忌(D)",
+      "结论": "科(C)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "AD => B",
+    "char_interval": {
+      "start_pos": 19224,
+      "end_pos": 19238
+    },
+    "attributes": {
+      "类型": "三象公式",
+      "前提": "禄(A) + 忌(D)",
+      "结论": "权(B)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "CD => A",
+    "char_interval": {
+      "start_pos": 19260,
+      "end_pos": 19274
+    },
+    "attributes": {
+      "类型": "三象公式",
+      "前提": "科(C) + 忌(D)",
+      "结论": "禄(A)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "三象可以是三个生年象,也可以是三个自化,也可以是两自化再飞一四化,也可以从别的宫飞进来构成三象说",
+    "char_interval": {
+      "start_pos": 19280,
+      "end_pos": 19328
+    },
+    "attributes": {
+      "类型": "三象构成条件",
+      "组合形式": [
+        "三个生年象",
+        "三个自化",
+        "两自化再飞一四化",
+        "外部宫位飞入构成"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "生年四化BCD福德田宅,有钱就想买房子,以房子赚钱,开公司求财等",
+    "char_interval": {
+      "start_pos": 19333,
+      "end_pos": 19365
+    },
+    "attributes": {
+      "前提": "BCD在福德、田宅",
+      "结论": "买房、以房赚钱、开公司求财"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "田宅AD飞B到福德,在家享受,赚钱,办公,喜欢在家",
+    "char_interval": {
+      "start_pos": 19448,
+      "end_pos": 19473
+    },
+    "attributes": {
+      "前提": "田宅宫AD飞B到福德宫",
+      "结论": "居家办公、享受、宅家倾向"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫四化",
+    "char_interval": {
+      "start_pos": 19617,
+      "end_pos": 19621
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "飞宫不遇生年",
+    "char_interval": {
+      "start_pos": 19719,
+      "end_pos": 19725
+    },
+    "attributes": {
+      "序号": "(1)",
+      "操作方法": "依注脚飞, 或飞平衡或飞同组按要求飞"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "飞宫遇生年交易飞",
+    "char_interval": {
+      "start_pos": 19749,
+      "end_pos": 19757
+    },
+    "attributes": {
+      "序号": "(2)",
+      "操作方法": "可以以生年四化为定点定宫,什么宫会飞过来,飞来后再转同类在地成形为交易后物相"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "官禄宫自化权,飞同组科解释这个权动的原因",
+    "char_interval": {
+      "start_pos": 19802,
+      "end_pos": 19822
+    },
+    "attributes": {
+      "分析逻辑": "权动先法象福德, 事业可做兴趣爱好宫位; 如何实现事业转科在子女",
+      "结论": "此飞宫不遇生年, 是解释权动"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "飞宫与落宫的大运流年皆用本命盘",
+    "char_interval": {
+      "start_pos": 19963,
+      "end_pos": 19978
+    },
+    "attributes": {
+      "前提条件": "进行大运或流年分析时",
+      "判定逻辑": "飞宫与落宫均以本命盘为基准",
+      "应用示例": "大财权入大夫本田流命,我和配偶一起置产"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "飞宫为现象学",
+    "char_interval": {
+      "start_pos": 20144,
+      "end_pos": 20150
+    },
+    "attributes": {
+      "条件": "当契机问起可以飞宫",
+      "分类": "虚象与实象",
+      "实象判定": "若落宫有生年四化,则飞宫入为实象,一定有此两宫往来之事",
+      "虚象判定": "若落宫无生年四化,则可能为虚象"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "飞宫飞D时讲冲",
+    "char_interval": {
+      "start_pos": 20535,
+      "end_pos": 20542
+    },
+    "attributes": {
+      "序号": "(8)",
+      "判定结果": "发出的宫与被冲宫无缘",
+      "性质": "后天指向性,谓之冲,不一定会真冲"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "所有ABCD都受天干影响,所有ABCD受生年影响,所有生年受来因影响",
+    "char_interval": {
+      "start_pos": 20643,
+      "end_pos": 20677
+    },
+    "attributes": {
+      "类型": "影响层次",
+      "层级": "天干 -> ABCD (四化象) -> 生年 -> 来因"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "飞宫的吉凶看内外",
+    "char_interval": {
+      "start_pos": 20740,
+      "end_pos": 20748
+    },
+    "attributes": {
+      "核心技法": "飞宫",
+      "判定标准": "内外局",
+      "应用场景": "吉凶判断"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "象以宫立,宫以象显,只有宫与宫之间有象交易才有人事变迁",
+    "char_interval": {
+      "start_pos": 20877,
+      "end_pos": 20904
+    },
+    "attributes": {
+      "前提条件": "宫与宫之间有象交易",
+      "结论": "产生人事变迁",
+      "核心原则": "象以宫立,宫以象显"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "自化若同符号算同频交流",
+    "char_interval": {
+      "start_pos": 21113,
+      "end_pos": 21124
+    },
+    "attributes": {
+      "核心技法": "自化",
+      "判定规则": "同符号即同频",
+      "示例": "命宫C, 夫妻宫自化C"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生态空间",
+    "char_interval": {
+      "start_pos": 21168,
+      "end_pos": 21172
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "章节": "5",
+      "定义": "依河图不变之易来因等同宫位对待义"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "来因子女4,已具备子女宫内含,同时也有家运置产田宅问题,同时具备官禄解义,及夫妻感情问题",
+    "char_interval": {
+      "start_pos": 21320,
+      "end_pos": 21374
+    },
+    "attributes": {
+      "太极点": "来因子女宫",
+      "关联职能": [
+        "子女宫(本体)",
+        "田宅宫(家运置产)",
+        "官禄宫(官禄解义)",
+        "夫妻宫(感情问题)"
+      ],
+      "理论依据": "生态空间宫位注脚"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "来因与四化组合象为来此人间任务不同,所发生的事也多在空间上注脚",
+    "char_interval": {
+      "start_pos": 21427,
+      "end_pos": 21458
+    },
+    "attributes": {
+      "前提": "来因与四化组合",
+      "结论": "决定人间任务及发生之事的空间位置"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "宫位重叠",
+    "char_interval": {
+      "start_pos": 21748,
+      "end_pos": 21752
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "含义": "表示大运有无说,大运宫职叠本命盘生年四化表归这个大运宫职所有,本对宫皆可以用",
+      "作用": "生年四化被大运营职谁叠谁用"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "甲女,25-34大运,太阳D男星被大夫叠",
+    "char_interval": {
+      "start_pos": 21822,
+      "end_pos": 21842
+    },
+    "attributes": {
+      "命盘配置": "太阳D男星被大夫叠,C被大子叠,叠疾",
+      "分析过程": "大运夫妻宫存有概念,本财而成夫妻对待;大子叠疾,身体上有孩子象",
+      "判断结论": "会结婚,有孩子的存在论"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四化分组",
+    "char_interval": {
+      "start_pos": 21979,
+      "end_pos": 21983
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "分组规则": "AD一组,BC一组互为因果,互相解释"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "表格数据",
+    "extraction_text": "四化分男女生",
+    "char_interval": {
+      "start_pos": 21985,
+      "end_pos": 21991
+    },
+    "attributes": {
+      "类型": "星曜性别分类",
+      "女星": "紫、武、阴、巨、破、右、曲、廉贞化忌",
+      "男星": "机、阳、同、贪、梁、左、昌、廉贞化禄"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "禄随忌走,科随权走",
+    "char_interval": {
+      "start_pos": 22044,
+      "end_pos": 22053
+    },
+    "attributes": {
+      "类型": "四化联动规则",
+      "组合": [
+        "禄与忌",
+        "科与权"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "男女生找用神",
+    "char_interval": {
+      "start_pos": 22054,
+      "end_pos": 22060
+    },
+    "attributes": {
+      "类型": "取神法则",
+      "规则": "本人男命取男星女命取女星,对方,男命取女星,女命取男星",
+      "操作建议": "配合来因先取权忌,再科配合权,禄配合忌解说"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "法象",
+    "char_interval": {
+      "start_pos": 22220,
+      "end_pos": 22222
+    },
+    "attributes": {
+      "定义": "自化就是玩四化(法象)",
+      "应用": "配合自化一起运作"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "癸女,来因夫",
+    "char_interval": {
+      "start_pos": 22261,
+      "end_pos": 22267
+    },
+    "attributes": {
+      "命盘配置": "来因夫,女星先取权,在父母宫,科同组解释权",
+      "推理逻辑": "权代表自己,在父母宫表示在国家单位或外资等;科表示成就权离不开朋友相助",
+      "结论": "人脉要好,事业与单位、中介或老师相关"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "AD媒介B",
+    "char_interval": {
+      "start_pos": 22433,
+      "end_pos": 22438
+    },
+    "attributes": {
+      "核心技法": "媒介",
+      "公式": "AD媒介B"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "体用",
+    "char_interval": {
+      "start_pos": 22631,
+      "end_pos": 22633
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "定义": "宫位重叠, 本盘四化体被大运宫所用, 也被流年宫所用, 自化法生年, 自化来用体, 飞宫要法象同样用生年四化的体"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "因果",
+    "char_interval": {
+      "start_pos": 22980,
+      "end_pos": 22982
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "定义": "因果可以AD,BC同组互解释，自化飞同组也可以解释，飞宫也可以飞同组解释。也即倒果求因。"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "平衡",
+    "char_interval": {
+      "start_pos": 23240,
+      "end_pos": 23242
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "特殊的平衡, A平方 ≡ D平方, B平方 = C平方",
+    "char_interval": {
+      "start_pos": 23274,
+      "end_pos": 23283
+    },
+    "attributes": {
+      "类型": "公式",
+      "公式": [
+        "A平方 ≡ D平方",
+        "B平方 = C平方"
+      ],
+      "含义": "象数量相等"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "凡有象平方立马去同组转同组而构成一件事的组合解说",
+    "char_interval": {
+      "start_pos": 23313,
+      "end_pos": 23337
+    },
+    "attributes": {
+      "前提条件": "有象平方",
+      "结论": "立马去同组转同组而构成一件事的组合解说"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "象数平衡",
+    "char_interval": {
+      "start_pos": 23396,
+      "end_pos": 23400
+    },
+    "attributes": {
+      "应用场景": "论财",
+      "核心技法": "象数平衡",
+      "方法": "构成BC=BC的量相等,当量相等时宫位便带动",
+      "示例": "C在田,转C到兄弟宫武曲,说明求财=兄弟加田宅"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "运连续及阻断",
+    "char_interval": {
+      "start_pos": 23629,
+      "end_pos": 23635
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "11"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "33运大官向心D表事业得到这个D, 43运大官D离心这表示是上个运得到D的官43运结束",
+    "char_interval": {
+      "start_pos": 23640,
+      "end_pos": 23661
+    },
+    "attributes": {
+      "类型": "运势连续性判断",
+      "前提条件": "前一运限大官向心D，后一运限大官离心D",
+      "结论": "事业在得到后的下一运限结束"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "以43运大田得到D,53运大田离心D卖掉",
+    "char_interval": {
+      "start_pos": 23691,
+      "end_pos": 23711
+    },
+    "attributes": {
+      "类型": "资产变动判断",
+      "前提条件": "43运大田得到D，53运大田离心D",
+      "结论": "资产于43运获得，53运卖掉"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "向心离心正反一样",
+    "char_interval": {
+      "start_pos": 23717,
+      "end_pos": 23725
+    },
+    "attributes": {
+      "类型": "四化基本原理",
+      "含义": "向心力与离心力的性质互为正反关系"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "33运大命自化B,法官,此运有官,43运我的官有权",
+    "char_interval": {
+      "start_pos": 23812,
+      "end_pos": 23837
+    },
+    "attributes": {
+      "命盘配置": "33运大运命宫自化权(B)，法象官禄宫",
+      "分析过程": "33运缘起有权运，大父本官权是领导的权，43运是自己的权",
+      "判断结论": "体官权就是主管格，事业连续且越来越好"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "宫位谁叠谁用",
+    "char_interval": {
+      "start_pos": 23838,
+      "end_pos": 23844
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "基本定义": "在分析大运与原局宫位重叠时的应用原则"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化串联",
+    "char_interval": {
+      "start_pos": 24172,
+      "end_pos": 24176
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "12"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "只有自化的宫位表示只是一个依附生年四化宫的依附体",
+    "char_interval": {
+      "start_pos": 24430,
+      "end_pos": 24454
+    },
+    "attributes": {
+      "类型": "体用规则",
+      "结论": "无生年象仅有自化的宫位属于依附体"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "有生年又自化的宫",
+    "char_interval": {
+      "start_pos": 24556,
+      "end_pos": 24564
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "13"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "田宅有生年权自化忌...有体有用其一表示体权的房子变量成忌,也就是说降价",
+    "char_interval": {
+      "start_pos": 24568,
+      "end_pos": 24577
+    },
+    "attributes": {
+      "前提": "田宅宫有生年权且出现自化忌",
+      "核心准则": "有其象必有其物",
+      "推理步骤": "生年权为体，自化忌为变，体权的房子发生变量",
+      "结论": "房子降价，属于主动变"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "双象不同组都有兼的意味",
+    "char_interval": {
+      "start_pos": 24672,
+      "end_pos": 24683
+    },
+    "attributes": {
+      "类型": "双象含义",
+      "含义": "兼、一先一后、同时",
+      "具体场景": "在官事业兼,在夫妻夫妻多个量"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "应期",
+    "char_interval": {
+      "start_pos": 24935,
+      "end_pos": 24937
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "定义": "是有中谈无,无中谈有",
+      "核心": "同宫同象,自化飞宫同理"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "向心A拿进来，D出",
+    "char_interval": {
+      "start_pos": 25464,
+      "end_pos": 25473
+    },
+    "attributes": {
+      "前提": "太阳同星,向心A且有D出",
+      "结论": "本人赚进来，本人拿出去"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "象的挤占",
+    "char_interval": {
+      "start_pos": 25580,
+      "end_pos": 25584
+    },
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题",
+      "定义": "挤占就是把原来位置更替意思,再坐那个位置"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "在人位挤占，在物位为增加",
+    "char_interval": {
+      "start_pos": 25647,
+      "end_pos": 25659
+    },
+    "attributes": {
+      "类型": "象法判断",
+      "人位含义": "挤占",
+      "物位含义": "增加",
+      "示例": "田权平方，房子增多"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "象的挤入若是同象为更替为一",
+    "char_interval": {
+      "start_pos": 25703,
+      "end_pos": 25716
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "前提": "象的挤入且为同象",
+      "结论": "更替为一（如事业常换还是一个）"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "同象一入一出",
+    "char_interval": {
+      "start_pos": 25890,
+      "end_pos": 25896
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "17"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "夫妻A不同女星一入一出,女星配天同,表示会换女友",
+    "char_interval": {
+      "start_pos": 25901,
+      "end_pos": 25925
+    },
+    "attributes": {
+      "类型": "婚姻判断",
+      "条件": "夫妻宫禄（A）不同女星一入一出",
+      "结论": "会换女友"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "如果论财表示白忙一场",
+    "char_interval": {
+      "start_pos": 25932,
+      "end_pos": 25942
+    },
+    "attributes": {
+      "类型": "财运判断",
+      "前提": "同象一入一出论财",
+      "结论": "白忙一场"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "象综合交易",
+    "char_interval": {
+      "start_pos": 26075,
+      "end_pos": 26080
+    },
+    "attributes": {
+      "类型": "核心技法",
+      "来源": "章节标题",
+      "章节": "18"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "癸女,夫妻有个贪狼D缘,则盘中所有A,D都可以讲这个贪狼",
+    "char_interval": {
+      "start_pos": 26085,
+      "end_pos": 26113
+    },
+    "attributes": {
+      "命盘配置": "癸干女性，夫妻宫贪狼化忌（D）",
+      "推理逻辑": "通过化禄（A）与化忌（D）的关联解释贪狼象意",
+      "分析结论": "可解释为外地人或外出认识"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "向心贪狼D遇太阴C,这种向心遇生年也算飞宫遇生年,来与太阴交易,法象夫妻",
+    "char_interval": {
+      "start_pos": 26134,
+      "end_pos": 26170
+    },
+    "attributes": {
+      "前提": "向心贪狼忌遇生年太阴科",
+      "动作": "法象夫妻宫",
+      "可能情况": [
+        "有子女且结过婚",
+        "有过桃花",
+        "与本人有交易",
+        "与贪狼结婚后与孩子产生交易"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "静态的太阴逢向心入则这个太阴为被动交易,自化为动,若生年离心则本人主动",
+    "char_interval": {
+      "start_pos": 26271,
+      "end_pos": 26306
+    },
+    "attributes": {
+      "技法名称": "主动/被动交易判断",
+      "被动条件": "静态星曜逢向心入",
+      "主动条件": "自化或生年离心"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "丁女,财有双象,兼,有二男对待",
+    "char_interval": {
+      "start_pos": 26570,
+      "end_pos": 26585
+    },
+    "attributes": {
+      "命盘配置": "丁干女性，财帛宫有双象",
+      "分析过程": "其中一男A在外有女人太阴,太阴自化C与天机",
+      "结论": "财帛宫双象主兼得或多重对待关系"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "分项论",
+    "char_interval": {
+      "start_pos": 26764,
+      "end_pos": 26767
+    },
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "章节": "六"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "婚姻",
+    "char_interval": {
+      "start_pos": 26775,
+      "end_pos": 26777
+    },
+    "attributes": {
+      "核心技法": [
+        "来因",
+        "乾坤定位",
+        "权忌定位",
+        "双星",
+        "看忌",
+        "男命男星女命女星在夫妻",
+        "婚姻模式"
+      ],
+      "应用场景": "论婚姻"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "婚姻中几个重要官位",
+    "char_interval": {
+      "start_pos": 26835,
+      "end_pos": 26844
+    },
+    "attributes": {
+      "宫位职能": {
+        "交友宫": "夫妻身体位、无名份位",
+        "田宅宫": "家",
+        "疾厄宫": "本人身体位",
+        "夫妻宫": "元配位",
+        "财帛宫": "夫妻对待",
+        "命宫": "本人"
+      }
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "夫妻宫与交友宫不能冲田,命疾不对冲田,命疾不冲夫友,夫友不冲命疾",
+    "char_interval": {
+      "start_pos": 26910,
+      "end_pos": 26942
+    },
+    "attributes": {
+      "类型": "飞宫规则",
+      "前提": "论婚姻往来",
+      "结论": "遵循契机原则，互不冲破则吉"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "桃花宫",
+    "char_interval": {
+      "start_pos": 26971,
+      "end_pos": 26974
+    },
+    "attributes": {
+      "宫位名称": [
+        "父母宫",
+        "子女宫",
+        "兄弟宫",
+        "交友宫"
+      ],
+      "含义": "桃花位"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "来因友，父子兄友偏，以子女排第一，友第二，父兄第三",
+    "char_interval": {
+      "start_pos": 27104,
+      "end_pos": 27129
+    },
+    "attributes": {
+      "命盘配置": "来因宫在交友宫",
+      "分析过程": "在求财上一般较有钱则在来因此四宫上",
+      "判断结论": "若来因父母则可以是很大资源或平台"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "相当此命满足婚姻几个婚姻不利条件",
+    "char_interval": {
+      "start_pos": 27355,
+      "end_pos": 27371
+    },
+    "attributes": {
+      "命盘配置": [
+        "来因友",
+        "男星外",
+        "夫妻女星"
+      ],
+      "分析结论": "不利是世俗界定",
+      "推理逻辑": "以禄忌同组看，太阳在兄弟，但串联了夫妻，有桃花入夫妻之实"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "婚姻对待",
+    "char_interval": {
+      "start_pos": 27483,
+      "end_pos": 27487
+    },
+    "attributes": {
+      "核心技法": "首看财帛宫",
+      "分析方法": "看男女星表现的气场强弱论",
+      "应用场景": "判断夫妻间沟通与对待状态"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "财BD,一男一女星呈现不同气场状态,BD力量均很大,比较难沟通",
+    "char_interval": {
+      "start_pos": 27514,
+      "end_pos": 27545
+    },
+    "attributes": {
+      "前提": "财帛宫出现权忌(BD)且星曜为一男一女",
+      "结论": "气场状态不同，双方比较难沟通"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "若财没有看田宅",
+    "char_interval": {
+      "start_pos": 27551,
+      "end_pos": 27558
+    },
+    "attributes": {
+      "前提": "财帛宫无四化象可看时",
+      "结论": "看田宅宫四化，观察家里人呈现的状态"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "夫友一组, 命疾一组",
+    "char_interval": {
+      "start_pos": 27651,
+      "end_pos": 27661
+    },
+    "attributes": {
+      "关系类型": "飞宫分组",
+      "宫位组1": [
+        "夫妻宫",
+        "交友宫"
+      ],
+      "宫位组2": [
+        "命宫",
+        "疾厄宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "财官",
+    "char_interval": {
+      "start_pos": 27680,
+      "end_pos": 27682
+    },
+    "attributes": {
+      "类型": "应用场景",
+      "来源": "章节标题",
+      "序号": "(3)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "大官化忌冲本疾倒闭,只对创业者验",
+    "char_interval": {
+      "start_pos": 27686,
+      "end_pos": 27702
+    },
+    "attributes": {
+      "类型": "事业判断",
+      "前提条件": "大运官禄宫化忌冲本盘疾厄宫",
+      "结论": "倒闭",
+      "适用对象": "创业者"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "官化忌冲命,冲父,父冲官或命,命冲父,含有官非垂象",
+    "char_interval": {
+      "start_pos": 27708,
+      "end_pos": 27733
+    },
+    "attributes": {
+      "类型": "官非判断",
+      "前提条件": "官化忌冲命、冲父，或父与官命互冲",
+      "结论": "含有官非垂象"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "大官所冲的宫位以本盘为主,一般不宜冲一五九",
+    "char_interval": {
+      "start_pos": 27951,
+      "end_pos": 27972
+    },
+    "attributes": {
+      "类型": "宫位禁忌",
+      "前提条件": "大运官禄宫化忌冲宫",
+      "结论": "不宜冲一五九（命、财、官）",
+      "例外": "若大官有权,忌冲一五九不见得成立"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "偏财看父母三合,父子友,大运内局叠,三宫飞宫入内,内有自化同类",
+    "char_interval": {
+      "start_pos": 28275,
+      "end_pos": 28306
+    },
+    "attributes": {
+      "类型": "偏财判断",
+      "核心宫位": [
+        "父母宫",
+        "子女宫",
+        "交友宫"
+      ],
+      "条件": "大运内局重叠，三宫飞宫入内且有自化同类"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "财富公式",
+    "char_interval": {
+      "start_pos": 28312,
+      "end_pos": 28316
+    },
+    "attributes": {
+      "规则1": "看文去与廉贞, 武曲, 巨门连线",
+      "规则2": "左右昌曲在福财一线",
+      "规则3": "看兄疾田生年四化",
+      "规则4": "其他平方结构"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "坤造乙卯",
+    "char_interval": {
+      "start_pos": 28389,
+      "end_pos": 28393
+    },
+    "attributes": {
+      "案例主体": "坤造乙卯",
+      "来因宫": "父母宫",
+      "分析结论": "财富据说数不清",
+      "行业特征": "早期在银行后与国际资源有关"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "来因父母,国家单位,国家资源,国际资源(早期在银行后与国际资源有关)",
+    "char_interval": {
+      "start_pos": 28397,
+      "end_pos": 28431
+    },
+    "attributes": {
+      "前提": "来因宫在父母宫",
+      "推理过程": "父母宫主国家单位、资源",
+      "结论": "职业与银行或国际资源相关"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大官无象,但迁有生年象科,再看其他科,向心科兄友线表示能得到她的科,给到同学,这表示读书还不错",
+    "char_interval": {
+      "start_pos": 28496,
+      "end_pos": 28543
+    },
+    "attributes": {
+      "前提": "大运官禄无象，迁移宫有生年科，兄友线有向心科",
+      "分析过程": "科代表名誉与读书，向心科表示获得",
+      "结论": "读书还不错"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "第二运,大官ACB都有,以A论,大财本子自化A,这个运不会去合作",
+    "char_interval": {
+      "start_pos": 28566,
+      "end_pos": 28598
+    },
+    "attributes": {
+      "运限": "第二大运",
+      "命盘配置": "大官ACB, 大财本子自化A",
+      "判断结论": "不会去合作"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大父向心C到疾表示老师关心她,官C与父疾线,官与父同C会考运好",
+    "char_interval": {
+      "start_pos": 28641,
+      "end_pos": 28678
+    },
+    "attributes": {
+      "前提": "大父向心C到疾, 官与父同C",
+      "推理过程": "向心科代表关心, 官父同科产生关联",
+      "结论": "考运好"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大田有科,这就表示会换城市,工作原因",
+    "char_interval": {
+      "start_pos": 28739,
+      "end_pos": 28757
+    },
+    "attributes": {
+      "前提": "大田有科",
+      "结论": "会换城市"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "权的星辰",
+    "char_interval": {
+      "start_pos": 28868,
+      "end_pos": 28872
+    },
+    "attributes": {
+      "代表星曜": [
+        "天梁",
+        "武曲",
+        "太阳"
+      ],
+      "关联行业": [
+        "能源",
+        "金事",
+        "土地",
+        "医药",
+        "文化"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "官非",
+    "char_interval": {
+      "start_pos": 29030,
+      "end_pos": 29032
+    },
+    "attributes": {
+      "类型": "应用场景",
+      "定义": "官非就是官禄冲父母公权力象",
+      "宫位含义": {
+        "父母宫": "公权力",
+        "官禄宫": "事业和运气"
+      }
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "官非公式",
+    "char_interval": {
+      "start_pos": 29050,
+      "end_pos": 29054
+    },
+    "attributes": {
+      "类型": "口诀公式",
+      "规则列表": [
+        "大官冲本父",
+        "大父冲本官",
+        "廉贞星的气数位化忌冲大父本官或本父大官"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "以象类宫，再法象，再飞同组，再讲相应",
+    "char_interval": {
+      "start_pos": 29283,
+      "end_pos": 29301
+    },
+    "attributes": {
+      "核心技法": "法象、飞宫、相应",
+      "应用步骤": "1.以象类宫 2.法象 3.飞同组 4.讲相应"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "A出国：大迁D流迁D，虽都是女星，但CD，D转C有男星平衡，带子女出国，B，破财父母宫，贷款买房，装修，子田父母宫C捐款，父母宫是明显可捐款，D给自己父母岳父母",
+    "char_interval": {
+      "start_pos": 29555,
+      "end_pos": 29635
+    },
+    "attributes": {
+      "分析场景": "出国、购房、捐款",
+      "推理逻辑": "大迁忌（D）流迁忌（D），通过男星平衡实现能量转换；子女宫关联带子女出国；破财点在父母宫（贷款、装修、捐款）",
+      "涉及技法": "平衡、转忌、宫职含义"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "意外",
+    "char_interval": {
+      "start_pos": 29644,
+      "end_pos": 29646
+    },
+    "attributes": {
+      "分类": "应用场景",
+      "来源": "章节标题",
+      "序号": "(5)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "意外公式",
+    "char_interval": {
+      "start_pos": 29650,
+      "end_pos": 29654
+    },
+    "attributes": {
+      "前提条件": [
+        "1、来因在迁疾子田",
+        "2、命迁子田疾,宫象重叠合一",
+        "3、其他飞宫宫象也离不开这些宫位",
+        "4、用神在迁交感疾,用神在疾交感迁,用神在子,交感疾迁",
+        "5、涉及到交友共象凶",
+        "6、涉及昌曲凶"
+      ],
+      "结论": "发生意外"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "身体健康",
+    "char_interval": {
+      "start_pos": 29922,
+      "end_pos": 29926
+    },
+    "attributes": {
+      "分类": "核心技法/体系",
+      "来源": "章节标题",
+      "相关理论": "中医脏象学说",
+      "序号": "(6)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "甲男 艾滋病",
+    "char_interval": {
+      "start_pos": 29961,
+      "end_pos": 29968
+    },
+    "attributes": {
+      "命盘配置": "1、迁疾串, 2、太阴,贪狼阴阳, 3、法象交友与交友有关, 4、大福与爱好有关, 5、本疾D忌入大疾,同类飞宫遇生年, 6、子女宫为性宫",
+      "推理逻辑": "通过迁移与疾厄串联，涉及太阴贪狼阴阳星曜，法象指向交友宫（人际/传染），大限福德关联爱好，子女宫代表性行为",
+      "结论": "艾滋病"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "2002年戊申月车祸亡",
+    "char_interval": {
+      "start_pos": 30135,
+      "end_pos": 30146
+    },
+    "attributes": {
+      "命盘配置": "1,大迁疾串联A法象大子,构成命迁子田疾; 2,2002迁D平方,A转A在大疾; 3. 大子A自化B,大命迁A转B在大阴交友; 4,D平方,A转A在大疾,天机=车辆; 5,大疾忌入本疾同类宫职; 6,D平方与交友宫相关",
+      "推理逻辑": "构成命迁子田疾的凶象组合，天机星代表车辆，D平方（双忌/忌象叠加）位于疾厄相关宫位，涉及交友宫",
+      "应期判断": "2002年（壬午年）戊申月",
+      "结论": "车祸亡"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天机",
+    "char_interval": {
+      "start_pos": 30241,
+      "end_pos": 30243
+    },
+    "attributes": {
+      "基本含义": "车辆",
+      "应用场景": "意外/车祸判断"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "2001年甲午月,庚申日甲申时淹死",
+    "char_interval": {
+      "start_pos": 30552,
+      "end_pos": 30569
+    },
+    "attributes": {
+      "命盘配置": "迁疾D，D扯到昌曲，D扯到兄友，2001昌D动，疾天同=水",
+      "判断结论": "淹死",
+      "时间点": "2001年甲午月庚申日甲申时"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "2001甲午月,戊午日戊午时脑溢血",
+    "char_interval": {
+      "start_pos": 30626,
+      "end_pos": 30643
+    },
+    "attributes": {
+      "命盘配置": "大疾A平方, D转D在午冲本疾, 也是流年疾；午位代表头部",
+      "判断结论": "脑溢血",
+      "时间点": "2001甲午月戊午日戊午时"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "2001被雷劈",
+    "char_interval": {
+      "start_pos": 30819,
+      "end_pos": 30826
+    },
+    "attributes": {
+      "命盘配置": "2001向心D入命，法象疾，昌曲反背，疾与兄友线交感D，夫官线也有D",
+      "推理逻辑": "太阳物相代表烧伤烫伤、雷；巨门代表大地，象意为天上连大地",
+      "判断结论": "被雷劈"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "一般疾与夫官线交感也是论死亡线",
+    "char_interval": {
+      "start_pos": 30870,
+      "end_pos": 30885
+    },
+    "attributes": {
+      "前提条件": "疾厄宫与夫官线交感",
+      "结论": "论死亡线",
+      "理由": "夫官线为疾之子田线，即疾的家，疾没家与寿命有关"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "怀孕生子",
+    "char_interval": {
+      "start_pos": 31091,
+      "end_pos": 31095
+    },
+    "attributes": {
+      "核心技法": "看大子，大子无象看大疾，或宫位重叠有象",
+      "应用场景": "生子规划",
+      "推理逻辑": "大子叠疾太阳D，表示我身体上有子女，子女有身体"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "流年在流命流子自化D年皆有可能（生子）",
+    "char_interval": {
+      "start_pos": 31204,
+      "end_pos": 31219
+    },
+    "attributes": {
+      "前提条件": "流年命宫或流年子女宫出现自化忌（D）",
+      "结论": "有生小孩的时空感"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "口诀公式",
+    "extraction_text": "生孩子缘份也是气以类聚",
+    "char_interval": {
+      "start_pos": 31446,
+      "end_pos": 31457
+    },
+    "attributes": {
+      "类型": "原理原则",
+      "基本含义": "生子缘分遵循气场类聚的规律"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "D直白讲就是生孩子",
+    "char_interval": {
+      "start_pos": 31509,
+      "end_pos": 31518
+    },
+    "attributes": {
+      "前提": "小孩气类聚D且法象本子女宫D",
+      "结论": "代表生孩子"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "交友也是生疾位",
+    "char_interval": {
+      "start_pos": 31526,
+      "end_pos": 31533
+    },
+    "attributes": {
+      "关系类型": "宫位职能",
+      "宫位名称": "交友宫",
+      "含义": "生产疾厄的位置（与生育相关）"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "22-31,大子B进B出,这种以B气类聚生孩子",
+    "char_interval": {
+      "start_pos": 31536,
+      "end_pos": 31559
+    },
+    "attributes": {
+      "大限/时间": "22-31",
+      "命盘配置": "大子B进B出",
+      "判断结论": "以B气类聚生孩子",
+      "分析类型": "论子女"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "但一入一出较会流疾",
+    "char_interval": {
+      "start_pos": 31560,
+      "end_pos": 31569
+    },
+    "attributes": {
+      "前提": "一入一出",
+      "结论": "较会流疾"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "子疾宫位重叠可以直接理解生孩子的事",
+    "char_interval": {
+      "start_pos": 31570,
+      "end_pos": 31587
+    },
+    "attributes": {
+      "核心技法": "宫位重叠",
+      "应用场景": "论生孩子的事",
+      "配置": "子宫（子女宫）与疾宫（疾厄宫）重叠"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "(8)住宅,房子风水,置产及对人事物的影响",
+    "char_interval": {
+      "start_pos": 31673,
+      "end_pos": 31694
+    },
+    "attributes": {
+      "序号": "(8)",
+      "含义": [
+        "住宅",
+        "房子风水",
+        "置产",
+        "对人事物的影响"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "田宅三合位兄疾田都表示有房子",
+    "char_interval": {
+      "start_pos": 31697,
+      "end_pos": 31711
+    },
+    "attributes": {
+      "关系类型": "三合关系",
+      "本宫": "田宅宫",
+      "三合位宫位": [
+        "兄弟宫",
+        "疾厄宫",
+        "田宅宫"
+      ],
+      "含义": "表示有房子"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "以禄权科忌中大美小来论,一般权较大",
+    "char_interval": {
+      "start_pos": 31712,
+      "end_pos": 31729
+    },
+    "attributes": {
+      "类型": "四化含义",
+      "适用场景": "论房屋大小",
+      "前提": "田宅三合位有四化象",
+      "结论": "权代表房子较大"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "三合位也是房子周围环境,加上对宫子女宫,表示田宅对面",
+    "char_interval": {
+      "start_pos": 31732,
+      "end_pos": 31758
+    },
+    "attributes": {
+      "关系类型": "对宫关系",
+      "地理位置含义": "田宅对面",
+      "关联宫位": [
+        "田宅宫三合位",
+        "子女宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "田宅的左右福德与官则是左邻右舍",
+    "char_interval": {
+      "start_pos": 31826,
+      "end_pos": 31841
+    },
+    "attributes": {
+      "关系类型": "邻宫关系",
+      "地理位置含义": "左邻右舍",
+      "关联宫位": [
+        "福德宫",
+        "官禄宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "田宅有D的人宜先生小孩再买房子",
+    "char_interval": {
+      "start_pos": 31945,
+      "end_pos": 31960
+    },
+    "attributes": {
+      "类型": "生活建议",
+      "前提": "田宅宫有生年忌(D)",
+      "结论": "宜先生小孩再买房子",
+      "逻辑": "买了房子后皆见凶象冲子女"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "田宅的D,若交感疾则房子影响健康,交感财官影响才运事业",
+    "char_interval": {
+      "start_pos": 31974,
+      "end_pos": 32001
+    },
+    "attributes": {
+      "类型": "组合规则",
+      "前提": "田宅宫忌(D)交感其他宫位",
+      "组合与结论": [
+        {
+          "组合": "交感疾厄宫",
+          "结论": "房子影响健康"
+        },
+        {
+          "组合": "交感财帛或官禄宫",
+          "结论": "影响财运事业"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "大田叠父疾线...有四化象,一般会贷款,或父母出钱",
+    "char_interval": {
+      "start_pos": 32014,
+      "end_pos": 32020
+    },
+    "attributes": {
+      "类型": "买房资金来源判断",
+      "前提": "大限田宅宫重叠本命父母宫或疾厄宫，且有四化象",
+      "结论": "一般会贷款，或父母出钱"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "庚午男",
+    "char_interval": {
+      "start_pos": 32146,
+      "end_pos": 32149
+    },
+    "attributes": {
+      "命盘配置": "子田线D较多,田阴天干,女儿很小有自闭症",
+      "分析过程": "女儿盘福德有CD，买房在大子田两边都有D的运限",
+      "判断结论": "容易买到与本命盘子田气场一致的房子",
+      "应期判断": "2018年(流年权应且,流年子田为科)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "父母宫",
+    "char_interval": {
+      "start_pos": 32703,
+      "end_pos": 32706
+    },
+    "attributes": {
+      "职能": "判断去什么单位",
+      "对应机构": [
+        "大机构",
+        "国家机构",
+        "教育机构"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "向心C转B在大父本田",
+    "char_interval": {
+      "start_pos": 32721,
+      "end_pos": 32731
+    },
+    "attributes": {
+      "核心技法": "向心转象 (C转B)",
+      "涉及宫位": [
+        "大父 (大限父母宫)",
+        "本田 (本命田宅宫)"
+      ],
+      "应用场景": "论去什么单位"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天梁",
+    "char_interval": {
+      "start_pos": 32738,
+      "end_pos": 32740
+    },
+    "attributes": {
+      "类型": "主星",
+      "职能": "判断做什么（职业方向）",
+      "职业范畴": [
+        "法律",
+        "健康",
+        "土地",
+        "证券",
+        "金融"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "三象一物",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "就是三象构成一物一事说"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "三象一物论",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "中爻变",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "含义": "无非就是结束以前的状态",
+      "应用场景": "一般有中爻变的盘自由职业好"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "串联",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "串联向心和向心串, 离心与离心串, 串联就是同气, 物以类聚",
+      "功能": "可同时讲一件人事物的变化"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "他性缘起",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "前提": "无生年有自化",
+      "含义": "打破生年的平衡，只是依附体"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "化忌星之基本解义",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断法则",
+      "来源": "章节标题",
+      "核心术语": "化忌星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "化祿星",
+    "char_interval": null,
+    "attributes": {
+      "类型": "四化系统",
+      "来源": "章节标题",
+      "基本解义": [
+        "表福祿、食祿、財祿、增加",
+        "表忙碌",
+        "主人緣，含桃花，有異性緣",
+        "主聰明，IQ較高，天性稟賦，悟性高",
+        "解厄制化之功，與健康福元有關"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "化科星",
+    "char_interval": null,
+    "attributes": {
+      "核心含义": "主科甲、科名、功名",
+      "性格特征": "聪明、博學、一學即知",
+      "社会特征": "主聲名、聲望、名望、惜面子",
+      "处事风格": "平順、斯文、善緣、樸素、擅於計畫",
+      "特殊功能": "主貴人解厄(與健康有關)"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "四化概念",
+    "char_interval": null,
+    "attributes": {
+      "核心观点": "来因宫化ABCD四种气,ABCD又是在数,所以四化是化气与在数两个概念"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "巨门星属性",
+    "char_interval": null,
+    "attributes": {
+      "星曜特征": [
+        "暗星",
+        "是非之星",
+        "口舌之神",
+        "遗弃之星",
+        "性不明之星"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "廉贞星的气数位",
+    "char_interval": null,
+    "attributes": {
+      "类型": "气数关系",
+      "案例对应": "刚好在父母宫，命迁"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "有体有用",
+    "char_interval": null,
+    "attributes": {
+      "定义": "有生年又四化叫有体有用",
+      "判定前提": "宫位内同时具备生年四化与自化"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年化忌星及在十二宫解义",
+    "char_interval": null,
+    "attributes": {
+      "类型": "章节标题",
+      "核心术语": "生年化忌星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "生年化權星",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "来源": "章节标题"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "絕情宮",
+    "char_interval": null,
+    "attributes": {
+      "类型": "宫位别称",
+      "对应宫位": "奴僕宮",
+      "职能": "看壽元、與疾厄宮合參"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自化",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "自化是周流气场平衡制约的方式",
+      "作用": "影响本对宫，也即可作本对宫解读"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "自性缘起",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "前提": "有生年又有自化",
+      "含义": "有体有用"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "解厄",
+    "char_interval": null,
+    "attributes": {
+      "定义": "解厄指紫微星对凶厄之星有制化之功能",
+      "应用": "本命大限、流年逢之，多能增加吉利，减少凶险"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "象数平衡",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心概念",
+      "定义": "象数平衡就是象数量相等, 以象数量相等, 带动官位能量互涉变化"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "象相等",
+    "char_interval": null,
+    "attributes": {
+      "定义": "象相等就是我是你,你是我意思"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "造化宫",
+    "char_interval": null,
+    "attributes": {
+      "类型": "宫位别称",
+      "对应宫位": "福德宫",
+      "定义": "所以要知福惜福、積德，可再造八字，故稱造化宮"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫",
+    "char_interval": null,
+    "attributes": {
+      "性质": "后天不同的欲望之所在",
+      "功能": "代表后天变化,宫位碰撞不同",
+      "哲学定义": "为有为法,为象的相对而非绝对"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "专业术语定义",
+    "extraction_text": "飞宫四化",
+    "char_interval": null,
+    "attributes": {
+      "别称": "干宮四化或交易四化表運",
+      "定义": "某官其宮干四化星，化出後與所著落宮位發生交易之行為",
+      "性质": "變數"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "串联",
+    "char_interval": null,
+    "attributes": {
+      "类型": "核心技法",
+      "定义": "两宫你有我也有",
+      "示例": "串联交友表示结交的朋友也有权的房子"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "向心象遇生年象也算飞宫遇生年,来与生年象交易",
+    "char_interval": null,
+    "attributes": {
+      "类型": "交易规则",
+      "前提": "向心象遇生年象",
+      "结论": "产生交易关系",
+      "法象依据": "法象生年象所在宫位"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "命宫坐生年科（推论）",
+    "char_interval": null,
+    "attributes": {
+      "前提": "命宫坐生年科",
+      "结论": [
+        "重声誉、爱面子、肯助人，乐善好施",
+        "一生主平顺，做事较有计划性",
+        "有甲科、功名"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "命疾科,财有BD可能也相对减弱",
+    "char_interval": null,
+    "attributes": {
+      "前提": "命宫或疾厄宫有科象，财帛宫有权忌(BD)",
+      "结论": "个人性格情商高，可减弱财帛宫BD带来的争执"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "四化的人事分类规则",
+    "char_interval": null,
+    "attributes": {
+      "血缘关系": "BC偏有血缘的人",
+      "外部关系": "AD偏外人",
+      "对待模式": "B偏向争执,C偏向情人",
+      "适用场景": "权在官,以权的气性向在事业;财以D较好,升迁B较好,情人C较好"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "天府星四化性质",
+    "char_interval": null,
+    "attributes": {
+      "前提": "天府星未参加四化",
+      "结论": "相当于一颗化科星，又含有权令之星",
+      "具体特性": "主有才华、能干、多才多艺、聪明、风度佳；易自傲或孤芳自赏"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "天府星财库特征",
+    "char_interval": null,
+    "attributes": {
+      "类型": "财星库星",
+      "表现": [
+        "坐命主有财，理财好手，但易让人觉小气计较",
+        "五官论鼻子主财位，鼻子较丰隆",
+        "为天赋之财，如先天条件良好之土地或祖产"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "太阳为官禄主",
+    "char_interval": null,
+    "attributes": {
+      "适用范围": "当官、公务员，当老板，都属太阳星之官禄主"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "太阳为权贵之星",
+    "char_interval": null,
+    "attributes": {
+      "前提": "主掌权升迁或开创事业",
+      "组合": "喜逢化权星，如太阳化权更吉"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "太阴星坐命特征",
+    "char_interval": null,
+    "attributes": {
+      "男命前提": "若男命太阴坐命",
+      "男命结论": "语言举止较有女人之举（如太斯文、娘娘腔）",
+      "通用性格": "比较是乐观之人，乐天命"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "廉贞星化忌",
+    "char_interval": null,
+    "attributes": {
+      "前提": "廉贞星如化忌",
+      "结论": "主事业发展扩展不出去，而受囚",
+      "适用范围": "事业、官非"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "武曲星为主财星: 也是颗正财星",
+    "char_interval": null,
+    "attributes": {
+      "类型": "正财",
+      "特征": "一分耕耘，一分收获",
+      "延伸影响": "财星坐命倾向有孤的现象，如愈有钱就愈孤"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "物归有主",
+    "char_interval": null,
+    "attributes": {
+      "定义": "四化存在的宫归本宫范围,谓之物归有主",
+      "示例": "太阴权在田宅,权归田宅宫,同时田宅这个物归女星有主"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "判断规则",
+    "extraction_text": "生年看自化，自化看生年",
+    "char_interval": null,
+    "attributes": {
+      "类型": "判断原则",
+      "含义": "论断时生年四化与自化象需互相对照参考"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "化忌",
+    "char_interval": null,
+    "attributes": {
+      "基本含义": [
+        "(1)主變動、變遷、驅馬。",
+        "(2)收藏、收束、管束。",
+        "(3)虜欠、固執、道義、情義",
+        "(4)不順、困擾、是非、災厄、凶險。",
+        "(5)無緣、緣薄、(思想、價值觀有差距)。",
+        "(6)化忌於人生是非、忌妒，於物主得、或損、於事主變動。"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "化权星基本解义",
+    "char_interval": null,
+    "attributes": {
+      "四化类型": "权",
+      "含义": [
+        "权势、权炳、掌权、占权、领导、威严",
+        "能干、才华、专技、开创",
+        "任性、霸道、性剧、自负",
+        "争执、摩擦、主变",
+        "增值、增加(偏向权力、地位、升迁)",
+        "意外血光、伤害，跌伤、碰伤、撞伤、烫伤"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "四化系统",
+    "extraction_text": "生年科",
+    "char_interval": null,
+    "attributes": {
+      "基本含义": "主平顺、有计划性、功名、声誉、贵人、温和",
+      "人事物属性": {
+        "人": "贵人、温和之人",
+        "事": "平顺、计划、功名",
+        "物": "名声、证书"
+      }
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "夫官线为疾子田线",
+    "char_interval": null,
+    "attributes": {
+      "关系类型": "宫位转换/气数位",
+      "本宫": "疾厄宫",
+      "关系宫位": "夫妻宫、官禄宫",
+      "含义": "疾厄宫的子田线，代表疾厄的家（寿命支撑）"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "生态空间为来因宫,来因对宫,来因共宗宫及对宫",
+    "char_interval": null,
+    "attributes": {
+      "关系类型": "生态空间组成",
+      "核心宫位": "来因宫",
+      "关联宫位": [
+        "来因对宫",
+        "来因共宗宫",
+        "来因共宗宫之对宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位关系网络",
+    "extraction_text": "财帛宫为夫妻的夫妻宫，又是对待位",
+    "char_interval": null,
+    "attributes": {
+      "本宫": "财帛宫",
+      "对应职能": "夫妻的对待位",
+      "逻辑": "宫位转换"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "亦主聪明",
+    "char_interval": null,
+    "attributes": {
+      "宫位名称": "父母宫",
+      "特质": "聪明"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "奴僕宫",
+    "char_interval": null,
+    "attributes": {
+      "序号": "8",
+      "职能含义": [
+        "代表交友的緣分厚薄與朋友對待關係",
+        "代表朋友是助力或阻力、是良友或损友",
+        "代表眾生相之宮位",
+        "代表私人、私立、機構或學校",
+        "代表絕情宮、看壽元、與疾厄宮合參",
+        "以夫妻宮立太極，代表有夫妻之實，無夫妻之名，肉體上關係而已，為無名位"
+      ],
+      "别称": "絕情宮"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "子女宫",
+    "char_interval": null,
+    "attributes": {
+      "含义": "性宫",
+      "应用场景": "健康/性病判断"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "父母宫",
+    "char_interval": null,
+    "attributes": {
+      "含义": [
+        "代表與父母緣分、及得父母之庇蔭，遺傳基因",
+        "代表文書、契約宮",
+        "代表長輩、師長、長輩、公權力之機構，學校、機關、國家、國度、團體、血緣地",
+        "代表考運、功名、“合參官祿宮”",
+        "代表頭腦、I Q的高低"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "父母宫为头部",
+    "char_interval": null,
+    "attributes": {
+      "宫位名称": "父母宫",
+      "对应部位": "头部"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "疾厄宫",
+    "char_interval": null,
+    "attributes": {
+      "序号": "6",
+      "职能含义": [
+        "代表我身體健康情形，體質強弱",
+        "代表生病、炎厄的宫位",
+        "代表脾氣宮",
+        "代表學成績，公司營運業績",
+        "在風水地理上，為水的流向，水路"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "宫位系统",
+    "extraction_text": "迁移宫",
+    "char_interval": null,
+    "attributes": {
+      "序号": "7",
+      "职能含义": [
+        "代表出外機遇吉凶、得失、後天造化、機遇宮",
+        "代表外出交通安全與否",
+        "代表老運好壞、運勢、德福的官祿位官祿"
+      ],
+      "别称": "機遇宮"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "串联应用场景",
+    "char_interval": null,
+    "attributes": {
+      "在人而言": "表示情意相投,气场一致,聊得来",
+      "在事而言": "表可以共事,加上官位,官串田,事业开店,开公司,与人共谋",
+      "在物而言": "互通有无,事业赚钱买房子,买房子更好发展事业",
+      "宫位逻辑": "串联的宫就表示串不错的两宫你有的我也有"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "大官双象则分开一个个论",
+    "char_interval": null,
+    "attributes": {
+      "技法": "双象拆解",
+      "应用场景": "大运官禄宫出现双象时",
+      "操作方法": "分开一个个论"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "宫位重叠",
+    "char_interval": null,
+    "attributes": {
+      "应用场景": "自化动时会有宫位重叠,是大运叠宫一起解说",
+      "示例": "某年自化A,法象大子本疾A,则表示是小孩身体;本迁B叠大夫,我与配偶一起出去"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "按谁叠谁用原则",
+    "char_interval": null,
+    "attributes": {
+      "名称": "重叠原则",
+      "应用场景": "判断大限宫位与本命宫位重叠时的具体含义",
+      "示例": "大田叠父疾线为父母的田宅"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "法象",
+    "char_interval": null,
+    "attributes": {
+      "名称": "法象",
+      "定义": "法象意思是有生年后存在的变化。法象就是显生年四化的象",
+      "功能": "动都是动生年,生年也就是命定的一生有无",
+      "应用场景": "如疾自化忌,表身体的事,法象迁,表身体与迁的事"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "飞宫法则找同类",
+    "char_interval": null,
+    "attributes": {
+      "方法": "大子飞四化入疾、友、命、夫宫",
+      "前提": "大子（大限子女宫）没有生年象或自化象",
+      "示例": "大子科入本疾，当本疾成为流子或流命时为生子应期"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "飞宫逢自化两段解",
+    "char_interval": null,
+    "attributes": {
+      "适用场景": "飞宫逢自化或向心再逢自化",
+      "核心逻辑": "分两件事解,不是损或模糊说法",
+      "案例说明": "夫妻权入田为一件事,太阳自化忌为另一件事"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "技法应用",
+    "extraction_text": "飞平衡",
+    "char_interval": null,
+    "attributes": {
+      "操作方法": "依某事注脚飞平衡",
+      "案例公式": "如财AD,则D飞A,若以求财,则父母宫D转A平衡财AD,AD=AD向量相等"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "推理逻辑",
+    "extraction_text": "大财忌入田, 生忌在父母",
+    "char_interval": null,
+    "attributes": {
+      "前提": "飞宫忌入田宅, 法象生年忌在父母",
+      "推理结论": "买房有贷款, 或房子由父母出资, 或资金来源与父母宫(如股票)有关"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天同星",
+    "char_interval": null,
+    "attributes": {
+      "性别适用性": "宜女不宜男",
+      "性格特征": "性情温和，谦逊有礼",
+      "职能标签": "福星、夫妻之星",
+      "基本含义": "主性情温和；无论婚前、婚后，较有感情的困扰"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "天梁星",
+    "char_interval": null,
+    "attributes": {
+      "属性": "戊土",
+      "基本含义": "父母星、寿星、中康之星、桃花之星、老大之星",
+      "人、物、地、事对应": "宗教、大庙宇、教育人员、作家、旅行社、地下工作人员、情报员、医院、医生、首颈、股票、证券、服务业、期货公司"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "太阳星",
+    "char_interval": null,
+    "attributes": {
+      "属性": "男性的星辰",
+      "六亲指向": "父亲（夫）、男命主自己、女命主先生、儿子",
+      "基本含义": "光明磊落，个性慈爱，慷慨大方，不计较是非，不苟小节，豪爽之人，有正义感、公正之心，博爱之心",
+      "女命特征": "有男人之志向，工作易周旋在男性之间，有夺夫宿之象，如在家喜欢掌权",
+      "特性": "波动之星，感情之星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "太阴星",
+    "char_interval": null,
+    "attributes": {
+      "类型": "主星",
+      "外貌特征": "本身比较漂亮，也带有点古典美，如喜欢留长头发，外貌较眉清目秀，皮肤较洁白，同时带点洁癖",
+      "性格特征": "外柔内刚，外静内动"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "左辅、右弼相同特性",
+    "char_interval": null,
+    "attributes": {
+      "共同属性": [
+        "贵人",
+        "吉星",
+        "助星",
+        "驿马星"
+      ],
+      "坐命特征": "主聪明，有进取心，有才华，形貌敦厚、俊秀优雅、慷慨风流、亦善文墨、有文学修养"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "巨门星",
+    "char_interval": null,
+    "attributes": {
+      "五行": "癸水",
+      "疾厄症状": "与从口入有关之疾病，如食物中毒、胃出血、咳嗽、支气管有关之病症",
+      "事物论": [
+        "大水沟（暗的）",
+        "西药",
+        "司法界",
+        "司万物",
+        "铁道",
+        "板模",
+        "大卡车",
+        "土木建筑业",
+        "五谷零食"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "廉贞星",
+    "char_interval": null,
+    "attributes": {
+      "类型": "主星",
+      "别称": "次桃花星",
+      "基本含义": "跟官非、牢狱之灾有关；静态的官禄主；善恶兼备之星",
+      "五行/阴阳": "具有善与恶的本质"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "廉贞星职能",
+    "char_interval": null,
+    "attributes": {
+      "多重职能": [
+        "司品秩制权令之星",
+        "主官禄主",
+        "主囚星",
+        "主桃花星",
+        "主善恶兼备之星"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "破军星",
+    "char_interval": null,
+    "attributes": {
+      "属性": "癸水",
+      "基本含义": "主文化，重点在文化的传承",
+      "特质": "破军具有民族性、种族性之区分",
+      "核心功能": "破军主分化，而不是凝聚",
+      "分类": [
+        "司夫、子、奴之星",
+        "福祸之星",
+        "破耗之星",
+        "命理、宗教之星"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "紫微星",
+    "char_interval": null,
+    "attributes": {
+      "别称": "帝王星",
+      "基本含义": "一国之尊，需要被别人所恭敬，最讨厌别人的糟蹋",
+      "人际特质": "需要别人的尊敬"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "星曜体系",
+    "extraction_text": "贪狼星",
+    "char_interval": null,
+    "attributes": {
+      "类型": "主星",
+      "别称": "正桃花星"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "2018年入自化忌宫,大夫官叠了父疾有忌,忌动转禄又天梁在本夫官大父疾",
+    "char_interval": null,
+    "attributes": {
+      "应期": "2018年",
+      "推理逻辑": "入自化忌宫, 忌动转禄法象",
+      "涉及宫位": [
+        "父母宫",
+        "疾厄宫",
+        "官禄宫",
+        "夫妻宫"
+      ]
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "因果案例分析",
+    "char_interval": null,
+    "attributes": {
+      "推理逻辑": "(1)飞宫大夫忌冲本夫,用冲体,缘薄,转禄原因,转到父母宫,父母干涉 (2)直接巨D冲疾,也是体冲用 (3)自化飞同组因果,可以随便找个自化分析,大迁官,出外工作,转同组科在本子大兄,与人合作或做与子女宫相关的事业,解释这个动权原因。",
+      "分析场景": "论感情、论事业"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "大运流年置产判断",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "大财权入本田, 或大财权入大夫本田流命",
+      "判断结论": "我花钱置产, 或我和配偶一起置产, 我置产要配偶同意",
+      "关键点": "大运流年具有媒介性"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "己卯女",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "本夫官有BD",
+      "分析过程": "2024年流夫官ACD气杂；2025年流夫官单纯C，符合大官C与本官BC组相应",
+      "推理逻辑": "明年(2025)跳槽更合适",
+      "应用场景": "论事业跳槽"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "平衡案例分析",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "官D平方",
+      "推理逻辑": "官D平方,会拉动A转A变化,以事业论则A转A转到父母,工作与父母宫有关",
+      "分析场景": "论事业"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "感情与家世分析",
+    "char_interval": null,
+    "attributes": {
+      "分析场景": "论感情",
+      "推理逻辑": "对方先定位忌在命,禄解释这个忌,求财,这个粗看不懂老公做什么的,AD媒介B,B在父母,故老公也可以做与父母宫相关的事,这就是一个架构的体.如果用自化D,法象命D,也可以说D与父母宫有关,或者说ABD命与父母ABD平衡相等"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "戊寅意外案例",
+    "char_interval": null,
+    "attributes": {
+      "命盘配置": "来因在田，用神在田，限忌（D）大迁动，本迁忌（D），忌（D）在大运父疾，忌（D）在兄友线，忌（D）与文昌自化忌",
+      "推理逻辑": [
+        "1、来因在田",
+        "2、用神在田",
+        "3、限D大迁动,本迁D",
+        "4、D在大运父疾",
+        "5、D在兄友线",
+        "6, D与文昌自化忌"
+      ],
+      "分析结论": "发生意外"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "戊男事业分析",
+    "char_interval": null,
+    "attributes": {
+      "案例配置": "戊男",
+      "推理逻辑": "(1) 宫位重叠, 天机D体被大官用, 存在, 官疾 = 事业场所 (2)自化D在申,事业上赚的钱为田宅消耗,赚钱买房子,田用作工作店面公司 (3)飞宫本官飞D,也法象体在疾,亲力亲为,飞宫遇B,朋友,亲力亲为与朋友产生交易 (4)象之体也可以论命,疾D,亲力亲为或疾自己才华,被其他用所用。",
+      "分析场景": "论事业"
+    }
+  },
+  {
+    "doc_id": "1596f2ad",
+    "doc_title": "云中清钦天四化讲义2024-有页码(1).pdf",
+    "extraction_class": "案例分析",
+    "extraction_text": "甲子男命盘应期判断",
+    "char_interval": null,
+    "attributes": {
+      "推理逻辑": [
+        "2019升职：大官有权在动,2019流年命对宫踩生年权",
+        "2022换工作：流年行到权变宫位",
+        "2020搬家：大田有生年A,2020流命对宫有A",
+        "2008城市变化：25运大命迁有D动,2008流迁D,太阳本人",
+        "2011回归：也是迁D变化"
+      ],
+      "星曜定位": "破军定位老婆,妻属虎"
+    }
+  }
+]
