@@ -198,6 +198,32 @@ def render_settings_sidebar(session: SessionManager):
         st.divider()
         st.markdown("**🤖 LLM 配置**")
 
+        # OpenAI
+        with st.container():
+            st.caption("OpenAI")
+            openai_api_key = st.text_input(
+                "API Key",
+                value=config["llm"]["openai"]["api_key"],
+                type="password" if not show_keys else "default",
+                key="openai_api_key",
+                placeholder="sk-..."
+            )
+            openai_base_url = st.text_input(
+                "Base URL",
+                value=config["llm"]["openai"]["base_url"],
+                key="openai_base_url",
+                placeholder="https://api.openai.com/v1"
+            )
+            openai_model = st.text_input(
+                "Model",
+                value=config["llm"]["openai"]["model"],
+                key="openai_model",
+                placeholder="gpt-4o"
+            )
+            config["llm"]["openai"]["api_key"] = openai_api_key
+            config["llm"]["openai"]["base_url"] = openai_base_url
+            config["llm"]["openai"]["model"] = openai_model
+
         # DeepSeek
         with st.container():
             st.caption("DeepSeek")
@@ -226,7 +252,7 @@ def render_settings_sidebar(session: SessionManager):
 
         # Gemini
         with st.container():
-            st.caption("Gemini")
+            st.caption("Google Gemini")
             gemini_api_key = st.text_input(
                 "API Key",
                 value=config["llm"]["gemini"]["api_key"],
@@ -240,44 +266,48 @@ def render_settings_sidebar(session: SessionManager):
                 key="gemini_base_url",
                 placeholder="https://generativelanguage.googleapis.com/v1beta"
             )
+            gemini_model = st.text_input(
+                "Model",
+                value=config["llm"]["gemini"]["model"],
+                key="gemini_model",
+                placeholder="gemini-2.0-flash-exp"
+            )
             config["llm"]["gemini"]["api_key"] = gemini_api_key
             config["llm"]["gemini"]["base_url"] = gemini_base_url
+            config["llm"]["gemini"]["model"] = gemini_model
 
-        # Sonetto
+        # Custom OpenAI-compatible API
         with st.container():
-            st.caption("Sonetto")
-            sonetto_api_key = st.text_input(
+            st.caption("自定义 OpenAI 兼容 API")
+            custom_name = st.text_input(
+                "名称",
+                value=config["llm"]["custom"]["name"],
+                key="custom_name",
+                placeholder="自定义 API"
+            )
+            custom_api_key = st.text_input(
                 "API Key",
-                value=config["llm"]["sonetto"]["api_key"],
+                value=config["llm"]["custom"]["api_key"],
                 type="password" if not show_keys else "default",
-                key="sonetto_api_key",
+                key="custom_api_key",
                 placeholder="sk-..."
             )
-            sonetto_base_url = st.text_input(
+            custom_base_url = st.text_input(
                 "Base URL",
-                value=config["llm"]["sonetto"]["base_url"],
-                key="sonetto_base_url",
-                placeholder="https://api.sonetto.ai/v1"
+                value=config["llm"]["custom"]["base_url"],
+                key="custom_base_url",
+                placeholder="https://api.example.com/v1"
             )
-            col1, col2 = st.columns(2)
-            with col1:
-                sonetto_model_high = st.text_input(
-                    "High Model",
-                    value=config["llm"]["sonetto"]["model_high"],
-                    key="sonetto_model_high",
-                    placeholder="claude-sonnet-4-20250514"
-                )
-            with col2:
-                sonetto_model_gemini = st.text_input(
-                    "Gemini Model",
-                    value=config["llm"]["sonetto"]["model_gemini"],
-                    key="sonetto_model_gemini",
-                    placeholder="gemini-3-pro-preview"
-                )
-            config["llm"]["sonetto"]["api_key"] = sonetto_api_key
-            config["llm"]["sonetto"]["base_url"] = sonetto_base_url
-            config["llm"]["sonetto"]["model_high"] = sonetto_model_high
-            config["llm"]["sonetto"]["model_gemini"] = sonetto_model_gemini
+            custom_model = st.text_input(
+                "Model",
+                value=config["llm"]["custom"]["model"],
+                key="custom_model",
+                placeholder="model-name"
+            )
+            config["llm"]["custom"]["name"] = custom_name
+            config["llm"]["custom"]["api_key"] = custom_api_key
+            config["llm"]["custom"]["base_url"] = custom_base_url
+            config["llm"]["custom"]["model"] = custom_model
 
         # Embedding 配置
         st.divider()

@@ -1,8 +1,10 @@
-# API 配置界面实现总结
+# API 配置界面实现总结（标准开源版）
 
 ## 📋 实现概述
 
 成功为 GraphRAG 知识库系统添加了前端 API 配置界面，用户现在可以通过 UI 手动配置 API Key、URL 和模型名称，无需手动编辑 `.env` 文件。
+
+**重要更新：** 已移除个人 API 网关配置（Sonetto），改为标准开源友好的配置方式，支持 OpenAI、DeepSeek、Gemini 和自定义 OpenAI 兼容 API。
 
 ---
 
@@ -16,7 +18,7 @@
 ### 2. **UI 配置界面**
 - 在侧边栏添加了 "🔑 API 配置" expander
 - 支持配置以下服务：
-  - **LLM 配置**：DeepSeek、Gemini、Sonetto
+  - **LLM 配置**：OpenAI、DeepSeek、Gemini、自定义 OpenAI 兼容 API
   - **Embedding 配置**：DashScope (阿里云)
   - **OCR 配置**：MinerU
 
@@ -29,6 +31,11 @@
 - **UI 配置 > 环境变量 (.env)**
 - 如果 UI 配置为空，自动回退到 .env 文件
 - 无缝兼容现有的 .env 配置方式
+
+### 5. **开源友好**
+- 默认 LLM 改为 DeepSeek（开源友好，价格低）
+- 支持任意 OpenAI 兼容的 API 服务
+- 移除个人 API 网关配置
 
 ---
 
@@ -75,18 +82,23 @@
 🔑 API 配置
 ├── 显示完整 API Key (Toggle)
 ├── 🤖 LLM 配置
+│   ├── OpenAI
+│   │   ├── API Key (password)
+│   │   ├── Base URL
+│   │   └── Model
 │   ├── DeepSeek
 │   │   ├── API Key (password)
 │   │   ├── Base URL
 │   │   └── Model
-│   ├── Gemini
+│   ├── Google Gemini
 │   │   ├── API Key (password)
-│   │   └── Base URL
-│   └── Sonetto
+│   │   ├── Base URL
+│   │   └── Model
+│   └── 自定义 OpenAI 兼容 API
+│       ├── 名称
 │       ├── API Key (password)
 │       ├── Base URL
-│       ├── High Model
-│       └── Gemini Model
+│       └── Model
 ├── 🔍 Embedding 配置
 │   └── DashScope (阿里云)
 │       ├── API Key (password)
@@ -99,6 +111,16 @@
 └── 💾 保存 API 配置 (Button)
 ```
 
+### LLM 模型选择器
+
+```
+LLM 模型 (Dropdown)
+├── OpenAI (gpt-4o)
+├── DeepSeek (deepseek-chat) ← 默认
+├── Google Gemini (gemini-2.0-flash-exp)
+└── 自定义 OpenAI 兼容 API
+```
+
 ---
 
 ## 🔧 配置文件格式
@@ -108,6 +130,11 @@
 ```json
 {
   "llm": {
+    "openai": {
+      "api_key": "",
+      "base_url": "https://api.openai.com/v1",
+      "model": "gpt-4o"
+    },
     "deepseek": {
       "api_key": "",
       "base_url": "https://api.deepseek.com/v1",
@@ -115,15 +142,14 @@
     },
     "gemini": {
       "api_key": "",
-      "base_url": "",
-      "model_flash": "gemini-3-flash-preview",
-      "model_pro": "gemini-3-pro-preview"
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "model": "gemini-2.0-flash-exp"
     },
-    "sonetto": {
+    "custom": {
       "api_key": "",
       "base_url": "",
-      "model_high": "",
-      "model_gemini": ""
+      "model": "",
+      "name": "自定义 OpenAI 兼容 API"
     }
   },
   "embedding": {
@@ -152,6 +178,8 @@
 streamlit run src/ui/app.py
 ```
 
+应用将在 http://localhost:8501 启动
+
 ### 2. 配置 API
 
 1. 打开侧边栏
@@ -162,11 +190,54 @@ streamlit run src/ui/app.py
 ### 3. 切换 LLM 模型
 
 在 "LLM 模型" expander 中选择要使用的模型：
-- `ds` - DeepSeek
-- `gemini3flash` - Gemini Flash
-- `gemini3pro` - Gemini Pro
-- `sonetto5high` - Sonetto High
-- `sonetto_gemini3pro` - Sonetto Gemini
+- `openai` - OpenAI (gpt-4o)
+- `deepseek` - DeepSeek (deepseek-chat) ← **默认推荐**
+- `gemini` - Google Gemini (gemini-2.0-flash-exp)
+- `custom` - 自定义 OpenAI 兼容 API
+
+### 4. 使用自定义 API
+
+如果您使用其他 OpenAI 兼容的 API 服务（如 Azure OpenAI、本地部署的模型等）：
+
+1. 在 API 配置中找到"自定义 OpenAI 兼容 API"
+2. 填写：
+   - **名称**：自定义名称（如"Azure OpenAI"）
+   - **API Key**：您的 API Key
+   - **Base URL**：API 端点（如 `https://your-endpoint.openai.azure.com/v1`）
+   - **Model**：模型名称（如 `gpt-4`）
+3. 保存配置
+4. 在 LLM 模型选择器中选择"自定义 OpenAI 兼容 API"
+
+---
+
+## 📝 环境变量配置（可选）
+
+如果您不想使用 UI 配置，也可以通过 `.env` 文件配置：
+
+```bash
+# OpenAI API Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_BASE_URL=https://api.openai.com/v1
+OPENAI_MODEL=gpt-4o
+
+# DeepSeek API Configuration
+DEEPSEEK_API_KEY=your_deepseek_api_key_here
+DEEPSEEK_BASE_URL=https://api.deepseek.com/v1
+DEFAULT_MODEL=deepseek-chat
+
+# Google Gemini API Configuration
+GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_BASE_URL=https://generativelanguage.googleapis.com/v1beta
+GEMINI_MODEL=gemini-2.0-flash-exp
+
+# DashScope (Aliyun) Configuration for Embeddings
+DASHSCOPE_API_KEY=your_dashscope_api_key_here
+DASHSCOPE_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+EMBEDDING_MODEL=text-embedding-v4
+
+# Active LLM Selection
+ACTIVE_LLM=deepseek
+```
 
 ---
 
@@ -230,6 +301,9 @@ streamlit run src/ui/app.py
 - [x] 配置优先级正确（UI > .env）
 - [x] 切换 LLM 模型后 Agent 重建
 - [x] .gitignore 正确配置
+- [x] 移除个人 API 网关配置（Sonetto）
+- [x] 添加 OpenAI 和自定义 API 支持
+- [x] 默认 LLM 改为 DeepSeek
 
 ---
 
@@ -252,6 +326,51 @@ streamlit run src/ui/app.py
 4. **安全性保障**
    - API Key 默认隐藏
    - 配置文件不会被提交到 Git
+
+5. **开源友好**
+   - 默认使用 DeepSeek（价格低，开源友好）
+   - 支持任意 OpenAI 兼容的 API
+   - 移除个人 API 网关配置
+
+---
+
+## 🔄 重构说明（标准开源版）
+
+### 移除的内容
+
+1. **Sonetto 个人 API 网关配置**
+   - 移除 UI 中的 Sonetto 配置选项
+   - 移除代码中的 `sonetto5high` 和 `sonetto_gemini3pro` 选项
+   - 移除 `.env.example` 中的 Sonetto 配置
+
+2. **旧的 LLM 选项**
+   - `ds` → `deepseek`
+   - `gemini3flash` → `gemini`
+   - `gemini3pro` → `gemini`
+   - `sonetto5high` → 移除
+   - `sonetto_gemini3pro` → 移除
+
+### 新增的内容
+
+1. **OpenAI 官方 API 支持**
+   - 添加 OpenAI 配置选项
+   - 支持 gpt-4o 等模型
+
+2. **自定义 OpenAI 兼容 API**
+   - 支持任意 OpenAI 兼容的 API 服务
+   - 用户可以自定义名称、API Key、Base URL 和 Model
+
+3. **标准化的 LLM 选项**
+   - `openai` - OpenAI (gpt-4o)
+   - `deepseek` - DeepSeek (deepseek-chat) ← **默认**
+   - `gemini` - Google Gemini (gemini-2.0-flash-exp)
+   - `custom` - 自定义 OpenAI 兼容 API
+
+### 配置优先级调整
+
+- **默认 LLM**: `sonetto5high` → `deepseek`
+- **配置回退**: DeepSeek > OpenAI > Gemini
+- **开源优先**: 优先使用开源友好的服务
 
 ---
 
@@ -308,7 +427,9 @@ streamlit run src/ui/app.py
 
 ---
 
-**实现完成时间**: 2026-01-08 22:21
+**实现完成时间**: 2026-01-08 22:47
 
-**实现状态**: ✅ 完成并测试通过
+**实现状态**: ✅ 完成并测试通过（标准开源版）
+
+**重构说明**: 已移除个人 API 网关配置，改为标准开源友好的配置方式
 

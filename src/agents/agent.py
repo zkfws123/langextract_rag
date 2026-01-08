@@ -20,7 +20,7 @@ def _resolve_llm_config() -> tuple[str, str, str]:
     """Resolve (api_key, base_url, model_id) at call time.
 
     Priority: UI config (from api_config.json) > Environment variables
-    Supports UI override via ACTIVE_LLM in {ds, gemini3flash, gemini3pro, sonetto5high, sonetto_gemini3pro}.
+    Supports UI override via ACTIVE_LLM in {openai, deepseek, gemini, custom}.
     """
 
     # Try to load UI config first
@@ -34,51 +34,53 @@ def _resolve_llm_config() -> tuple[str, str, str]:
 
     # Get config from UI or env
     if ui_config:
+        openai_api_key = ui_config["llm"]["openai"]["api_key"]
+        openai_base_url = ui_config["llm"]["openai"]["base_url"]
+        openai_model = ui_config["llm"]["openai"]["model"]
+
         deepseek_api_key = ui_config["llm"]["deepseek"]["api_key"]
         deepseek_base_url = ui_config["llm"]["deepseek"]["base_url"]
-        default_model = ui_config["llm"]["deepseek"]["model"]
+        deepseek_model = ui_config["llm"]["deepseek"]["model"]
 
         gemini_api_key = ui_config["llm"]["gemini"]["api_key"]
         gemini_base_url = ui_config["llm"]["gemini"]["base_url"]
-        gemini_model_flash = ui_config["llm"]["gemini"]["model_flash"]
-        gemini_model_pro = ui_config["llm"]["gemini"]["model_pro"]
+        gemini_model = ui_config["llm"]["gemini"]["model"]
 
-        sonetto_api_key = ui_config["llm"]["sonetto"]["api_key"]
-        sonetto_base_url = ui_config["llm"]["sonetto"]["base_url"]
-        sonetto_model_high = ui_config["llm"]["sonetto"]["model_high"]
-        sonetto_model_gemini = ui_config["llm"]["sonetto"]["model_gemini"]
+        custom_api_key = ui_config["llm"]["custom"]["api_key"]
+        custom_base_url = ui_config["llm"]["custom"]["base_url"]
+        custom_model = ui_config["llm"]["custom"]["model"]
     else:
         # Fallback to env vars
+        openai_api_key = os.getenv("OPENAI_API_KEY", "")
+        openai_base_url = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
+        openai_model = os.getenv("OPENAI_MODEL", "gpt-4o")
+
         deepseek_api_key = os.getenv("DEEPSEEK_API_KEY", "")
         deepseek_base_url = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
-        default_model = os.getenv("DEFAULT_MODEL", "deepseek-chat")
+        deepseek_model = os.getenv("DEFAULT_MODEL", "deepseek-chat")
 
         gemini_api_key = os.getenv("GEMINI_API_KEY", "")
-        gemini_base_url = os.getenv("GEMINI_BASE_URL", "")
-        gemini_model_flash = "gemini-3-flash-preview"
-        gemini_model_pro = "gemini-3-pro-preview"
+        gemini_base_url = os.getenv("GEMINI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta")
+        gemini_model = os.getenv("GEMINI_MODEL", "gemini-2.0-flash-exp")
 
-        sonetto_api_key = os.getenv("SONETTO_API_KEY", "")
-        sonetto_base_url = os.getenv("SONETTO_BASE_URL", "")
-        sonetto_model_high = os.getenv("SONETTO_MODEL_HIGH", "")
-        sonetto_model_gemini = os.getenv("SONETTO_MODEL_GEMINI", "")
+        custom_api_key = ""
+        custom_base_url = ""
+        custom_model = ""
 
     active = (os.getenv("ACTIVE_LLM", "") or "").strip().lower()
-    if active == "ds":
-        return deepseek_api_key, deepseek_base_url, default_model
-    if active == "gemini3flash":
-        return gemini_api_key, gemini_base_url, gemini_model_flash
-    if active == "gemini3pro":
-        return gemini_api_key, gemini_base_url, gemini_model_pro
-    if active == "sonetto5high":
-        return sonetto_api_key, sonetto_base_url, sonetto_model_high
-    if active == "sonetto_gemini3pro":
-        return sonetto_api_key, sonetto_base_url, sonetto_model_gemini
+    if active == "openai":
+        return openai_api_key, openai_base_url, openai_model
+    if active == "deepseek":
+        return deepseek_api_key, deepseek_base_url, deepseek_model
+    if active == "gemini":
+        return gemini_api_key, gemini_base_url, gemini_model
+    if active == "custom":
+        return custom_api_key, custom_base_url, custom_model
 
-    # Default behavior: prefer Gemini config if provided.
-    api_key = gemini_api_key or deepseek_api_key
-    base_url = gemini_base_url or deepseek_base_url
-    model_id = gemini_model_pro or default_model
+    # Default behavior: prefer DeepSeek (open-source friendly)
+    api_key = deepseek_api_key or openai_api_key or gemini_api_key
+    base_url = deepseek_base_url if deepseek_api_key else (openai_base_url if openai_api_key else gemini_base_url)
+    model_id = deepseek_model if deepseek_api_key else (openai_model if openai_api_key else gemini_model)
     return api_key, base_url, model_id
 
 SYSTEM_PROMPT = """你是一个 GraphRAG 知识图谱问答助手。
