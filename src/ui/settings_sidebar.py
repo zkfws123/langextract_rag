@@ -4,6 +4,7 @@ import json
 import streamlit as st
 from src.ui.session import SessionManager
 from src.configs import ConfigType, get_config
+from src.utils.config_manager import APIConfigManager
 
 
 def render_settings_sidebar(session: SessionManager):
@@ -13,24 +14,31 @@ def render_settings_sidebar(session: SessionManager):
     
     # LLM 模型选择
     with st.expander("LLM 模型", expanded=False):
-        llm_options = ["ds", "gemini3flash", "gemini3pro", "sonetto5high", "sonetto_gemini3pro"]
-        
+        llm_options = ["openai", "deepseek", "gemini", "custom"]
+        llm_labels = {
+            "openai": "OpenAI (gpt-4o)",
+            "deepseek": "DeepSeek (deepseek-chat)",
+            "gemini": "Google Gemini (gemini-2.0-flash-exp)",
+            "custom": "自定义 OpenAI 兼容 API"
+        }
+
         active_llm = st.selectbox(
             "LLM 模型",
             llm_options,
-            index=llm_options.index(session.active_llm) if session.active_llm in llm_options else 0,
+            format_func=lambda x: llm_labels[x],
+            index=llm_options.index(session.active_llm) if session.active_llm in llm_options else 1,
             key="llm_model_selector",
             label_visibility="collapsed",
         )
-        
+
         st.caption(f"当前 ACTIVE_LLM: {session.active_llm}")
-        
+
         if active_llm != session.active_llm:
             session.active_llm = active_llm
             os.environ["ACTIVE_LLM"] = active_llm
             # 切换模型后需要重新构建 Agent
             session.agent_built = False
-            st.success(f"已切换 LLM: {active_llm}")
+            st.success(f"已切换 LLM: {llm_labels[active_llm]}")
             st.rerun()
     
     # 提取配置
@@ -160,3 +168,175 @@ def render_settings_sidebar(session: SessionManager):
                 st.success(f"✅ Examples 已更新（{len(examples_data)}个）")
             except json.JSONDecodeError as e:
                 st.error(f"❌ JSON 格式错误: {e}")
+
+    # API 配置
+    with st.expander("🔑 API 配置", expanded=False):
+        st.markdown("**配置 LLM、Embedding 和 OCR 服务**")
+        st.caption("优先级：UI 配置 > .env 文件")
+
+        # 获取当前配置
+        config = session.api_config
+
+        # 显示/隐藏 API Key 开关
+        show_keys = st.toggle(
+            "显示完整 API Key",
+            value=session.api_config_show_keys,
+            help="开启后显示完整 API Key，否则用 *** 遮挡",
+            key="show_api_keys_toggle"
+        )
+        session.api_config_show_keys = show_keys
+
+        def mask_key(key: str) -> str:
+            """遮挡 API Key"""
+            if not key or show_keys:
+                return key
+            if len(key) <= 8:
+                return "***"
+            return f"{key[:4]}...{key[-4:]}"
+
+        # LLM 配置
+        st.divider()
+        st.markdown("**🤖 LLM 配置**")
+
+        # DeepSeek
+        with st.container():
+            st.caption("DeepSeek")
+            ds_api_key = st.text_input(
+                "API Key",
+                value=config["llm"]["deepseek"]["api_key"],
+                type="password" if not show_keys else "default",
+                key="ds_api_key",
+                placeholder="sk-..."
+            )
+            ds_base_url = st.text_input(
+                "Base URL",
+                value=config["llm"]["deepseek"]["base_url"],
+                key="ds_base_url",
+                placeholder="https://api.deepseek.com/v1"
+            )
+            ds_model = st.text_input(
+                "Model",
+                value=config["llm"]["deepseek"]["model"],
+                key="ds_model",
+                placeholder="deepseek-chat"
+            )
+            config["llm"]["deepseek"]["api_key"] = ds_api_key
+            config["llm"]["deepseek"]["base_url"] = ds_base_url
+            config["llm"]["deepseek"]["model"] = ds_model
+
+        # Gemini
+        with st.container():
+            st.caption("Gemini")
+            gemini_api_key = st.text_input(
+                "API Key",
+                value=config["llm"]["gemini"]["api_key"],
+                type="password" if not show_keys else "default",
+                key="gemini_api_key",
+                placeholder="AIza..."
+            )
+            gemini_base_url = st.text_input(
+                "Base URL",
+                value=config["llm"]["gemini"]["base_url"],
+                key="gemini_base_url",
+                placeholder="https://generativelanguage.googleapis.com/v1beta"
+            )
+            config["llm"]["gemini"]["api_key"] = gemini_api_key
+            config["llm"]["gemini"]["base_url"] = gemini_base_url
+
+        # Sonetto
+        with st.container():
+            st.caption("Sonetto")
+            sonetto_api_key = st.text_input(
+                "API Key",
+                value=config["llm"]["sonetto"]["api_key"],
+                type="password" if not show_keys else "default",
+                key="sonetto_api_key",
+                placeholder="sk-..."
+            )
+            sonetto_base_url = st.text_input(
+                "Base URL",
+                value=config["llm"]["sonetto"]["base_url"],
+                key="sonetto_base_url",
+                placeholder="https://api.sonetto.ai/v1"
+            )
+            col1, col2 = st.columns(2)
+            with col1:
+                sonetto_model_high = st.text_input(
+                    "High Model",
+                    value=config["llm"]["sonetto"]["model_high"],
+                    key="sonetto_model_high",
+                    placeholder="claude-sonnet-4-20250514"
+                )
+            with col2:
+                sonetto_model_gemini = st.text_input(
+                    "Gemini Model",
+                    value=config["llm"]["sonetto"]["model_gemini"],
+                    key="sonetto_model_gemini",
+                    placeholder="gemini-3-pro-preview"
+                )
+            config["llm"]["sonetto"]["api_key"] = sonetto_api_key
+            config["llm"]["sonetto"]["base_url"] = sonetto_base_url
+            config["llm"]["sonetto"]["model_high"] = sonetto_model_high
+            config["llm"]["sonetto"]["model_gemini"] = sonetto_model_gemini
+
+        # Embedding 配置
+        st.divider()
+        st.markdown("**🔍 Embedding 配置**")
+
+        with st.container():
+            st.caption("DashScope (阿里云)")
+            dashscope_api_key = st.text_input(
+                "API Key",
+                value=config["embedding"]["dashscope"]["api_key"],
+                type="password" if not show_keys else "default",
+                key="dashscope_api_key",
+                placeholder="sk-..."
+            )
+            dashscope_base_url = st.text_input(
+                "Base URL",
+                value=config["embedding"]["dashscope"]["base_url"],
+                key="dashscope_base_url",
+                placeholder="https://dashscope.aliyuncs.com/compatible-mode/v1"
+            )
+            dashscope_model = st.text_input(
+                "Model",
+                value=config["embedding"]["dashscope"]["model"],
+                key="dashscope_model",
+                placeholder="text-embedding-v4"
+            )
+            config["embedding"]["dashscope"]["api_key"] = dashscope_api_key
+            config["embedding"]["dashscope"]["base_url"] = dashscope_base_url
+            config["embedding"]["dashscope"]["model"] = dashscope_model
+
+        # OCR 配置
+        st.divider()
+        st.markdown("**📄 OCR 配置**")
+
+        with st.container():
+            st.caption("MinerU")
+            mineru_api_key = st.text_input(
+                "API Key",
+                value=config["ocr"]["mineru"]["api_key"],
+                type="password" if not show_keys else "default",
+                key="mineru_api_key",
+                placeholder="your_mineru_key"
+            )
+            mineru_base_url = st.text_input(
+                "Base URL",
+                value=config["ocr"]["mineru"]["base_url"],
+                key="mineru_base_url",
+                placeholder="https://mineru.net"
+            )
+            config["ocr"]["mineru"]["api_key"] = mineru_api_key
+            config["ocr"]["mineru"]["base_url"] = mineru_base_url
+
+        # 保存按钮
+        st.divider()
+        if st.button("💾 保存 API 配置", use_container_width=True, type="primary"):
+            session.api_config = config
+            if session.save_api_config():
+                st.success("✅ API 配置已保存到 outputs/api_config.json")
+                # 切换配置后需要重新构建 Agent
+                session.agent_built = False
+            else:
+                st.error("❌ 保存配置失败")

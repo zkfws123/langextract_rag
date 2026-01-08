@@ -120,29 +120,57 @@ def _coerce_langextract_payload(content: str) -> str:
 def _resolve_llm_config() -> tuple[str, str, str]:
     """Resolve (api_key, base_url, model_id) at call time.
 
+    Priority: UI config (from api_config.json) > Environment variables
     Supports UI override via ACTIVE_LLM in {ds, gemini3flash, gemini3pro, sonetto5high, sonetto_gemini3pro}.
     """
 
-    deepseek_api_key = os.getenv("DEEPSEEK_API_KEY", "")
-    deepseek_base_url = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1")
-    default_model = os.getenv("DEFAULT_MODEL", "deepseek-chat")
+    # Try to load UI config first
+    try:
+        from src.utils.config_manager import APIConfigManager
+        ui_config = APIConfigManager.load_config()
+        ui_config = APIConfigManager.merge_with_env(ui_config)
+    except Exception:
+        # Fallback to env vars only
+        ui_config = None
 
-    gemini_api_key = os.getenv("GEMINI_API_KEY", "")
-    gemini_base_url = os.getenv("GEMINI_BASE_URL", "")
-    gemini_model = os.getenv("GEMINI_MODEL", "")
+    # Get config from UI or env
+    if ui_config:
+        deepseek_api_key = ui_config["llm"]["deepseek"]["api_key"]
+        deepseek_base_url = ui_config["llm"]["deepseek"]["base_url"]
+        default_model = ui_config["llm"]["deepseek"]["model"]
 
-    sonetto_api_key = os.getenv("SONETTO_API_KEY", "")
-    sonetto_base_url = os.getenv("SONETTO_BASE_URL", "")
-    sonetto_model_high = os.getenv("SONETTO_MODEL_HIGH", "")
-    sonetto_model_gemini = os.getenv("SONETTO_MODEL_GEMINI", "")
+        gemini_api_key = ui_config["llm"]["gemini"]["api_key"]
+        gemini_base_url = ui_config["llm"]["gemini"]["base_url"]
+        gemini_model_flash = ui_config["llm"]["gemini"]["model_flash"]
+        gemini_model_pro = ui_config["llm"]["gemini"]["model_pro"]
+
+        sonetto_api_key = ui_config["llm"]["sonetto"]["api_key"]
+        sonetto_base_url = ui_config["llm"]["sonetto"]["base_url"]
+        sonetto_model_high = ui_config["llm"]["sonetto"]["model_high"]
+        sonetto_model_gemini = ui_config["llm"]["sonetto"]["model_gemini"]
+    else:
+        # Fallback to env vars
+        deepseek_api_key = os.getenv("DEEPSEEK_API_KEY", "")
+        deepseek_base_url = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1")
+        default_model = os.getenv("DEFAULT_MODEL", "deepseek-chat")
+
+        gemini_api_key = os.getenv("GEMINI_API_KEY", "")
+        gemini_base_url = os.getenv("GEMINI_BASE_URL", "")
+        gemini_model_flash = "gemini-3-flash-preview"
+        gemini_model_pro = "gemini-3-pro-preview"
+
+        sonetto_api_key = os.getenv("SONETTO_API_KEY", "")
+        sonetto_base_url = os.getenv("SONETTO_BASE_URL", "")
+        sonetto_model_high = os.getenv("SONETTO_MODEL_HIGH", "")
+        sonetto_model_gemini = os.getenv("SONETTO_MODEL_GEMINI", "")
 
     active = (os.getenv("ACTIVE_LLM", "") or "").strip().lower()
     if active == "ds":
         return deepseek_api_key, deepseek_base_url, default_model
     if active == "gemini3flash":
-        return gemini_api_key, gemini_base_url, "gemini-3-flash-preview"
+        return gemini_api_key, gemini_base_url, gemini_model_flash
     if active == "gemini3pro":
-        return gemini_api_key, gemini_base_url, "gemini-3-pro-preview"
+        return gemini_api_key, gemini_base_url, gemini_model_pro
     if active == "sonetto5high":
         return sonetto_api_key, sonetto_base_url, sonetto_model_high
     if active == "sonetto_gemini3pro":
@@ -151,7 +179,7 @@ def _resolve_llm_config() -> tuple[str, str, str]:
     # Default behavior: prefer Gemini config if provided.
     api_key = gemini_api_key or deepseek_api_key
     base_url = gemini_base_url or deepseek_base_url
-    model_id = gemini_model or default_model
+    model_id = gemini_model_pro or default_model
     return api_key, base_url, model_id
 
 

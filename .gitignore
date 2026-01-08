@@ -47,4 +47,24 @@ Thumbs.db
 
 # Outputs
 outputs/*.html
+outputs/api_config.json
 !outputs/.gitkeep
+
+# Logs and cache
+logs/
+*.log
+.cache/
+.mypy_cache/
+
+# AI/MCP related directories
+.ace-tool/
+.cunzhi-memory/
+.zencoder/
+.zenflow/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.ace-tool/

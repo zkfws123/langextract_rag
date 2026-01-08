@@ -1,10 +1,11 @@
 """Session State 管理器 - 分组管理所有状态"""
-from typing import Optional, List, Any
+from typing import Optional, List, Any, Dict
 import streamlit as st
 
 from src.graph.in_memory_store import InMemoryGraphStore
 from src.graph.models import KnowledgeExtraction
 from src.retrieval.vector.chroma_store import ChromaVectorStore
+from src.utils.config_manager import APIConfigManager
 
 
 class SessionManager:
@@ -83,12 +84,20 @@ class SessionManager:
             st.session_state.current_page_num = 1
         if "active_llm" not in st.session_state:
             import os
-            # 默认使用 sonetto5high
-            st.session_state.active_llm = os.getenv("ACTIVE_LLM") or "sonetto5high"
+            # 默认使用 deepseek（开源友好）
+            st.session_state.active_llm = os.getenv("ACTIVE_LLM") or "deepseek"
 
         # 统一 UI 选择与底层提取/Agent 读取的环境变量
         import os
         os.environ["ACTIVE_LLM"] = st.session_state.active_llm
+
+        # API 配置状态
+        if "api_config" not in st.session_state:
+            # 加载配置（优先从文件，否则使用默认值）
+            st.session_state.api_config = APIConfigManager.load_config()
+        if "api_config_show_keys" not in st.session_state:
+            # 控制是否显示完整 API Key
+            st.session_state.api_config_show_keys = False
     
     # ========== 知识库状态 ==========
     
@@ -316,7 +325,37 @@ class SessionManager:
     @active_llm.setter
     def active_llm(self, value: str):
         st.session_state.active_llm = value
-    
+
+    # ========== API 配置 ==========
+
+    @property
+    def api_config(self) -> Dict[str, Any]:
+        """获取 API 配置"""
+        return st.session_state.get("api_config", APIConfigManager.get_default_config())
+
+    @api_config.setter
+    def api_config(self, value: Dict[str, Any]):
+        """设置 API 配置"""
+        st.session_state.api_config = value
+
+    @property
+    def api_config_show_keys(self) -> bool:
+        """是否显示完整 API Key"""
+        return st.session_state.get("api_config_show_keys", False)
+
+    @api_config_show_keys.setter
+    def api_config_show_keys(self, value: bool):
+        """设置是否显示完整 API Key"""
+        st.session_state.api_config_show_keys = value
+
+    def save_api_config(self) -> bool:
+        """保存 API 配置到文件"""
+        return APIConfigManager.save_config(self.api_config)
+
+    def get_merged_api_config(self) -> Dict[str, Any]:
+        """获取合并后的 API 配置（UI 配置 + 环境变量）"""
+        return APIConfigManager.merge_with_env(self.api_config)
+
     # ========== 重置方法 ==========
     
     def reset_document_state(self):
