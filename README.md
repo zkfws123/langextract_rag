@@ -1,10 +1,6 @@
-![通明堂开源 · 文档抽取与知识图谱](.github/tongmingtang.png)
+# GraphRAG Knowledge Base System
 
-# 通明堂开源 · GraphRAG 知识库
-
-通明堂官方开源仓库。这个项目把文档中的人物、概念和关系整理成知识图谱，支持结合原文出处查询答案。
-
-[中文使用说明](#中文) · [English guide](#english) · [问题反馈](https://github.com/zkfws123/langextract_rag/issues) · [MIT 许可证](LICENSE)
+[English](#english) | [中文](#中文)
 
 ---
 
